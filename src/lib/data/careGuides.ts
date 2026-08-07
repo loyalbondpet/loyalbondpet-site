@@ -65,7 +65,7 @@ export const careGuidePages: CareGuidePage[] = [
     ],
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Bolster provides security and neck support; low entry accommodates limited mobility.' },
-      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Raised height supports comfortable eating posture for stiff senior dogs.' },
+      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Engages natural foraging instincts for mental stimulation without physical strain on joints.' },
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Allows independent access to furniture and vehicles without jumping.' },
     ],
     relatedBlogLinks: [
@@ -128,7 +128,7 @@ export const careGuidePages: CareGuidePage[] = [
     ],
     recommendedProducts: [
       { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Essential for regular skin fold cleaning and gentle coat maintenance for brachycephalic breeds prone to skin fold infections.' },
-      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Raised position reduces neck strain and supports easier breathing during meals.' },
+      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Encourages slow, mindful eating through natural sniffing and foraging behavior.' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Bolster design allows brachycephalic dogs to find optimal sleeping positions that support open airways and reduce sleep disruption.' },
     ],
     relatedBlogLinks: [
@@ -150,7 +150,7 @@ export const careGuidePages: CareGuidePage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Creates a comfortable, enclosed nursing area with machine-washable covers for easy cleanup.' },
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Assists mobility in late pregnancy and during post-partum recovery walks.' },
-      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Supports comfortable eating posture during pregnancy and nursing when neck strain is a concern.' },
+      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Provides gentle mental enrichment and slows eating pace during pregnancy and nursing.' },
     ],
     relatedBlogLinks: [
       { title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds', href: '/blog/why-senior-dogs-need-low-entry-orthopedic-beds' },
