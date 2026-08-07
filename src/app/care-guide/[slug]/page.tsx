@@ -1,1 +1,127 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgeyBub3RGb3VuZCB9IGZyb20gJ25leHQvbmF2aWdhdGlvbic7CmltcG9ydCB7IGdldENhcmVHdWlkZUJ5U2x1ZywgZ2V0QWxsQ2FyZUd1aWRlU2x1Z3MgfSBmcm9tICdAL2xpYi9kYXRhL2NhcmVHdWlkZXMnOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlU3RhdGljUGFyYW1zKCkgewogIHJldHVybiBnZXRBbGxDYXJlR3VpZGVTbHVncygpLm1hcChzbHVnID0+ICh7IHNsdWcgfSkpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVNZXRhZGF0YSh7IHBhcmFtcyB9OiB7IHBhcmFtczogUHJvbWlzZTx7IHNsdWc6IHN0cmluZyB9PiB9KTogUHJvbWlzZTxNZXRhZGF0YT4gewogIGNvbnN0IHsgc2x1ZyB9ID0gYXdhaXQgcGFyYW1zOwogIGNvbnN0IGd1aWRlID0gZ2V0Q2FyZUd1aWRlQnlTbHVnKHNsdWcpOwogIGlmICghZ3VpZGUpIHJldHVybiB7IHRpdGxlOiAnTm90IEZvdW5kJyB9OwogIHJldHVybiB7CiAgICB0aXRsZTogZ3VpZGUudGl0bGUgKyAnIHwgTG95YWxCb25kJywKICAgIGRlc2NyaXB0aW9uOiBndWlkZS5kZXNjcmlwdGlvbi5zbGljZSgwLCAxNjApLAogIH07Cn0KCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIENhcmVHdWlkZVBhZ2UoeyBwYXJhbXMgfTogeyBwYXJhbXM6IFByb21pc2U8eyBzbHVnOiBzdHJpbmcgfT4gfSkgewogIGNvbnN0IHsgc2x1ZyB9ID0gYXdhaXQgcGFyYW1zOwogIGNvbnN0IGd1aWRlID0gZ2V0Q2FyZUd1aWRlQnlTbHVnKHNsdWcpOwogIGlmICghZ3VpZGUpIG5vdEZvdW5kKCk7CgogIHJldHVybiAoCiAgICA8PgogICAgICB7LyogSGVybyAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJiZy1icmFuZC1iZWlnZSBweS0xNiBzbTpweS0yMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy0zeGwiPgogICAgICAgICAgICA8TGluayBocmVmPSIvIiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXNtIHRleHQtYnJhbmQtZ3JlZW4gaG92ZXI6dGV4dC1icmFuZC1ncmVlbi84MCBmb250LW1lZGl1bSBtYi02Ij4KICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy00IGgtNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9ezJ9PgogICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTE1IDE5bC03LTcgNy03IiAvPgogICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIEJhY2sgdG8gSG9tZQogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtM3hsIHNtOnRleHQtNHhsIGxnOnRleHQtNXhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbWItNCI+e2d1aWRlLnRpdGxlfTwvaDE+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWJyYW5kLWdyZWVuIGZvbnQtc2VtaWJvbGQgbWItNiI+e2d1aWRlLnN1YnRpdGxlfTwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtYnJhbmQtZ3JheSBsZWFkaW5nLXJlbGF4ZWQiPntndWlkZS5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIENvbW1vbiBDaGFsbGVuZ2VzICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB5LTE2IHNtOnB5LTIwIGJnLXdoaXRlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctN3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTgiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi0xMCB0ZXh0LWNlbnRlciI+Q29tbW9uIENoYWxsZW5nZXM8L2gyPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTYgbWF4LXctNHhsIG14LWF1dG8iPgogICAgICAgICAgICB7Z3VpZGUuY2hhbGxlbmdlcy5tYXAoKGNoYWxsZW5nZSwgaSkgPT4gKAogICAgICAgICAgICAgIDxkaXYga2V5PXtpfSBjbGFzc05hbWU9InAtNiByb3VuZGVkLTJ4bCBiZy1icmFuZC1iZWlnZS80MCBib3JkZXIgYm9yZGVyLWJyYW5kLWJlaWdlIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC00Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTAgaC0xMCBiZy1icmFuZC1ncmVlbi8xMCByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZmxleC1zaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyZWVuIGZvbnQtYm9sZCB0ZXh0LWxnIj57aSArIDF9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTIiPntjaGFsbGVuZ2UudGl0bGV9PC9oMz4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1icmFuZC1ncmF5IGxlYWRpbmctcmVsYXhlZCI+e2NoYWxsZW5nZS5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBSZWNvbW1lbmRlZCBQcm9kdWN0cyAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0xNiBzbTpweS0yMCBiZy1icmFuZC1jcmVhbSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbWItMTAgdGV4dC1jZW50ZXIiPlJlY29tbWVuZGVkIFByb2R1Y3RzPC9oMj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIHNtOmdyaWQtY29scy0zIGdhcC02IG1heC13LTR4bCBteC1hdXRvIj4KICAgICAgICAgICAge2d1aWRlLnJlY29tbWVuZGVkUHJvZHVjdHMubWFwKHByb2R1Y3QgPT4gKAogICAgICAgICAgICAgIDxMaW5rIGtleT17cHJvZHVjdC5zbHVnfSBocmVmPXtgL3Byb2R1Y3RzLyR7cHJvZHVjdC5zbHVnfWB9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIHAtNiByb3VuZGVkLTJ4bCBiZy13aGl0ZSBzaGFkb3ctc20gaG92ZXI6c2hhZG93LW1kIHRyYW5zaXRpb24tYWxsIHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgYXNwZWN0LXNxdWFyZSByb3VuZGVkLXhsIGJnLWJyYW5kLWJlaWdlIG1iLTQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy0xNiBoLTE2IHRleHQtYnJhbmQtZ3JlZW4vMzAiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXswLjV9PgogICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik00LjMxOCA2LjMxOGE0LjUgNC41IDAgMDAwIDYuMzY0TDEyIDIwLjM2NGw3LjY4Mi03LjY4MmE0LjUgNC41IDAgMDAtNi4zNjQtNi4zNjRMMTIgNy42MzZsLTEuMzE4LTEuMzE4YTQuNSA0LjUgMCAwMC02LjM2NCAweiIgLz4KICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgZ3JvdXAtaG92ZXI6dGV4dC1icmFuZC1ncmVlbiB0cmFuc2l0aW9uLWNvbG9ycyI+e3Byb2R1Y3QubmFtZX08L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtYnJhbmQtZ3JheSBtdC0xIj57cHJvZHVjdC5yZWFzb259PC9wPgogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIFJlbGF0ZWQgQmxvZyBQb3N0cyAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0xNiBzbTpweS0yMCBiZy13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbWItMTAgdGV4dC1jZW50ZXIiPlJlbGF0ZWQgQXJ0aWNsZXM8L2gyPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgZ2FwLTYgbWF4LXctM3hsIG14LWF1dG8iPgogICAgICAgICAgICB7Z3VpZGUucmVsYXRlZEJsb2dMaW5rcy5tYXAoKGxpbmssIGkpID0+ICgKICAgICAgICAgICAgICA8TGluayBrZXk9e2l9IGhyZWY9e2xpbmsuaHJlZn0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZ3JvdXAgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQgcC01IHJvdW5kZWQteGwgYmctYnJhbmQtYmVpZ2UvMzAgaG92ZXI6YmctYnJhbmQtYmVpZ2UvNjAgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTAgaC0xMCBiZy1icmFuZC1ncmVlbi8xMCByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZmxleC1zaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtYnJhbmQtZ3JlZW4iIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXsyfT4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNMTIgNi4yNTN2MTNtMC0xM0MxMC44MzIgNS40NzcgOS4yNDYgNSA3LjUgNVM0LjE2OCA1LjQ3NyAzIDYuMjUzdjEzQzQuMTY4IDE4LjQ3NyA1Ljc1NCAxOCA3LjUgMThzMy4zMzIuNDc3IDQuNSAxLjI1M20wLTEzQzEzLjE2OCA1LjQ3NyAxNC43NTQgNSAxNi41IDVjMS43NDcgMCAzLjMzMi40NzcgNC41IDEuMjUzdjEzQzE5LjgzMiAxOC40NzcgMTguMjQ3IDE4IDE2LjUgMThjLTEuNzQ2IDAtMy4zMzIuNDc3LTQuNSAxLjI1MyIgLz4KICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gdGV4dC1icmFuZC1kYXJrIGdyb3VwLWhvdmVyOnRleHQtYnJhbmQtZ3JlZW4gdHJhbnNpdGlvbi1jb2xvcnMiPntsaW5rLnRpdGxlfTwvc3Bhbj4KICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBDVEEgKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icHktMTYgc206cHktMjAgYmctYnJhbmQtZ3JlZW4gdGV4dC13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04IHRleHQtY2VudGVyIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCBtYi00Ij5SZWFkeSB0byBTdXBwb3J0IFlvdXIgRG9nPzwvaDI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC13aGl0ZS84MCBtYi04IG1heC13LXhsIG14LWF1dG8iPgogICAgICAgICAgICBFeHBsb3JlIG91ciBjb2xsZWN0aW9uIG9mIHByb2R1Y3RzIGRlc2lnbmVkIHRvIHN1cHBvcnQgY29tZm9ydCBmb3IgZG9ncyB3aXRoIHRoZXNlIHNwZWNpZmljIG5lZWRzLgogICAgICAgICAgPC9wPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgaHJlZj0iL2NvbGxlY3Rpb25zIgogICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweC04IHB5LTQgYmctd2hpdGUgdGV4dC1icmFuZC1ncmVlbiBmb250LXNlbWlib2xkIHJvdW5kZWQtbGcgaG92ZXI6YmctZ3JheS01MCB0cmFuc2l0aW9uLWNvbG9ycyB0ZXh0LWxnIgogICAgICAgICAgPgogICAgICAgICAgICBTaG9wIFByb2R1Y3RzCiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+CiAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTkgNWw3IDctNyA3IiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgIDwvTGluaz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgogICAgPC8+CiAgKTsKfQo=
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { getCareGuideBySlug, getAllCareGuideSlugs } from '@/lib/data/careGuides';
+
+export async function generateStaticParams() {
+  return getAllCareGuideSlugs().map(slug => ({ slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const guide = getCareGuideBySlug(slug);
+  if (!guide) return { title: 'Not Found' };
+  return {
+    title: guide.title + ' | LoyalBond',
+    description: guide.description.slice(0, 160),
+  };
+}
+
+export default async function CareGuidePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const guide = getCareGuideBySlug(slug);
+  if (!guide) notFound();
+
+  return (
+    <>
+      {/* Hero */}
+      <section className="bg-brand-beige py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <Link href="/" className="inline-flex items-center gap-1 text-sm text-brand-green hover:text-brand-green/80 font-medium mb-6">
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+              Back to Home
+            </Link>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-dark mb-4">{guide.title}</h1>
+            <p className="text-xl text-brand-green font-semibold mb-6">{guide.subtitle}</p>
+            <p className="text-lg text-brand-gray leading-relaxed">{guide.description}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Common Challenges */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark mb-10 text-center">Common Challenges</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {guide.challenges.map((challenge, i) => (
+              <div key={i} className="p-6 rounded-2xl bg-brand-beige/40 border border-brand-beige">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-brand-green/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-brand-green font-bold text-lg">{i + 1}</span>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-brand-dark mb-2">{challenge.title}</h3>
+                    <p className="text-sm text-brand-gray leading-relaxed">{challenge.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Recommended Products */}
+      <section className="py-16 sm:py-20 bg-brand-cream">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark mb-10 text-center">Recommended Products</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {guide.recommendedProducts.map(product => (
+              <Link key={product.slug} href={`/products/${product.slug}`}
+                className="group p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all text-center">
+                <div className="w-full aspect-square rounded-xl bg-brand-beige mb-4 flex items-center justify-center">
+                  <svg className="w-16 h-16 text-brand-green/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={0.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-brand-dark group-hover:text-brand-green transition-colors">{product.name}</h3>
+                <p className="text-sm text-brand-gray mt-1">{product.reason}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related Blog Posts */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark mb-10 text-center">Related Articles</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            {guide.relatedBlogLinks.map((link, i) => (
+              <Link key={i} href={link.href}
+                className="group flex items-center gap-4 p-5 rounded-xl bg-brand-beige/30 hover:bg-brand-beige/60 transition-colors">
+                <div className="w-10 h-10 bg-brand-green/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <span className="font-medium text-brand-dark group-hover:text-brand-green transition-colors">{link.title}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-16 sm:py-20 bg-brand-green text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready to Support Your Dog?</h2>
+          <p className="text-lg text-white/80 mb-8 max-w-xl mx-auto">
+            Explore our collection of products designed to support comfort for dogs with these specific needs.
+          </p>
+          <Link
+            href="/collections"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-brand-green font-semibold rounded-lg hover:bg-gray-50 transition-colors text-lg"
+          >
+            Shop Products
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+    </>
+  );
+}
