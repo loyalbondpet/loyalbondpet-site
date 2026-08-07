@@ -1,1 +1,15 @@
-Ly8gVGhpcyBmaWxlIGNvbnRhaW5zIHRoZSA4IG5ldyBibG9nIGFydGljbGVzIHRvIGJlIG1lcmdlZCBpbnRvIGJsb2cudHMKLy8gQXJ0aWNsZSAxOiA1IE1vYmlsaXR5IEFpZHMgRXZlcnkgU2VuaW9yIERvZyBPd25lciBTaG91bGQgS25vdwpjb25zdCBhcnRpY2xlMSA9IHsKICAgIHNsdWc6ICc1LW1vYmlsaXR5LWFpZHMtc2VuaW9yLWRvZy1vd25lci1ndWlkZScsCiAgICB0aXRsZTogJzUgTW9iaWxpdHkgQWlkcyBFdmVyeSBTZW5pb3IgRG9nIE93bmVyIFNob3VsZCBLbm93JywKICAgIGV4Y2VycHQ6ICdEaXNjb3ZlciBmaXZlIGVzc2VudGlhbCBtb2JpbGl0eSBhaWRzIHRoYXQgY2FuIGhlbHAgeW91ciBhZ2luZyBkb2cgc3RheSBhY3RpdmUsIGNvbWZvcnRhYmxlLCBhbmQgY29uZmlkZW50IOKAlCBmcm9tIHN1cHBvcnQgaGFybmVzc2VzIHRvIHNudWZmbGUgbWF0cyBhbmQgb3J0aG9wZWRpYyBiZWRzLicsCiAgICBhdXRob3I6ICdTYXJhaCBNaXRjaGVsbCcsCiAgICBkYXRlOiAnMjAyNS0wMS0yMCcsCiAgICByZWFkVGltZTogJzcgbWluIHJlYWQnLAogICAgY2F0ZWdvcnk6ICdTZW5pb3IgRG9nIENhcmUnLAogICAgY2F0ZWdvcnlTbHVnOiAnc2VuaW9yLWRvZy1jYXJlJywKICAgIGltYWdlOiAnL2Jsb2cvNS1tb2JpbGl0eS1haWRzLXNlbmlvci1kb2cuanBnJywKICAgIHRhZ3M6IFsnc2VuaW9yIGRvZyBtb2JpbGl0eSBhaWRzJywgJ2FnaW5nIGRvZyBzdXBwb3J0IHByb2R1Y3RzJywgJ2RvZyBoYXJuZXNzIGZvciBzZW5pb3JzJywgJ29ydGhvcGVkaWMgZG9nIGJlZCcsICdzbnVmZmxlIG1hdCBmb3IgZG9ncyddLAogICAgcmVsYXRlZFByb2R1Y3RzOiBbJ2xpZnQtYXNzaXN0LWhhcm5lc3MnLCAnaGluZC1sZWctc3VwcG9ydC1oYXJuZXNzJywgJ3NpbGljb25lLXBhdy1wcm90ZWN0b3ItYm9vdHMnLCAnb3J0aG9wZWRpYy1ib2xzdGVyLWRvZy1iZWQnLCAnc251ZmZsZS1tYXQtc2V0J10KfTsK
+// This file contains the 8 new blog articles to be merged into blog.ts
+// Article 1: 5 Mobility Aids Every Senior Dog Owner Should Know
+const article1 = {
+    slug: '5-mobility-aids-senior-dog-owner-guide',
+    title: '5 Mobility Aids Every Senior Dog Owner Should Know',
+    excerpt: 'Discover five essential mobility aids that can help your aging dog stay active, comfortable, and confident — from support harnesses to snuffle mats and orthopedic beds.',
+    author: 'Sarah Mitchell',
+    date: '2025-01-20',
+    readTime: '7 min read',
+    category: 'Senior Dog Care',
+    categorySlug: 'senior-dog-care',
+    image: '/blog/5-mobility-aids-senior-dog.jpg',
+    tags: ['senior dog mobility aids', 'aging dog support products', 'dog harness for seniors', 'orthopedic dog bed', 'snuffle mat for dogs'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set']
+};
