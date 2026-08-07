@@ -13,8 +13,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
 
   const [selectedSizeIdx, setSelectedSizeIdx] = useState(0);
   const [selectedColorIdx, setSelectedColorIdx] = useState(0);
-  const [subscribe, setSubscribe] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(0);
+    const [selectedImage, setSelectedImage] = useState(0);
 
   // Determine current price based on size variant or base price
   const currentPrice = useMemo(() => {
@@ -24,7 +23,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
     return product.price;
   }, [selectedSizeIdx, hasSizeVariants, product.price, product.sizeVariants]);
 
-  const displayPrice = subscribe ? currentPrice * 0.9 : currentPrice;
+  const displayPrice = currentPrice;
 
   // Use product images as the gallery (7 product photos)
   const displayImages = product.images;
@@ -115,33 +114,11 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
               </>
             )}
           </span>
-          {subscribe && currentPrice !== 0 && (
-            <span className="text-lg text-brand-gray line-through">${currentPrice.toFixed(2)}</span>
-          )}
-          {subscribe && currentPrice !== 0 && (
-            <span className="text-sm font-medium text-brand-coral bg-brand-coral/10 px-2 py-0.5 rounded">Save 10%</span>
-          )}
+
+
         </div>
 
-        {/* Subscribe toggle */}
-        <div className="flex gap-3 mb-6">
-          <button
-            onClick={() => setSubscribe(false)}
-            className={`flex-1 py-3 px-4 rounded-lg border-2 font-medium text-sm transition-all ${
-              !subscribe ? 'border-brand-green bg-brand-green/5 text-brand-green' : 'border-gray-200 text-brand-gray hover:border-gray-300'
-            }`}
-          >
-            One-time Purchase
-          </button>
-          <button
-            onClick={() => setSubscribe(true)}
-            className={`flex-1 py-3 px-4 rounded-lg border-2 font-medium text-sm transition-all ${
-              subscribe ? 'border-brand-green bg-brand-green/5 text-brand-green' : 'border-gray-200 text-brand-gray hover:border-gray-300'
-            }`}
-          >
-            Subscribe & Save 10%
-          </button>
-        </div>
+
 
         {/* Color selector - visual swatches */}
         {hasColorOptions && (
@@ -268,7 +245,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
         {/* Trust badges */}
         <div className="flex flex-wrap gap-4 p-4 bg-brand-beige/50 rounded-lg">
           {[
-            { icon: '🏭', text: 'Direct from Factory' },
+            { icon: '', text: 'Pet-First Design' },
             { icon: '↩️', text: '30-Day Returns' },
             { icon: '🔒', text: 'Secure Checkout' },
           ].map((badge) => (
