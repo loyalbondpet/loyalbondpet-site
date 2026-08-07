@@ -1,1 +1,235 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgeyBjb2xsZWN0aW9ucyB9IGZyb20gJ0AvbGliL2RhdGEvcHJvZHVjdHMnOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogJ1dob2xlc2FsZSAmIEJ1bGsgT3JkZXJzIHwgTG95YWxCb25kJywKICBkZXNjcmlwdGlvbjoKICAgICdQYXJ0bmVyIHdpdGggTG95YWxCb25kIGZvciB3aG9sZXNhbGUgcGV0IHByb2R1Y3RzLiBGbGV4aWJsZSBNT1EsIGN1c3RvbWl6YXRpb24gb3B0aW9ucywgYW5kIGNvbnNpc3RlbnQgcXVhbGl0eSBmb3IgeW91ciByZXRhaWwgb3IgZGlzdHJpYnV0aW9uIGJ1c2luZXNzLicsCiAgb3BlbkdyYXBoOiB7CiAgICB0aXRsZTogJ1dob2xlc2FsZSAmIEJ1bGsgT3JkZXJzIHwgTG95YWxCb25kJywKICAgIGRlc2NyaXB0aW9uOgogICAgICAnUXVhbGl0eSBwZXQgcHJvZHVjdHMgZm9yIHdob2xlc2FsZS4gRmxleGlibGUgTU9RLCBjdXN0b20gYnJhbmRpbmcsIGFuZCByZWxpYWJsZSBzdXBwbHkgZnJvbSBhIHNwZWNpYWxpemVkIHNlbmlvciBwZXQgcHJvZHVjdCBzdXBwbGllci4nLAogICAgdXJsOiAnaHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS93aG9sZXNhbGUnLAogICAgdHlwZTogJ3dlYnNpdGUnLAogIH0sCn07Cgpjb25zdCBicmVhZGNydW1iSnNvbkxkID0gewogICdAY29udGV4dCc6ICdodHRwczovL3NjaGVtYS5vcmcnLAogICdAdHlwZSc6ICdCcmVhZGNydW1iTGlzdCcsCiAgaXRlbUxpc3RFbGVtZW50OiBbCiAgICB7ICdAdHlwZSc6ICdMaXN0SXRlbScsIHBvc2l0aW9uOiAxLCBuYW1lOiAnSG9tZScsIGl0ZW06ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tJyB9LAogICAgeyAnQHR5cGUnOiAnTGlzdEl0ZW0nLCBwb3NpdGlvbjogMiwgbmFtZTogJ1dob2xlc2FsZScsIGl0ZW06ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3dob2xlc2FsZScgfSwKICBdLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gV2hvbGVzYWxlUGFnZSgpIHsKICByZXR1cm4gKAogICAgPD4KICAgICAgPHNjcmlwdAogICAgICAgIHR5cGU9ImFwcGxpY2F0aW9uL2xkK2pzb24iCiAgICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBKU09OLnN0cmluZ2lmeShicmVhZGNydW1iSnNvbkxkKSB9fQogICAgICAvPgoKICAgICAgey8qIEhlcm8gKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iYmctYnJhbmQtYmVpZ2UgcHktMTYgc206cHktMjQiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctM3hsIG14LWF1dG8gdGV4dC1jZW50ZXIiPgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBzbTp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTYiPgogICAgICAgICAgICAgIFdob2xlc2FsZSAmYW1wOyBCdWxrIE9yZGVycwogICAgICAgICAgICA8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteGwgdGV4dC1icmFuZC1ncmF5IGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgUGFydG5lciB3aXRoIExveWFsQm9uZCBmb3IgcXVhbGl0eSBzZW5pb3IgcGV0IHByb2R1Y3RzLiBXZSBvZmZlciBmbGV4aWJsZSBvcmRlcmluZywgY3VzdG9taXphdGlvbiBvcHRpb25zLCBhbmQgcmVsaWFibGUgc3VwcGx5IGZvciByZXRhaWxlcnMsIGRpc3RyaWJ1dG9ycywgYW5kIGJ1bGsgYnV5ZXJzIHdvcmxkd2lkZS4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBXaHkgUGFydG5lciBXaXRoIFVzICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB5LTE2IHNtOnB5LTIwIGJnLXdoaXRlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctN3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTgiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayB0ZXh0LWNlbnRlciBtYi0xMiI+CiAgICAgICAgICAgIFdoeSBQYXJ0bmVyIFdpdGggVXMKICAgICAgICAgIDwvaDI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNCBnYXAtOCI+CiAgICAgICAgICAgIHtbCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaWNvbjogJ/Cfj4YnLAogICAgICAgICAgICAgICAgdGl0bGU6ICdRdWFsaXR5IEFzc3VyYW5jZScsCiAgICAgICAgICAgICAgICBkZXNjOiAnRXZlcnkgcHJvZHVjdCBtZWV0cyBvdXIgc3RyaWN0IHF1YWxpdHkgc3RhbmRhcmRzLiBXZSB3b3JrIHdpdGggY2VydGlmaWVkIG1hbnVmYWN0dXJlcnMgYW5kIGNvbmR1Y3QgdGhvcm91Z2ggaW5zcGVjdGlvbnMgYmVmb3JlIHNoaXBtZW50LicsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpY29uOiAn8J+TpicsCiAgICAgICAgICAgICAgICB0aXRsZTogJ0ZsZXhpYmxlIE1PUScsCiAgICAgICAgICAgICAgICBkZXNjOiAnV2UgdW5kZXJzdGFuZCBkaWZmZXJlbnQgYnVzaW5lc3MgbmVlZHMuIEVuam95IGZsZXhpYmxlIG1pbmltdW0gb3JkZXIgcXVhbnRpdGllcyB3aXRoIG1peGVkIHNpemVzIGFuZCBjb2xvcnMgYWNjZXB0ZWQuJywKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGljb246ICfwn46oJywKICAgICAgICAgICAgICAgIHRpdGxlOiAnQ3VzdG9taXphdGlvbicsCiAgICAgICAgICAgICAgICBkZXNjOiAnRnJvbSBjdXN0b20gcGFja2FnaW5nIHRvIGJyYW5kaW5nIG9wdGlvbnMsIHdlIHN1cHBvcnQgeW91ciBidXNpbmVzcyBpZGVudGl0eSBhbmQgaGVscCB5b3Ugc3RhbmQgb3V0IGluIHlvdXIgbWFya2V0LicsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpY29uOiAn8J+UlycsCiAgICAgICAgICAgICAgICB0aXRsZTogJ1JlbGlhYmxlIFN1cHBseScsCiAgICAgICAgICAgICAgICBkZXNjOiAnQXMgYSBzcGVjaWFsaXplZCBzdXBwbGllciwgd2UgbWFpbnRhaW4gY29uc2lzdGVudCBwcm9kdWN0aW9uIGNhcGFjaXR5IGFuZCBzdGFibGUgbGVhZCB0aW1lcyBzbyB5b3UgY2FuIHBsYW4gd2l0aCBjb25maWRlbmNlLicsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgXS5tYXAoKGl0ZW0pID0+ICgKICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBrZXk9e2l0ZW0udGl0bGV9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtY2VudGVyIHAtOCByb3VuZGVkLTJ4bCBiZy1icmFuZC1iZWlnZS8zMCBob3ZlcjpiZy1icmFuZC1iZWlnZS82MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC00eGwgbWItNCI+e2l0ZW0uaWNvbn08L2Rpdj4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi0zIj57aXRlbS50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyYXkgbGVhZGluZy1yZWxheGVkIj57aXRlbS5kZXNjfTwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIEhvdyBJdCBXb3JrcyAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0xNiBzbTpweS0yMCBiZy1icmFuZC1jcmVhbSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgdGV4dC1jZW50ZXIgbWItMTIiPgogICAgICAgICAgICBIb3cgSXQgV29ya3MKICAgICAgICAgIDwvaDI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtNCBnYXAtOCBtYXgtdy01eGwgbXgtYXV0byI+CiAgICAgICAgICAgIHtbCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgc3RlcDogJzAxJywKICAgICAgICAgICAgICAgIHRpdGxlOiAnSW5xdWlyeScsCiAgICAgICAgICAgICAgICBkZXNjOiAnVGVsbCB1cyBhYm91dCB5b3VyIG5lZWRzIOKAlCBwcm9kdWN0cywgcXVhbnRpdGllcywgY3VzdG9taXphdGlvbiByZXF1aXJlbWVudHMsIGFuZCB0YXJnZXQgbWFya2V0LicsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzdGVwOiAnMDInLAogICAgICAgICAgICAgICAgdGl0bGU6ICdRdW90YXRpb24nLAogICAgICAgICAgICAgICAgZGVzYzogJ1dlIHByb3ZpZGUgYSBkZXRhaWxlZCBxdW90YXRpb24gaW5jbHVkaW5nIHByaWNpbmcsIE1PUSwgbGVhZCB0aW1lLCBhbmQgc2hpcHBpbmcgb3B0aW9ucy4nLAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgc3RlcDogJzAzJywKICAgICAgICAgICAgICAgIHRpdGxlOiAnU2FtcGxpbmcnLAogICAgICAgICAgICAgICAgZGVzYzogJ1JlcXVlc3Qgc2FtcGxlcyB0byBldmFsdWF0ZSBxdWFsaXR5LCBtYXRlcmlhbHMsIGFuZCBwYWNrYWdpbmcgYmVmb3JlIHBsYWNpbmcgYSBidWxrIG9yZGVyLicsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzdGVwOiAnMDQnLAogICAgICAgICAgICAgICAgdGl0bGU6ICdQcm9kdWN0aW9uJywKICAgICAgICAgICAgICAgIGRlc2M6ICdPbmNlIGNvbmZpcm1lZCwgd2UgcHJvY2VlZCB3aXRoIHByb2R1Y3Rpb24sIHF1YWxpdHkgaW5zcGVjdGlvbiwgYW5kIGFycmFuZ2Ugc2hpcG1lbnQuJywKICAgICAgICAgICAgICB9LAogICAgICAgICAgICBdLm1hcCgoaXRlbSkgPT4gKAogICAgICAgICAgICAgIDxkaXYga2V5PXtpdGVtLnN0ZXB9IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiBteC1hdXRvIG1iLTQgYmctYnJhbmQtZ3JlZW4vMTAgcm91bmRlZC1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1ncmVlbiI+e2l0ZW0uc3RlcH08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi0yIj57aXRlbS50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyYXkgdGV4dC1zbSBsZWFkaW5nLXJlbGF4ZWQiPntpdGVtLmRlc2N9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogUHJvZHVjdCBDYXRlZ29yaWVzICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB5LTE2IHNtOnB5LTIwIGJnLXdoaXRlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctN3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTgiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayB0ZXh0LWNlbnRlciBtYi00Ij4KICAgICAgICAgICAgUHJvZHVjdCBDYXRlZ29yaWVzCiAgICAgICAgICA8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyYXkgdGV4dC1jZW50ZXIgbWItMTIgbWF4LXctMnhsIG14LWF1dG8iPgogICAgICAgICAgICBCcm93c2Ugb3VyIGNvbGxlY3Rpb25zIGF2YWlsYWJsZSBmb3Igd2hvbGVzYWxlLiBBbGwgcHJvZHVjdHMgY2FuIGJlIG9yZGVyZWQgaW4gYnVsayB3aXRoIG1peGVkIHNpemVzIGFuZCBjb2xvcnMuCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNCBnYXAtNiI+CiAgICAgICAgICAgIHtjb2xsZWN0aW9ucy5tYXAoKGNvbGxlY3Rpb24pID0+ICgKICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAga2V5PXtjb2xsZWN0aW9uLnNsdWd9CiAgICAgICAgICAgICAgICBocmVmPXtgL2NvbGxlY3Rpb25zLyR7Y29sbGVjdGlvbi5zbHVnfWB9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIHAtNiByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGhvdmVyOmJvcmRlci1icmFuZC1ncmVlbi8zMCBob3ZlcjpzaGFkb3ctbWQgdHJhbnNpdGlvbi1hbGwiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTIgZ3JvdXAtaG92ZXI6dGV4dC1icmFuZC1ncmVlbiB0cmFuc2l0aW9uLWNvbG9ycyI+CiAgICAgICAgICAgICAgICAgIHtjb2xsZWN0aW9uLnRpdGxlfQogICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWJyYW5kLWdyYXkgbWItMyI+e2NvbGxlY3Rpb24uZGVzY3JpcHRpb259PC9wPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtYnJhbmQtZ3JlZW4gZm9udC1tZWRpdW0gaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgVmlldyBQcm9kdWN0cwogICAgICAgICAgICAgICAgICA8c3ZnCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTQgaC00IGdyb3VwLWhvdmVyOnRyYW5zbGF0ZS14LTEgdHJhbnNpdGlvbi10cmFuc2Zvcm0iCiAgICAgICAgICAgICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGg9ezJ9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNOSA1bDcgNy03IDciIC8+CiAgICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIEdlbmVyYWwgVGVybXMgKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icHktMTYgc206cHktMjAgYmctYnJhbmQtY3JlYW0iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIHRleHQtY2VudGVyIG1iLTEyIj4KICAgICAgICAgICAgR2VuZXJhbCBUZXJtcwogICAgICAgICAgPC9oMj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy0zeGwgbXgtYXV0byBncmlkIGdyaWQtY29scy0xIHNtOmdyaWQtY29scy0yIGdhcC02Ij4KICAgICAgICAgICAge1sKICAgICAgICAgICAgICB7IGxhYmVsOiAnTWluaW11bSBPcmRlcicsIHZhbHVlOiAnNTAgcGllY2VzIChtaXhlZCBzaXplcy9jb2xvcnMgYWNjZXB0ZWQpJyB9LAogICAgICAgICAgICAgIHsgbGFiZWw6ICdMZWFkIFRpbWUnLCB2YWx1ZTogJzI1LTM1IGRheXMgYWZ0ZXIgb3JkZXIgY29uZmlybWF0aW9uJyB9LAogICAgICAgICAgICAgIHsgbGFiZWw6ICdQYXltZW50IFRlcm1zJywgdmFsdWU6ICdUL1QgNTAlIGRlcG9zaXQsIDUwJSBiZWZvcmUgc2hpcG1lbnQnIH0sCiAgICAgICAgICAgICAgeyBsYWJlbDogJ1NoaXBwaW5nJywgdmFsdWU6ICdGT0IgTmluZ2JvLCBDaGluYScgfSwKICAgICAgICAgICAgXS5tYXAoKGl0ZW0pID0+ICgKICAgICAgICAgICAgICA8ZGl2IGtleT17aXRlbS5sYWJlbH0gY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLWxnIHAtNiI+CiAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtYnJhbmQtZ3JheSBtYi0xIj57aXRlbS5sYWJlbH08L2R0PgogICAgICAgICAgICAgICAgPGRkIGNsYXNzTmFtZT0idGV4dC1icmFuZC1kYXJrIGZvbnQtc2VtaWJvbGQiPntpdGVtLnZhbHVlfTwvZGQ+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQtYnJhbmQtZ3JheSB0ZXh0LXNtIG10LTYiPgogICAgICAgICAgICBUZXJtcyBhcmUgbmVnb3RpYWJsZSBmb3IgbGFyZ2VyIG9yZGVycy4gQ29udGFjdCB1cyBmb3IgY3VzdG9taXplZCBwcmljaW5nIGFuZCBhcnJhbmdlbWVudHMuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBDVEEgKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icHktMTYgc206cHktMjAgYmctYnJhbmQtZ3JlZW4gdGV4dC13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTN4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04IHRleHQtY2VudGVyIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIHNtOnRleHQtNHhsIGZvbnQtYm9sZCBtYi00Ij5SZWFkeSB0byBHZXQgU3RhcnRlZD88L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtd2hpdGUvODAgbWItOCBtYXgtdy14bCBteC1hdXRvIj4KICAgICAgICAgICAgU2VuZCB1cyB5b3VyIGlucXVpcnkgYW5kIHdlJmFwb3M7bGwgZ2V0IGJhY2sgdG8geW91IHdpdGhpbiAyNCBob3VycyB3aXRoIGEgZGV0YWlsZWQgcXVvdGF0aW9uLgogICAgICAgICAgPC9wPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgc206ZmxleC1yb3cgZ2FwLTQganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGhyZWY9Ii9jb250YWN0IgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHB4LTggcHktNCBiZy1icmFuZC1jb3JhbCBob3ZlcjpiZy1icmFuZC1jb3JhbC85MCB0ZXh0LXdoaXRlIGZvbnQtc2VtaWJvbGQgcm91bmRlZC1sZyB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy01IGgtNSIKICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgICAgICAgICAgICAgICBzdHJva2U9ImN1cnJlbnRDb2xvciIKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9InJvdW5kIgogICAgICAgICAgICAgICAgICBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAgIGQ9Ik0zIDhsNy44OSA1LjI2YTIgMiAwIDAwMi4yMiAwTDIxIDhNNSAxOWgxNGEyIDIgMCAwMDItMlY3YTIgMiAwIDAwLTItMkg1YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMnoiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIENvbnRhY3QgZm9yIFdob2xlc2FsZQogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgaHJlZj0iaHR0cHM6Ly93YS5tZS84NjE1NzA2ODAyNDk1IgogICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBweC04IHB5LTQgYmctd2hpdGUvMTAgaG92ZXI6Ymctd2hpdGUvMjAgdGV4dC13aGl0ZSBmb250LXNlbWlib2xkIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci13aGl0ZS8zMCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIFdoYXRzQXBwIFVzCiAgICAgICAgICAgIDwvYT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CiAgICA8Lz4KICApOwp9Cg==
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { collections } from '@/lib/data/products';
+
+export const metadata: Metadata = {
+  title: 'Wholesale & Bulk Orders | LoyalBond',
+  description:
+    'Partner with LoyalBond for wholesale pet products. Flexible MOQ, customization options, and consistent quality for your retail or distribution business.',
+  openGraph: {
+    title: 'Wholesale & Bulk Orders | LoyalBond',
+    description:
+      'Quality pet products for wholesale. Flexible MOQ, custom branding, and reliable supply from a specialized senior pet product supplier.',
+    url: 'https://www.loyalbondpet.com/wholesale',
+    type: 'website',
+  },
+};
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.loyalbondpet.com' },
+    { '@type': 'ListItem', position: 2, name: 'Wholesale', item: 'https://www.loyalbondpet.com/wholesale' },
+  ],
+};
+
+export default function WholesalePage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
+      {/* Hero */}
+      <section className="bg-brand-beige py-16 sm:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-4xl sm:text-5xl font-bold text-brand-dark mb-6">
+              Wholesale &amp; Bulk Orders
+            </h1>
+            <p className="text-xl text-brand-gray leading-relaxed">
+              Partner with LoyalBond for quality senior pet products. We offer flexible ordering, customization options, and reliable supply for retailers, distributors, and bulk buyers worldwide.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Partner With Us */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark text-center mb-12">
+            Why Partner With Us
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                icon: '🏆',
+                title: 'Quality Assurance',
+                desc: 'Every product meets our strict quality standards. We work with certified manufacturers and conduct thorough inspections before shipment.',
+              },
+              {
+                icon: '📦',
+                title: 'Flexible MOQ',
+                desc: 'We understand different business needs. Enjoy flexible minimum order quantities with mixed sizes and colors accepted.',
+              },
+              {
+                icon: '🎨',
+                title: 'Customization',
+                desc: 'From custom packaging to branding options, we support your business identity and help you stand out in your market.',
+              },
+              {
+                icon: '🔗',
+                title: 'Reliable Supply',
+                desc: 'As a specialized supplier, we maintain consistent production capacity and stable lead times so you can plan with confidence.',
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="text-center p-8 rounded-2xl bg-brand-beige/30 hover:bg-brand-beige/60 transition-colors"
+              >
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-xl font-bold text-brand-dark mb-3">{item.title}</h3>
+                <p className="text-brand-gray leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-16 sm:py-20 bg-brand-cream">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark text-center mb-12">
+            How It Works
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            {[
+              {
+                step: '01',
+                title: 'Inquiry',
+                desc: 'Tell us about your needs — products, quantities, customization requirements, and target market.',
+              },
+              {
+                step: '02',
+                title: 'Quotation',
+                desc: 'We provide a detailed quotation including pricing, MOQ, lead time, and shipping options.',
+              },
+              {
+                step: '03',
+                title: 'Sampling',
+                desc: 'Request samples to evaluate quality, materials, and packaging before placing a bulk order.',
+              },
+              {
+                step: '04',
+                title: 'Production',
+                desc: 'Once confirmed, we proceed with production, quality inspection, and arrange shipment.',
+              },
+            ].map((item) => (
+              <div key={item.step} className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-brand-green/10 rounded-full flex items-center justify-center">
+                  <span className="text-2xl font-bold text-brand-green">{item.step}</span>
+                </div>
+                <h3 className="text-lg font-bold text-brand-dark mb-2">{item.title}</h3>
+                <p className="text-brand-gray text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Product Categories */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark text-center mb-4">
+            Product Categories
+          </h2>
+          <p className="text-brand-gray text-center mb-12 max-w-2xl mx-auto">
+            Browse our collections available for wholesale. All products can be ordered in bulk with mixed sizes and colors.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {collections.map((collection) => (
+              <Link
+                key={collection.slug}
+                href={`/collections/${collection.slug}`}
+                className="group p-6 rounded-2xl border border-gray-200 hover:border-brand-green/30 hover:shadow-md transition-all"
+              >
+                <h3 className="text-lg font-bold text-brand-dark mb-2 group-hover:text-brand-green transition-colors">
+                  {collection.title}
+                </h3>
+                <p className="text-sm text-brand-gray mb-3">{collection.description}</p>
+                <span className="text-sm text-brand-green font-medium inline-flex items-center gap-1">
+                  View Products
+                  <svg
+                    className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* General Terms */}
+      <section className="py-16 sm:py-20 bg-brand-cream">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark text-center mb-12">
+            General Terms
+          </h2>
+          <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {[
+              { label: 'Minimum Order', value: '50 pieces (mixed sizes/colors accepted)' },
+              { label: 'Lead Time', value: '25-35 days after order confirmation' },
+              { label: 'Payment Terms', value: 'T/T 50% deposit, 50% before shipment' },
+              { label: 'Shipping', value: 'FOB Ningbo, China' },
+            ].map((item) => (
+              <div key={item.label} className="bg-white rounded-lg p-6">
+                <dt className="text-sm font-medium text-brand-gray mb-1">{item.label}</dt>
+                <dd className="text-brand-dark font-semibold">{item.value}</dd>
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-brand-gray text-sm mt-6">
+            Terms are negotiable for larger orders. Contact us for customized pricing and arrangements.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-16 sm:py-20 bg-brand-green text-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-lg text-white/80 mb-8 max-w-xl mx-auto">
+            Send us your inquiry and we&apos;ll get back to you within 24 hours with a detailed quotation.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-coral hover:bg-brand-coral/90 text-white font-semibold rounded-lg transition-colors"
+            >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+              Contact for Wholesale
+            </Link>
+            <a
+              href="https://wa.me/8615706802495"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg border border-white/30 transition-colors"
+            >
+              WhatsApp Us
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
