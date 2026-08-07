@@ -1,1 +1,69 @@
-aW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJzsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlcm9TZWN0aW9uKCkgewogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9InJlbGF0aXZlIGJnLWJyYW5kLWJlaWdlIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgbGc6Z3JpZC1jb2xzLTIgZ2FwLTggbGc6Z2FwLTEyIGl0ZW1zLWNlbnRlciBtaW4taC1bNjB2aF0gbGc6bWluLWgtWzc1dmhdIHB5LTEyIGxnOnB5LTAiPgogICAgICAgICAgey8qIENvbnRlbnQgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3JkZXItMiBsZzpvcmRlci0xIHRleHQtY2VudGVyIGxnOnRleHQtbGVmdCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcHgtNCBweS0yIGJnLWJyYW5kLWdyZWVuLzEwIHJvdW5kZWQtZnVsbCB0ZXh0LWJyYW5kLWdyZWVuIHRleHQtc20gZm9udC1tZWRpdW0gbWItNiI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTIgaC0yIGJnLWJyYW5kLWdyZWVuIHJvdW5kZWQtZnVsbCIgLz4KICAgICAgICAgICAgICBTcGVjaWFsaXplZCBTdXBwbGllciBmb3IgU2VuaW9yIERvZyBDYXJlIHwgNiBMaWZlIFNjZW5hcmlvcyBDb3ZlcmVkCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBzbTp0ZXh0LTV4bCBsZzp0ZXh0LTZ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIGxlYWRpbmctdGlnaHQgbWItNiI+CiAgICAgICAgICAgICAgR2l2ZSBZb3VyIFNlbmlvciBEb2cgdGhleycgJ30KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtYnJhbmQtZ3JlZW4iPkNvbWZvcnQ8L3NwYW4+IFRoZXkgRGVzZXJ2ZQogICAgICAgICAgICA8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgc206dGV4dC14bCB0ZXh0LWJyYW5kLWdyYXkgbWItOCBtYXgtdy1sZyBteC1hdXRvIGxnOm14LTAiPgogICAgICAgICAgICAgIEZ1bmN0aW9uYWwgcHJvZHVjdHMgZGVzaWduZWQgZm9yIGFnaW5nIHBldHMuIFRob3VnaHRmdWxseSBkZXNpZ25lZCwgbm9uLXRveGljLCBhbmQgbWFkZSB3aXRoIGxvdmUgZm9yIHlvdXIgbG95YWwgY29tcGFuaW9uLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIHNtOmZsZXgtcm93IGdhcC00IGp1c3RpZnktY2VudGVyIGxnOmp1c3RpZnktc3RhcnQiPgogICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICBocmVmPSIvd2hvbGVzYWxlIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcHgtOCBweS00IGJnLWJyYW5kLWNvcmFsIGhvdmVyOmJnLWJyYW5kLWNvcmFsLzkwIHRleHQtd2hpdGUgZm9udC1zZW1pYm9sZCByb3VuZGVkLWxnIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCBob3ZlcjpzaGFkb3ctbGcgaG92ZXI6c2hhZG93LWJyYW5kLWNvcmFsLzIwIHRleHQtbGciCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgV2hvbGVzYWxlIElucXVpcnkKICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+CiAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik05IDVsNyA3LTcgNyIgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgaHJlZj0iL2NvbGxlY3Rpb25zIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcHgtOCBweS00IGJnLWJyYW5kLWdyZWVuIGhvdmVyOmJnLWJyYW5kLWdyZWVuLzkwIHRleHQtd2hpdGUgZm9udC1zZW1pYm9sZCByb3VuZGVkLWxnIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCBob3ZlcjpzaGFkb3ctbGcgaG92ZXI6c2hhZG93LWJyYW5kLWdyZWVuLzIwIHRleHQtbGciCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgU2hvcCBSZXRhaWwgTm93CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9ezJ9PgogICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNOSA1bDcgNy03IDciIC8+CiAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIEhlcm8gSW1hZ2UgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3JkZXItMSBsZzpvcmRlci0yIHJlbGF0aXZlIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFzcGVjdC1bNC8zXSBsZzphc3BlY3Qtc3F1YXJlIHJvdW5kZWQtM3hsIG92ZXJmbG93LWhpZGRlbiBzaGFkb3ctMnhsIj4KICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICBzcmM9Ii9pbWFnZXMvaGVyby1zZW5pb3ItZG9nLmpwZyIKICAgICAgICAgICAgICAgIGFsdD0iSGFwcHkgc2VuaW9yIGRvZyBlbmpveWluZyBjb21mb3J0IGF0IGhvbWUgd2l0aCBsb3Zpbmcgb3duZXIiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICB7LyogRmxvYXRpbmcgYmFkZ2UgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtYm90dG9tLTQgLWxlZnQtNCBzbTpib3R0b20tNiBzbTpsZWZ0LTYgYmctd2hpdGUgcm91bmRlZC14bCBzaGFkb3ctbGcgcC00IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMiBoLTEyIGJnLWJyYW5kLWdyZWVuLzEwIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy02IGgtNiB0ZXh0LWJyYW5kLWdyZWVuIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+CiAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik05IDEyLjc1TDExLjI1IDE1IDE1IDkuNzVtLTMtNy4wMzZBMTEuOTU5IDExLjk1OSAwIDAxMy41OTggNiAxMS45OSAxMS45OSAwIDAwMyA5Ljc0OWMwIDUuNTkyIDMuODI0IDEwLjI5IDkgMTEuNjIzIDUuMTc2LTEuMzMyIDktNi4wMyA5LTExLjYyMiAwLTEuMzEtLjIxLTIuNTcxLS41OTgtMy43NTFoLS4xNTJjLTMuMTk2IDAtNi4xLTEuMjQ4LTguMjUtMy4yODV6IiAvPgogICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayB0ZXh0LXNtIj5UcnVzdGVkIGJ5IFBldCBQYXJlbnRzPC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtYnJhbmQtZ3JheSI+VHJ1c3RlZCBieSAxMCwwMDArIHBldCBwYXJlbnRzPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9Cg==
+import Link from 'next/link';
+
+export default function HeroSection() {
+  return (
+    <section className="relative bg-brand-beige overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[60vh] lg:min-h-[75vh] py-12 lg:py-0">
+          {/* Content */}
+          <div className="order-2 lg:order-1 text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-green/10 rounded-full text-brand-green text-sm font-medium mb-6">
+              <span className="w-2 h-2 bg-brand-green rounded-full" />
+              Specialized Supplier for Senior Dog Care | 6 Life Scenarios Covered
+            </div>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-dark leading-tight mb-6">
+              Give Your Senior Dog the{' '}
+              <span className="text-brand-green">Comfort</span> They Deserve
+            </h1>
+            <p className="text-lg sm:text-xl text-brand-gray mb-8 max-w-lg mx-auto lg:mx-0">
+              Functional products designed for aging pets. Thoughtfully designed, non-toxic, and made with love for your loyal companion.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <Link
+                href="/wholesale"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-coral hover:bg-brand-coral/90 text-white font-semibold rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-brand-coral/20 text-lg"
+              >
+                Wholesale Inquiry
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/collections"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-green hover:bg-brand-green/90 text-white font-semibold rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-brand-green/20 text-lg"
+              >
+                Shop Retail Now
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+
+          {/* Hero Image */}
+          <div className="order-1 lg:order-2 relative">
+            <div className="aspect-[4/3] lg:aspect-square rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="/images/hero-senior-dog.jpg"
+                alt="Happy senior dog enjoying comfort at home with loving owner"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* Floating badge */}
+            <div className="absolute -bottom-4 -left-4 sm:bottom-6 sm:left-6 bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
+              <div className="w-12 h-12 bg-brand-green/10 rounded-full flex items-center justify-center">
+                <svg className="w-6 h-6 text-brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-brand-dark text-sm">Trusted by Pet Parents</p>
+                <p className="text-xs text-brand-gray">Trusted by 10,000+ pet parents</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
