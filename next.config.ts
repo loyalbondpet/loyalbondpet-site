@@ -1,1 +1,16 @@
-aW1wb3J0IHR5cGUgeyBOZXh0Q29uZmlnIH0gZnJvbSAnbmV4dCc7Cgpjb25zdCBuZXh0Q29uZmlnOiBOZXh0Q29uZmlnID0gewogIC8vIG91dHB1dEZpbGVUcmFjaW5nUm9vdDogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJy4uLy4uLycpLCAgLy8gVW5jb21tZW50IGFuZCBhZGQgJ2ltcG9ydCBwYXRoIGZyb20gInBhdGgiJyBpZiBuZWVkZWQKICAvKiBjb25maWcgb3B0aW9ucyBoZXJlICovCiAgYWxsb3dlZERldk9yaWdpbnM6IFsnKi5kZXYuY296ZS5zaXRlJ10sCiAgaW1hZ2VzOiB7CiAgICByZW1vdGVQYXR0ZXJuczogWwogICAgICB7CiAgICAgICAgcHJvdG9jb2w6ICdodHRwcycsCiAgICAgICAgaG9zdG5hbWU6ICcqJywKICAgICAgICBwYXRobmFtZTogJy8qKicsCiAgICAgIH0sCiAgICBdLAogIH0sCn07CgpleHBvcnQgZGVmYXVsdCBuZXh0Q29uZmlnOwo=
+import type { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  allowedDevOrigins: ['*.dev.coze.site', '*.vercel.app'],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '*',
+        pathname: '/**',
+      },
+    ],
+  },
+};
+
+export default nextConfig;
