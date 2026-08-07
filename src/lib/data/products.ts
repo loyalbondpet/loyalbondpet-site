@@ -468,7 +468,7 @@ export const collections = [
     name: 'Home Safety',
     title: 'Home Safety',
     description: 'Transform your home into a safe haven for your senior pet. Orthopedic beds, non-slip pads, ramps, and lift aids help prevent accidents and support comfortable living for aging companions.',
-    priceRange: '$0.50 – $28.00',
+    priceRange: '$2.00 – $28.00',
     image: '/collections/home-safety.jpg',
     icon: 'home',
     emoji: '🏠'
@@ -478,7 +478,7 @@ export const collections = [
     name: 'Feeding Aids',
     title: 'Feeding Aids',
     description: 'Make mealtime comfortable with elevated bowls, slow feeders, and snuffle mats designed for senior dogs with limited mobility or changing nutritional needs.',
-    priceRange: '$4.50 – $10.00',
+    priceRange: '$3.50 – $5.50',
     image: '/collections/feeding-aids.jpg',
     icon: 'feeding',
     emoji: '🍽️'
@@ -498,7 +498,7 @@ export const collections = [
     name: 'Grooming & Bath',
     title: 'Grooming & Bath',
     description: 'Gentle grooming tools and protective accessories for senior dogs. Soft brushes, elbow protectors, and silicone paw covers for stress-free care routines.',
-    priceRange: 'Contact for pricing',
+    priceRange: '$0.14 – $0.27',
     image: '/collections/grooming-bath.jpg',
     icon: 'grooming',
     emoji: '🛁'
