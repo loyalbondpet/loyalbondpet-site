@@ -194,39 +194,31 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 <h2 className="text-2xl font-bold text-brand-dark mb-4">FAQ</h2>
                 <div className="space-y-4">
                   {(() => {
-                    const faqMap: Record<string, Array<{ q: string; a: string }>> = {
-      'lift-assist-harness': [
-    { q: "How do I choose the right size for my dog?", a: "Please refer to the size guide above each product listing. Measure your dog's chest girth and weight to select the best fit. If between sizes, we recommend sizing up for comfort." },
-    { q: "Can this harness be used for both front and hind leg support?", a: "Yes! The dual-side support design works for both front and hind leg weakness. The wide wrap-around panel distributes weight evenly across the chest and belly." },
-    { q: "Is the harness machine washable?", a: "Yes, the entire harness is machine washable for easy maintenance. It also comes with a convenient storage bag for portability." }
-    ],
-      'hind-leg-support-harness': [
-    { q: "How lightweight is this harness?", a: "Only 68\u201376g depending on size \u2014 minimal added burden for dogs with low stamina. Available in S through XL to fit breeds from small terriers to large dogs." },
-    { q: "How do I put it on my dog?", a: "Simply step in and clip! The quick-release buckle closure makes it easy to put on and take off in seconds \u2014 no complex threading required." },
-    { q: "Is it suitable for small breeds?", a: "Yes, Size S fits waist 11\"\u201314\". The ergonomic mesh panel and dual leg openings ensure a secure, natural fit without restricting movement." }
-    ],
-      'silicone-paw-protector-boots': [
-    { q: "Are these safe if my dog licks them?", a: "Yes. Made from food-grade flexible silicone that is non-toxic and safe for pets. The material is gentle on sensitive paws." },
-    { q: "Will they stay on during walking?", a: "The adjustable wide velcro strap provides a customizable, secure fit that stays in place during daily movement \u2014 without squeezing or restricting circulation." },
-    { q: "How do I clean the paw covers?", a: "Simply rinse with water after use. The one-piece waterproof silicone design resists dirt buildup and dries quickly." }
-    ],
-      'snuffle-mat-set': [
-    { q: "Which style is best for my senior dog?", a: "Style 1 (Bone-Shaped) offers deep cylindrical pockets for patient foraging. Style 2 (Plum Blossom) has a compact 60cm size that fits beside beds. Style 3 (Rectangular) is ideal for large senior dogs and multi-pet homes." },
-    { q: "Is the mat easy to clean?", a: "Yes, the entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses." },
-    { q: "Will it help slow down eating?", a: "Absolutely. Multiple independent foraging zones naturally extend mealtime, promote healthier digestion, and provide meaningful mental exercise without requiring running or jumping." }
-    ],
-      'orthopedic-bolster-dog-bed': [
-    { q: "How do I choose the right size?", a: "Choose based on your dog's weight and sleeping style. The low-entry design allows dogs with weak hind legs to climb in effortlessly. Measure your dog from nose to tail base for the best fit." },
-    { q: "Is the cover removable and washable?", a: "Yes. The fully removable outer cover has a zipper and is machine washable for easy cleanup of fur and stains. The reversible inner mat offers plush fleece for warmth and breathable oxford for summer." },
-    { q: "Does this bed help with joint pain?", a: "The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors." }
-    ],
-      'drying-towel': [
-    { q: "What's the difference between Small and Large?", a: "Small (30\u00d730cm) is ideal for cats, small dogs, and targeted drying of paws, face, or belly. Large (30\u00d760cm) is suitable for medium to large dogs and full-body drying." },
-    { q: "Is the towel safe for sensitive skin?", a: "Yes. Crafted from high-density coral fleece microfiber that is soft and gentle on sensitive skin and paw pads. Non-toxic and pet-safe." },
-    { q: "How do I wash the towel?", a: "Machine washable and durable \u2014 maintains softness and absorbency wash after wash. The quick-dry fabric releases moisture efficiently when hung." }
-    ],
-                    };
-                    const faqs = faqMap[product.slug] || [
+                    const faqs: Array<{ q: string; a: string }> = product.slug === 'lift-assist-harness' ? [
+                      { q: 'How do I choose the right size for my dog?', a: 'Please refer to the size guide above each product listing. Measure your dog\'s chest girth and weight to select the best fit. If between sizes, we recommend sizing up for comfort.' },
+                      { q: 'Can this harness be used for both front and hind leg support?', a: 'Yes! The dual-side support design works for both front and hind leg weakness. The wide wrap-around panel distributes weight evenly across the chest and belly.' },
+                      { q: 'Is the harness machine washable?', a: 'Yes, the entire harness is machine washable for easy maintenance. It also comes with a convenient storage bag for portability.' },
+                    ] : product.slug === 'hind-leg-support-harness' ? [
+                      { q: 'How lightweight is this harness?', a: 'Only 68–76g depending on size — minimal added burden for dogs with low stamina. Available in S through XL to fit breeds from small terriers to large dogs.' },
+                      { q: 'How do I put it on my dog?', a: 'Simply step in and clip! The quick-release buckle closure makes it easy to put on and take off in seconds — no complex threading required.' },
+                      { q: 'Is it suitable for small breeds?', a: 'Yes, Size S fits waist 11"–14". The ergonomic mesh panel and dual leg openings ensure a secure, natural fit without restricting movement.' },
+                    ] : product.slug === 'silicone-paw-protector-boots' ? [
+                      { q: 'Are these safe if my dog licks them?', a: 'Yes. Made from food-grade flexible silicone that is non-toxic and safe for pets. The material is gentle on sensitive paws.' },
+                      { q: 'Will they stay on during walking?', a: 'The adjustable wide velcro strap provides a customizable, secure fit that stays in place during daily movement — without squeezing or restricting circulation.' },
+                      { q: 'How do I clean the paw covers?', a: 'Simply rinse with water after use. The one-piece waterproof silicone design resists dirt buildup and dries quickly.' },
+                    ] : product.slug === 'snuffle-mat-set' ? [
+                      { q: 'Which style is best for my senior dog?', a: 'Style 1 (Bone-Shaped) offers deep cylindrical pockets for patient foraging. Style 2 (Plum Blossom) has a compact 60cm size that fits beside beds. Style 3 (Rectangular) is ideal for large senior dogs and multi-pet homes.' },
+                      { q: 'Is the mat easy to clean?', a: 'Yes, the entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses.' },
+                      { q: 'Will it help slow down eating?', a: 'Absolutely. Multiple independent foraging zones naturally extend mealtime, promote healthier digestion, and provide meaningful mental exercise without requiring running or jumping.' },
+                    ] : product.slug === 'orthopedic-bolster-dog-bed' ? [
+                      { q: 'How do I choose the right size?', a: 'Choose based on your dog\'s weight and sleeping style. The low-entry design allows dogs with weak hind legs to climb in effortlessly. Measure your dog from nose to tail base for the best fit.' },
+                      { q: 'Is the cover removable and washable?', a: 'Yes. The fully removable outer cover has a zipper and is machine washable for easy cleanup of fur and stains. The reversible inner mat offers plush fleece for warmth and breathable oxford for summer.' },
+                      { q: 'Does this bed help with joint pain?', a: 'The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors.' },
+                    ] : product.slug === 'drying-towel' ? [
+                      { q: 'What\'s the difference between Small and Large?', a: 'Small (30×30cm) is ideal for cats, small dogs, and targeted drying of paws, face, or belly. Large (30×60cm) is suitable for medium to large dogs and full-body drying.' },
+                      { q: 'Is the towel safe for sensitive skin?', a: 'Yes. Crafted from high-density coral fleece microfiber that is soft and gentle on sensitive skin and paw pads. Non-toxic and pet-safe.' },
+                      { q: 'How do I wash the towel?', a: 'Machine washable and durable — maintains softness and absorbency wash after wash. The quick-dry fabric releases moisture efficiently when hung.' },
+                    ] : [
                       { q: 'Is this product suitable for all dog breeds?', a: 'Yes, our products are designed to accommodate all breeds. Please check the size guide to select the best fit for your dog.' },
                       { q: 'Are the materials safe for pets?', a: 'Absolutely. All LoyalBond products use non-toxic, pet-safe materials that have been independently tested and certified.' },
                       { q: 'How do I clean this product?', a: 'Most of our products feature removable, machine-washable covers. Specific care instructions are included with each product.' },
@@ -242,7 +234,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                         <p className="px-6 pb-4 text-brand-gray">{faq.a}</p>
                       </details>
                     ));
-                  }())}
+                  })()}
                 </div>
               </div>
             </div>
