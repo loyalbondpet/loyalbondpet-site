@@ -102,8 +102,12 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
         {/* Price */}
         <div className="flex items-baseline gap-3 mb-6">
           <span className="text-3xl font-bold text-brand-green">
-            {product.priceRange && currentPrice === 0 ? (
-              product.priceRange
+            {currentPrice === 0 ? (
+              product.priceRange ? (
+                product.priceRange
+              ) : (
+                "Request Quote"
+              )
             ) : (
               <>$
                 {displayPrice.toFixed(2)}
@@ -195,7 +199,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                     {variant.label}
                   </div>
                   <div className="text-xs text-brand-gray mt-0.5">{variant.dimensions}</div>
-                  <div className="text-sm font-semibold text-brand-dark mt-1">${variant.price.toFixed(2)}</div>
+                  <div className="text-sm font-semibold text-brand-dark mt-1">{variant.price > 0 ? `$${variant.price.toFixed(2)}` : "Request Quote"}</div>
                 </button>
               ))}
             </div>
