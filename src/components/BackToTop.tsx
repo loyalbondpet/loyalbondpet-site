@@ -1,1 +1,33 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JzsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJhY2tUb1RvcCgpIHsKICBjb25zdCBbdmlzaWJsZSwgc2V0VmlzaWJsZV0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBoYW5kbGVTY3JvbGwgPSAoKSA9PiB7CiAgICAgIHNldFZpc2libGUod2luZG93LnNjcm9sbFkgPiA0MDApOwogICAgfTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdzY3JvbGwnLCBoYW5kbGVTY3JvbGwsIHsgcGFzc2l2ZTogdHJ1ZSB9KTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcignc2Nyb2xsJywgaGFuZGxlU2Nyb2xsKTsKICB9LCBbXSk7CgogIGNvbnN0IHNjcm9sbFRvVG9wID0gKCkgPT4gewogICAgd2luZG93LnNjcm9sbFRvKHsgdG9wOiAwLCBiZWhhdmlvcjogJ3Ntb290aCcgfSk7CiAgfTsKCiAgaWYgKCF2aXNpYmxlKSByZXR1cm4gbnVsbDsKCiAgcmV0dXJuICgKICAgIDxidXR0b24KICAgICAgb25DbGljaz17c2Nyb2xsVG9Ub3B9CiAgICAgIGNsYXNzTmFtZT0iZml4ZWQgYm90dG9tLTYgcmlnaHQtNiB6LTQwIHctMTIgaC0xMiBiZy1icmFuZC1ncmVlbiBob3ZlcjpiZy1icmFuZC1ncmVlbi85MCB0ZXh0LXdoaXRlIHJvdW5kZWQtZnVsbCBzaGFkb3ctbGcgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIGhvdmVyOnNjYWxlLTExMCIKICAgICAgYXJpYS1sYWJlbD0iQmFjayB0byB0b3AiCiAgICA+CiAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+CiAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTUgMTVsNy03IDcgNyIgLz4KICAgICAgPC9zdmc+CiAgICA8L2J1dHRvbj4KICApOwp9Cg==
+'use client';
+
+import { useState, useEffect } from 'react';
+
+export default function BackToTop() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setVisible(window.scrollY > 400);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  if (!visible) return null;
+
+  return (
+    <button
+      onClick={scrollToTop}
+      className="fixed bottom-6 right-6 z-40 w-12 h-12 bg-brand-green hover:bg-brand-green/90 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
+      aria-label="Back to top"
+    >
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+      </svg>
+    </button>
+  );
+}
