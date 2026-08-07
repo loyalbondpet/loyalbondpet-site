@@ -152,7 +152,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {relatedProducts.map((product) => product && (
                 <Link key={product.id} href={`/products/${product.slug}`} className="bg-white rounded-xl p-4 hover:shadow-md transition-shadow">
                   <h3 className="font-semibold text-brand-dark text-sm mb-1">{product.name}</h3>
-                  <p className="text-brand-green font-bold">${product.price.toFixed(2)}</p>
+                  <p className="text-brand-green font-bold">{product.priceRange || 'Request Quote'}</p>
                   <span className="text-xs text-brand-coral font-medium mt-2 inline-block">Shop Now →</span>
                 </Link>
               ))}
