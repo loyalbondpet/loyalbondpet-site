@@ -1,1 +1,117 @@
-aW1wb3J0IHsgUHJvZHVjdCB9IGZyb20gJ0AvbGliL2RhdGEvcHJvZHVjdHMnOwoKaW50ZXJmYWNlIFByb2R1Y3RTY2hlbWFQcm9wcyB7CiAgcHJvZHVjdDogUHJvZHVjdDsKICBzbHVnOiBzdHJpbmc7Cn0KCmZ1bmN0aW9uIHBhcnNlUHJpY2VSYW5nZShwcmljZVJhbmdlOiBzdHJpbmcgfCB1bmRlZmluZWQpOiB7IGxvdzogbnVtYmVyOyBoaWdoOiBudW1iZXIgfSB8IG51bGwgewogIGlmICghcHJpY2VSYW5nZSkgcmV0dXJuIG51bGw7CiAgY29uc3QgbWF0Y2hlcyA9IHByaWNlUmFuZ2UubWF0Y2goL1wkKFswLTldKyg/OlwuWzAtOV0rKT8pL2cpOwogIGlmICghbWF0Y2hlcyB8fCBtYXRjaGVzLmxlbmd0aCA8IDIpIHJldHVybiBudWxsOwogIGNvbnN0IHByaWNlcyA9IG1hdGNoZXMubWFwKG0gPT4gcGFyc2VGbG9hdChtLnJlcGxhY2UoJyQnLCAnJykpKTsKICByZXR1cm4geyBsb3c6IE1hdGgubWluKC4uLnByaWNlcyksIGhpZ2g6IE1hdGgubWF4KC4uLnByaWNlcykgfTsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvZHVjdFNjaGVtYSh7IHByb2R1Y3QsIHNsdWcgfTogUHJvZHVjdFNjaGVtYVByb3BzKSB7CiAgY29uc3QgYmFzZVVybCA9ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tJzsKCiAgLy8gRGV0ZXJtaW5lIHByaWNlL29mZmVyIHN0cnVjdHVyZQogIGxldCBvZmZlcnM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+OwoKICBpZiAocHJvZHVjdC5zaXplVmFyaWFudHMgJiYgcHJvZHVjdC5zaXplVmFyaWFudHMubGVuZ3RoID4gMCkgewogICAgY29uc3QgcHJpY2VzID0gcHJvZHVjdC5zaXplVmFyaWFudHMubWFwKHYgPT4gdi5wcmljZSkuZmlsdGVyKHAgPT4gcCA+IDApOwogICAgaWYgKHByaWNlcy5sZW5ndGggPiAwKSB7CiAgICAgIG9mZmVycyA9IHsKICAgICAgICAnQHR5cGUnOiAnQWdncmVnYXRlT2ZmZXInLAogICAgICAgIGxvd1ByaWNlOiBNYXRoLm1pbiguLi5wcmljZXMpLAogICAgICAgIGhpZ2hQcmljZTogTWF0aC5tYXgoLi4ucHJpY2VzKSwKICAgICAgICBwcmljZUN1cnJlbmN5OiAnVVNEJywKICAgICAgICBhdmFpbGFiaWxpdHk6ICdodHRwczovL3NjaGVtYS5vcmcvSW5TdG9jaycsCiAgICAgICAgb2ZmZXJDb3VudDogcHJpY2VzLmxlbmd0aCwKICAgICAgICB1cmw6IGAke2Jhc2VVcmx9L3Byb2R1Y3RzLyR7c2x1Z31gLAogICAgICB9OwogICAgfSBlbHNlIHsKICAgICAgLy8gUHJpY2UgaXMgMCBpbiBzaXplVmFyaWFudHMsIHRyeSBwYXJzaW5nIHByaWNlUmFuZ2Ugc3RyaW5nCiAgICAgIGNvbnN0IHBhcnNlZCA9IHBhcnNlUHJpY2VSYW5nZShwcm9kdWN0LnByaWNlUmFuZ2UpOwogICAgICBpZiAocGFyc2VkKSB7CiAgICAgICAgb2ZmZXJzID0gewogICAgICAgICAgJ0B0eXBlJzogJ0FnZ3JlZ2F0ZU9mZmVyJywKICAgICAgICAgIGxvd1ByaWNlOiBwYXJzZWQubG93LAogICAgICAgICAgaGlnaFByaWNlOiBwYXJzZWQuaGlnaCwKICAgICAgICAgIHByaWNlQ3VycmVuY3k6ICdVU0QnLAogICAgICAgICAgYXZhaWxhYmlsaXR5OiAnaHR0cHM6Ly9zY2hlbWEub3JnL0luU3RvY2snLAogICAgICAgICAgdXJsOiBgJHtiYXNlVXJsfS9wcm9kdWN0cy8ke3NsdWd9YCwKICAgICAgICB9OwogICAgICB9IGVsc2UgewogICAgICAgIG9mZmVycyA9IHsKICAgICAgICAgICdAdHlwZSc6ICdPZmZlcicsCiAgICAgICAgICBwcmljZTogMCwKICAgICAgICAgIHByaWNlQ3VycmVuY3k6ICdVU0QnLAogICAgICAgICAgYXZhaWxhYmlsaXR5OiAnaHR0cHM6Ly9zY2hlbWEub3JnL0luU3RvY2snLAogICAgICAgICAgdXJsOiBgJHtiYXNlVXJsfS9wcm9kdWN0cy8ke3NsdWd9YCwKICAgICAgICB9OwogICAgICB9CiAgICB9CiAgfSBlbHNlIGlmIChwcm9kdWN0LnByaWNlUmFuZ2UpIHsKICAgIC8vIE5vIHNpemVWYXJpYW50cywgYnV0IGhhcyBwcmljZVJhbmdlIHN0cmluZyBsaWtlICIkNS4wMCDigJMgJDguNTAiCiAgICBjb25zdCBwYXJzZWQgPSBwYXJzZVByaWNlUmFuZ2UocHJvZHVjdC5wcmljZVJhbmdlKTsKICAgIGlmIChwYXJzZWQpIHsKICAgICAgb2ZmZXJzID0gewogICAgICAgICdAdHlwZSc6ICdBZ2dyZWdhdGVPZmZlcicsCiAgICAgICAgbG93UHJpY2U6IHBhcnNlZC5sb3csCiAgICAgICAgaGlnaFByaWNlOiBwYXJzZWQuaGlnaCwKICAgICAgICBwcmljZUN1cnJlbmN5OiAnVVNEJywKICAgICAgICBhdmFpbGFiaWxpdHk6ICdodHRwczovL3NjaGVtYS5vcmcvSW5TdG9jaycsCiAgICAgICAgdXJsOiBgJHtiYXNlVXJsfS9wcm9kdWN0cy8ke3NsdWd9YCwKICAgICAgfTsKICAgIH0gZWxzZSB7CiAgICAgIG9mZmVycyA9IHsKICAgICAgICAnQHR5cGUnOiAnT2ZmZXInLAogICAgICAgIHByaWNlOiBwcm9kdWN0LnByaWNlLAogICAgICAgIHByaWNlQ3VycmVuY3k6ICdVU0QnLAogICAgICAgIGF2YWlsYWJpbGl0eTogJ2h0dHBzOi8vc2NoZW1hLm9yZy9JblN0b2NrJywKICAgICAgICB1cmw6IGAke2Jhc2VVcmx9L3Byb2R1Y3RzLyR7c2x1Z31gLAogICAgICB9OwogICAgfQogIH0gZWxzZSB7CiAgICBvZmZlcnMgPSB7CiAgICAgICdAdHlwZSc6ICdPZmZlcicsCiAgICAgIHByaWNlOiBwcm9kdWN0LnByaWNlLAogICAgICBwcmljZUN1cnJlbmN5OiAnVVNEJywKICAgICAgYXZhaWxhYmlsaXR5OiAnaHR0cHM6Ly9zY2hlbWEub3JnL0luU3RvY2snLAogICAgICB1cmw6IGAke2Jhc2VVcmx9L3Byb2R1Y3RzLyR7c2x1Z31gLAogICAgfTsKICB9CgogIGNvbnN0IHNjaGVtYTogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gPSB7CiAgICAnQGNvbnRleHQnOiAnaHR0cHM6Ly9zY2hlbWEub3JnJywKICAgICdAdHlwZSc6ICdQcm9kdWN0JywKICAgIG5hbWU6IHByb2R1Y3QubmFtZSwKICAgIGRlc2NyaXB0aW9uOiBwcm9kdWN0LnNob3J0RGVzY3JpcHRpb24sCiAgICBpbWFnZTogcHJvZHVjdC5pbWFnZXMubWFwKGltZyA9PgogICAgICBpbWcuc3RhcnRzV2l0aCgnaHR0cCcpID8gaW1nIDogYCR7YmFzZVVybH0ke2ltZ31gCiAgICApLAogICAgYnJhbmQ6IHsKICAgICAgJ0B0eXBlJzogJ0JyYW5kJywKICAgICAgbmFtZTogJ0xveWFsQm9uZCcsCiAgICB9LAogICAgb2ZmZXJzLAogIH07CgogIC8vIE9ubHkgaW5jbHVkZSBhZ2dyZWdhdGVSYXRpbmcgaWYgdGhlIHByb2R1Y3QgaGFzIHJldmlld3MKICBpZiAocHJvZHVjdC5yYXRpbmcgPiAwICYmIHByb2R1Y3QucmV2aWV3Q291bnQgPiAwKSB7CiAgICBzY2hlbWEuYWdncmVnYXRlUmF0aW5nID0gewogICAgICAnQHR5cGUnOiAnQWdncmVnYXRlUmF0aW5nJywKICAgICAgcmF0aW5nVmFsdWU6IHByb2R1Y3QucmF0aW5nLAogICAgICByZXZpZXdDb3VudDogcHJvZHVjdC5yZXZpZXdDb3VudCwKICAgIH07CiAgfQoKICByZXR1cm4gKAogICAgPHNjcmlwdAogICAgICB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIgogICAgICBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IEpTT04uc3RyaW5naWZ5KHNjaGVtYSkgfX0KICAgIC8+CiAgKTsKfQo=
+import { Product } from '@/lib/data/products';
+
+interface ProductSchemaProps {
+  product: Product;
+  slug: string;
+}
+
+function parsePriceRange(priceRange: string | undefined): { low: number; high: number } | null {
+  if (!priceRange) return null;
+  const matches = priceRange.match(/\$([0-9]+(?:\.[0-9]+)?)/g);
+  if (!matches || matches.length < 2) return null;
+  const prices = matches.map(m => parseFloat(m.replace('$', '')));
+  return { low: Math.min(...prices), high: Math.max(...prices) };
+}
+
+export default function ProductSchema({ product, slug }: ProductSchemaProps) {
+  const baseUrl = 'https://www.loyalbondpet.com';
+
+  // Determine price/offer structure
+  let offers: Record<string, unknown>;
+
+  if (product.sizeVariants && product.sizeVariants.length > 0) {
+    const prices = product.sizeVariants.map(v => v.price).filter(p => p > 0);
+    if (prices.length > 0) {
+      offers = {
+        '@type': 'AggregateOffer',
+        lowPrice: Math.min(...prices),
+        highPrice: Math.max(...prices),
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        offerCount: prices.length,
+        url: `${baseUrl}/products/${slug}`,
+      };
+    } else {
+      // Price is 0 in sizeVariants, try parsing priceRange string
+      const parsed = parsePriceRange(product.priceRange);
+      if (parsed) {
+        offers = {
+          '@type': 'AggregateOffer',
+          lowPrice: parsed.low,
+          highPrice: parsed.high,
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+          url: `${baseUrl}/products/${slug}`,
+        };
+      } else {
+        offers = {
+          '@type': 'Offer',
+          price: 0,
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+          url: `${baseUrl}/products/${slug}`,
+        };
+      }
+    }
+  } else if (product.priceRange) {
+    // No sizeVariants, but has priceRange string like "$5.00 – $8.50"
+    const parsed = parsePriceRange(product.priceRange);
+    if (parsed) {
+      offers = {
+        '@type': 'AggregateOffer',
+        lowPrice: parsed.low,
+        highPrice: parsed.high,
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        url: `${baseUrl}/products/${slug}`,
+      };
+    } else {
+      offers = {
+        '@type': 'Offer',
+        price: product.price,
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        url: `${baseUrl}/products/${slug}`,
+      };
+    }
+  } else {
+    offers = {
+      '@type': 'Offer',
+      price: product.price,
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: `${baseUrl}/products/${slug}`,
+    };
+  }
+
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    description: product.shortDescription,
+    image: product.images.map(img =>
+      img.startsWith('http') ? img : `${baseUrl}${img}`
+    ),
+    brand: {
+      '@type': 'Brand',
+      name: 'LoyalBond',
+    },
+    offers,
+  };
+
+  // Only include aggregateRating if the product has reviews
+  if (product.rating > 0 && product.reviewCount > 0) {
+    schema.aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: product.rating,
+      reviewCount: product.reviewCount,
+    };
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
