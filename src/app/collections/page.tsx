@@ -1,1 +1,69 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgeyBjb2xsZWN0aW9ucyB9IGZyb20gJ0AvbGliL2RhdGEvcHJvZHVjdHMnOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogJ0FsbCBDb2xsZWN0aW9ucyB8IExveWFsQm9uZCcsCiAgZGVzY3JpcHRpb246ICdCcm93c2Ugb3VyIDYgbGlmZSBzY2VuYXJpbyBjb2xsZWN0aW9ucyBkZXNpZ25lZCBmb3Igc2VuaW9yIGRvZ3MuIFNob3AgSG9tZSBTYWZldHksIEZlZWRpbmcgQWlkcywgVHJhdmVsICYgQ2FyLCBHcm9vbWluZyAmIEJhdGgsIE9yYWwgQ2FyZSwgYW5kIFNlYXNvbmFsIGVzc2VudGlhbHMuJywKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENvbGxlY3Rpb25zUGFnZSgpIHsKICByZXR1cm4gKAogICAgPD4KICAgICAgey8qIEhlcm8gKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iYmctYnJhbmQtYmVpZ2UgcHktMTYgc206cHktMjQiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctM3hsIj4KICAgICAgICAgICAgPG5hdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gdGV4dC1icmFuZC1ncmF5IG1iLTYiPgogICAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii8iIGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1icmFuZC1ncmVlbiB0cmFuc2l0aW9uLWNvbG9ycyI+SG9tZTwvTGluaz4KICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy00IGgtNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9ezJ9PgogICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTkgNWw3IDctNyA3IiAvPgogICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1icmFuZC1kYXJrIGZvbnQtbWVkaXVtIj5BbGwgQ29sbGVjdGlvbnM8L3NwYW4+CiAgICAgICAgICAgIDwvbmF2PgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBzbTp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTQiPlNob3AgYnkgTGlmZSBTY2VuYXJpbzwvaDE+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1sZyB0ZXh0LWJyYW5kLWdyYXkgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICA2IHNwZWNpYWxpemVkIGNvbGxlY3Rpb25zIGRlc2lnbmVkIGZvciBldmVyeSBhc3BlY3Qgb2YgeW91ciBzZW5pb3IgZG9nJmFwb3M7cyBkYWlseSBsaWZlLiBFYWNoIHByb2R1Y3QgaXMgdGhvdWdodGZ1bGx5IHNlbGVjdGVkIHRvIHN1cHBvcnQgY29tZm9ydCBhbmQgd2VsbC1iZWluZy4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBDb2xsZWN0aW9ucyBHcmlkICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB5LTEyIHNtOnB5LTE2IGJnLXdoaXRlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctN3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTgiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMgZ2FwLTYiPgogICAgICAgICAgICB7Y29sbGVjdGlvbnMubWFwKChjb2xsZWN0aW9uKSA9PiAoCiAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgIGtleT17Y29sbGVjdGlvbi5zbHVnfQogICAgICAgICAgICAgICAgaHJlZj17YC9jb2xsZWN0aW9ucy8ke2NvbGxlY3Rpb24uc2x1Z31gfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgYmctYnJhbmQtYmVpZ2UgYXNwZWN0LVs0LzNdIGZsZXggZmxleC1jb2wiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctZ3JhZGllbnQtdG8tdCBmcm9tLWJyYW5kLWRhcmsvNjAgdmlhLWJyYW5kLWRhcmsvMjAgdG8tdHJhbnNwYXJlbnQgei0xMCIgLz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG9wYWNpdHktMjAgZ3JvdXAtaG92ZXI6b3BhY2l0eS0zMCB0cmFuc2l0aW9uLW9wYWNpdHkiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtOHhsIj57Y29sbGVjdGlvbi5lbW9qaX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTIwIG10LWF1dG8gcC02Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTIiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC0yeGwiPntjb2xsZWN0aW9uLmVtb2ppfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj57Y29sbGVjdGlvbi50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtd2hpdGUvODAgbWItMyBsaW5lLWNsYW1wLTIiPntjb2xsZWN0aW9uLmRlc2NyaXB0aW9ufTwvcD4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtd2hpdGUvNzAiPntjb2xsZWN0aW9uLnByaWNlUmFuZ2V9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtYnJhbmQtY29yYWwgZ3JvdXAtaG92ZXI6dHJhbnNsYXRlLXgtMSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgRXhwbG9yZQogICAgICAgICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNCBoLTQiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXsyfT4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTkgNWw3IDctNyA3IiAvPgogICAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgogICAgPC8+CiAgKTsKfQo=
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { collections } from '@/lib/data/products';
+
+export const metadata: Metadata = {
+  title: 'All Collections | LoyalBond',
+  description: 'Browse our 6 life scenario collections designed for senior dogs. Shop Home Safety, Feeding Aids, Travel & Car, Grooming & Bath, Oral Care, and Seasonal essentials.',
+};
+
+export default function CollectionsPage() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="bg-brand-beige py-16 sm:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <nav className="flex items-center gap-2 text-sm text-brand-gray mb-6">
+              <Link href="/" className="hover:text-brand-green transition-colors">Home</Link>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+              <span className="text-brand-dark font-medium">All Collections</span>
+            </nav>
+            <h1 className="text-4xl sm:text-5xl font-bold text-brand-dark mb-4">Shop by Life Scenario</h1>
+            <p className="text-lg text-brand-gray leading-relaxed">
+              6 specialized collections designed for every aspect of your senior dog&apos;s daily life. Each product is thoughtfully selected to support comfort and well-being.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Collections Grid */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {collections.map((collection) => (
+              <Link
+                key={collection.slug}
+                href={`/collections/${collection.slug}`}
+                className="group relative overflow-hidden rounded-2xl bg-brand-beige aspect-[4/3] flex flex-col"
+              >
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/60 via-brand-dark/20 to-transparent z-10" />
+                <div className="absolute inset-0 flex items-center justify-center opacity-20 group-hover:opacity-30 transition-opacity">
+                  <span className="text-8xl">{collection.emoji}</span>
+                </div>
+                <div className="relative z-20 mt-auto p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-2xl">{collection.emoji}</span>
+                    <h3 className="text-xl font-bold text-white">{collection.title}</h3>
+                  </div>
+                  <p className="text-sm text-white/80 mb-3 line-clamp-2">{collection.description}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-white/70">{collection.priceRange}</span>
+                    <span className="text-sm font-semibold text-brand-coral group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
+                      Explore
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
