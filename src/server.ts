@@ -1,1 +1,35 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyIH0gZnJvbSAnaHR0cCc7CmltcG9ydCB7IHBhcnNlIH0gZnJvbSAndXJsJzsKaW1wb3J0IG5leHQgZnJvbSAnbmV4dCc7Cgpjb25zdCBkZXYgPSBwcm9jZXNzLmVudi5DT1pFX1BST0pFQ1RfRU5WICE9PSAnUFJPRCc7CmNvbnN0IGhvc3RuYW1lID0gcHJvY2Vzcy5lbnYuSE9TVE5BTUUgfHwgJ2xvY2FsaG9zdCc7CmNvbnN0IHBvcnQgPSBwYXJzZUludChwcm9jZXNzLmVudi5QT1JUIHx8ICc1MDAwJywgMTApOwoKLy8gQ3JlYXRlIE5leHQuanMgYXBwCmNvbnN0IGFwcCA9IG5leHQoeyBkZXYsIGhvc3RuYW1lLCBwb3J0IH0pOwpjb25zdCBoYW5kbGUgPSBhcHAuZ2V0UmVxdWVzdEhhbmRsZXIoKTsKCmFwcC5wcmVwYXJlKCkudGhlbigoKSA9PiB7CiAgY29uc3Qgc2VydmVyID0gY3JlYXRlU2VydmVyKGFzeW5jIChyZXEsIHJlcykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcGFyc2VkVXJsID0gcGFyc2UocmVxLnVybCEsIHRydWUpOwogICAgICBhd2FpdCBoYW5kbGUocmVxLCByZXMsIHBhcnNlZFVybCk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgY29uc29sZS5lcnJvcignRXJyb3Igb2NjdXJyZWQgaGFuZGxpbmcnLCByZXEudXJsLCBlcnIpOwogICAgICByZXMuc3RhdHVzQ29kZSA9IDUwMDsKICAgICAgcmVzLmVuZCgnSW50ZXJuYWwgc2VydmVyIGVycm9yJyk7CiAgICB9CiAgfSk7CiAgc2VydmVyLm9uY2UoJ2Vycm9yJywgZXJyID0+IHsKICAgIGNvbnNvbGUuZXJyb3IoZXJyKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9KTsKICBzZXJ2ZXIubGlzdGVuKHBvcnQsICgpID0+IHsKICAgIGNvbnNvbGUubG9nKAogICAgICBgPiBTZXJ2ZXIgbGlzdGVuaW5nIGF0IGh0dHA6Ly8ke2hvc3RuYW1lfToke3BvcnR9IGFzICR7CiAgICAgICAgZGV2ID8gJ2RldmVsb3BtZW50JyA6IHByb2Nlc3MuZW52LkNPWkVfUFJPSkVDVF9FTlYKICAgICAgfWAsCiAgICApOwogIH0pOwp9KTsK
+import { createServer } from 'http';
+import { parse } from 'url';
+import next from 'next';
+
+const dev = process.env.COZE_PROJECT_ENV !== 'PROD';
+const hostname = process.env.HOSTNAME || 'localhost';
+const port = parseInt(process.env.PORT || '5000', 10);
+
+// Create Next.js app
+const app = next({ dev, hostname, port });
+const handle = app.getRequestHandler();
+
+app.prepare().then(() => {
+  const server = createServer(async (req, res) => {
+    try {
+      const parsedUrl = parse(req.url!, true);
+      await handle(req, res, parsedUrl);
+    } catch (err) {
+      console.error('Error occurred handling', req.url, err);
+      res.statusCode = 500;
+      res.end('Internal server error');
+    }
+  });
+  server.once('error', err => {
+    console.error(err);
+    process.exit(1);
+  });
+  server.listen(port, () => {
+    console.log(
+      `> Server listening at http://${hostname}:${port} as ${
+        dev ? 'development' : process.env.COZE_PROJECT_ENV
+      }`,
+    );
+  });
+});
