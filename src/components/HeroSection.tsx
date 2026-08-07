@@ -58,7 +58,7 @@ export default function HeroSection() {
               </div>
               <div>
                 <p className="font-bold text-brand-dark text-sm">Trusted by Pet Parents</p>
-                <p className="text-xs text-brand-gray">Trusted by 10,000+ pet parents</p>
+                <p className="text-xs text-brand-gray">Serving Vet Clinics, Pet Stores & Families</p>
               </div>
             </div>
           </div>
