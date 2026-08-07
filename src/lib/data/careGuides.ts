@@ -26,8 +26,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Adds traction to paws, reducing the compensatory joint stress from slipping on smooth floors.' },
     ],
     relatedBlogLinks: [
-      { title: 'Daily Comfort Routines for Arthritic Dogs', href: '/blog' },
-      { title: 'Understanding Hip Dysplasia in Senior Dogs', href: '/blog' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Arthritis Care Guide', href: '/care-guides/arthritis' },
     ],
   },
   {
@@ -47,8 +47,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Critical for preventing slips that could compromise surgical repair during early recovery.' },
     ],
     relatedBlogLinks: [
-      { title: 'Week-by-Week ACL Recovery Guide', href: '/blog' },
-      { title: 'Managing Your Dog After Knee Surgery', href: '/blog' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Post-ACL Surgery Care Guide', href: '/care-guides/post-acl-surgery' },
     ],
   },
   {
@@ -69,8 +69,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'non-slip-pet-ramp', name: 'Non-Slip Pet Ramp', reason: 'Allows independent access to furniture and vehicles without jumping.' },
     ],
     relatedBlogLinks: [
-      { title: 'Aging Gracefully: The 10-Year-Old Dog', href: '/blog' },
-      { title: 'Home Modifications for Senior Dogs', href: '/blog' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
     ],
   },
   {
@@ -90,8 +90,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Consistent traction helps disoriented dogs navigate with more confidence.' },
     ],
     relatedBlogLinks: [
-      { title: 'Understanding Canine Cognitive Dysfunction', href: '/blog' },
-      { title: 'Creating a Calming Environment for Senior Dogs', href: '/blog' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Grooming & Bath Collection', href: '/collections/grooming-bath' },
     ],
   },
   {
@@ -111,8 +111,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'senior-support-harness', name: 'Senior Support Harness', reason: 'Provides rear-end lift assistance for breeds prone to hind leg weakness.' },
     ],
     relatedBlogLinks: [
-      { title: 'Protecting Your Dachshund\'s Back as They Age', href: '/blog' },
-      { title: 'IVDD Prevention for Long-Backed Breeds', href: '/blog' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
     ],
   },
   {
@@ -132,8 +132,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'gentle-grooming-brush', name: 'Gentle Grooming Brush', reason: 'Gentle tool for maintaining coat health and checking skin folds without causing stress.' },
     ],
     relatedBlogLinks: [
-      { title: 'Summer Safety for Brachycephalic Dogs', href: '/blog' },
-      { title: 'Managing Weight in Flat-Faced Breeds', href: '/blog' },
+      { title: 'Seasonal Collection', href: '/collections/seasonal' },
+      { title: 'Grooming & Bath Collection', href: '/collections/grooming-bath' },
     ],
   },
   {
@@ -153,8 +153,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'elevated-slow-feeder-bowl', name: 'Elevated Slow Feeder Bowl', reason: 'Supports comfortable eating posture during pregnancy and nursing when neck strain is a concern.' },
     ],
     relatedBlogLinks: [
-      { title: 'Preparing Your Home for a Pregnant Dog', href: '/blog' },
-      { title: 'Post-Partum Care Essentials for Mother Dogs', href: '/blog' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
     ],
   },
   {
@@ -174,8 +174,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'orthopedic-memory-foam-bed', name: 'Orthopedic Memory Foam Bed', reason: 'Distributes the weight of heavier dogs evenly, reducing pressure points during rest.' },
     ],
     relatedBlogLinks: [
-      { title: 'A Safe Approach to Canine Weight Loss', href: '/blog' },
-      { title: 'Exercise Guidelines for Overweight Senior Dogs', href: '/blog' },
+      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
+      { title: 'Home Safety Collection', href: '/collections/home-safety' },
     ],
   },
 ];
