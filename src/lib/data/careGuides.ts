@@ -26,8 +26,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Adds traction to paws, reducing the compensatory joint stress from slipping on smooth floors.' },
     ],
     relatedBlogLinks: [
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
-      { title: 'Arthritis Care Guide', href: '/care-guides/arthritis' },
+      { title: 'How to Choose the Right Orthopedic Bed for Your Dog', href: '/blog/how-to-choose-the-right-orthopedic-bed-for-your-dog' },
+      { title: 'Silicone Paw Covers vs Traditional Dog Boots: What Works Better at Home', href: '/blog/silicone-paw-covers-vs-traditional-boots' },
     ],
   },
   {
@@ -47,8 +47,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Critical for preventing slips that could compromise surgical repair during early recovery.' },
     ],
     relatedBlogLinks: [
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
-      { title: 'Post-ACL Surgery Care Guide', href: '/care-guides/post-acl-surgery' },
+      { title: 'How to Choose the Right Lifting Harness for Your Senior Dog', href: '/blog/how-to-choose-lifting-harness-senior-dog' },
+      { title: '5 Mobility Aids Every Senior Dog Owner Should Know', href: '/blog/5-mobility-aids-senior-dog-owner-guide' },
     ],
   },
   {
@@ -69,8 +69,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Allows independent access to furniture and vehicles without jumping.' },
     ],
     relatedBlogLinks: [
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
-      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
+      { title: '10 Signs Your Senior Dog Needs Extra Support', href: '/blog/10-signs-your-senior-dog-needs-extra-support' },
+      { title: 'Snuffle Mats for Senior Dogs: Mental Exercise Without Physical Strain', href: '/blog/snuffle-mats-senior-dogs-mental-exercise' },
     ],
   },
   {
@@ -90,8 +90,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Consistent traction helps disoriented dogs navigate with more confidence.' },
     ],
     relatedBlogLinks: [
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
-      { title: 'Grooming & Bath Collection', href: '/collections/grooming-bath' },
+      { title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds', href: '/blog/why-senior-dogs-need-low-entry-orthopedic-beds' },
+      { title: 'Post-Bath Care for Senior Dogs: Quick-Dry Towel Guide', href: '/blog/post-bath-care-senior-dogs-quick-dry-towel-guide' },
     ],
   },
   {
@@ -106,13 +106,13 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Rear Leg Weakness', description: 'Many short-leg breeds develop rear leg weakness with age. A support harness assists with walking and prevents dragging injuries.' },
     ],
     recommendedProducts: [
-      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Critical for preventing jumps that could cause spinal disc herniation.' },
+      { slug: 'hind-leg-support-harness', name: 'Senior Dog Hind Leg Support Harness', reason: 'Provides targeted rear-end support for breeds prone to spinal issues, reducing IVDD risk during daily movement.' },
       { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Essential traction for short-legged dogs on hardwood and tile floors.' },
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Provides rear-end lift assistance for breeds prone to hind leg weakness.' },
     ],
     relatedBlogLinks: [
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
-      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
+      { title: 'Building a Complete Home Safety Setup for Aging Dogs', href: '/blog/building-complete-home-safety-setup-aging-dogs' },
+      { title: '5 Mobility Aids Every Senior Dog Owner Should Know', href: '/blog/5-mobility-aids-senior-dog-owner-guide' },
     ],
   },
   {
@@ -127,13 +127,13 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Sleep Disruption from Breathing', description: 'Many brachycephalic dogs experience disrupted sleep. A supportive bed with bolster allows them to find a comfortable position that optimizes airway position.' },
     ],
     recommendedProducts: [
-      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Essential temperature regulation for breeds that cannot cool themselves effectively through panting.' },
+      { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Essential for regular skin fold cleaning and gentle coat maintenance for brachycephalic breeds prone to skin fold infections.' },
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Raised position reduces neck strain and supports easier breathing during meals.' },
-      { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Gentle tool for maintaining coat health and checking skin folds without causing stress.' },
+      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Bolster design allows brachycephalic dogs to find optimal sleeping positions that support open airways and reduce sleep disruption.' },
     ],
     relatedBlogLinks: [
-      { title: 'Seasonal Collection', href: '/collections/seasonal' },
-      { title: 'Grooming & Bath Collection', href: '/collections/grooming-bath' },
+      { title: 'Post-Bath Care for Senior Dogs: Quick-Dry Towel Guide', href: '/blog/post-bath-care-senior-dogs-quick-dry-towel-guide' },
+      { title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds', href: '/blog/why-senior-dogs-need-low-entry-orthopedic-beds' },
     ],
   },
   {
@@ -153,8 +153,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Supports comfortable eating posture during pregnancy and nursing when neck strain is a concern.' },
     ],
     relatedBlogLinks: [
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
-      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
+      { title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds', href: '/blog/why-senior-dogs-need-low-entry-orthopedic-beds' },
+      { title: '5 Mobility Aids Every Senior Dog Owner Should Know', href: '/blog/5-mobility-aids-senior-dog-owner-guide' },
     ],
   },
   {
@@ -174,8 +174,8 @@ export const careGuidePages: CareGuidePage[] = [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Distributes the weight of heavier dogs evenly, reducing pressure points during rest.' },
     ],
     relatedBlogLinks: [
-      { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
-      { title: 'Home Safety Collection', href: '/collections/home-safety' },
+      { title: 'Snuffle Mats for Senior Dogs: Mental Exercise Without Physical Strain', href: '/blog/snuffle-mats-senior-dogs-mental-exercise' },
+      { title: 'How to Choose the Right Lifting Harness for Your Senior Dog', href: '/blog/how-to-choose-lifting-harness-senior-dog' },
     ],
   },
 ];
