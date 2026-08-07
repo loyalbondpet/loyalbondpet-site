@@ -341,7 +341,7 @@ Available in multiple sizes and colors to match your home decor.`,
       '/images/products/orthopedic-bed/02-dark-gray-side.jpg',
     ],
     rating: 4.8,
-    reviewCount: 87,
+    reviewCount: 0,
     badge: 'New Arrival',
     sizeVariants: [
       { label: 'S', dimensions: '60 x 47 x 17 cm', weight: '4.00 kg', price: 0 },
