@@ -160,7 +160,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Best Sellers</h2>
             <p className="text-lg text-brand-gray max-w-2xl mx-auto">
-              Loved by thousands of senior dogs and their families.
+              Curated essentials for senior dogs and their families.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -204,7 +204,7 @@ export default function HomePage() {
                   That frustration became our mission. We partnered with certified manufacturers to create thoughtfully designed, non-toxic products that genuinely improve daily life for senior dogs and their families. Every product is tested with real pets — because your companion deserves nothing less.
                 </p>
                 <p>
-                  Today, LoyalBond serves thousands of pet families across the United States, offering specialized solutions across 6 life scenarios — from mobility support to grooming, feeding, and comfort.
+                  Today, LoyalBond serves pet families across the United States, offering specialized solutions across 6 life scenarios — from mobility support to grooming, feeding, and comfort.
                 </p>
               </div>
               <Link
