@@ -1,1 +1,157 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogJ0ZBUSAtIFdob2xlc2FsZSBPcmRlcmluZyAmIFByb2R1Y3QgSW5mb3JtYXRpb24nLAogIGRlc2NyaXB0aW9uOgogICAgJ0Fuc3dlcnMgdG8gY29tbW9uIHF1ZXN0aW9ucyBhYm91dCB3aG9sZXNhbGUgb3JkZXJpbmcsIHNoaXBwaW5nLCBwcm9kdWN0IGNhdGVnb3JpZXMsIGFuZCBjb21wbGlhbmNlLiBMb3lhbEJvbmQgc2VydmVzIGluZGVwZW5kZW50IHBldCBzdG9yZXMsIHZldCBjbGluaWNzLCBib2FyZGluZyBmYWNpbGl0aWVzLCBhbmQgcmVzY3VlIG9yZ2FuaXphdGlvbnMuJywKICBvcGVuR3JhcGg6IHsKICAgIHRpdGxlOiAnRkFRIC0gV2hvbGVzYWxlIE9yZGVyaW5nICYgUHJvZHVjdCBJbmZvcm1hdGlvbiB8IExveWFsQm9uZCcsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgJ0Fuc3dlcnMgdG8gY29tbW9uIHF1ZXN0aW9ucyBhYm91dCB3aG9sZXNhbGUgb3JkZXJpbmcsIHNoaXBwaW5nLCBwcm9kdWN0IGNhdGVnb3JpZXMsIGFuZCBjb21wbGlhbmNlLicsCiAgICB1cmw6ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL2ZhcScsCiAgICB0eXBlOiAnd2Vic2l0ZScsCiAgfSwKfTsKCmNvbnN0IGZhcXMgPSBbCiAgewogICAgcTogJ0RvIHlvdSBvZmZlciB3aG9sZXNhbGUgYnVsayBvcmRlcnMgZm9yIHBldCBtb2JpbGl0eSBwcm9kdWN0cz8nLAogICAgYTogJ1llcy4gT3VyIG1pbmltdW0gb3JkZXIgcXVhbnRpdHkgKE1PUSkgaXMgNTAgcGllY2VzIHBlciBwcm9kdWN0LCB3aXRoIG1peGVkIHNpemVzIGFuZCBjb2xvcnMgYWNjZXB0ZWQgd2l0aGluIHRoZSBzYW1lIG9yZGVyLiBUaGlzIGZsZXhpYmlsaXR5IGlzIGlkZWFsIGZvciBpbmRlcGVuZGVudCBwZXQgc3RvcmVzLCB2ZXQgY2xpbmljcywgYW5kIGJvYXJkaW5nIGZhY2lsaXRpZXMgdGVzdGluZyBuZXcgcHJvZHVjdCBsaW5lcy4nLAogIH0sCiAgewogICAgcTogJ1doYXQgaXMgeW91ciBNT1EgZm9yIGluZGVwZW5kZW50IHBldCBzdG9yZSBidXllcnM/JywKICAgIGE6ICc1MCBwaWVjZXMgcGVyIHByb2R1Y3QuIFlvdSBjYW4gbWl4IHNpemVzIChTL00vTC9YTCkgYW5kIGNvbG9ycyB0byBtYXRjaCB5b3VyIGN1c3RvbWVyIGRlbWFuZC4gV2UgdW5kZXJzdGFuZCB0aGF0IGluZGVwZW5kZW50IHN0b3JlcyBuZWVkIGZsZXhpYmlsaXR5LCBzbyB3ZSBkb25cdTIwMTl0IHJlcXVpcmUgbGFyZ2Ugc2luZ2xlLVNLVSBjb21taXRtZW50cy4nLAogIH0sCiAgewogICAgcTogJ0NhbiB5b3UgcHJvdmlkZSBjdXN0b20gcHJpdmF0ZSBsYWJlbCBicmFuZGluZz8nLAogICAgYTogJ1llcywgd2Ugb2ZmZXIgcHJpdmF0ZSBsYWJlbCBzZXJ2aWNlcyBpbmNsdWRpbmcgY3VzdG9tIHBhY2thZ2luZywgaGFuZyB0YWdzLCBhbmQgYnJhbmRpbmcuIFBsZWFzZSBjb250YWN0IHVzIHdpdGggeW91ciByZXF1aXJlbWVudHMgZm9yIGEgZGV0YWlsZWQgcXVvdGUuJywKICB9LAogIHsKICAgIHE6ICdXaGF0IHNoaXBwaW5nIHRlcm1zIGRvIHlvdSBvZmZlcj8nLAogICAgYTogJ1dlIHNoaXAgRk9CIE5pbmdibywgQ2hpbmEuIFdlIGFjY2VwdCBUL1QgcGF5bWVudDogNTAlIGRlcG9zaXQgdG8gY29uZmlybSB0aGUgb3JkZXIsIDUwJSBiYWxhbmNlIGJlZm9yZSBzaGlwbWVudC4gRm9yIGxhcmdlciBvcmRlcnMsIHdlIGNhbiBkaXNjdXNzIGFsdGVybmF0aXZlIHBheW1lbnQgYXJyYW5nZW1lbnRzLicsCiAgfSwKICB7CiAgICBxOiAnV2hhdCBpcyB5b3VyIGxlYWQgdGltZSBmb3IgYnVsayBzaGlwbWVudHM/JywKICAgIGE6ICdTdGFuZGFyZCBsZWFkIHRpbWUgaXMgMjVcdTIwMTMzNSBkYXlzIGFmdGVyIG9yZGVyIGNvbmZpcm1hdGlvbiBhbmQgZGVwb3NpdCByZWNlaXB0LiBUaGlzIGluY2x1ZGVzIHByb2R1Y3Rpb24sIHF1YWxpdHkgaW5zcGVjdGlvbiwgYW5kIHBhY2thZ2luZy4gUnVzaCBvcmRlcnMgbWF5IGJlIGF2YWlsYWJsZSBcdTIwMTQgcGxlYXNlIGlucXVpcmUgZm9yIHNwZWNpZmljIHRpbWVsaW5lcy4nLAogIH0sCiAgewogICAgcTogJ0FyZSB5b3VyIHByb2R1Y3RzIGNvbXBsaWFudCB3aXRoIFVTIHRleHRpbGUgc2FmZXR5IHN0YW5kYXJkcz8nLAogICAgYTogJ1llcy4gT3VyIHRleHRpbGUgcHJvZHVjdHMgKGhhcm5lc3NlcywgYmVkcywgdG93ZWxzKSBjb21wbHkgd2l0aCBVUyBDb25zdW1lciBQcm9kdWN0IFNhZmV0eSBDb21taXNzaW9uIChDUFNDKSB0ZXh0aWxlIHN0YW5kYXJkcy4gT3VyIHNpbGljb25lIHByb2R1Y3RzIHVzZSBmb29kLWdyYWRlIG1hdGVyaWFscy4gV2Ugd29yayB3aXRoIGNlcnRpZmllZCBtYW51ZmFjdHVyZXJzIGFuZCBjYW4gcHJvdmlkZSBjb21wbGlhbmNlIGRvY3VtZW50YXRpb24gdXBvbiByZXF1ZXN0LicsCiAgfSwKICB7CiAgICBxOiAnV2hhdCBwcm9kdWN0IGNhdGVnb3JpZXMgZG8geW91IHNwZWNpYWxpemUgaW4/JywKICAgIGE6ICdXZSBzcGVjaWFsaXplIGluIGRhaWx5IGNhcmUgcHJvZHVjdHMgZm9yIHNlbmlvciBkb2dzIGFuZCBkb2dzIHdpdGggbW9iaWxpdHkgY2hhbGxlbmdlczogbGlmdC1hc3Npc3QgaGFybmVzc2VzLCBoaW5kIGxlZyBzdXBwb3J0IGhhcm5lc3Nlcywgb3J0aG9wZWRpYyBib2xzdGVyIGJlZHMsIHNpbGljb25lIHBhdyBjb3ZlcnMsIGludGVyYWN0aXZlIHNudWZmbGUgbWF0cywgYW5kIHF1aWNrLWRyeSBncm9vbWluZyB0b3dlbHMuIEFsbCBwcm9kdWN0cyBhcmUgbm9uLW1lZGljYWwgZGFpbHkgY2FyZSBpdGVtcyBcdTIwMTQgbm8gRkRBIHJlZ2lzdHJhdGlvbiByZXF1aXJlZC4nLAogIH0sCiAgewogICAgcTogJ0hvdyBkbyBJIGdldCBhIGRldGFpbGVkIHF1b3RlPycsCiAgICBhOiAnRW1haWwgdXMgYXQgc2FsZXNAbG95YWxib25kcGV0LmNvbSBvciBXaGF0c0FwcCArODYxNTcwNjgwMjQ5NS4gUGxlYXNlIGluY2x1ZGU6IHByb2R1Y3QgbmFtZXMvcXVhbnRpdGllcywgdGFyZ2V0IHNpemVzL2NvbG9ycywgZGVzdGluYXRpb24gcG9ydCwgYW5kIGFueSBjdXN0b21pemF0aW9uIHJlcXVpcmVtZW50cy4gV2UgdHlwaWNhbGx5IHJlc3BvbmQgd2l0aGluIDI0IGhvdXJzLicsCiAgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZBUVBhZ2UoKSB7CiAgY29uc3QgYmFzZVVybCA9ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tJzsKCiAgY29uc3QgZmFxSnNvbkxkID0gewogICAgJ0Bjb250ZXh0JzogJ2h0dHBzOi8vc2NoZW1hLm9yZycsCiAgICAnQHR5cGUnOiAnRkFRUGFnZScsCiAgICBtYWluRW50aXR5OiBmYXFzLm1hcCgoZmFxKSA9PiAoewogICAgICAnQHR5cGUnOiAnUXVlc3Rpb24nLAogICAgICBuYW1lOiBmYXEucSwKICAgICAgYWNjZXB0ZWRBbnN3ZXI6IHsKICAgICAgICAnQHR5cGUnOiAnQW5zd2VyJywKICAgICAgICB0ZXh0OiBmYXEuYSwKICAgICAgfSwKICAgIH0pKSwKICB9OwoKICByZXR1cm4gKAogICAgPD4KICAgICAgPHNjcmlwdAogICAgICAgIHR5cGU9ImFwcGxpY2F0aW9uL2xkK2pzb24iCiAgICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBKU09OLnN0cmluZ2lmeShmYXFKc29uTGQpIH19CiAgICAgIC8+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctM3hsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggcHktMTIgc206cHktMTYiPgogICAgICAgIHsvKiBIZWFkZXIgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTEyIj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtM3hsIHNtOnRleHQtNHhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbWItNCI+CiAgICAgICAgICAgIEZyZXF1ZW50bHkgQXNrZWQgUXVlc3Rpb25zCiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtYnJhbmQtZ3JheSBtYXgtdy0yeGwgbXgtYXV0byI+CiAgICAgICAgICAgIEFuc3dlcnMgdG8gY29tbW9uIHF1ZXN0aW9ucyBhYm91dCB3aG9sZXNhbGUgb3JkZXJpbmcsIHNoaXBwaW5nLCBhbmQgb3VyIHByb2R1Y3QgbGluZS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIEFjY29yZGlvbiAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgIHtmYXFzLm1hcCgoZmFxLCBpbmRleCkgPT4gKAogICAgICAgICAgICA8ZGV0YWlscwogICAgICAgICAgICAgIGtleT17aW5kZXh9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLWdyYXktMjAwIHJvdW5kZWQteGwgc2hhZG93LXNtIGhvdmVyOnNoYWRvdy1tZCB0cmFuc2l0aW9uLXNoYWRvdyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzdW1tYXJ5IGNsYXNzTmFtZT0iY3Vyc29yLXBvaW50ZXIgcHgtNiBweS01IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCBsaXN0LW5vbmUiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJhc2Ugc206dGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtYnJhbmQtZGFyayBwci00Ij4KICAgICAgICAgICAgICAgICAge2ZhcS5xfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHN2ZwogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1icmFuZC1ncmVlbiBmbGV4LXNocmluay0wIGdyb3VwLW9wZW46cm90YXRlLTE4MCB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi0yMDAiCiAgICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKICAgICAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9InJvdW5kIgogICAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIKICAgICAgICAgICAgICAgICAgICBkPSJNMTkgOWwtNyA3LTctNyIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIDwvc3VtbWFyeT4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBwYi01Ij4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1icmFuZC1ncmF5IGxlYWRpbmctcmVsYXhlZCI+e2ZhcS5hfTwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kZXRhaWxzPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBDVEEgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEyIHRleHQtY2VudGVyIGJnLWJyYW5kLWJlaWdlLzYwIHJvdW5kZWQtMnhsIHAtOCBib3JkZXIgYm9yZGVyLWJyYW5kLWdyZWVuLzEwIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi0zIj4KICAgICAgICAgICAgU3RpbGwgaGF2ZSBxdWVzdGlvbnM/CiAgICAgICAgICA8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyYXkgbWItNiI+CiAgICAgICAgICAgIFdlJmFwb3M7cmUgaGFwcHkgdG8gaGVscC4gUmVhY2ggb3V0IHRvIG91ciBzYWxlcyB0ZWFtIGZvciBkZXRhaWxlZCBwcm9kdWN0IGluZm9ybWF0aW9uLCBwcmljaW5nLCBvciBjdXN0b21pemF0aW9uIG9wdGlvbnMuCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBzbTpmbGV4LXJvdyBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTQiPgogICAgICAgICAgICA8YQogICAgICAgICAgICAgIGhyZWY9Im1haWx0bzpzYWxlc0Bsb3lhbGJvbmRwZXQuY29tIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTYgcHktMyBiZy1icmFuZC1ncmVlbiB0ZXh0LXdoaXRlIGZvbnQtc2VtaWJvbGQgcm91bmRlZC1sZyBob3ZlcjpiZy1icmFuZC1ncmVlbi85MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy01IGgtNSIKICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgICAgICAgICAgICAgICBzdHJva2U9ImN1cnJlbnRDb2xvciIKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9InJvdW5kIgogICAgICAgICAgICAgICAgICBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAgIGQ9Ik0zIDhsNy44OSA1LjI2YTIgMiAwIDAwMi4yMiAwTDIxIDhNNSAxOWgxNGEyIDIgMCAwMDItMlY3YTIgMiAwIDAwLTItMkg1YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMnoiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIHNhbGVzQGxveWFsYm9uZHBldC5jb20KICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGhyZWY9Ii9jb250YWN0IgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTYgcHktMyBib3JkZXItMiBib3JkZXItYnJhbmQtZ3JlZW4gdGV4dC1icmFuZC1ncmVlbiBmb250LXNlbWlib2xkIHJvdW5kZWQtbGcgaG92ZXI6YmctYnJhbmQtZ3JlZW4gaG92ZXI6dGV4dC13aGl0ZSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIENvbnRhY3QgVXMKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC8+CiAgKTsKfQo=
+import type { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'FAQ - Wholesale Ordering & Product Information',
+  description:
+    'Answers to common questions about wholesale ordering, shipping, product categories, and compliance. LoyalBond serves independent pet stores, vet clinics, boarding facilities, and rescue organizations.',
+  openGraph: {
+    title: 'FAQ - Wholesale Ordering & Product Information | LoyalBond',
+    description:
+      'Answers to common questions about wholesale ordering, shipping, product categories, and compliance.',
+    url: 'https://www.loyalbondpet.com/faq',
+    type: 'website',
+  },
+};
+
+const faqs = [
+  {
+    q: 'Do you offer wholesale bulk orders for pet mobility products?',
+    a: 'Yes. Our minimum order quantity (MOQ) is 50 pieces per product, with mixed sizes and colors accepted within the same order. This flexibility is ideal for independent pet stores, vet clinics, and boarding facilities testing new product lines.',
+  },
+  {
+    q: 'What is your MOQ for independent pet store buyers?',
+    a: '50 pieces per product. You can mix sizes (S/M/L/XL) and colors to match your customer demand. We understand that independent stores need flexibility, so we don\u2019t require large single-SKU commitments.',
+  },
+  {
+    q: 'Can you provide custom private label branding?',
+    a: 'Yes, we offer private label services including custom packaging, hang tags, and branding. Please contact us with your requirements for a detailed quote.',
+  },
+  {
+    q: 'What shipping terms do you offer?',
+    a: 'We ship FOB Ningbo, China. We accept T/T payment: 50% deposit to confirm the order, 50% balance before shipment. For larger orders, we can discuss alternative payment arrangements.',
+  },
+  {
+    q: 'What is your lead time for bulk shipments?',
+    a: 'Standard lead time is 25\u201335 days after order confirmation and deposit receipt. This includes production, quality inspection, and packaging. Rush orders may be available \u2014 please inquire for specific timelines.',
+  },
+  {
+    q: 'Are your products compliant with US textile safety standards?',
+    a: 'Yes. Our textile products (harnesses, beds, towels) comply with US Consumer Product Safety Commission (CPSC) textile standards. Our silicone products use food-grade materials. We work with certified manufacturers and can provide compliance documentation upon request.',
+  },
+  {
+    q: 'What product categories do you specialize in?',
+    a: 'We specialize in daily care products for senior dogs and dogs with mobility challenges: lift-assist harnesses, hind leg support harnesses, orthopedic bolster beds, silicone paw covers, interactive snuffle mats, and quick-dry grooming towels. All products are non-medical daily care items \u2014 no FDA registration required.',
+  },
+  {
+    q: 'How do I get a detailed quote?',
+    a: 'Email us at sales@loyalbondpet.com or WhatsApp +8615706802495. Please include: product names/quantities, target sizes/colors, destination port, and any customization requirements. We typically respond within 24 hours.',
+  },
+];
+
+export default function FAQPage() {
+  const baseUrl = 'https://www.loyalbondpet.com';
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">
+            Frequently Asked Questions
+          </h1>
+          <p className="text-lg text-brand-gray max-w-2xl mx-auto">
+            Answers to common questions about wholesale ordering, shipping, and our product line.
+          </p>
+        </div>
+
+        {/* Accordion */}
+        <div className="space-y-4">
+          {faqs.map((faq, index) => (
+            <details
+              key={index}
+              className="group bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow"
+            >
+              <summary className="cursor-pointer px-6 py-5 flex items-center justify-between gap-4 list-none">
+                <span className="text-base sm:text-lg font-semibold text-brand-dark pr-4">
+                  {faq.q}
+                </span>
+                <svg
+                  className="w-5 h-5 text-brand-green flex-shrink-0 group-open:rotate-180 transition-transform duration-200"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </summary>
+              <div className="px-6 pb-5">
+                <p className="text-brand-gray leading-relaxed">{faq.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="mt-12 text-center bg-brand-beige/60 rounded-2xl p-8 border border-brand-green/10">
+          <h2 className="text-xl font-bold text-brand-dark mb-3">
+            Still have questions?
+          </h2>
+          <p className="text-brand-gray mb-6">
+            We&apos;re happy to help. Reach out to our sales team for detailed product information, pricing, or customization options.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="mailto:sales@loyalbondpet.com"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-brand-green text-white font-semibold rounded-lg hover:bg-brand-green/90 transition-colors"
+            >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+              sales@loyalbondpet.com
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-brand-green text-brand-green font-semibold rounded-lg hover:bg-brand-green hover:text-white transition-colors"
+            >
+              Contact Us
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
