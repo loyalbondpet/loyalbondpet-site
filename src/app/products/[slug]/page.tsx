@@ -148,21 +148,23 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   </div>
                 )}
 
-                {/* Size Chart Image */}
-                <div className="mt-8">
-                  <h3 className="text-xl font-bold text-brand-dark mb-4">Size Guide</h3>
-                  <div className="rounded-xl overflow-hidden border border-gray-200 bg-white">
-                    <img
-                      src="/images/products/orthopedic-bed/08-size-chart.jpg"
-                      alt="Orthopedic Bolster Dog Bed Size Chart - M, L, XL dimensions with weight recommendations"
-                      className="w-full h-auto"
-                      loading="lazy"
-                    />
+                {/* Size Chart Image (only for products with size variants) */}
+                {product.sizeVariants && (
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold text-brand-dark mb-4">Size Guide</h3>
+                    <div className="rounded-xl overflow-hidden border border-gray-200 bg-white">
+                      <img
+                        src="/images/products/orthopedic-bed/08-size-chart.jpg"
+                        alt="Orthopedic Bolster Dog Bed Size Chart - M, L, XL dimensions with weight recommendations"
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+                    <p className="text-sm text-brand-gray mt-3 text-center">
+                      Choose the right size based on your dog's weight. Measure your dog from nose to tail base for the best fit.
+                    </p>
                   </div>
-                  <p className="text-sm text-brand-gray mt-3 text-center">
-                    Choose the right size based on your dog's weight. Measure your dog from nose to tail base for the best fit.
-                  </p>
-                </div>
+                )}
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-brand-dark mb-4">Shipping Info</h2>
@@ -191,21 +193,56 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <div>
                 <h2 className="text-2xl font-bold text-brand-dark mb-4">FAQ</h2>
                 <div className="space-y-4">
-                  {[
-                    { q: 'Is this product suitable for all dog breeds?', a: 'Yes, our products are designed to accommodate all breeds. Please check the size guide to select the best fit for your dog.' },
-                    { q: 'Are the materials safe for pets?', a: 'Absolutely. All LoyalBond products use non-toxic, pet-safe materials that have been independently tested and certified.' },
-                    { q: 'How do I clean this product?', a: 'Most of our products feature removable, machine-washable covers. Specific care instructions are included with each product.' },
-                  ].map((faq) => (
-                    <details key={faq.q} className="group bg-brand-beige/30 rounded-lg">
-                      <summary className="cursor-pointer px-6 py-4 font-medium text-brand-dark flex items-center justify-between">
-                        {faq.q}
-                        <svg className="w-5 h-5 text-brand-gray group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                      </summary>
-                      <p className="px-6 pb-4 text-brand-gray">{faq.a}</p>
-                    </details>
-                  ))}
+                  {(() => {
+                    const faqMap: Record<string, Array<{ q: string; a: string }>> = {
+      'lift-assist-harness': [
+    { q: "How do I choose the right size for my dog?", a: "Please refer to the size guide above each product listing. Measure your dog's chest girth and weight to select the best fit. If between sizes, we recommend sizing up for comfort." },
+    { q: "Can this harness be used for both front and hind leg support?", a: "Yes! The dual-side support design works for both front and hind leg weakness. The wide wrap-around panel distributes weight evenly across the chest and belly." },
+    { q: "Is the harness machine washable?", a: "Yes, the entire harness is machine washable for easy maintenance. It also comes with a convenient storage bag for portability." }
+    ],
+      'hind-leg-support-harness': [
+    { q: "How lightweight is this harness?", a: "Only 68\u201376g depending on size \u2014 minimal added burden for dogs with low stamina. Available in S through XL to fit breeds from small terriers to large dogs." },
+    { q: "How do I put it on my dog?", a: "Simply step in and clip! The quick-release buckle closure makes it easy to put on and take off in seconds \u2014 no complex threading required." },
+    { q: "Is it suitable for small breeds?", a: "Yes, Size S fits waist 11\"\u201314\". The ergonomic mesh panel and dual leg openings ensure a secure, natural fit without restricting movement." }
+    ],
+      'silicone-paw-protector-boots': [
+    { q: "Are these safe if my dog licks them?", a: "Yes. Made from food-grade flexible silicone that is non-toxic and safe for pets. The material is gentle on sensitive paws." },
+    { q: "Will they stay on during walking?", a: "The adjustable wide velcro strap provides a customizable, secure fit that stays in place during daily movement \u2014 without squeezing or restricting circulation." },
+    { q: "How do I clean the paw covers?", a: "Simply rinse with water after use. The one-piece waterproof silicone design resists dirt buildup and dries quickly." }
+    ],
+      'snuffle-mat-set': [
+    { q: "Which style is best for my senior dog?", a: "Style 1 (Bone-Shaped) offers deep cylindrical pockets for patient foraging. Style 2 (Plum Blossom) has a compact 60cm size that fits beside beds. Style 3 (Rectangular) is ideal for large senior dogs and multi-pet homes." },
+    { q: "Is the mat easy to clean?", a: "Yes, the entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses." },
+    { q: "Will it help slow down eating?", a: "Absolutely. Multiple independent foraging zones naturally extend mealtime, promote healthier digestion, and provide meaningful mental exercise without requiring running or jumping." }
+    ],
+      'orthopedic-bolster-dog-bed': [
+    { q: "How do I choose the right size?", a: "Choose based on your dog's weight and sleeping style. The low-entry design allows dogs with weak hind legs to climb in effortlessly. Measure your dog from nose to tail base for the best fit." },
+    { q: "Is the cover removable and washable?", a: "Yes. The fully removable outer cover has a zipper and is machine washable for easy cleanup of fur and stains. The reversible inner mat offers plush fleece for warmth and breathable oxford for summer." },
+    { q: "Does this bed help with joint pain?", a: "The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors." }
+    ],
+      'drying-towel': [
+    { q: "What's the difference between Small and Large?", a: "Small (30\u00d730cm) is ideal for cats, small dogs, and targeted drying of paws, face, or belly. Large (30\u00d760cm) is suitable for medium to large dogs and full-body drying." },
+    { q: "Is the towel safe for sensitive skin?", a: "Yes. Crafted from high-density coral fleece microfiber that is soft and gentle on sensitive skin and paw pads. Non-toxic and pet-safe." },
+    { q: "How do I wash the towel?", a: "Machine washable and durable \u2014 maintains softness and absorbency wash after wash. The quick-dry fabric releases moisture efficiently when hung." }
+    ],
+                    };
+                    const faqs = faqMap[product.slug] || [
+                      { q: 'Is this product suitable for all dog breeds?', a: 'Yes, our products are designed to accommodate all breeds. Please check the size guide to select the best fit for your dog.' },
+                      { q: 'Are the materials safe for pets?', a: 'Absolutely. All LoyalBond products use non-toxic, pet-safe materials that have been independently tested and certified.' },
+                      { q: 'How do I clean this product?', a: 'Most of our products feature removable, machine-washable covers. Specific care instructions are included with each product.' },
+                    ];
+                    return faqs.map((faq) => (
+                      <details key={faq.q} className="group bg-brand-beige/30 rounded-lg">
+                        <summary className="cursor-pointer px-6 py-4 font-medium text-brand-dark flex items-center justify-between">
+                          {faq.q}
+                          <svg className="w-5 h-5 text-brand-gray group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </summary>
+                        <p className="px-6 pb-4 text-brand-gray">{faq.a}</p>
+                      </details>
+                    ));
+                  }())}
                 </div>
               </div>
             </div>
@@ -259,46 +296,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </section>
         )}
 
-        {/* Reviews Section */}
-        <section className="mt-16 border-t border-gray-200 pt-12">
-          <h2 className="text-2xl font-bold text-brand-dark mb-8">Customer Reviews</h2>
-          <div className="flex items-center gap-6 mb-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-brand-dark">{product.rating}</div>
-              <div className="flex gap-0.5 mt-1">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <svg key={i} className={`w-5 h-5 ${i < Math.floor(product.rating) ? 'text-yellow-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-sm text-brand-gray mt-1">Based on {product.reviewCount} reviews</p>
-            </div>
-          </div>
-          <div className="space-y-6">
-            {[
-              { name: 'Happy Dog Mom', rating: 5, text: 'My senior dog loves this! It has made such a difference in his daily comfort.', date: '2 weeks ago' },
-              { name: 'Pet Lover 2024', rating: 5, text: 'Great quality and fast shipping. The non-toxic materials give me peace of mind.', date: '1 month ago' },
-              { name: 'Dog Dad', rating: 4, text: 'Solid product. My 12-year-old uses it every day. Would recommend to other senior dog owners.', date: '2 months ago' },
-            ].map((review) => (
-              <div key={review.name} className="border-b border-gray-100 pb-6">
-                <div className="flex items-center gap-3 mb-2">
-                  <div className="flex gap-0.5">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <svg key={i} className={`w-4 h-4 ${i < review.rating ? 'text-yellow-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <span className="font-medium text-brand-dark">{review.name}</span>
-                  <span className="text-sm text-brand-gray">{review.date}</span>
-                </div>
-                <p className="text-brand-gray">{review.text}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
+    </div>
     </>
   );
 }
