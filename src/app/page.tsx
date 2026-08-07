@@ -240,7 +240,7 @@ export default function HomePage() {
                 icon: '🏪',
                 title: 'Pet Stores & Retail Partners',
                 description: 'Independent pet stores across the U.S. stock LoyalBond as their go-to senior dog product line. Our Snuffle Mat Sets and orthopedic beds are top sellers with strong repeat purchase rates. Retail-ready packaging, competitive margins, and free display materials make partnership simple.',
-                stat: '60%+ repeat purchase rate among senior dog product buyers',
+                stat: 'Trusted by pet parents and retail partners across the United States',
               },
               {
                 icon: '🏠',
