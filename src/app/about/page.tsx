@@ -55,7 +55,7 @@ export default function AboutPage() {
                   LoyalBond was founded with a mission to create functional, high-quality pet products that actually make a difference in the lives of aging pets and their families. As a specialized supplier, we work with certified manufacturers to deliver thoughtfully designed products — always guided by our core values of quality, safety, and compassion.
                 </p>
                 <p>
-                  Today, thousands of pet families trust LoyalBond to provide safe, effective products that help their beloved companions live more comfortable, happier lives. Every product we create is tested with real pets and designed with real love.
+                  Today, pet families trust LoyalBond to provide safe, effective products that help their beloved companions live more comfortable, happier lives. Every product we create is tested with real pets and designed with real love.
                 </p>
               </div>
             </div>
