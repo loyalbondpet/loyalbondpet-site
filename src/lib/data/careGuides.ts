@@ -21,9 +21,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Decreased Activity Levels', description: 'Dogs with joint discomfort may reduce activity, leading to muscle loss that further destabilizes joints. Gentle, supported walks help maintain mobility.' },
     ],
     recommendedProducts: [
-      { slug: 'orthopedic-memory-foam-bed', name: 'Orthopedic Memory Foam Bed', reason: '4-inch memory foam distributes body weight evenly, reducing pressure on hips and joints during rest.' },
-      { slug: 'senior-support-harness', name: 'Senior Support Harness', reason: 'Provides gentle lift support for rear-end assistance during walks, reducing joint strain.' },
-      { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Adds traction to paws, reducing the compensatory joint stress from slipping on smooth floors.' },
+      { slug: 'orthopedic-bed', name: 'Orthopedic Dog Bed', reason: '4-inch memory foam distributes body weight evenly, reducing pressure on hips and joints during rest.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Provides gentle lift support for rear-end assistance during walks, reducing joint strain.' },
+      { slug: 'paw-covers', name: 'Anti-Slip Paw Covers', reason: 'Adds traction to paws, reducing the compensatory joint stress from slipping on smooth floors.' },
     ],
     relatedBlogLinks: [
       { title: 'Home Safety Collection', href: '/collections/home-safety' },
@@ -42,9 +42,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Weight Management During Confinement', description: 'Reduced activity during recovery can lead to weight gain that stresses the healing joint. Controlled feeding with slow feeders supports appropriate caloric intake.' },
     ],
     recommendedProducts: [
-      { slug: 'senior-support-harness', name: 'Senior Support Harness', reason: 'Essential for assisting bathroom breaks and controlled walks without loading the surgical leg.' },
-      { slug: 'orthopedic-memory-foam-bed', name: 'Orthopedic Memory Foam Bed', reason: 'Provides comfortable, pressure-free resting surface during extended confinement periods.' },
-      { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Critical for preventing slips that could compromise surgical repair during early recovery.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Essential for assisting bathroom breaks and controlled walks without loading the surgical leg.' },
+      { slug: 'orthopedic-bed', name: 'Orthopedic Dog Bed', reason: 'Provides comfortable, pressure-free resting surface during extended confinement periods.' },
+      { slug: 'paw-covers', name: 'Anti-Slip Paw Covers', reason: 'Critical for preventing slips that could compromise surgical repair during early recovery.' },
     ],
     relatedBlogLinks: [
       { title: 'Home Safety Collection', href: '/collections/home-safety' },
@@ -64,9 +64,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Temperature Sensitivity', description: 'Older dogs regulate body temperature less effectively. Cooling mats in summer and warm bedding in winter maintain comfort year-round.' },
     ],
     recommendedProducts: [
-      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Bolster provides security and neck support; low entry accommodates limited mobility.' },
-      { slug: 'elevated-slow-feeder-bowl', name: 'Elevated Slow Feeder Bowl', reason: 'Raised height supports comfortable eating posture for stiff senior dogs.' },
-      { slug: 'non-slip-pet-ramp', name: 'Non-Slip Pet Ramp', reason: 'Allows independent access to furniture and vehicles without jumping.' },
+      { slug: 'orthopedic-bed', name: 'Orthopedic Dog Bed', reason: 'Bolster provides security and neck support; low entry accommodates limited mobility.' },
+      { slug: 'snuffle-mat', name: 'Snuffle Mat Set', reason: 'Raised height supports comfortable eating posture for stiff senior dogs.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Allows independent access to furniture and vehicles without jumping.' },
     ],
     relatedBlogLinks: [
       { title: 'Home Safety Collection', href: '/collections/home-safety' },
@@ -85,9 +85,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Changes in Interaction', description: 'Some dogs withdraw while others become more needy. Maintaining gentle grooming routines supports bonding and provides calming sensory input.' },
     ],
     recommendedProducts: [
-      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Enclosed bolster design provides a secure, nest-like environment that may reduce anxiety.' },
-      { slug: 'gentle-grooming-brush', name: 'Gentle Grooming Brush', reason: 'Gentle grooming supports bonding and provides calming tactile stimulation.' },
-      { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Consistent traction helps disoriented dogs navigate with more confidence.' },
+      { slug: 'orthopedic-bed', name: 'Orthopedic Dog Bed', reason: 'Enclosed bolster design provides a secure, nest-like environment that may reduce anxiety.' },
+      { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Gentle grooming supports bonding and provides calming tactile stimulation.' },
+      { slug: 'paw-covers', name: 'Anti-Slip Paw Covers', reason: 'Consistent traction helps disoriented dogs navigate with more confidence.' },
     ],
     relatedBlogLinks: [
       { title: 'Home Safety Collection', href: '/collections/home-safety' },
@@ -106,9 +106,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Rear Leg Weakness', description: 'Many short-leg breeds develop rear leg weakness with age. A support harness assists with walking and prevents dragging injuries.' },
     ],
     recommendedProducts: [
-      { slug: 'non-slip-pet-ramp', name: 'Non-Slip Pet Ramp', reason: 'Critical for preventing jumps that could cause spinal disc herniation.' },
-      { slug: 'non-slip-paw-grip-pads', name: 'Non-Slip Paw Grip Pads', reason: 'Essential traction for short-legged dogs on hardwood and tile floors.' },
-      { slug: 'senior-support-harness', name: 'Senior Support Harness', reason: 'Provides rear-end lift assistance for breeds prone to hind leg weakness.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Critical for preventing jumps that could cause spinal disc herniation.' },
+      { slug: 'paw-covers', name: 'Anti-Slip Paw Covers', reason: 'Essential traction for short-legged dogs on hardwood and tile floors.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Provides rear-end lift assistance for breeds prone to hind leg weakness.' },
     ],
     relatedBlogLinks: [
       { title: 'Home Safety Collection', href: '/collections/home-safety' },
@@ -127,9 +127,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Sleep Disruption from Breathing', description: 'Many brachycephalic dogs experience disrupted sleep. A supportive bed with bolster allows them to find a comfortable position that optimizes airway position.' },
     ],
     recommendedProducts: [
-      { slug: 'cooling-mat', name: 'Cooling Mat', reason: 'Essential temperature regulation for breeds that cannot cool themselves effectively through panting.' },
-      { slug: 'elevated-slow-feeder-bowl', name: 'Elevated Slow Feeder Bowl', reason: 'Raised position reduces neck strain and supports easier breathing during meals.' },
-      { slug: 'gentle-grooming-brush', name: 'Gentle Grooming Brush', reason: 'Gentle tool for maintaining coat health and checking skin folds without causing stress.' },
+      { slug: 'snuffle-mat', name: 'Snuffle Mat Set', reason: 'Essential temperature regulation for breeds that cannot cool themselves effectively through panting.' },
+      { slug: 'snuffle-mat', name: 'Snuffle Mat Set', reason: 'Raised position reduces neck strain and supports easier breathing during meals.' },
+      { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Gentle tool for maintaining coat health and checking skin folds without causing stress.' },
     ],
     relatedBlogLinks: [
       { title: 'Seasonal Collection', href: '/collections/seasonal' },
@@ -148,9 +148,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Post-Partum Recovery', description: 'After delivery, mothers need rest and nutrition support. Elevated feeding stations reduce neck and back strain during the demanding nursing period.' },
     ],
     recommendedProducts: [
-      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Creates a comfortable, enclosed nursing area with machine-washable covers for easy cleanup.' },
-      { slug: 'senior-support-harness', name: 'Senior Support Harness', reason: 'Assists mobility in late pregnancy and during post-partum recovery walks.' },
-      { slug: 'elevated-slow-feeder-bowl', name: 'Elevated Slow Feeder Bowl', reason: 'Supports comfortable eating posture during pregnancy and nursing when neck strain is a concern.' },
+      { slug: 'orthopedic-bed', name: 'Orthopedic Dog Bed', reason: 'Creates a comfortable, enclosed nursing area with machine-washable covers for easy cleanup.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Assists mobility in late pregnancy and during post-partum recovery walks.' },
+      { slug: 'snuffle-mat', name: 'Snuffle Mat Set', reason: 'Supports comfortable eating posture during pregnancy and nursing when neck strain is a concern.' },
     ],
     relatedBlogLinks: [
       { title: 'Home Safety Collection', href: '/collections/home-safety' },
@@ -169,9 +169,9 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Floor Safety for Heavier Dogs', description: 'Heavier dogs are more prone to slipping, which can cause serious injuries. Non-slip paw pads provide essential traction to prevent falls.' },
     ],
     recommendedProducts: [
-      { slug: 'elevated-slow-feeder-bowl', name: 'Elevated Slow Feeder Bowl', reason: 'Built-in maze pattern slows eating by up to 10x, supporting portion control and satiety.' },
-      { slug: 'senior-support-harness', name: 'Senior Support Harness', reason: 'Enables assisted, low-impact walks that support gradual weight loss without joint strain.' },
-      { slug: 'orthopedic-memory-foam-bed', name: 'Orthopedic Memory Foam Bed', reason: 'Distributes the weight of heavier dogs evenly, reducing pressure points during rest.' },
+      { slug: 'snuffle-mat', name: 'Snuffle Mat Set', reason: 'Built-in maze pattern slows eating by up to 10x, supporting portion control and satiety.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Enables assisted, low-impact walks that support gradual weight loss without joint strain.' },
+      { slug: 'orthopedic-bed', name: 'Orthopedic Dog Bed', reason: 'Distributes the weight of heavier dogs evenly, reducing pressure points during rest.' },
     ],
     relatedBlogLinks: [
       { title: 'Feeding Aids Collection', href: '/collections/feeding-aids' },
