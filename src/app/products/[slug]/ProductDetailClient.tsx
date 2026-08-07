@@ -102,13 +102,19 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
         {/* Price */}
         <div className="flex items-baseline gap-3 mb-6">
           <span className="text-3xl font-bold text-brand-green">
-            ${displayPrice.toFixed(2)}
-            {hasSizeVariants && <span className="text-sm font-normal text-brand-gray ml-1">/ unit</span>}
+            {product.priceRange && currentPrice === 0 ? (
+              product.priceRange
+            ) : (
+              <>$
+                {displayPrice.toFixed(2)}
+                {hasSizeVariants && <span className="text-sm font-normal text-brand-gray ml-1">/ unit</span>}
+              </>
+            )}
           </span>
-          {subscribe && (
+          {subscribe && currentPrice !== 0 && (
             <span className="text-lg text-brand-gray line-through">${currentPrice.toFixed(2)}</span>
           )}
-          {subscribe && (
+          {subscribe && currentPrice !== 0 && (
             <span className="text-sm font-medium text-brand-coral bg-brand-coral/10 px-2 py-0.5 rounded">Save 10%</span>
           )}
         </div>
