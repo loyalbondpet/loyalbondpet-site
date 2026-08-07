@@ -497,7 +497,7 @@ export const collections = [
     slug: 'grooming-bath',
     name: 'Grooming & Bath',
     title: 'Grooming & Bath',
-    description: 'Gentle grooming tools and protective accessories for senior dogs. Soft brushes, elbow protectors, and silicone paw covers for stress-free care routines.',
+    description: 'Gentle grooming tools and quick-dry towels for senior dogs. Efficient bath-time essentials and coat care accessories for stress-free grooming routines.',
     priceRange: '$0.14 – $0.27',
     image: '/collections/grooming-bath.jpg',
     icon: 'grooming',
