@@ -1,1 +1,93 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogJ1NoaXBwaW5nIFBvbGljeSAtIERlbGl2ZXJ5IEluZm8gJiBSYXRlcycsCiAgZGVzY3JpcHRpb246ICdMb3lhbEJvbmQgc2hpcHBpbmcgcG9saWN5OiBzdGFuZGFyZCBkZWxpdmVyeSA1LTcgYnVzaW5lc3MgZGF5cywgZXhwcmVzcyAyLTMgZGF5cy4gSW50ZXJuYXRpb25hbCBzaGlwcGluZyBhdmFpbGFibGUgKGJ1eWVyIHBheXMgc2hpcHBpbmcpLicsCn07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaGlwcGluZ1BvbGljeVBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy00eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS0xMiBzbTpweS0xNiI+CiAgICAgIDxuYXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtYnJhbmQtZ3JheSBtYi04Ij4KICAgICAgICA8TGluayBocmVmPSIvIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtYnJhbmQtZ3JlZW4gdHJhbnNpdGlvbi1jb2xvcnMiPkhvbWU8L0xpbms+CiAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNCBoLTQiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXsyfT48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNOSA1bDcgNy03IDciIC8+PC9zdmc+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWRhcmsgZm9udC1tZWRpdW0iPlNoaXBwaW5nIFBvbGljeTwvc3Bhbj4KICAgICAgPC9uYXY+CgogICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTgiPlNoaXBwaW5nIFBvbGljeTwvaDE+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icHJvc2UgcHJvc2UtbGcgbWF4LXctbm9uZSB0ZXh0LWJyYW5kLWdyYXkgc3BhY2UteS02Ij4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGciPkxhc3QgdXBkYXRlZDogSmFudWFyeSAyMDI1PC9wPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5TaGlwcGluZyBSYXRlcyAmIERlbGl2ZXJ5IFRpbWVzPC9oMj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJvdmVyZmxvdy14LWF1dG8iPgogICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgYm9yZGVyLWNvbGxhcHNlIGJvcmRlciBib3JkZXItZ3JheS0yMDAgcm91bmRlZC1sZyI+CiAgICAgICAgICAgICAgPHRoZWFkPgogICAgICAgICAgICAgICAgPHRyIGNsYXNzTmFtZT0iYmctYnJhbmQtYmVpZ2UiPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyB0ZXh0LWxlZnQgdGV4dC1icmFuZC1kYXJrIj5NZXRob2Q8L3RoPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyB0ZXh0LWxlZnQgdGV4dC1icmFuZC1kYXJrIj5EZWxpdmVyeSBUaW1lPC90aD4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMgdGV4dC1sZWZ0IHRleHQtYnJhbmQtZGFyayI+Q29zdDwvdGg+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgICAgPHRib2R5PgogICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+U3RhbmRhcmQgU2hpcHBpbmc8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+NS03IGJ1c2luZXNzIGRheXM8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+JDQuOTkgKEZyZWUgb3ZlciAkNDkpPC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJiZy1icmFuZC1jcmVhbSI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj5FeHByZXNzIFNoaXBwaW5nPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPjItMyBidXNpbmVzcyBkYXlzPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPiQ5Ljk5PC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj5PdmVybmlnaHQgU2hpcHBpbmc8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+MSBidXNpbmVzcyBkYXk8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+JDE5Ljk5PC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG10LTggbWItNCI+U2hpcHBpbmcgVGVybXM8L2gyPgogICAgICAgICAgPHA+QWxsIG9yZGVycyBhcmUgc2hpcHBlZCBGT0IgTmluZ2JvLCBDaGluYS4gSW50ZXJuYXRpb25hbCBzaGlwcGluZyBjb3N0cyBhcmUgYm9ybmUgYnkgdGhlIGJ1eWVyLiBTaGlwcGluZyByYXRlcyBhbmQgZGVsaXZlcnkgdGltZXMgdmFyeSBieSBsb2NhdGlvbiBhbmQgd2lsbCBiZSBjYWxjdWxhdGVkIGF0IGNoZWNrb3V0IG9yIHF1b3RlZCBzZXBhcmF0ZWx5IGZvciBidWxrIG9yZGVycy48L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5JbnRlcm5hdGlvbmFsIFNoaXBwaW5nPC9oMj4KICAgICAgICAgIDxwPldlIGN1cnJlbnRseSBzaGlwIHRvIHNlbGVjdCBpbnRlcm5hdGlvbmFsIGRlc3RpbmF0aW9ucy4gSW50ZXJuYXRpb25hbCBzaGlwcGluZyByYXRlcyBhbmQgZGVsaXZlcnkgdGltZXMgdmFyeSBieSBsb2NhdGlvbiBhbmQgd2lsbCBiZSBjYWxjdWxhdGVkIGF0IGNoZWNrb3V0LjwvcD4KICAgICAgICAgIDx1bCBjbGFzc05hbWU9Imxpc3QtZGlzYyBwbC02IHNwYWNlLXktMiBtdC00Ij4KICAgICAgICAgICAgPGxpPkNhbmFkYTogNy0xNCBidXNpbmVzcyBkYXlzLCByYXRlcyBzdGFydGluZyBhdCAkMTQuOTk8L2xpPgogICAgICAgICAgICA8bGk+RXVyb3BlOiAxMC0yMCBidXNpbmVzcyBkYXlzLCByYXRlcyBzdGFydGluZyBhdCAkMjQuOTk8L2xpPgogICAgICAgICAgICA8bGk+QXNpYS1QYWNpZmljOiAxNC0yNSBidXNpbmVzcyBkYXlzLCByYXRlcyBzdGFydGluZyBhdCAkMjkuOTk8L2xpPgogICAgICAgICAgPC91bD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCI+UGxlYXNlIG5vdGUgdGhhdCBpbnRlcm5hdGlvbmFsIG9yZGVycyBtYXkgYmUgc3ViamVjdCB0byBjdXN0b21zIGR1dGllcyBhbmQgdGF4ZXMsIHdoaWNoIGFyZSB0aGUgcmVzcG9uc2liaWxpdHkgb2YgdGhlIHJlY2lwaWVudC48L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5PcmRlciBQcm9jZXNzaW5nPC9oMj4KICAgICAgICAgIDxwPk9yZGVycyBhcmUgcHJvY2Vzc2VkIHdpdGhpbiAxLTIgYnVzaW5lc3MgZGF5cyAoZXhjbHVkaW5nIHdlZWtlbmRzIGFuZCBob2xpZGF5cykuIFlvdSB3aWxsIHJlY2VpdmUgYSBjb25maXJtYXRpb24gZW1haWwgd2l0aCB0cmFja2luZyBpbmZvcm1hdGlvbiBvbmNlIHlvdXIgb3JkZXIgaGFzIHNoaXBwZWQuPC9wPgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG10LTggbWItNCI+VHJhY2tpbmcgWW91ciBPcmRlcjwvaDI+CiAgICAgICAgICA8cD5PbmNlIHlvdXIgb3JkZXIgc2hpcHMsIHlvdSB3aWxsIHJlY2VpdmUgYW4gZW1haWwgd2l0aCBhIHRyYWNraW5nIG51bWJlci4gWW91IGNhbiB1c2UgdGhpcyBudW1iZXIgdG8gdHJhY2sgeW91ciBwYWNrYWdlIG9uIG91ciB3ZWJzaXRlIG9yIHRoZSBjYXJyaWVyJmFwb3M7cyB3ZWJzaXRlLjwvcD4KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtdC04IG1iLTQiPkRhbWFnZWQgb3IgTG9zdCBQYWNrYWdlczwvaDI+CiAgICAgICAgICA8cD5JZiB5b3VyIHBhY2thZ2UgYXJyaXZlcyBkYW1hZ2VkIG9yIGRvZXNuJmFwb3M7dCBhcnJpdmUgYXQgYWxsLCBwbGVhc2UgY29udGFjdCB1cyBhdCA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1icmFuZC1kYXJrIj5zYWxlc0Bsb3lhbGJvbmRwZXQuY29tPC9zdHJvbmc+IHdpdGhpbiA3IGRheXMgb2YgdGhlIGV4cGVjdGVkIGRlbGl2ZXJ5IGRhdGUuIFdlIHdpbGwgd29yayB3aXRoIHRoZSBjYXJyaWVyIHRvIHJlc29sdmUgdGhlIGlzc3VlIGFuZCBzZW5kIGEgcmVwbGFjZW1lbnQgaWYgbmVjZXNzYXJ5LjwvcD4KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtdC04IG1iLTQiPkNvbnRhY3QgVXM8L2gyPgogICAgICAgICAgPHA+Rm9yIHNoaXBwaW5nIHF1ZXN0aW9ucywgcGxlYXNlIGNvbnRhY3QgdXMgYXQgPHN0cm9uZyBjbGFzc05hbWU9InRleHQtYnJhbmQtZGFyayI+c2FsZXNAbG95YWxib25kcGV0LmNvbTwvc3Ryb25nPiBvciB2aXNpdCBvdXIgPExpbmsgaHJlZj0iL2NvbnRhY3QiIGNsYXNzTmFtZT0idGV4dC1icmFuZC1ncmVlbiBob3Zlcjp1bmRlcmxpbmUiPkNvbnRhY3QgcGFnZTwvTGluaz4uPC9wPgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import type { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Shipping Policy - Delivery Info & Rates',
+  description: 'LoyalBond shipping policy: standard delivery 5-7 business days, express 2-3 days. International shipping available (buyer pays shipping).',
+};
+
+export default function ShippingPolicyPage() {
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <nav className="flex items-center gap-2 text-sm text-brand-gray mb-8">
+        <Link href="/" className="hover:text-brand-green transition-colors">Home</Link>
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+        <span className="text-brand-dark font-medium">Shipping Policy</span>
+      </nav>
+
+      <h1 className="text-4xl font-bold text-brand-dark mb-8">Shipping Policy</h1>
+
+      <div className="prose prose-lg max-w-none text-brand-gray space-y-6">
+        <p className="text-lg">Last updated: January 2025</p>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Shipping Rates & Delivery Times</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse border border-gray-200 rounded-lg">
+              <thead>
+                <tr className="bg-brand-beige">
+                  <th className="border border-gray-200 px-4 py-3 text-left text-brand-dark">Method</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left text-brand-dark">Delivery Time</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left text-brand-dark">Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">Standard Shipping</td>
+                  <td className="border border-gray-200 px-4 py-3">5-7 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$4.99 (Free over $49)</td>
+                </tr>
+                <tr className="bg-brand-cream">
+                  <td className="border border-gray-200 px-4 py-3">Express Shipping</td>
+                  <td className="border border-gray-200 px-4 py-3">2-3 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$9.99</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">Overnight Shipping</td>
+                  <td className="border border-gray-200 px-4 py-3">1 business day</td>
+                  <td className="border border-gray-200 px-4 py-3">$19.99</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Shipping Terms</h2>
+          <p>All orders are shipped FOB Ningbo, China. International shipping costs are borne by the buyer. Shipping rates and delivery times vary by location and will be calculated at checkout or quoted separately for bulk orders.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">International Shipping</h2>
+          <p>We currently ship to select international destinations. International shipping rates and delivery times vary by location and will be calculated at checkout.</p>
+          <ul className="list-disc pl-6 space-y-2 mt-4">
+            <li>Canada: 7-14 business days, rates starting at $14.99</li>
+            <li>Europe: 10-20 business days, rates starting at $24.99</li>
+            <li>Asia-Pacific: 14-25 business days, rates starting at $29.99</li>
+          </ul>
+          <p className="mt-4">Please note that international orders may be subject to customs duties and taxes, which are the responsibility of the recipient.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Order Processing</h2>
+          <p>Orders are processed within 1-2 business days (excluding weekends and holidays). You will receive a confirmation email with tracking information once your order has shipped.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Tracking Your Order</h2>
+          <p>Once your order ships, you will receive an email with a tracking number. You can use this number to track your package on our website or the carrier&apos;s website.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Damaged or Lost Packages</h2>
+          <p>If your package arrives damaged or doesn&apos;t arrive at all, please contact us at <strong className="text-brand-dark">sales@loyalbondpet.com</strong> within 7 days of the expected delivery date. We will work with the carrier to resolve the issue and send a replacement if necessary.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Contact Us</h2>
+          <p>For shipping questions, please contact us at <strong className="text-brand-dark">sales@loyalbondpet.com</strong> or visit our <Link href="/contact" className="text-brand-green hover:underline">Contact page</Link>.</p>
+        </section>
+      </div>
+    </div>
+  );
+}
