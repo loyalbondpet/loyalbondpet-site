@@ -1,1 +1,12 @@
-aW1wb3J0IHsgTWV0YWRhdGFSb3V0ZSB9IGZyb20gJ25leHQnOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gcm9ib3RzKCk6IE1ldGFkYXRhUm91dGUuUm9ib3RzIHsKICByZXR1cm4gewogICAgcnVsZXM6IHsKICAgICAgdXNlckFnZW50OiAnKicsCiAgICAgIGFsbG93OiAnLycsCiAgICAgIGRpc2FsbG93OiBbJy9hcGkvJywgJy9hZG1pbi8nLCAnL19uZXh0LycsICcvc3RhdGljLyddLAogICAgfSwKICAgIHNpdGVtYXA6ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3NpdGVtYXAueG1sJywKICB9Owp9Cg==
+import { MetadataRoute } from 'next';
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: ['/api/', '/admin/', '/_next/', '/static/'],
+    },
+    sitemap: 'https://www.loyalbondpet.com/sitemap.xml',
+  };
+}
