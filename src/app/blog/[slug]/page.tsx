@@ -1,1 +1,187 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgeyBub3RGb3VuZCB9IGZyb20gJ25leHQvbmF2aWdhdGlvbic7CmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7CmltcG9ydCB7IGJsb2dQb3N0cywgZ2V0UG9zdEJ5U2x1ZyB9IGZyb20gJ0AvbGliL2RhdGEvYmxvZyc7CmltcG9ydCB7IGdldFByb2R1Y3RCeVNsdWcgfSBmcm9tICdAL2xpYi9kYXRhL3Byb2R1Y3RzJzsKaW1wb3J0IEJsb2dQb3N0Q2xpZW50IGZyb20gJy4vQmxvZ1Bvc3RDbGllbnQnOwoKaW50ZXJmYWNlIEJsb2dQb3N0UGFnZVByb3BzIHsKICBwYXJhbXM6IFByb21pc2U8eyBzbHVnOiBzdHJpbmcgfT47Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVN0YXRpY1BhcmFtcygpIHsKICByZXR1cm4gYmxvZ1Bvc3RzLm1hcCgocCkgPT4gKHsgc2x1ZzogcC5zbHVnIH0pKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlTWV0YWRhdGEoeyBwYXJhbXMgfTogQmxvZ1Bvc3RQYWdlUHJvcHMpOiBQcm9taXNlPE1ldGFkYXRhPiB7CiAgY29uc3QgeyBzbHVnIH0gPSBhd2FpdCBwYXJhbXM7CiAgY29uc3QgcG9zdCA9IGdldFBvc3RCeVNsdWcoc2x1Zyk7CiAgaWYgKCFwb3N0KSByZXR1cm4ge307CiAgcmV0dXJuIHsKICAgIHRpdGxlOiBwb3N0LnRpdGxlLAogICAgZGVzY3JpcHRpb246IHBvc3QuZXhjZXJwdCwKICAgIG9wZW5HcmFwaDogewogICAgICB0aXRsZTogcG9zdC50aXRsZSwKICAgICAgZGVzY3JpcHRpb246IHBvc3QuZXhjZXJwdCwKICAgICAgdXJsOiBgaHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9ibG9nLyR7c2x1Z31gLAogICAgICB0eXBlOiAnYXJ0aWNsZScsCiAgICAgIGF1dGhvcnM6IFtwb3N0LmF1dGhvcl0sCiAgICAgIHB1Ymxpc2hlZFRpbWU6IHBvc3QuZGF0ZSwKICAgIH0sCiAgfTsKfQoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gQmxvZ1Bvc3RQYWdlKHsgcGFyYW1zIH06IEJsb2dQb3N0UGFnZVByb3BzKSB7CiAgY29uc3QgeyBzbHVnIH0gPSBhd2FpdCBwYXJhbXM7CiAgY29uc3QgcG9zdCA9IGdldFBvc3RCeVNsdWcoc2x1Zyk7CiAgaWYgKCFwb3N0KSBub3RGb3VuZCgpOwoKICBjb25zdCByZWxhdGVkUG9zdHMgPSBibG9nUG9zdHMuZmlsdGVyKHAgPT4gcC5zbHVnICE9PSBzbHVnICYmIHAuY2F0ZWdvcnlTbHVnID09PSBwb3N0LmNhdGVnb3J5U2x1Zykuc2xpY2UoMCwgMyk7CiAgY29uc3QgcmVsYXRlZFByb2R1Y3RzID0gcG9zdC5yZWxhdGVkUHJvZHVjdHMKICAgIC5tYXAoc2x1ZyA9PiBnZXRQcm9kdWN0QnlTbHVnKHNsdWcpKQogICAgLmZpbHRlcihCb29sZWFuKTsKCiAgY29uc3QgYXJ0aWNsZUpzb25MZCA9IHsKICAgICdAY29udGV4dCc6ICdodHRwczovL3NjaGVtYS5vcmcnLAogICAgJ0B0eXBlJzogJ0FydGljbGUnLAogICAgaGVhZGxpbmU6IHBvc3QudGl0bGUsCiAgICBkZXNjcmlwdGlvbjogcG9zdC5leGNlcnB0LAogICAgYXV0aG9yOiB7ICdAdHlwZSc6ICdQZXJzb24nLCBuYW1lOiBwb3N0LmF1dGhvciB9LAogICAgZGF0ZVB1Ymxpc2hlZDogcG9zdC5kYXRlLAogICAgcHVibGlzaGVyOiB7CiAgICAgICdAdHlwZSc6ICdPcmdhbml6YXRpb24nLAogICAgICBuYW1lOiAnTG95YWxCb25kJywKICAgICAgdXJsOiAnaHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbScsCiAgICB9LAogIH07CgogIGNvbnN0IGJyZWFkY3J1bWJKc29uTGQgPSB7CiAgICAnQGNvbnRleHQnOiAnaHR0cHM6Ly9zY2hlbWEub3JnJywKICAgICdAdHlwZSc6ICdCcmVhZGNydW1iTGlzdCcsCiAgICBpdGVtTGlzdEVsZW1lbnQ6IFsKICAgICAgeyAnQHR5cGUnOiAnTGlzdEl0ZW0nLCBwb3NpdGlvbjogMSwgbmFtZTogJ0hvbWUnLCBpdGVtOiAnaHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbScgfSwKICAgICAgeyAnQHR5cGUnOiAnTGlzdEl0ZW0nLCBwb3NpdGlvbjogMiwgbmFtZTogJ0Jsb2cnLCBpdGVtOiAnaHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9ibG9nJyB9LAogICAgICB7ICdAdHlwZSc6ICdMaXN0SXRlbScsIHBvc2l0aW9uOiAzLCBuYW1lOiBwb3N0LnRpdGxlLCBpdGVtOiBgaHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9ibG9nLyR7c2x1Z31gIH0sCiAgICBdLAogIH07CgogIHJldHVybiAoCiAgICA8PgogICAgICA8c2NyaXB0IHR5cGU9ImFwcGxpY2F0aW9uL2xkK2pzb24iIGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7IF9faHRtbDogSlNPTi5zdHJpbmdpZnkoYXJ0aWNsZUpzb25MZCkgfX0gLz4KICAgICAgPHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIiBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IEpTT04uc3RyaW5naWZ5KGJyZWFkY3J1bWJKc29uTGQpIH19IC8+CgogICAgICB7LyogSGVybyAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJiZy1icmFuZC1iZWlnZSBweS0xMiBzbTpweS0xNiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTR4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICAgICAgICAgIDxuYXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtYnJhbmQtZ3JheSBtYi02Ij4KICAgICAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWJyYW5kLWdyZWVuIHRyYW5zaXRpb24tY29sb3JzIj5Ib21lPC9MaW5rPgogICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy00IGgtNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9ezJ9PgogICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik05IDVsNyA3LTcgNyIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii9ibG9nIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtYnJhbmQtZ3JlZW4gdHJhbnNpdGlvbi1jb2xvcnMiPkJsb2c8L0xpbms+CiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+CiAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTkgNWw3IDctNyA3IiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWRhcmsgZm9udC1tZWRpdW0gdHJ1bmNhdGUiPntwb3N0LnRpdGxlfTwvc3Bhbj4KICAgICAgICAgIDwvbmF2PgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgcHgtMyBweS0xIGJnLWJyYW5kLWdyZWVuLzEwIHRleHQtYnJhbmQtZ3JlZW4gdGV4dC1zbSBmb250LW1lZGl1bSByb3VuZGVkLWZ1bGwgbWItNCI+CiAgICAgICAgICAgIHtwb3N0LmNhdGVnb3J5fQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0zeGwgc206dGV4dC00eGwgbGc6dGV4dC01eGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi02IGxlYWRpbmctdGlnaHQiPntwb3N0LnRpdGxlfTwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC1icmFuZC1ncmF5IG1iLTYgbGVhZGluZy1yZWxheGVkIj57cG9zdC5leGNlcnB0fTwvcD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCB0ZXh0LXNtIHRleHQtYnJhbmQtZ3JheSI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gdGV4dC1icmFuZC1kYXJrIj57cG9zdC5hdXRob3J9PC9zcGFuPgogICAgICAgICAgICA8c3Bhbj7Ctzwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4+e25ldyBEYXRlKHBvc3QuZGF0ZSkudG9Mb2NhbGVEYXRlU3RyaW5nKCdlbi1VUycsIHsgbW9udGg6ICdsb25nJywgZGF5OiAnbnVtZXJpYycsIHllYXI6ICdudW1lcmljJyB9KX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuPsK3PC9zcGFuPgogICAgICAgICAgICA8c3Bhbj57cG9zdC5yZWFkVGltZX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIEZlYXR1cmVkIEltYWdlICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNHhsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggLW10LTQiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhc3BlY3QtWzE2LzldIGJnLWdyYWRpZW50LXRvLWJyIGZyb20tYnJhbmQtZ3JlZW4vMTAgdG8tYnJhbmQtYmVpZ2Ugcm91bmRlZC0yeGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIj4KICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctMTYgaC0xNiBteC1hdXRvIHRleHQtYnJhbmQtZ3JlZW4vMzAiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXswLjV9PgogICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik0xOSAyMEg1YTIgMiAwIDAxLTItMlY2YTIgMiAwIDAxMi0yaDEwYTIgMiAwIDAxMiAydjFtMiAxM2EyIDIgMCAwMS0yLTJWN20yIDEzYTIgMiAwIDAwMi0yVjlhMiAyIDAgMDAtMi0yaC0ybS00LTNIOU03IDE2aDZNNyA4aDZ2NEg3Vjh6IiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyZWVuLzQwIHRleHQtc20gbXQtMiI+RmVhdHVyZWQgSW1hZ2U8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7LyogQXJ0aWNsZSBDb250ZW50ICovfQogICAgICA8YXJ0aWNsZSBjbGFzc05hbWU9Im1heC13LTR4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04IHB5LTEyIj4KICAgICAgICA8QmxvZ1Bvc3RDbGllbnQgY29udGVudD17cG9zdC5jb250ZW50fSAvPgoKICAgICAgICB7LyogVGFncyAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMTIgcHQtOCBib3JkZXItdCBib3JkZXItZ3JheS0yMDAiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAge3Bvc3QudGFncy5tYXAoKHRhZykgPT4gKAogICAgICAgICAgICAgIDxzcGFuIGtleT17dGFnfSBjbGFzc05hbWU9InB4LTMgcHktMSBiZy1icmFuZC1iZWlnZSB0ZXh0LWJyYW5kLWJyb3duIHRleHQtc20gcm91bmRlZC1mdWxsIj4KICAgICAgICAgICAgICAgICN7dGFnfQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFNvY2lhbCBTaGFyZSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtOCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1icmFuZC1kYXJrIj5TaGFyZSB0aGlzIGFydGljbGU6PC9zcGFuPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTMiPgogICAgICAgICAgICB7WydUd2l0dGVyJywgJ0ZhY2Vib29rJywgJ0xpbmtlZEluJ10ubWFwKChwbGF0Zm9ybSkgPT4gKAogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIGtleT17cGxhdGZvcm19CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctMTAgaC0xMCByb3VuZGVkLWZ1bGwgYmctYnJhbmQtYmVpZ2UgaG92ZXI6YmctYnJhbmQtZ3JlZW4vMTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC1icmFuZC1ncmF5IGhvdmVyOnRleHQtYnJhbmQtZ3JlZW4gdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtgU2hhcmUgb24gJHtwbGF0Zm9ybX1gfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyBmb250LW1lZGl1bSI+e3BsYXRmb3JtWzBdfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9hcnRpY2xlPgoKICAgICAgey8qIFJlbGF0ZWQgUHJvZHVjdHMgQ1RBICovfQogICAgICB7cmVsYXRlZFByb2R1Y3RzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iYmctYnJhbmQtYmVpZ2UgcHktMTIiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTR4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi02Ij5Qcm9kdWN0cyBNZW50aW9uZWQgaW4gVGhpcyBBcnRpY2xlPC9oMj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTMgZ2FwLTQiPgogICAgICAgICAgICAgIHtyZWxhdGVkUHJvZHVjdHMubWFwKChwcm9kdWN0KSA9PiBwcm9kdWN0ICYmICgKICAgICAgICAgICAgICAgIDxMaW5rIGtleT17cHJvZHVjdC5pZH0gaHJlZj17YC9wcm9kdWN0cy8ke3Byb2R1Y3Quc2x1Z31gfSBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQteGwgcC00IGhvdmVyOnNoYWRvdy1tZCB0cmFuc2l0aW9uLXNoYWRvdyI+CiAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1icmFuZC1kYXJrIHRleHQtc20gbWItMSI+e3Byb2R1Y3QubmFtZX08L2gzPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtYnJhbmQtZ3JlZW4gZm9udC1ib2xkIj4ke3Byb2R1Y3QucHJpY2UudG9GaXhlZCgyKX08L3A+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWJyYW5kLWNvcmFsIGZvbnQtbWVkaXVtIG10LTIgaW5saW5lLWJsb2NrIj5TaG9wIE5vdyDihpI8L3NwYW4+CiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICApfQoKICAgICAgey8qIFJlbGF0ZWQgUG9zdHMgKi99CiAgICAgIHtyZWxhdGVkUG9zdHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0xMiBiZy13aGl0ZSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNHhsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTgiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTYiPlJlbGF0ZWQgQXJ0aWNsZXM8L2gyPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBzbTpncmlkLWNvbHMtMyBnYXAtNiI+CiAgICAgICAgICAgICAge3JlbGF0ZWRQb3N0cy5tYXAoKHJwKSA9PiAoCiAgICAgICAgICAgICAgICA8TGluayBrZXk9e3JwLnNsdWd9IGhyZWY9e2AvYmxvZy8ke3JwLnNsdWd9YH0gY2xhc3NOYW1lPSJncm91cCI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhc3BlY3QtWzE2LzEwXSBiZy1icmFuZC1iZWlnZSByb3VuZGVkLXhsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG1iLTMiPgogICAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTggaC04IHRleHQtYnJhbmQtZ3JlZW4vMjAiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXsxfT4KICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik0xOSAyMEg1YTIgMiAwIDAxLTItMlY2YTIgMiAwIDAxMi0yaDEwYTIgMiAwIDAxMiAydjFtMiAxM2EyIDIgMCAwMS0yLTJWN20yIDEzYTIgMiAwIDAwMi0yVjlhMiAyIDAgMDAtMi0yaC0ybS00LTNIOU03IDE2aDZNNyA4aDZ2NEg3Vjh6IiAvPgogICAgICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWJyYW5kLWRhcmsgZ3JvdXAtaG92ZXI6dGV4dC1icmFuZC1ncmVlbiB0cmFuc2l0aW9uLWNvbG9ycyBsaW5lLWNsYW1wLTIiPntycC50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1icmFuZC1ncmF5IG10LTEiPntycC5yZWFkVGltZX08L3A+CiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICApfQogICAgPC8+CiAgKTsKfQo=
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { blogPosts, getPostBySlug } from '@/lib/data/blog';
+import { getProductBySlug } from '@/lib/data/products';
+import BlogPostClient from './BlogPostClient';
+
+interface BlogPostPageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return blogPosts.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+  if (!post) return {};
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: `https://www.loyalbondpet.com/blog/${slug}`,
+      type: 'article',
+      authors: [post.author],
+      publishedTime: post.date,
+    },
+  };
+}
+
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+  if (!post) notFound();
+
+  const relatedPosts = blogPosts.filter(p => p.slug !== slug && p.categorySlug === post.categorySlug).slice(0, 3);
+  const relatedProducts = post.relatedProducts
+    .map(slug => getProductBySlug(slug))
+    .filter(Boolean);
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    author: { '@type': 'Person', name: post.author },
+    datePublished: post.date,
+    publisher: {
+      '@type': 'Organization',
+      name: 'LoyalBond',
+      url: 'https://www.loyalbondpet.com',
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.loyalbondpet.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.loyalbondpet.com/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.loyalbondpet.com/blog/${slug}` },
+    ],
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+
+      {/* Hero */}
+      <section className="bg-brand-beige py-12 sm:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="flex items-center gap-2 text-sm text-brand-gray mb-6">
+            <Link href="/" className="hover:text-brand-green transition-colors">Home</Link>
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <Link href="/blog" className="hover:text-brand-green transition-colors">Blog</Link>
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <span className="text-brand-dark font-medium truncate">{post.title}</span>
+          </nav>
+          <span className="inline-block px-3 py-1 bg-brand-green/10 text-brand-green text-sm font-medium rounded-full mb-4">
+            {post.category}
+          </span>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 leading-tight">{post.title}</h1>
+          <p className="text-lg text-brand-gray mb-6 leading-relaxed">{post.excerpt}</p>
+          <div className="flex items-center gap-4 text-sm text-brand-gray">
+            <span className="font-medium text-brand-dark">{post.author}</span>
+            <span>·</span>
+            <span>{new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+            <span>·</span>
+            <span>{post.readTime}</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Image */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4">
+        <div className="aspect-[16/9] bg-gradient-to-br from-brand-green/10 to-brand-beige rounded-2xl flex items-center justify-center">
+          <div className="text-center">
+            <svg className="w-16 h-16 mx-auto text-brand-green/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={0.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+            </svg>
+            <p className="text-brand-green/40 text-sm mt-2">Featured Image</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Article Content */}
+      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <BlogPostClient content={post.content} />
+
+        {/* Tags */}
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <div className="flex flex-wrap gap-2">
+            {post.tags.map((tag) => (
+              <span key={tag} className="px-3 py-1 bg-brand-beige text-brand-brown text-sm rounded-full">
+                #{tag}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Social Share */}
+        <div className="mt-8 flex items-center gap-4">
+          <span className="text-sm font-medium text-brand-dark">Share this article:</span>
+          <div className="flex gap-3">
+            {['Twitter', 'Facebook', 'LinkedIn'].map((platform) => (
+              <button
+                key={platform}
+                className="w-10 h-10 rounded-full bg-brand-beige hover:bg-brand-green/10 flex items-center justify-center text-brand-gray hover:text-brand-green transition-colors"
+                aria-label={`Share on ${platform}`}
+              >
+                <span className="text-xs font-medium">{platform[0]}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </article>
+
+      {/* Related Products CTA */}
+      {relatedProducts.length > 0 && (
+        <section className="bg-brand-beige py-12">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-bold text-brand-dark mb-6">Products Mentioned in This Article</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {relatedProducts.map((product) => product && (
+                <Link key={product.id} href={`/products/${product.slug}`} className="bg-white rounded-xl p-4 hover:shadow-md transition-shadow">
+                  <h3 className="font-semibold text-brand-dark text-sm mb-1">{product.name}</h3>
+                  <p className="text-brand-green font-bold">${product.price.toFixed(2)}</p>
+                  <span className="text-xs text-brand-coral font-medium mt-2 inline-block">Shop Now →</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related Posts */}
+      {relatedPosts.length > 0 && (
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-bold text-brand-dark mb-6">Related Articles</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {relatedPosts.map((rp) => (
+                <Link key={rp.slug} href={`/blog/${rp.slug}`} className="group">
+                  <div className="aspect-[16/10] bg-brand-beige rounded-xl flex items-center justify-center mb-3">
+                    <svg className="w-8 h-8 text-brand-green/20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-brand-dark group-hover:text-brand-green transition-colors line-clamp-2">{rp.title}</h3>
+                  <p className="text-sm text-brand-gray mt-1">{rp.readTime}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </>
+  );
+}
