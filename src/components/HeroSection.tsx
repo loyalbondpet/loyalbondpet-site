@@ -1,0 +1,69 @@
+import Link from 'next/link';
+
+export default function HeroSection() {
+  return (
+    <section className="relative bg-brand-beige overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[60vh] lg:min-h-[75vh] py-12 lg:py-0">
+          {/* Content */}
+          <div className="order-2 lg:order-1 text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-green/10 rounded-full text-brand-green text-sm font-medium mb-6">
+              <span className="w-2 h-2 bg-brand-green rounded-full" />
+              New: Senior Mobility Kit Now Available
+            </div>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-dark leading-tight mb-6">
+              Give Your Senior Dog the{' '}
+              <span className="text-brand-green">Comfort</span> They Deserve
+            </h1>
+            <p className="text-lg sm:text-xl text-brand-gray mb-8 max-w-lg mx-auto lg:mx-0">
+              Functional products designed for aging pets. Vet-recommended, non-toxic, and made with love for your loyal companion.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <Link
+                href="/collections/senior-mobility"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-coral hover:bg-brand-coral/90 text-white font-semibold rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-brand-coral/20"
+              >
+                Shop Senior Essentials
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/about"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white hover:bg-gray-50 text-brand-dark font-semibold rounded-lg border border-gray-200 transition-colors"
+              >
+                Our Story
+              </Link>
+            </div>
+          </div>
+
+          {/* Hero Image Placeholder */}
+          <div className="order-1 lg:order-2 relative">
+            <div className="aspect-[4/3] lg:aspect-square rounded-3xl bg-gradient-to-br from-brand-green/20 via-brand-beige to-brand-brown/20 flex items-center justify-center overflow-hidden shadow-2xl">
+              <div className="text-center p-8">
+                <svg className="w-32 h-32 mx-auto text-brand-green/40 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={0.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+                <p className="text-brand-green/60 font-medium text-lg">Happy Senior Dog</p>
+                <p className="text-brand-green/40 text-sm">Lifestyle Image Placeholder</p>
+                <p className="text-brand-green/30 text-xs mt-1">Recommended: 800x800px</p>
+              </div>
+            </div>
+            {/* Floating badge */}
+            <div className="absolute -bottom-4 -left-4 sm:bottom-6 sm:left-6 bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
+              <div className="w-12 h-12 bg-brand-green/10 rounded-full flex items-center justify-center">
+                <svg className="w-6 h-6 text-brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-brand-dark text-sm">Vet-Recommended</p>
+                <p className="text-xs text-brand-gray">Trusted by 10,000+ pet parents</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
