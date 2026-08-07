@@ -1,1 +1,132 @@
-aW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJzsKaW1wb3J0IE5ld3NsZXR0ZXJGb3JtIGZyb20gJy4vTmV3c2xldHRlckZvcm0nOwoKY29uc3QgZm9vdGVyTGlua3MgPSB7CiAgc2hvcDogewogICAgdGl0bGU6ICdTaG9wJywKICAgIGxpbmtzOiBbCiAgICAgIHsgaHJlZjogJy9jb2xsZWN0aW9ucy9zZW5pb3ItbW9iaWxpdHknLCBsYWJlbDogJ1NlbmlvciBNb2JpbGl0eScgfSwKICAgICAgeyBocmVmOiAnL2NvbGxlY3Rpb25zL2hvbWUtc2FmZXR5JywgbGFiZWw6ICdIb21lIFNhZmV0eScgfSwKICAgICAgeyBocmVmOiAnL2NvbGxlY3Rpb25zL3RyYXZlbC1jb21mb3J0JywgbGFiZWw6ICdUcmF2ZWwgQ29tZm9ydCcgfSwKICAgICAgeyBocmVmOiAnL2NvbGxlY3Rpb25zL2RhaWx5LWNhcmUnLCBsYWJlbDogJ0RhaWx5IENhcmUnIH0sCiAgICBdLAogIH0sCiAgY29tcGFueTogewogICAgdGl0bGU6ICdDb21wYW55JywKICAgIGxpbmtzOiBbCiAgICAgIHsgaHJlZjogJy9hYm91dCcsIGxhYmVsOiAnQWJvdXQgVXMnIH0sCiAgICAgIHsgaHJlZjogJy9ibG9nJywgbGFiZWw6ICdCbG9nJyB9LAogICAgICB7IGhyZWY6ICcvY29udGFjdCcsIGxhYmVsOiAnQ29udGFjdCcgfSwKICAgICAgeyBocmVmOiAnL3dob2xlc2FsZScsIGxhYmVsOiAnV2hvbGVzYWxlJyB9LAogICAgXSwKICB9LAogIHN1cHBvcnQ6IHsKICAgIHRpdGxlOiAnU3VwcG9ydCcsCiAgICBsaW5rczogWwogICAgICB7IGhyZWY6ICcvc2hpcHBpbmctcG9saWN5JywgbGFiZWw6ICdTaGlwcGluZyBQb2xpY3knIH0sCiAgICAgIHsgaHJlZjogJy9yZXR1cm4tcG9saWN5JywgbGFiZWw6ICdSZXR1cm4gUG9saWN5JyB9LAogICAgICB7IGhyZWY6ICcvcHJpdmFjeS1wb2xpY3knLCBsYWJlbDogJ1ByaXZhY3kgUG9saWN5JyB9LAogICAgICB7IGhyZWY6ICcvdGVybXMtb2Ytc2VydmljZScsIGxhYmVsOiAnVGVybXMgb2YgU2VydmljZScgfSwKICAgIF0sCiAgfSwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZvb3RlcigpIHsKICByZXR1cm4gKAogICAgPGZvb3RlciBjbGFzc05hbWU9ImJnLWJyYW5kLWRhcmsgdGV4dC13aGl0ZSI+CiAgICAgIHsvKiBOZXdzbGV0dGVyIHNlY3Rpb24gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItd2hpdGUvMTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS0xMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctMnhsIG14LWF1dG8gdGV4dC1jZW50ZXIiPgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgbWItMyI+Sm9pbiB0aGUgTG95YWxCb25kIEZhbWlseTwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1ncmF5LTQwMCBtYi02Ij5HZXQgMTUlIG9mZiB5b3VyIGZpcnN0IG9yZGVyIHBsdXMgZXhwZXJ0IHNlbmlvciBkb2cgY2FyZSB0aXBzIGRlbGl2ZXJlZCB0byB5b3VyIGluYm94LjwvcD4KICAgICAgICAgICAgPE5ld3NsZXR0ZXJGb3JtIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7LyogTWFpbiBmb290ZXIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS0xMiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTUgZ2FwLTgiPgogICAgICAgICAgey8qIEJyYW5kIGNvbHVtbiAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsZzpjb2wtc3Bhbi0yIj4KICAgICAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBtYi00Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy05IGgtOSBiZy1icmFuZC1ncmVlbiByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNSBoLTUgdGV4dC13aGl0ZSIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9ezJ9PgogICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNNC4zMTggNi4zMThhNC41IDQuNSAwIDAwMCA2LjM2NEwxMiAyMC4zNjRsNy42ODItNy42ODJhNC41IDQuNSAwIDAwLTYuMzY0LTYuMzY0TDEyIDcuNjM2bC0xLjMxOC0xLjMxOGE0LjUgNC41IDAgMDAtNi4zNjQgMHoiIC8+CiAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5Mb3lhbEJvbmQ8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgdGV4dC1ncmF5LTQwMCAtbXQtMC41Ij5Mb3lhbEJvbmQg4oCUIExveWFsIGNvbXBhbmlvbnNoaXAgZm9yIGV2ZXJ5IHN0YWdlIG9mIGxpZmU8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNDAwIHRleHQtc20gbWItNCBtYXgtdy1zbSI+CiAgICAgICAgICAgICAgU3BlY2lhbGl6ZWQgc3VwcGxpZXIgb2YgZnVuY3Rpb25hbCBwZXQgcHJvZHVjdHMgZm9yIHNlbmlvciBkb2dzLiBXZSB3b3JrIHdpdGggY2VydGlmaWVkIG1hbnVmYWN0dXJlcnMgdG8gZGVsaXZlciBxdWFsaXR5LCBzYWZldHksIGFuZCBjb21mb3J0IGluIGV2ZXJ5IHByb2R1Y3QuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNDAwIHRleHQtc20gbWItNiBtYXgtdy1zbSI+CiAgICAgICAgICAgICAgRW1haWw6IHNhbGVzQGxveWFsYm9uZHBldC5jb20gfCBXaGF0c0FwcDogKzg2MTU3MDY4MDI0OTUKICAgICAgICAgICAgPC9wPgogICAgICAgICAgICB7LyogU29jaWFsIGxpbmtzICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtNCI+CiAgICAgICAgICAgICAgPGEgaHJlZj0iIyIgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgcm91bmRlZC1mdWxsIGJnLXdoaXRlLzEwIGhvdmVyOmJnLWJyYW5kLWdyZWVuIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRyYW5zaXRpb24tY29sb3JzIiBhcmlhLWxhYmVsPSJGYWNlYm9vayI+CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xOCAyaC0zYTUgNSAwIDAwLTUgNXYzSDd2NGgzdjhoNHYtOGgzbDEtNGgtNFY3YTEgMSAwIDAxMS0xaDN6Ii8+PC9zdmc+CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgIDxhIGhyZWY9IiMiIGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQtZnVsbCBiZy13aGl0ZS8xMCBob3ZlcjpiZy1icmFuZC1ncmVlbiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0cmFuc2l0aW9uLWNvbG9ycyIgYXJpYS1sYWJlbD0iSW5zdGFncmFtIj4KICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNSIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjUiLz48Y2lyY2xlIGN4PSIxNy41IiBjeT0iNi41IiByPSIxLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJub25lIi8+PC9zdmc+CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgIDxhIGhyZWY9IiMiIGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQtZnVsbCBiZy13aGl0ZS8xMCBob3ZlcjpiZy1icmFuZC1ncmVlbiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0cmFuc2l0aW9uLWNvbG9ycyIgYXJpYS1sYWJlbD0iVHdpdHRlciI+CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMyAzYTEwLjkgMTAuOSAwIDAxLTMuMTQgMS41MyA0LjQ4IDQuNDggMCAwMC03Ljg2IDN2MUExMC42NiAxMC42NiAwIDAxMyA0cy00IDkgNSAxM2ExMS42NCAxMS42NCAwIDAxLTcgMmM5IDUgMjAgMCAyMC0xMS41YTQuNSA0LjUgMCAwMC0uMDgtLjgzQTcuNzIgNy43MiAwIDAwMjMgM3oiLz48L3N2Zz4KICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgPGEgaHJlZj0iIyIgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgcm91bmRlZC1mdWxsIGJnLXdoaXRlLzEwIGhvdmVyOmJnLWJyYW5kLWdyZWVuIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRyYW5zaXRpb24tY29sb3JzIiBhcmlhLWxhYmVsPSJZb3VUdWJlIj4KICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIyLjU0IDYuNDJhMi43OCAyLjc4IDAgMDAtMS45NC0yQzE4Ljg4IDQgMTIgNCAxMiA0cy02Ljg4IDAtOC42LjQ2YTIuNzggMi43OCAwIDAwLTEuOTQgMkEyOSAyOSAwIDAwMSAxMS43NWEyOSAyOSAwIDAwLjQ2IDUuMzNBMi43OCAyLjc4IDAgMDAzLjQgMTljMS43Mi40NiA4LjYuNDYgOC42LjQ2czYuODggMCA4LjYtLjQ2YTIuNzggMi43OCAwIDAwMS45NC0yIDI5IDI5IDAgMDAuNDYtNS4yNSAyOSAyOSAwIDAwLS40Ni01LjMzeiIvPjxwb2x5Z29uIHBvaW50cz0iOS43NSwxNS4wMiAxNS41LDExLjc1IDkuNzUsOC40OCIgZmlsbD0id2hpdGUiLz48L3N2Zz4KICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIExpbmsgY29sdW1ucyAqL30KICAgICAgICAgIHtPYmplY3QudmFsdWVzKGZvb3RlckxpbmtzKS5tYXAoKHNlY3Rpb24pID0+ICgKICAgICAgICAgICAgPGRpdiBrZXk9e3NlY3Rpb24udGl0bGV9PgogICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBtYi00Ij57c2VjdGlvbi50aXRsZX08L2g0PgogICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICAgICAgICB7c2VjdGlvbi5saW5rcy5tYXAoKGxpbmspID0+ICgKICAgICAgICAgICAgICAgICAgPGxpIGtleT17bGluay5ocmVmfT4KICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtsaW5rLmhyZWZ9IGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWdyYXktNDAwIGhvdmVyOnRleHQtd2hpdGUgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgICAgICAgICAge2xpbmsubGFiZWx9CiAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7LyogRkRBIERpc2NsYWltZXIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItd2hpdGUvMTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS00Ij4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWdyYXktNTAwIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgIERpc2NsYWltZXI6IExveWFsQm9uZCBwcm9kdWN0cyBhcmUgZXZlcnlkYXkgcGV0IGFjY2Vzc29yaWVzIGFuZCB0ZXh0aWxlIGdvb2RzLiBUaGV5IGFyZSBub3QgbWVkaWNhbCBkZXZpY2VzIGFuZCBhcmUgbm90IGludGVuZGVkIHRvIGRpYWdub3NlLCB0cmVhdCwgY3VyZSwgb3IgcHJldmVudCBhbnkgZGlzZWFzZS4gQ29uc3VsdCBhIGxpY2Vuc2VkIHZldGVyaW5hcmlhbiBmb3IgbWVkaWNhbCBjb25jZXJucy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7LyogQm90dG9tIGJhciAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci13aGl0ZS8xMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04IHB5LTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgbWQ6ZmxleC1yb3cgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWdyYXktNDAwIj4mY29weTsge25ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKX0gTG95YWxCb25kLiBBbGwgcmlnaHRzIHJlc2VydmVkLjwvcD4KICAgICAgICAgICAgey8qIFBheW1lbnQgaWNvbnMgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTIgcHktMSBiZy13aGl0ZS8xMCByb3VuZGVkIHRleHQteHMgdGV4dC1ncmF5LTMwMCBmb250LW1lZGl1bSI+VmlzYTwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC0yIHB5LTEgYmctd2hpdGUvMTAgcm91bmRlZCB0ZXh0LXhzIHRleHQtZ3JheS0zMDAgZm9udC1tZWRpdW0iPk1hc3RlcmNhcmQ8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtMiBweS0xIGJnLXdoaXRlLzEwIHJvdW5kZWQgdGV4dC14cyB0ZXh0LWdyYXktMzAwIGZvbnQtbWVkaXVtIj5BbWV4PC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTIgcHktMSBiZy13aGl0ZS8xMCByb3VuZGVkIHRleHQteHMgdGV4dC1ncmF5LTMwMCBmb250LW1lZGl1bSI+UGF5UGFsPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTIgcHktMSBiZy13aGl0ZS8xMCByb3VuZGVkIHRleHQteHMgdGV4dC1ncmF5LTMwMCBmb250LW1lZGl1bSI+QXBwbGUgUGF5PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9mb290ZXI+CiAgKTsKfQo=
+import Link from 'next/link';
+import NewsletterForm from './NewsletterForm';
+
+const footerLinks = {
+  shop: {
+    title: 'Shop',
+    links: [
+      { href: '/collections/senior-mobility', label: 'Senior Mobility' },
+      { href: '/collections/home-safety', label: 'Home Safety' },
+      { href: '/collections/travel-comfort', label: 'Travel Comfort' },
+      { href: '/collections/daily-care', label: 'Daily Care' },
+    ],
+  },
+  company: {
+    title: 'Company',
+    links: [
+      { href: '/about', label: 'About Us' },
+      { href: '/blog', label: 'Blog' },
+      { href: '/contact', label: 'Contact' },
+      { href: '/wholesale', label: 'Wholesale' },
+    ],
+  },
+  support: {
+    title: 'Support',
+    links: [
+      { href: '/shipping-policy', label: 'Shipping Policy' },
+      { href: '/return-policy', label: 'Return Policy' },
+      { href: '/privacy-policy', label: 'Privacy Policy' },
+      { href: '/terms-of-service', label: 'Terms of Service' },
+    ],
+  },
+};
+
+export default function Footer() {
+  return (
+    <footer className="bg-brand-dark text-white">
+      {/* Newsletter section */}
+      <div className="border-b border-white/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-2xl mx-auto text-center">
+            <h3 className="text-2xl font-bold mb-3">Join the LoyalBond Family</h3>
+            <p className="text-gray-400 mb-6">Get 15% off your first order plus expert senior dog care tips delivered to your inbox.</p>
+            <NewsletterForm />
+          </div>
+        </div>
+      </div>
+
+      {/* Main footer */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+          {/* Brand column */}
+          <div className="lg:col-span-2">
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <div className="w-9 h-9 bg-brand-green rounded-full flex items-center justify-center">
+                <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <div>
+                <span className="text-xl font-bold text-white">LoyalBond</span>
+                <span className="block text-xs text-gray-400 -mt-0.5">LoyalBond — Loyal companionship for every stage of life</span>
+              </div>
+            </Link>
+            <p className="text-gray-400 text-sm mb-4 max-w-sm">
+              Specialized supplier of functional pet products for senior dogs. We work with certified manufacturers to deliver quality, safety, and comfort in every product.
+            </p>
+            <p className="text-gray-400 text-sm mb-6 max-w-sm">
+              Email: sales@loyalbondpet.com | WhatsApp: +8615706802495
+            </p>
+            {/* Social links */}
+            <div className="flex gap-4">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-green flex items-center justify-center transition-colors" aria-label="Facebook">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-green flex items-center justify-center transition-colors" aria-label="Instagram">
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-green flex items-center justify-center transition-colors" aria-label="Twitter">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-green flex items-center justify-center transition-colors" aria-label="YouTube">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/><polygon points="9.75,15.02 15.5,11.75 9.75,8.48" fill="white"/></svg>
+              </a>
+            </div>
+          </div>
+
+          {/* Link columns */}
+          {Object.values(footerLinks).map((section) => (
+            <div key={section.title}>
+              <h4 className="font-semibold text-white mb-4">{section.title}</h4>
+              <ul className="space-y-3">
+                {section.links.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* FDA Disclaimer */}
+      <div className="border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <p className="text-xs text-gray-500 leading-relaxed">
+            Disclaimer: LoyalBond products are everyday pet accessories and textile goods. They are not medical devices and are not intended to diagnose, treat, cure, or prevent any disease. Consult a licensed veterinarian for medical concerns.
+          </p>
+        </div>
+      </div>
+
+      {/* Bottom bar */}
+      <div className="border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} LoyalBond. All rights reserved.</p>
+            {/* Payment icons */}
+            <div className="flex items-center gap-3">
+              <div className="px-2 py-1 bg-white/10 rounded text-xs text-gray-300 font-medium">Visa</div>
+              <div className="px-2 py-1 bg-white/10 rounded text-xs text-gray-300 font-medium">Mastercard</div>
+              <div className="px-2 py-1 bg-white/10 rounded text-xs text-gray-300 font-medium">Amex</div>
+              <div className="px-2 py-1 bg-white/10 rounded text-xs text-gray-300 font-medium">PayPal</div>
+              <div className="px-2 py-1 bg-white/10 rounded text-xs text-gray-300 font-medium">Apple Pay</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
