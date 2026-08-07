@@ -1,1 +1,63 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgR3JpcFZlcnRpY2FsSWNvbiB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7CiAgR3JvdXAsCiAgUGFuZWwsCiAgU2VwYXJhdG9yLAogIHR5cGUgR3JvdXBQcm9wcywKICB0eXBlIFBhbmVsUHJvcHMsCiAgdHlwZSBTZXBhcmF0b3JQcm9wcywKfSBmcm9tICdyZWFjdC1yZXNpemFibGUtcGFuZWxzJzsKCmltcG9ydCB7IGNuIH0gZnJvbSAnQC9saWIvdXRpbHMnOwoKZnVuY3Rpb24gUmVzaXphYmxlUGFuZWxHcm91cCh7CiAgY2xhc3NOYW1lLAogIG9yaWVudGF0aW9uID0gJ2hvcml6b250YWwnLAogIC4uLnByb3BzCn06IEdyb3VwUHJvcHMpIHsKICByZXR1cm4gKAogICAgPEdyb3VwCiAgICAgIGRhdGEtc2xvdD0icmVzaXphYmxlLXBhbmVsLWdyb3VwIgogICAgICBkYXRhLXBhbmVsLWdyb3VwLWRpcmVjdGlvbj17b3JpZW50YXRpb259CiAgICAgIG9yaWVudGF0aW9uPXtvcmllbnRhdGlvbn0KICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAnZmxleCBoLWZ1bGwgdy1mdWxsIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06ZmxleC1jb2wnLAogICAgICAgIGNsYXNzTmFtZSwKICAgICAgKX0KICAgICAgey4uLnByb3BzfQogICAgLz4KICApOwp9CgpmdW5jdGlvbiBSZXNpemFibGVQYW5lbCh7IC4uLnByb3BzIH06IFBhbmVsUHJvcHMpIHsKICByZXR1cm4gPFBhbmVsIGRhdGEtc2xvdD0icmVzaXphYmxlLXBhbmVsIiB7Li4ucHJvcHN9IC8+Owp9CgpmdW5jdGlvbiBSZXNpemFibGVIYW5kbGUoewogIHdpdGhIYW5kbGUsCiAgY2xhc3NOYW1lLAogIC4uLnByb3BzCn06IFNlcGFyYXRvclByb3BzICYgewogIHdpdGhIYW5kbGU/OiBib29sZWFuOwp9KSB7CiAgcmV0dXJuICgKICAgIDxTZXBhcmF0b3IKICAgICAgZGF0YS1zbG90PSJyZXNpemFibGUtaGFuZGxlIgogICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICdiZy1ib3JkZXIgZm9jdXMtdmlzaWJsZTpyaW5nLXJpbmcgcmVsYXRpdmUgZmxleCB3LXB4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBhZnRlcjphYnNvbHV0ZSBhZnRlcjppbnNldC15LTAgYWZ0ZXI6bGVmdC0xLzIgYWZ0ZXI6dy0xIGFmdGVyOi10cmFuc2xhdGUteC0xLzIgZm9jdXMtdmlzaWJsZTpyaW5nLTEgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC0xIGZvY3VzLXZpc2libGU6b3V0bGluZS1oaWRkZW4gZGF0YS1bcGFuZWwtZ3JvdXAtZGlyZWN0aW9uPXZlcnRpY2FsXTpoLXB4IGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06dy1mdWxsIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06YWZ0ZXI6bGVmdC0wIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06YWZ0ZXI6aC0xIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06YWZ0ZXI6dy1mdWxsIGRhdGEtW3BhbmVsLWdyb3VwLWRpcmVjdGlvbj12ZXJ0aWNhbF06YWZ0ZXI6dHJhbnNsYXRlLXgtMCBkYXRhLVtwYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdOmFmdGVyOi10cmFuc2xhdGUteS0xLzIgWyZbZGF0YS1wYW5lbC1ncm91cC1kaXJlY3Rpb249dmVydGljYWxdPmRpdl06cm90YXRlLTkwJywKICAgICAgICBjbGFzc05hbWUsCiAgICAgICl9CiAgICAgIHsuLi5wcm9wc30KICAgID4KICAgICAge3dpdGhIYW5kbGUgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1ib3JkZXIgei0xMCBmbGV4IGgtNCB3LTMgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQteHMgYm9yZGVyIj4KICAgICAgICAgIDxHcmlwVmVydGljYWxJY29uIGNsYXNzTmFtZT0ic2l6ZS0yLjUiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L1NlcGFyYXRvcj4KICApOwp9CgpleHBvcnQgeyBSZXNpemFibGVQYW5lbEdyb3VwLCBSZXNpemFibGVQYW5lbCwgUmVzaXphYmxlSGFuZGxlIH07Cg==
+'use client';
+
+import { GripVerticalIcon } from 'lucide-react';
+import {
+  Group,
+  Panel,
+  Separator,
+  type GroupProps,
+  type PanelProps,
+  type SeparatorProps,
+} from 'react-resizable-panels';
+
+import { cn } from '@/lib/utils';
+
+function ResizablePanelGroup({
+  className,
+  orientation = 'horizontal',
+  ...props
+}: GroupProps) {
+  return (
+    <Group
+      data-slot="resizable-panel-group"
+      data-panel-group-direction={orientation}
+      orientation={orientation}
+      className={cn(
+        'flex h-full w-full data-[panel-group-direction=vertical]:flex-col',
+        className,
+      )}
+      {...props}
+    />
+  );
+}
+
+function ResizablePanel({ ...props }: PanelProps) {
+  return <Panel data-slot="resizable-panel" {...props} />;
+}
+
+function ResizableHandle({
+  withHandle,
+  className,
+  ...props
+}: SeparatorProps & {
+  withHandle?: boolean;
+}) {
+  return (
+    <Separator
+      data-slot="resizable-handle"
+      className={cn(
+        'bg-border focus-visible:ring-ring relative flex w-px items-center justify-center after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-offset-1 focus-visible:outline-hidden data-[panel-group-direction=vertical]:h-px data-[panel-group-direction=vertical]:w-full data-[panel-group-direction=vertical]:after:left-0 data-[panel-group-direction=vertical]:after:h-1 data-[panel-group-direction=vertical]:after:w-full data-[panel-group-direction=vertical]:after:translate-x-0 data-[panel-group-direction=vertical]:after:-translate-y-1/2 [&[data-panel-group-direction=vertical]>div]:rotate-90',
+        className,
+      )}
+      {...props}
+    >
+      {withHandle && (
+        <div className="bg-border z-10 flex h-4 w-3 items-center justify-center rounded-xs border">
+          <GripVerticalIcon className="size-2.5" />
+        </div>
+      )}
+    </Separator>
+  );
+}
+
+export { ResizablePanelGroup, ResizablePanel, ResizableHandle };
