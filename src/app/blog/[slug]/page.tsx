@@ -150,10 +150,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <h2 className="text-2xl font-bold text-brand-dark mb-6">Products Mentioned in This Article</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {relatedProducts.map((product) => product && (
-                <Link key={product.id} href={`/products/${product.slug}`} className="bg-white rounded-xl p-4 hover:shadow-md transition-shadow">
-                  <h3 className="font-semibold text-brand-dark text-sm mb-1">{product.name}</h3>
-                  <p className="text-brand-green font-bold">{product.priceRange || 'Request Quote'}</p>
-                  <span className="text-xs text-brand-coral font-medium mt-2 inline-block">Shop Now →</span>
+                <Link key={product.id} href={`/products/${product.slug}`} className="bg-white rounded-xl p-4 hover:shadow-md transition-shadow flex gap-3 items-start">
+                  <div className="w-16 h-16 rounded-lg overflow-hidden bg-brand-beige/30 shrink-0">
+                    {product.images && product.images.length > 0 && (
+                      <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover" loading="lazy" />
+                    )}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-brand-dark text-sm mb-1 line-clamp-2">{product.name}</h3>
+                    <p className="text-brand-green font-bold text-sm">{product.priceRange || 'Request Quote'}</p>
+                    <span className="text-xs text-brand-coral font-medium mt-1 inline-block">Shop Now →</span>
+                  </div>
                 </Link>
               ))}
             </div>
