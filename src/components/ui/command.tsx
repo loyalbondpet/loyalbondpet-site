@@ -1,1 +1,184 @@
-InVzZSBjbGllbnQiCgppbXBvcnQgKiBhcyBSZWFjdCBmcm9tICJyZWFjdCIKaW1wb3J0IHsgQ29tbWFuZCBhcyBDb21tYW5kUHJpbWl0aXZlIH0gZnJvbSAiY21kayIKaW1wb3J0IHsgU2VhcmNoSWNvbiB9IGZyb20gImx1Y2lkZS1yZWFjdCIKCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiCmltcG9ydCB7CiAgRGlhbG9nLAogIERpYWxvZ0NvbnRlbnQsCiAgRGlhbG9nRGVzY3JpcHRpb24sCiAgRGlhbG9nSGVhZGVyLAogIERpYWxvZ1RpdGxlLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciCgpmdW5jdGlvbiBDb21tYW5kKHsKICBjbGFzc05hbWUsCiAgLi4ucHJvcHMKfTogUmVhY3QuQ29tcG9uZW50UHJvcHM8dHlwZW9mIENvbW1hbmRQcmltaXRpdmU+KSB7CiAgcmV0dXJuICgKICAgIDxDb21tYW5kUHJpbWl0aXZlCiAgICAgIGRhdGEtc2xvdD0iY29tbWFuZCIKICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAiYmctcG9wb3ZlciB0ZXh0LXBvcG92ZXItZm9yZWdyb3VuZCBmbGV4IGgtZnVsbCB3LWZ1bGwgZmxleC1jb2wgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbWQiLAogICAgICAgIGNsYXNzTmFtZQogICAgICApfQogICAgICB7Li4ucHJvcHN9CiAgICAvPgogICkKfQoKZnVuY3Rpb24gQ29tbWFuZERpYWxvZyh7CiAgdGl0bGUgPSAiQ29tbWFuZCBQYWxldHRlIiwKICBkZXNjcmlwdGlvbiA9ICJTZWFyY2ggZm9yIGEgY29tbWFuZCB0byBydW4uLi4iLAogIGNoaWxkcmVuLAogIGNsYXNzTmFtZSwKICBzaG93Q2xvc2VCdXR0b24gPSB0cnVlLAogIC4uLnByb3BzCn06IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBEaWFsb2c+ICYgewogIHRpdGxlPzogc3RyaW5nCiAgZGVzY3JpcHRpb24/OiBzdHJpbmcKICBjbGFzc05hbWU/OiBzdHJpbmcKICBzaG93Q2xvc2VCdXR0b24/OiBib29sZWFuCn0pIHsKICByZXR1cm4gKAogICAgPERpYWxvZyB7Li4ucHJvcHN9PgogICAgICA8RGlhbG9nSGVhZGVyIGNsYXNzTmFtZT0ic3Itb25seSI+CiAgICAgICAgPERpYWxvZ1RpdGxlPnt0aXRsZX08L0RpYWxvZ1RpdGxlPgogICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj57ZGVzY3JpcHRpb259PC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgPC9EaWFsb2dIZWFkZXI+CiAgICAgIDxEaWFsb2dDb250ZW50CiAgICAgICAgY2xhc3NOYW1lPXtjbigib3ZlcmZsb3ctaGlkZGVuIHAtMCIsIGNsYXNzTmFtZSl9CiAgICAgICAgc2hvd0Nsb3NlQnV0dG9uPXtzaG93Q2xvc2VCdXR0b259CiAgICAgID4KICAgICAgICA8Q29tbWFuZCBjbGFzc05hbWU9IlsmX1tjbWRrLWdyb3VwLWhlYWRpbmddXTp0ZXh0LW11dGVkLWZvcmVncm91bmQgKio6ZGF0YS1bc2xvdD1jb21tYW5kLWlucHV0LXdyYXBwZXJdOmgtMTIgWyZfW2NtZGstZ3JvdXAtaGVhZGluZ11dOnB4LTIgWyZfW2NtZGstZ3JvdXAtaGVhZGluZ11dOmZvbnQtbWVkaXVtIFsmX1tjbWRrLWdyb3VwXV06cHgtMiBbJl9bY21kay1ncm91cF06bm90KFtoaWRkZW5dKV9+W2NtZGstZ3JvdXBdXTpwdC0wIFsmX1tjbWRrLWlucHV0LXdyYXBwZXJdX3N2Z106aC01IFsmX1tjbWRrLWlucHV0LXdyYXBwZXJdX3N2Z106dy01IFsmX1tjbWRrLWlucHV0XV06aC0xMiBbJl9bY21kay1pdGVtXV06cHgtMiBbJl9bY21kay1pdGVtXV06cHktMyBbJl9bY21kay1pdGVtXV9zdmddOmgtNSBbJl9bY21kay1pdGVtXV9zdmddOnctNSI+CiAgICAgICAgICB7Y2hpbGRyZW59CiAgICAgICAgPC9Db21tYW5kPgogICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICA8L0RpYWxvZz4KICApCn0KCmZ1bmN0aW9uIENvbW1hbmRJbnB1dCh7CiAgY2xhc3NOYW1lLAogIC4uLnByb3BzCn06IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBDb21tYW5kUHJpbWl0aXZlLklucHV0PikgewogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIGRhdGEtc2xvdD0iY29tbWFuZC1pbnB1dC13cmFwcGVyIgogICAgICBjbGFzc05hbWU9ImZsZXggaC05IGl0ZW1zLWNlbnRlciBnYXAtMiBib3JkZXItYiBweC0zIgogICAgPgogICAgICA8U2VhcmNoSWNvbiBjbGFzc05hbWU9InNpemUtNCBzaHJpbmstMCBvcGFjaXR5LTUwIiAvPgogICAgICA8Q29tbWFuZFByaW1pdGl2ZS5JbnB1dAogICAgICAgIGRhdGEtc2xvdD0iY29tbWFuZC1pbnB1dCIKICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgInBsYWNlaG9sZGVyOnRleHQtbXV0ZWQtZm9yZWdyb3VuZCBmbGV4IGgtMTAgdy1mdWxsIHJvdW5kZWQtbWQgYmctdHJhbnNwYXJlbnQgcHktMyB0ZXh0LXNtIG91dGxpbmUtaGlkZGVuIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIiwKICAgICAgICAgIGNsYXNzTmFtZQogICAgICAgICl9CiAgICAgICAgey4uLnByb3BzfQogICAgICAvPgogICAgPC9kaXY+CiAgKQp9CgpmdW5jdGlvbiBDb21tYW5kTGlzdCh7CiAgY2xhc3NOYW1lLAogIC4uLnByb3BzCn06IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBDb21tYW5kUHJpbWl0aXZlLkxpc3Q+KSB7CiAgcmV0dXJuICgKICAgIDxDb21tYW5kUHJpbWl0aXZlLkxpc3QKICAgICAgZGF0YS1zbG90PSJjb21tYW5kLWxpc3QiCiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgIm1heC1oLVszMDBweF0gc2Nyb2xsLXB5LTEgb3ZlcmZsb3cteC1oaWRkZW4gb3ZlcmZsb3cteS1hdXRvIiwKICAgICAgICBjbGFzc05hbWUKICAgICAgKX0KICAgICAgey4uLnByb3BzfQogICAgLz4KICApCn0KCmZ1bmN0aW9uIENvbW1hbmRFbXB0eSh7CiAgLi4ucHJvcHMKfTogUmVhY3QuQ29tcG9uZW50UHJvcHM8dHlwZW9mIENvbW1hbmRQcmltaXRpdmUuRW1wdHk+KSB7CiAgcmV0dXJuICgKICAgIDxDb21tYW5kUHJpbWl0aXZlLkVtcHR5CiAgICAgIGRhdGEtc2xvdD0iY29tbWFuZC1lbXB0eSIKICAgICAgY2xhc3NOYW1lPSJweS02IHRleHQtY2VudGVyIHRleHQtc20iCiAgICAgIHsuLi5wcm9wc30KICAgIC8+CiAgKQp9CgpmdW5jdGlvbiBDb21tYW5kR3JvdXAoewogIGNsYXNzTmFtZSwKICAuLi5wcm9wcwp9OiBSZWFjdC5Db21wb25lbnRQcm9wczx0eXBlb2YgQ29tbWFuZFByaW1pdGl2ZS5Hcm91cD4pIHsKICByZXR1cm4gKAogICAgPENvbW1hbmRQcmltaXRpdmUuR3JvdXAKICAgICAgZGF0YS1zbG90PSJjb21tYW5kLWdyb3VwIgogICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICJ0ZXh0LWZvcmVncm91bmQgWyZfW2NtZGstZ3JvdXAtaGVhZGluZ11dOnRleHQtbXV0ZWQtZm9yZWdyb3VuZCBvdmVyZmxvdy1oaWRkZW4gcC0xIFsmX1tjbWRrLWdyb3VwLWhlYWRpbmddXTpweC0yIFsmX1tjbWRrLWdyb3VwLWhlYWRpbmddXTpweS0xLjUgWyZfW2NtZGstZ3JvdXAtaGVhZGluZ11dOnRleHQteHMgWyZfW2NtZGstZ3JvdXAtaGVhZGluZ11dOmZvbnQtbWVkaXVtIiwKICAgICAgICBjbGFzc05hbWUKICAgICAgKX0KICAgICAgey4uLnByb3BzfQogICAgLz4KICApCn0KCmZ1bmN0aW9uIENvbW1hbmRTZXBhcmF0b3IoewogIGNsYXNzTmFtZSwKICAuLi5wcm9wcwp9OiBSZWFjdC5Db21wb25lbnRQcm9wczx0eXBlb2YgQ29tbWFuZFByaW1pdGl2ZS5TZXBhcmF0b3I+KSB7CiAgcmV0dXJuICgKICAgIDxDb21tYW5kUHJpbWl0aXZlLlNlcGFyYXRvcgogICAgICBkYXRhLXNsb3Q9ImNvbW1hbmQtc2VwYXJhdG9yIgogICAgICBjbGFzc05hbWU9e2NuKCJiZy1ib3JkZXIgLW14LTEgaC1weCIsIGNsYXNzTmFtZSl9CiAgICAgIHsuLi5wcm9wc30KICAgIC8+CiAgKQp9CgpmdW5jdGlvbiBDb21tYW5kSXRlbSh7CiAgY2xhc3NOYW1lLAogIC4uLnByb3BzCn06IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBDb21tYW5kUHJpbWl0aXZlLkl0ZW0+KSB7CiAgcmV0dXJuICgKICAgIDxDb21tYW5kUHJpbWl0aXZlLkl0ZW0KICAgICAgZGF0YS1zbG90PSJjb21tYW5kLWl0ZW0iCiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgImRhdGEtW3NlbGVjdGVkPXRydWVdOmJnLWFjY2VudCBkYXRhLVtzZWxlY3RlZD10cnVlXTp0ZXh0LWFjY2VudC1mb3JlZ3JvdW5kIFsmX3N2Zzpub3QoW2NsYXNzKj0ndGV4dC0nXSldOnRleHQtbXV0ZWQtZm9yZWdyb3VuZCByZWxhdGl2ZSBmbGV4IGN1cnNvci1kZWZhdWx0IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLXNtIHB4LTIgcHktMS41IHRleHQtc20gb3V0bGluZS1oaWRkZW4gc2VsZWN0LW5vbmUgZGF0YS1bZGlzYWJsZWQ9dHJ1ZV06cG9pbnRlci1ldmVudHMtbm9uZSBkYXRhLVtkaXNhYmxlZD10cnVlXTpvcGFjaXR5LTUwIFsmX3N2Z106cG9pbnRlci1ldmVudHMtbm9uZSBbJl9zdmddOnNocmluay0wIFsmX3N2Zzpub3QoW2NsYXNzKj0nc2l6ZS0nXSldOnNpemUtNCIsCiAgICAgICAgY2xhc3NOYW1lCiAgICAgICl9CiAgICAgIHsuLi5wcm9wc30KICAgIC8+CiAgKQp9CgpmdW5jdGlvbiBDb21tYW5kU2hvcnRjdXQoewogIGNsYXNzTmFtZSwKICAuLi5wcm9wcwp9OiBSZWFjdC5Db21wb25lbnRQcm9wczwic3BhbiI+KSB7CiAgcmV0dXJuICgKICAgIDxzcGFuCiAgICAgIGRhdGEtc2xvdD0iY29tbWFuZC1zaG9ydGN1dCIKICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1sLWF1dG8gdGV4dC14cyB0cmFja2luZy13aWRlc3QiLAogICAgICAgIGNsYXNzTmFtZQogICAgICApfQogICAgICB7Li4ucHJvcHN9CiAgICAvPgogICkKfQoKZXhwb3J0IHsKICBDb21tYW5kLAogIENvbW1hbmREaWFsb2csCiAgQ29tbWFuZElucHV0LAogIENvbW1hbmRMaXN0LAogIENvbW1hbmRFbXB0eSwKICBDb21tYW5kR3JvdXAsCiAgQ29tbWFuZEl0ZW0sCiAgQ29tbWFuZFNob3J0Y3V0LAogIENvbW1hbmRTZXBhcmF0b3IsCn0K
+"use client"
+
+import * as React from "react"
+import { Command as CommandPrimitive } from "cmdk"
+import { SearchIcon } from "lucide-react"
+
+import { cn } from "@/lib/utils"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog"
+
+function Command({
+  className,
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive>) {
+  return (
+    <CommandPrimitive
+      data-slot="command"
+      className={cn(
+        "bg-popover text-popover-foreground flex h-full w-full flex-col overflow-hidden rounded-md",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CommandDialog({
+  title = "Command Palette",
+  description = "Search for a command to run...",
+  children,
+  className,
+  showCloseButton = true,
+  ...props
+}: React.ComponentProps<typeof Dialog> & {
+  title?: string
+  description?: string
+  className?: string
+  showCloseButton?: boolean
+}) {
+  return (
+    <Dialog {...props}>
+      <DialogHeader className="sr-only">
+        <DialogTitle>{title}</DialogTitle>
+        <DialogDescription>{description}</DialogDescription>
+      </DialogHeader>
+      <DialogContent
+        className={cn("overflow-hidden p-0", className)}
+        showCloseButton={showCloseButton}
+      >
+        <Command className="[&_[cmdk-group-heading]]:text-muted-foreground **:data-[slot=command-input-wrapper]:h-12 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group]]:px-2 [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-input-wrapper]_svg]:h-5 [&_[cmdk-input-wrapper]_svg]:w-5 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-5 [&_[cmdk-item]_svg]:w-5">
+          {children}
+        </Command>
+      </DialogContent>
+    </Dialog>
+  )
+}
+
+function CommandInput({
+  className,
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive.Input>) {
+  return (
+    <div
+      data-slot="command-input-wrapper"
+      className="flex h-9 items-center gap-2 border-b px-3"
+    >
+      <SearchIcon className="size-4 shrink-0 opacity-50" />
+      <CommandPrimitive.Input
+        data-slot="command-input"
+        className={cn(
+          "placeholder:text-muted-foreground flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-hidden disabled:cursor-not-allowed disabled:opacity-50",
+          className
+        )}
+        {...props}
+      />
+    </div>
+  )
+}
+
+function CommandList({
+  className,
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive.List>) {
+  return (
+    <CommandPrimitive.List
+      data-slot="command-list"
+      className={cn(
+        "max-h-[300px] scroll-py-1 overflow-x-hidden overflow-y-auto",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CommandEmpty({
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive.Empty>) {
+  return (
+    <CommandPrimitive.Empty
+      data-slot="command-empty"
+      className="py-6 text-center text-sm"
+      {...props}
+    />
+  )
+}
+
+function CommandGroup({
+  className,
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive.Group>) {
+  return (
+    <CommandPrimitive.Group
+      data-slot="command-group"
+      className={cn(
+        "text-foreground [&_[cmdk-group-heading]]:text-muted-foreground overflow-hidden p-1 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CommandSeparator({
+  className,
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive.Separator>) {
+  return (
+    <CommandPrimitive.Separator
+      data-slot="command-separator"
+      className={cn("bg-border -mx-1 h-px", className)}
+      {...props}
+    />
+  )
+}
+
+function CommandItem({
+  className,
+  ...props
+}: React.ComponentProps<typeof CommandPrimitive.Item>) {
+  return (
+    <CommandPrimitive.Item
+      data-slot="command-item"
+      className={cn(
+        "data-[selected=true]:bg-accent data-[selected=true]:text-accent-foreground [&_svg:not([class*='text-'])]:text-muted-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CommandShortcut({
+  className,
+  ...props
+}: React.ComponentProps<"span">) {
+  return (
+    <span
+      data-slot="command-shortcut"
+      className={cn(
+        "text-muted-foreground ml-auto text-xs tracking-widest",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+export {
+  Command,
+  CommandDialog,
+  CommandInput,
+  CommandList,
+  CommandEmpty,
+  CommandGroup,
+  CommandItem,
+  CommandShortcut,
+  CommandSeparator,
+}
