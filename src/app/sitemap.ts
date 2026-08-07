@@ -1,1 +1,66 @@
-aW1wb3J0IHsgTWV0YWRhdGFSb3V0ZSB9IGZyb20gJ25leHQnOwppbXBvcnQgeyBwcm9kdWN0cyB9IGZyb20gJ0AvbGliL2RhdGEvcHJvZHVjdHMnOwppbXBvcnQgeyBibG9nUG9zdHMgfSBmcm9tICdAL2xpYi9kYXRhL2Jsb2cnOwppbXBvcnQgeyBnZXRBbGxTb2x1dGlvblNsdWdzIH0gZnJvbSAnQC9saWIvZGF0YS9zb2x1dGlvbnMnOwppbXBvcnQgeyBnZXRBbGxDYXJlR3VpZGVTbHVncyB9IGZyb20gJ0AvbGliL2RhdGEvY2FyZUd1aWRlcyc7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBzaXRlbWFwKCk6IE1ldGFkYXRhUm91dGUuU2l0ZW1hcCB7CiAgY29uc3QgYmFzZVVybCA9ICdodHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tJzsKCiAgY29uc3Qgc3RhdGljUGFnZXMgPSBbCiAgICB7IHVybDogYmFzZVVybCwgbGFzdE1vZGlmaWVkOiBuZXcgRGF0ZSgpLCBjaGFuZ2VGcmVxdWVuY3k6ICd3ZWVrbHknIGFzIGNvbnN0LCBwcmlvcml0eTogMSB9LAogICAgeyB1cmw6IGAke2Jhc2VVcmx9L2Fib3V0YCwgbGFzdE1vZGlmaWVkOiBuZXcgRGF0ZSgpLCBjaGFuZ2VGcmVxdWVuY3k6ICdtb250aGx5JyBhcyBjb25zdCwgcHJpb3JpdHk6IDAuOCB9LAogICAgeyB1cmw6IGAke2Jhc2VVcmx9L2Jsb2dgLCBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKCksIGNoYW5nZUZyZXF1ZW5jeTogJ3dlZWtseScgYXMgY29uc3QsIHByaW9yaXR5OiAwLjkgfSwKICAgIHsgdXJsOiBgJHtiYXNlVXJsfS9jb250YWN0YCwgbGFzdE1vZGlmaWVkOiBuZXcgRGF0ZSgpLCBjaGFuZ2VGcmVxdWVuY3k6ICdtb250aGx5JyBhcyBjb25zdCwgcHJpb3JpdHk6IDAuNiB9LAogICAgeyB1cmw6IGAke2Jhc2VVcmx9L3dob2xlc2FsZWAsIGxhc3RNb2RpZmllZDogbmV3IERhdGUoKSwgY2hhbmdlRnJlcXVlbmN5OiAnbW9udGhseScgYXMgY29uc3QsIHByaW9yaXR5OiAwLjcgfSwKICAgIHsgdXJsOiBgJHtiYXNlVXJsfS9mYXFgLCBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKCksIGNoYW5nZUZyZXF1ZW5jeTogJ21vbnRobHknIGFzIGNvbnN0LCBwcmlvcml0eTogMC42IH0sCiAgICB7IHVybDogYCR7YmFzZVVybH0vY29sbGVjdGlvbnNgLCBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKCksIGNoYW5nZUZyZXF1ZW5jeTogJ3dlZWtseScgYXMgY29uc3QsIHByaW9yaXR5OiAwLjkgfSwKICBdOwoKICAvLyBDb2xsZWN0aW9ucyAoNiBzY2VuYXJpb3MpCiAgY29uc3QgY29sbGVjdGlvblBhZ2VzID0gWwogICAgJ2hvbWUtc2FmZXR5JywKICAgICdmZWVkaW5nLWFpZHMnLAogICAgJ3RyYXZlbC1jYXInLAogICAgJ2dyb29taW5nLWJhdGgnLAogICAgJ29yYWwtY2FyZScsCiAgICAnc2Vhc29uYWwnLAogIF0ubWFwKHNsdWcgPT4gKHsKICAgIHVybDogYCR7YmFzZVVybH0vY29sbGVjdGlvbnMvJHtzbHVnfWAsCiAgICBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKCksCiAgICBjaGFuZ2VGcmVxdWVuY3k6ICd3ZWVrbHknIGFzIGNvbnN0LAogICAgcHJpb3JpdHk6IDAuOSwKICB9KSk7CgogIC8vIFNvbHV0aW9ucyBwYWdlcyAoNCBCMkIpCiAgY29uc3Qgc29sdXRpb25QYWdlcyA9IGdldEFsbFNvbHV0aW9uU2x1Z3MoKS5tYXAoc2x1ZyA9PiAoewogICAgdXJsOiBgJHtiYXNlVXJsfS9zb2x1dGlvbnMvJHtzbHVnfWAsCiAgICBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKCksCiAgICBjaGFuZ2VGcmVxdWVuY3k6ICdtb250aGx5JyBhcyBjb25zdCwKICAgIHByaW9yaXR5OiAwLjcsCiAgfSkpOwoKICAvLyBDYXJlIEd1aWRlIHBhZ2VzICg4IGF1ZGllbmNlKQogIGNvbnN0IGNhcmVHdWlkZVBhZ2VzID0gZ2V0QWxsQ2FyZUd1aWRlU2x1Z3MoKS5tYXAoc2x1ZyA9PiAoewogICAgdXJsOiBgJHtiYXNlVXJsfS9jYXJlLWd1aWRlLyR7c2x1Z31gLAogICAgbGFzdE1vZGlmaWVkOiBuZXcgRGF0ZSgpLAogICAgY2hhbmdlRnJlcXVlbmN5OiAnbW9udGhseScgYXMgY29uc3QsCiAgICBwcmlvcml0eTogMC44LAogIH0pKTsKCiAgY29uc3QgcHJvZHVjdFBhZ2VzID0gcHJvZHVjdHMubWFwKChwcm9kdWN0KSA9PiAoewogICAgdXJsOiBgJHtiYXNlVXJsfS9wcm9kdWN0cy8ke3Byb2R1Y3Quc2x1Z31gLAogICAgbGFzdE1vZGlmaWVkOiBuZXcgRGF0ZSgpLAogICAgY2hhbmdlRnJlcXVlbmN5OiAnd2Vla2x5JyBhcyBjb25zdCwKICAgIHByaW9yaXR5OiAwLjgsCiAgfSkpOwoKICBjb25zdCBibG9nUGFnZXMgPSBibG9nUG9zdHMubWFwKChwb3N0KSA9PiAoewogICAgdXJsOiBgJHtiYXNlVXJsfS9ibG9nLyR7cG9zdC5zbHVnfWAsCiAgICBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKHBvc3QuZGF0ZSksCiAgICBjaGFuZ2VGcmVxdWVuY3k6ICdtb250aGx5JyBhcyBjb25zdCwKICAgIHByaW9yaXR5OiAwLjcsCiAgfSkpOwoKICByZXR1cm4gWy4uLnN0YXRpY1BhZ2VzLCAuLi5jb2xsZWN0aW9uUGFnZXMsIC4uLnNvbHV0aW9uUGFnZXMsIC4uLmNhcmVHdWlkZVBhZ2VzLCAuLi5wcm9kdWN0UGFnZXMsIC4uLmJsb2dQYWdlc107Cn0K
+import { MetadataRoute } from 'next';
+import { products } from '@/lib/data/products';
+import { blogPosts } from '@/lib/data/blog';
+import { getAllSolutionSlugs } from '@/lib/data/solutions';
+import { getAllCareGuideSlugs } from '@/lib/data/careGuides';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://www.loyalbondpet.com';
+
+  const staticPages = [
+    { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 1 },
+    { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/wholesale`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/faq`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/collections`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
+  ];
+
+  // Collections (6 scenarios)
+  const collectionPages = [
+    'home-safety',
+    'feeding-aids',
+    'travel-car',
+    'grooming-bath',
+    'oral-care',
+    'seasonal',
+  ].map(slug => ({
+    url: `${baseUrl}/collections/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
+  }));
+
+  // Solutions pages (4 B2B)
+  const solutionPages = getAllSolutionSlugs().map(slug => ({
+    url: `${baseUrl}/solutions/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  // Care Guide pages (8 audience)
+  const careGuidePages = getAllCareGuideSlugs().map(slug => ({
+    url: `${baseUrl}/care-guide/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  const productPages = products.map((product) => ({
+    url: `${baseUrl}/products/${product.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+
+  const blogPages = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...collectionPages, ...solutionPages, ...careGuidePages, ...productPages, ...blogPages];
+}
