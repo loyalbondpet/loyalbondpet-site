@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import { CartProvider } from '@/contexts/CartContext';
 import './globals.css';
 
 const inter = Inter({
@@ -71,11 +72,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased font-sans ${inter.variable}`}>
+        <CartProvider>
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
         <BackToTop />
         <WhatsAppButton />
+      </CartProvider>
       </body>
     </html>
   );
