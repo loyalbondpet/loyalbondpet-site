@@ -1,1 +1,53 @@
-aW1wb3J0IG5leHRUcyBmcm9tICdlc2xpbnQtY29uZmlnLW5leHQvdHlwZXNjcmlwdCc7CmltcG9ydCBuZXh0Vml0YWxzIGZyb20gJ2VzbGludC1jb25maWctbmV4dC9jb3JlLXdlYi12aXRhbHMnOwppbXBvcnQgeyBkZWZpbmVDb25maWcsIGdsb2JhbElnbm9yZXMgfSBmcm9tICdlc2xpbnQvY29uZmlnJzsKCmNvbnN0IHN5bnRheFJ1bGVzID0gWwogIHsKICAgIHNlbGVjdG9yOiAnSlNYT3BlbmluZ0VsZW1lbnRbbmFtZS5uYW1lPSJoZWFkIl0nLAogICAgbWVzc2FnZToKICAgICAgJ+emgeatouS9v+eUqCBoZWFkIOagh+etvu+8jOS8mOWFiOS9v+eUqCBtZXRhZGF0YeOAguS4ieaWuSBDU1PjgIHlrZfkvZPnrYnotYTmupDlj6/ku6XlnKggZ2xvYmFscy5jc3Mg5Lit6aG26YOo6YCa6L+HIEBpbXBvcnQg5byV5YWl5oiW6ICF5L2/55SoIG5leHQvZm9udO+8m3ByZWxvYWQsIHByZWNvbm5lY3QsIGRucy1wcmVmZXRjaCDpgJrov4cgUmVhY3RET00g55qEIHByZWxvYWTjgIFwcmVjb25uZWN044CBZG5zLXByZWZldGNoIOaWueazleW8leWFpe+8m2pzb24tbGQg5Y+v6ZiF6K+7IGh0dHBzOi8vbmV4dGpzLm9yZy9kb2NzL2FwcC9ndWlkZXMvanNvbi1sZCcsCiAgfSwKXTsKCmNvbnN0IG5leHRDb25maWdSZXN0cmljdGVkU3ludGF4UnVsZXMgPSBbCiAgewogICAgc2VsZWN0b3I6CiAgICAgICdQcm9wZXJ0eVtrZXkubmFtZT0vXihyb290fG91dHB1dEZpbGVUcmFjaW5nUm9vdCkkL10gPiBMaXRlcmFsW3ZhbHVlPS9eXFwvL10nLAogICAgbWVzc2FnZToKICAgICAgJ+emgeatouWcqCBuZXh0LmNvbmZpZyDkuK3lhpnmrbvnu53lr7not6/lvoTvvIzor7fmlLnnlKggcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgLi4uKeOAgWltcG9ydC5tZXRhLmRpcm5hbWUg5oiWIHByb2Nlc3MuY3dkKCkg5Yqo5oCB5ou85o6l44CCJywKICB9LApdOwoKY29uc3QgZXNsaW50Q29uZmlnID0gZGVmaW5lQ29uZmlnKFsKICAuLi5uZXh0Vml0YWxzLAogIC4uLm5leHRUcywKICB7CiAgICBydWxlczogewogICAgICAnaW1wb3J0L25vLWN5Y2xlJzogWydlcnJvcicsIHsgaWdub3JlRXh0ZXJuYWw6IHRydWUgfV0sCiAgICAgICdyZWFjdC1ob29rcy9zZXQtc3RhdGUtaW4tZWZmZWN0JzogJ29mZicsCiAgICAgICduby1yZXN0cmljdGVkLXN5bnRheCc6IFsnZXJyb3InLCAuLi5zeW50YXhSdWxlc10sCiAgICB9LAogIH0sCiAgewogICAgZmlsZXM6IFsnbmV4dC5jb25maWcudHMnXSwKICAgIHJ1bGVzOiB7CiAgICAgICduby1yZXN0cmljdGVkLXN5bnRheCc6IFsnZXJyb3InLCAuLi5uZXh0Q29uZmlnUmVzdHJpY3RlZFN5bnRheFJ1bGVzXSwKICAgIH0sCiAgfSwKICAvLyBPdmVycmlkZSBkZWZhdWx0IGlnbm9yZXMgb2YgZXNsaW50LWNvbmZpZy1uZXh0LgogIGdsb2JhbElnbm9yZXMoWwogICAgLy8gRGVmYXVsdCBpZ25vcmVzIG9mIGVzbGludC1jb25maWctbmV4dDoKICAgICcubmV4dC8qKicsCiAgICAnb3V0LyoqJywKICAgICdidWlsZC8qKicsCiAgICAnbmV4dC1lbnYuZC50cycsCiAgICAvLyBCdWlsZCBhcnRpZmFjdHM6CiAgICAnc2VydmVyLmpzJywKICAgICdkaXN0LyoqJywKICAgIC8vIFNjcmlwdCBmaWxlcyAoQ29tbW9uSlMpOgogICAgJ3NjcmlwdHMvKiovKi5qcycsCiAgXSksCl0pOwoKZXhwb3J0IGRlZmF1bHQgZXNsaW50Q29uZmlnOwo=
+import nextTs from 'eslint-config-next/typescript';
+import nextVitals from 'eslint-config-next/core-web-vitals';
+import { defineConfig, globalIgnores } from 'eslint/config';
+
+const syntaxRules = [
+  {
+    selector: 'JSXOpeningElement[name.name="head"]',
+    message:
+      '禁止使用 head 标签，优先使用 metadata。三方 CSS、字体等资源可以在 globals.css 中顶部通过 @import 引入或者使用 next/font；preload, preconnect, dns-prefetch 通过 ReactDOM 的 preload、preconnect、dns-prefetch 方法引入；json-ld 可阅读 https://nextjs.org/docs/app/guides/json-ld',
+  },
+];
+
+const nextConfigRestrictedSyntaxRules = [
+  {
+    selector:
+      'Property[key.name=/^(root|outputFileTracingRoot)$/] > Literal[value=/^\\//]',
+    message:
+      '禁止在 next.config 中写死绝对路径，请改用 path.resolve(__dirname, ...)、import.meta.dirname 或 process.cwd() 动态拼接。',
+  },
+];
+
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  {
+    rules: {
+      'import/no-cycle': ['error', { ignoreExternal: true }],
+      'react-hooks/set-state-in-effect': 'off',
+      'no-restricted-syntax': ['error', ...syntaxRules],
+    },
+  },
+  {
+    files: ['next.config.ts'],
+    rules: {
+      'no-restricted-syntax': ['error', ...nextConfigRestrictedSyntaxRules],
+    },
+  },
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    '.next/**',
+    'out/**',
+    'build/**',
+    'next-env.d.ts',
+    // Build artifacts:
+    'server.js',
+    'dist/**',
+    // Script files (CommonJS):
+    'scripts/**/*.js',
+  ]),
+]);
+
+export default eslintConfig;
