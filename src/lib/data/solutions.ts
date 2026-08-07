@@ -1,1 +1,128 @@
-ZXhwb3J0IGludGVyZmFjZSBTb2x1dGlvblBhZ2UgewogIHNsdWc6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIHN1YnRpdGxlOiBzdHJpbmc7CiAgcGFpblBvaW50OiBzdHJpbmc7CiAgYmVuZWZpdHM6IHsgaWNvbjogc3RyaW5nOyB0aXRsZTogc3RyaW5nOyBkZXNjcmlwdGlvbjogc3RyaW5nIH1bXTsKICByZWNvbW1lbmRlZFByb2R1Y3RzOiB7IHNsdWc6IHN0cmluZzsgbmFtZTogc3RyaW5nOyByZWFzb246IHN0cmluZyB9W107CiAgd2hvbGVzYWxlVGVybXM6IHN0cmluZ1tdOwogIGN0YVRleHQ6IHN0cmluZzsKfQoKZXhwb3J0IGNvbnN0IHNvbHV0aW9uc1BhZ2VzOiBTb2x1dGlvblBhZ2VbXSA9IFsKICB7CiAgICBzbHVnOiAndmV0LWNsaW5pY3MnLAogICAgdGl0bGU6ICdTZW5pb3IgRG9nIENhcmUgU29sdXRpb25zIGZvciBWZXQgQ2xpbmljcycsCiAgICBzdWJ0aXRsZTogJ0NvbXBsZW1lbnQgWW91ciBDbGluaWNhbCBDYXJlIHdpdGggRXZlcnlkYXkgQ29tZm9ydCBQcm9kdWN0cycsCiAgICBwYWluUG9pbnQ6ICdHZXJpYXRyaWMgcGF0aWVudHMgbmVlZCBtb3JlIHRoYW4ganVzdCBtZWRpY2FsIHRyZWF0bWVudC4gU3VwcG9ydCB0aGVpciBjb21mb3J0IGJldHdlZW4gdmlzaXRzIHdpdGggcHJhY3RpY2FsLCBub24tdG94aWMgcHJvZHVjdHMgZGVzaWduZWQgZm9yIGFnaW5nIGRvZ3MuIExveWFsQm9uZCBwcm92aWRlcyB2ZXQgY2xpbmljcyB3aXRoIGEgY3VyYXRlZCByYW5nZSBvZiBzZW5pb3IgZG9nIGNhcmUgZXNzZW50aWFscyB0aGF0IGNvbXBsZW1lbnQgeW91ciBwcm9mZXNzaW9uYWwgc2VydmljZXMuJywKICAgIGJlbmVmaXRzOiBbCiAgICAgIHsgaWNvbjogJ/Cfk6YnLCB0aXRsZTogJ0NsaW5pYyBQcmljaW5nIFByb2dyYW0nLCBkZXNjcmlwdGlvbjogJ0V4Y2x1c2l2ZSB3aG9sZXNhbGUgcHJpY2luZyB3aXRoIHRpZXJlZCB2b2x1bWUgZGlzY291bnRzIGZvciBwcmFjdGljZXMgb2YgYWxsIHNpemVzLicgfSwKICAgICAgeyBpY29uOiAn8J+Pt++4jycsIHRpdGxlOiAnUmV0YWlsIERpc3BsYXkgUmVhZHknLCBkZXNjcmlwdGlvbjogJ1Byb2R1Y3RzIGFycml2ZSBpbiByZXRhaWwtcmVhZHkgcGFja2FnaW5nIHdpdGggc2hlbGYtc3RhYmxlIG1hdGVyaWFscywgaWRlYWwgZm9yIGNsaW5pYyB3YWl0aW5nIGFyZWFzIGFuZCBsb2JiaWVzLicgfSwKICAgICAgeyBpY29uOiAn8J+TiycsIHRpdGxlOiAnQ2xpZW50IEVkdWNhdGlvbiBNYXRlcmlhbHMnLCBkZXNjcmlwdGlvbjogJ0ZyZWUgcHJpbnRlZCBjYXJlIGd1aWRlcyBhbmQgcHJvZHVjdCByZWNvbW1lbmRhdGlvbiBjYXJkcyBmb3IgeW91ciBjbGllbnRzLicgfSwKICAgICAgeyBpY29uOiAn8J+UhCcsIHRpdGxlOiAnRmxleGlibGUgUmVvcmRlcicsIGRlc2NyaXB0aW9uOiAnTG93IE1PUSB3aXRoIGZhc3QgcmVzdG9ja2luZy4gTWl4IGFuZCBtYXRjaCBwcm9kdWN0cyBhY3Jvc3MgY2F0ZWdvcmllcyB0byBzdWl0IHlvdXIgY2xpbmljIG5lZWRzLicgfSwKICAgIF0sCiAgICByZWNvbW1lbmRlZFByb2R1Y3RzOiBbCiAgICAgIHsgc2x1ZzogJ29ydGhvcGVkaWMtYm9sc3Rlci1kb2ctYmVkJywgbmFtZTogJ09ydGhvcGVkaWMgQm9sc3RlciBEb2cgQmVkJywgcmVhc29uOiAnSWRlYWwgZm9yIHJlY292ZXJ5IHJvb21zIGFuZCB3YWl0aW5nIGFyZWFzJyB9LAogICAgICB7IHNsdWc6ICdsaWZ0LWFzc2lzdC1oYXJuZXNzJywgbmFtZTogJ0xpZnQtQXNzaXN0IEhhcm5lc3MnLCByZWFzb246ICdBc3Npc3RzIG1vYmlsaXR5LWltcGFpcmVkIHBhdGllbnRzIGR1cmluZyBleGFtaW5hdGlvbnMnIH0sCiAgICAgIHsgc2x1ZzogJ3NpbGljb25lLXBhdy1wcm90ZWN0b3ItYm9vdHMnLCBuYW1lOiAnU2lsaWNvbmUgUGF3IFByb3RlY3RvciBCb290cycsIHJlYXNvbjogJ1N1cHBvcnRzIHN0YWJsZSBtb3ZlbWVudCBvbiBjbGluaWMgdGlsZSBmbG9vcnMnIH0sCiAgICAgIHsgc2x1ZzogJ2RyeWluZy10b3dlbCcsIG5hbWU6ICdRdWljay1EcnkgQ29yYWwgRmxlZWNlIFRvd2VsJywgcmVhc29uOiAnRXNzZW50aWFsIGZvciBwb3N0LWV4YW1pbmF0aW9uIGNsZWFudXAgYW5kIGdyb29taW5nJyB9LAogICAgXSwKICAgIHdob2xlc2FsZVRlcm1zOiBbCiAgICAgICdNT1E6IDUwIHBpZWNlcyAobWl4ZWQgcHJvZHVjdHMgYWNjZXB0ZWQpJywKICAgICAgJ1ZvbHVtZSBkaXNjb3VudDogMTAlIG9mZiBhdCAxMDArIHVuaXRzLCAxNSUgb2ZmIGF0IDMwMCsgdW5pdHMnLAogICAgICAnT0VNL1ByaXZhdGUgbGFiZWwgYXZhaWxhYmxlIGZvciBvcmRlcnMgNTAwKyB1bml0cycsCiAgICAgICdMZWFkIHRpbWU6IDI1LTM1IGRheXMgYWZ0ZXIgb3JkZXIgY29uZmlybWF0aW9uJywKICAgICAgJ1BheW1lbnQ6IFQvVCA1MCUgZGVwb3NpdCwgNTAlIGJlZm9yZSBzaGlwbWVudCcsCiAgICAgICdTaGlwcGluZzogRk9CIE5pbmdibywgQ2hpbmEnLAogICAgXSwKICAgIGN0YVRleHQ6ICdSZXF1ZXN0IENsaW5pYyBQcmljaW5nJywKICB9LAogIHsKICAgIHNsdWc6ICdwZXQtc3RvcmVzJywKICAgIHRpdGxlOiAnU2VuaW9yIERvZyBDYXJlIFNvbHV0aW9ucyBmb3IgUGV0IFN0b3JlcycsCiAgICBzdWJ0aXRsZTogJ1N0b2NrIEhpZ2gtRGVtYW5kIFNlbmlvciBQcm9kdWN0cyBZb3VyIEN1c3RvbWVycyBBY3R1YWxseSBOZWVkJywKICAgIHBhaW5Qb2ludDogJ1RoZSBzZW5pb3IgcGV0IG1hcmtldCBpcyBncm93aW5nIGZhc3QuIFBldCBwYXJlbnRzIGFyZSBhY3RpdmVseSBzZWVraW5nIHNwZWNpYWxpemVkIHByb2R1Y3RzIGZvciBhZ2luZyBkb2dzIGJ1dCBvZnRlbiBzdHJ1Z2dsZSB0byBmaW5kIHRoZW0gaW4gc3RvcmVzLiBMb3lhbEJvbmQgZ2l2ZXMgcGV0IHN0b3JlcyBhIGRpZmZlcmVudGlhdGVkIHByb2R1Y3QgbGluZSB3aXRoIHN0cm9uZyBtYXJnaW5zIGFuZCBmYXN0IHR1cm5vdmVyLicsCiAgICBiZW5lZml0czogWwogICAgICB7IGljb246ICfwn5OKJywgdGl0bGU6ICdIaWdoIFR1cm5vdmVyIENhdGVnb3J5JywgZGVzY3JpcHRpb246ICdTZW5pb3IgZG9nIHByb2R1Y3RzIGFyZSBhbW9uZyB0aGUgZmFzdGVzdC1ncm93aW5nIHNlZ21lbnRzIGluIHBldCByZXRhaWwsIHdpdGggcmVwZWF0IHB1cmNoYXNlIHJhdGVzIGFib3ZlIDYwJS4nIH0sCiAgICAgIHsgaWNvbjogJ/CfkrAnLCB0aXRsZTogJ1N0cm9uZyBNYXJnaW5zJywgZGVzY3JpcHRpb246ICdXaG9sZXNhbGUgcHJpY2luZyBzdHJ1Y3R1cmVkIGZvciBoZWFsdGh5IHJldGFpbCBtYXJnaW5zLiBTdWdnZXN0ZWQgcmV0YWlsIHByaWNpbmcgZ3VpZGVzIGluY2x1ZGVkLicgfSwKICAgICAgeyBpY29uOiAn8J+OqCcsIHRpdGxlOiAnQXR0cmFjdGl2ZSBQYWNrYWdpbmcnLCBkZXNjcmlwdGlvbjogJ0NsZWFuLCBwcmVtaXVtIHBhY2thZ2luZyBkZXNpZ25lZCBmb3Igc2hlbGYgYXBwZWFsIGFuZCBnaWZ0LWdpdmluZy4gQ28tYnJhbmRlZCBkaXNwbGF5IHN0YW5kcyBhdmFpbGFibGUuJyB9LAogICAgICB7IGljb246ICfwn5OjJywgdGl0bGU6ICdNYXJrZXRpbmcgU3VwcG9ydCcsIGRlc2NyaXB0aW9uOiAnRnJlZSBwcm9kdWN0IHBob3RvZ3JhcGh5LCBzb2NpYWwgbWVkaWEgYXNzZXRzLCBhbmQgaW4tc3RvcmUgZGlzcGxheSBtYXRlcmlhbHMgZm9yIHBhcnRuZXJzLicgfSwKICAgIF0sCiAgICByZWNvbW1lbmRlZFByb2R1Y3RzOiBbCiAgICAgIHsgc2x1ZzogJ29ydGhvcGVkaWMtYm9sc3Rlci1kb2ctYmVkJywgbmFtZTogJ09ydGhvcGVkaWMgQm9sc3RlciBEb2cgQmVkJywgcmVhc29uOiAnVG9wIHNlbGxlciwgaGlnaCBtYXJnaW4sIHN0cm9uZyB2aXN1YWwgc2hlbGYgYXBwZWFsJyB9LAogICAgICB7IHNsdWc6ICdzbnVmZmxlLW1hdC1zZXQnLCBuYW1lOiAnU251ZmZsZSBNYXQgU2V0JywgcmVhc29uOiAnVHJlbmRpbmcgZW5yaWNobWVudCBwcm9kdWN0LCBicm9hZCBjdXN0b21lciBhcHBlYWwnIH0sCiAgICAgIHsgc2x1ZzogJ2RyeWluZy10b3dlbCcsIG5hbWU6ICdRdWljay1EcnkgQ29yYWwgRmxlZWNlIFRvd2VsJywgcmVhc29uOiAnSW1wdWxzZS1idXkgZnJpZW5kbHksIGdyZWF0IGFkZC1vbiBwcm9kdWN0JyB9LAogICAgICB7IHNsdWc6ICdzaWxpY29uZS1wYXctcHJvdGVjdG9yLWJvb3RzJywgbmFtZTogJ1NpbGljb25lIFBhdyBQcm90ZWN0b3IgQm9vdHMnLCByZWFzb246ICdMb3cgcHJpY2UgcG9pbnQsIGhpZ2ggdm9sdW1lIHNlbGxlcicgfSwKICAgIF0sCiAgICB3aG9sZXNhbGVUZXJtczogWwogICAgICAnTU9ROiAxMDAgcGllY2VzIChtaXhlZCBTS1VzIGFjY2VwdGVkKScsCiAgICAgICdWb2x1bWUgZGlzY291bnQ6IDEyJSBvZmYgYXQgMjAwKyB1bml0cywgMTglIG9mZiBhdCA1MDArIHVuaXRzJywKICAgICAgJ09FTS9Qcml2YXRlIGxhYmVsIGF2YWlsYWJsZSBmb3Igb3JkZXJzIDEwMDArIHVuaXRzJywKICAgICAgJ0xlYWQgdGltZTogMjUtMzUgZGF5cyBhZnRlciBvcmRlciBjb25maXJtYXRpb24nLAogICAgICAnUGF5bWVudDogVC9UIDUwJSBkZXBvc2l0LCA1MCUgYmVmb3JlIHNoaXBtZW50JywKICAgICAgJ1NoaXBwaW5nOiBGT0IgTmluZ2JvLCBDaGluYScsCiAgICBdLAogICAgY3RhVGV4dDogJ1JlcXVlc3QgU3RvcmUgUHJpY2luZycsCiAgfSwKICB7CiAgICBzbHVnOiAnYm9hcmRpbmctZmFjaWxpdGllcycsCiAgICB0aXRsZTogJ1NlbmlvciBEb2cgQ2FyZSBTb2x1dGlvbnMgZm9yIEJvYXJkaW5nIEZhY2lsaXRpZXMnLAogICAgc3VidGl0bGU6ICdLZWVwIFNlbmlvciBCb2FyZGVycyBDb21mb3J0YWJsZSBhbmQgUmVkdWNlIExpYWJpbGl0eScsCiAgICBwYWluUG9pbnQ6ICdTZW5pb3IgZG9ncyByZXF1aXJlIGV4dHJhIGF0dGVudGlvbiBkdXJpbmcgYm9hcmRpbmcuIFNsaXBzLCBmYWxscywgYW5kIGRpc2NvbWZvcnQgb24gdW5mYW1pbGlhciBzdXJmYWNlcyBhcmUgY29tbW9uIGNvbmNlcm5zLiBMb3lhbEJvbmQgcHJvdmlkZXMgYm9hcmRpbmcgZmFjaWxpdGllcyB3aXRoIGR1cmFibGUsIGVhc3ktdG8tY2xlYW4gcHJvZHVjdHMgdGhhdCBtYWludGFpbiBjb21mb3J0IHN0YW5kYXJkcyBhbmQgcmVkdWNlIGluY2lkZW50IHJpc2tzLicsCiAgICBiZW5lZml0czogWwogICAgICB7IGljb246ICfwn6e5JywgdGl0bGU6ICdFYXN5IHRvIENsZWFuICYgTWFpbnRhaW4nLCBkZXNjcmlwdGlvbjogJ01hY2hpbmUgd2FzaGFibGUgY292ZXJzLCB3aXBlLWNsZWFuIHN1cmZhY2VzLCBhbmQgZHVyYWJsZSBtYXRlcmlhbHMgZGVzaWduZWQgZm9yIGhpZ2gtdHVybm92ZXIgZW52aXJvbm1lbnRzLicgfSwKICAgICAgeyBpY29uOiAn8J+boe+4jycsIHRpdGxlOiAnTm9uLVNsaXAgU2FmZXR5JywgZGVzY3JpcHRpb246ICdBbnRpLXNsaXAgcHJvZHVjdHMgZm9yIGZsb29ycyBhbmQga2VubmVscyByZWR1Y2UgZmFsbCByaXNrcywgc3VwcG9ydGluZyB5b3VyIGR1dHkgb2YgY2FyZSBmb3Igc2VuaW9yIGJvYXJkZXJzLicgfSwKICAgICAgeyBpY29uOiAn8J+TkCcsIHRpdGxlOiAnQnVsayBDb25zaXN0ZW5jeScsIGRlc2NyaXB0aW9uOiAnVW5pZm9ybSBzaXppbmcgYW5kIHF1YWxpdHkgYWNyb3NzIGxhcmdlIG9yZGVycyBlbnN1cmUgZXZlcnkga2VubmVsIGlzIGVxdWFsbHkgZXF1aXBwZWQuJyB9LAogICAgICB7IGljb246ICfij7HvuI8nLCB0aXRsZTogJ0Zhc3QgUmVwbGFjZW1lbnQgUHJvZ3JhbScsIGRlc2NyaXB0aW9uOiAnUXVpY2sgcmVvcmRlciBmb3IgaGlnaC13ZWFyIGl0ZW1zLiBLZWVwIHlvdXIgZmFjaWxpdHkgZnVsbHkgc3RvY2tlZCB3aXRob3V0IGxvbmcgbGVhZCB0aW1lcy4nIH0sCiAgICBdLAogICAgcmVjb21tZW5kZWRQcm9kdWN0czogWwogICAgICB7IHNsdWc6ICdzaWxpY29uZS1wYXctcHJvdGVjdG9yLWJvb3RzJywgbmFtZTogJ1NpbGljb25lIFBhdyBQcm90ZWN0b3IgQm9vdHMnLCByZWFzb246ICdFc3NlbnRpYWwgZm9yIHNsaXBwZXJ5IGtlbm5lbCBhbmQgaGFsbHdheSBmbG9vcnMnIH0sCiAgICAgIHsgc2x1ZzogJ29ydGhvcGVkaWMtYm9sc3Rlci1kb2ctYmVkJywgbmFtZTogJ09ydGhvcGVkaWMgQm9sc3RlciBEb2cgQmVkJywgcmVhc29uOiAnQ29tZm9ydGFibGUgcmVzdGluZyBzdXJmYWNlIHdpdGggd2FzaGFibGUgY292ZXInIH0sCiAgICAgIHsgc2x1ZzogJ2xpZnQtYXNzaXN0LWhhcm5lc3MnLCBuYW1lOiAnTGlmdC1Bc3Npc3QgSGFybmVzcycsIHJlYXNvbjogJ1NhZmUgc3VwcG9ydCBmb3IgbW9iaWxpdHktbGltaXRlZCBkb2dzIG9uIHVuZXZlbiBzdXJmYWNlcycgfSwKICAgICAgeyBzbHVnOiAnZHJ5aW5nLXRvd2VsJywgbmFtZTogJ1F1aWNrLURyeSBDb3JhbCBGbGVlY2UgVG93ZWwnLCByZWFzb246ICdGYXN0IGRyeWluZyBhZnRlciBvdXRkb29yIHdhbGtzIG9yIGJhdGggdGltZScgfSwKICAgIF0sCiAgICB3aG9sZXNhbGVUZXJtczogWwogICAgICAnTU9ROiAzMCBwaWVjZXMgcGVyIFNLVSAobWluaW11bSAzIFNLVXMpJywKICAgICAgJ0ZhY2lsaXR5IGRpc2NvdW50OiAxNSUgb2ZmIHN0YW5kYXJkIHdob2xlc2FsZSBmb3IgNSsgZmFjaWxpdHkgbG9jYXRpb25zJywKICAgICAgJ1JlcGxhY2VtZW50IGd1YXJhbnRlZTogRGVmZWN0aXZlIGl0ZW1zIHJlcGxhY2VkIGZyZWUgd2l0aGluIDkwIGRheXMnLAogICAgICAnTGVhZCB0aW1lOiAyNS0zNSBkYXlzIGFmdGVyIG9yZGVyIGNvbmZpcm1hdGlvbicsCiAgICAgICdQYXltZW50OiBUL1QgNTAlIGRlcG9zaXQsIDUwJSBiZWZvcmUgc2hpcG1lbnQnLAogICAgICAnU2hpcHBpbmc6IEZPQiBOaW5nYm8sIENoaW5hJywKICAgIF0sCiAgICBjdGFUZXh0OiAnUmVxdWVzdCBGYWNpbGl0eSBRdW90ZScsCiAgfSwKICB7CiAgICBzbHVnOiAncmVzY3VlLW9yZ2FuaXphdGlvbnMnLAogICAgdGl0bGU6ICdTZW5pb3IgRG9nIENhcmUgU29sdXRpb25zIGZvciBSZXNjdWUgT3JnYW5pemF0aW9ucycsCiAgICBzdWJ0aXRsZTogJ0FmZm9yZGFibGUgQ29tZm9ydCBQcm9kdWN0cyBmb3IgRG9ncyBXaG8gTmVlZCBJdCBNb3N0JywKICAgIHBhaW5Qb2ludDogJ1Jlc2N1ZSBvcmdhbml6YXRpb25zIG9mdGVuIHRha2UgaW4gc2VuaW9yIGRvZ3Mgd2l0aCBtb2JpbGl0eSBjaGFsbGVuZ2VzLCBpbmp1cmllcywgb3IgYWdlLXJlbGF0ZWQgY29uZGl0aW9ucy4gQnVkZ2V0IGNvbnN0cmFpbnRzIG1ha2UgaXQgZGlmZmljdWx0IHRvIHByb3ZpZGUgc3BlY2lhbGl6ZWQgY29tZm9ydCBwcm9kdWN0cy4gTG95YWxCb25kIG9mZmVycyByZXNjdWUtZnJpZW5kbHkgcHJpY2luZyBhbmQgZG9uYXRpb24gcHJvZ3JhbXMuJywKICAgIGJlbmVmaXRzOiBbCiAgICAgIHsgaWNvbjogJ+KdpO+4jycsIHRpdGxlOiAnUmVzY3VlIFByaWNpbmcnLCBkZXNjcmlwdGlvbjogJ1NwZWNpYWwgZGlzY291bnRlZCBwcmljaW5nIGV4Y2x1c2l2ZWx5IGZvciByZWdpc3RlcmVkIHJlc2N1ZSBvcmdhbml6YXRpb25zIGFuZCBhbmltYWwgc2hlbHRlcnMuJyB9LAogICAgICB7IGljb246ICfwn46BJywgdGl0bGU6ICdEb25hdGlvbiBNYXRjaGluZycsIGRlc2NyaXB0aW9uOiAnUXVhcnRlcmx5IHByb2R1Y3QgZG9uYXRpb24gcHJvZ3JhbS4gRm9yIGV2ZXJ5IGJ1bGsgb3JkZXIsIHdlIGNvbnRyaWJ1dGUgYWRkaXRpb25hbCBpdGVtcyBmb3Igc2VuaW9yIHJlc2N1ZXMuJyB9LAogICAgICB7IGljb246ICfwn6SdJywgdGl0bGU6ICdGbGV4aWJsZSBUZXJtcycsIGRlc2NyaXB0aW9uOiAnTmV0LTMwIHBheW1lbnQgdGVybXMgZm9yIHF1YWxpZnlpbmcgb3JnYW5pemF0aW9ucy4gU3BsaXQgcGF5bWVudHMgYXZhaWxhYmxlIGZvciBsYXJnZSBvcmRlcnMuJyB9LAogICAgICB7IGljb246ICfwn5OWJywgdGl0bGU6ICdBZG9wdGlvbiBTdXBwb3J0IEtpdCcsIGRlc2NyaXB0aW9uOiAnRnJlZSBwcm9kdWN0IHNhbXBsZSBraXRzIGluY2x1ZGVkIHdpdGggYWRvcHRlZCBzZW5pb3IgZG9ncywgYnJhbmRlZCB3aXRoIHlvdXIgb3JnYW5pemF0aW9uIG5hbWUuJyB9LAogICAgXSwKICAgIHJlY29tbWVuZGVkUHJvZHVjdHM6IFsKICAgICAgeyBzbHVnOiAnbGlmdC1hc3Npc3QtaGFybmVzcycsIG5hbWU6ICdMaWZ0LUFzc2lzdCBIYXJuZXNzJywgcmVhc29uOiAnSGVscHMgbW9iaWxpdHktbGltaXRlZCByZXNjdWVzIGR1cmluZyB3YWxrcyBhbmQgYWRvcHRpb24gZXZlbnRzJyB9LAogICAgICB7IHNsdWc6ICdzaWxpY29uZS1wYXctcHJvdGVjdG9yLWJvb3RzJywgbmFtZTogJ1NpbGljb25lIFBhdyBQcm90ZWN0b3IgQm9vdHMnLCByZWFzb246ICdBZmZvcmRhYmxlIG5vbi1zbGlwIHNvbHV0aW9uIGZvciBmb3N0ZXIgaG9tZXMgYW5kIGtlbm5lbHMnIH0sCiAgICAgIHsgc2x1ZzogJ29ydGhvcGVkaWMtYm9sc3Rlci1kb2ctYmVkJywgbmFtZTogJ09ydGhvcGVkaWMgQm9sc3RlciBEb2cgQmVkJywgcmVhc29uOiAnRXNzZW50aWFsIGNvbWZvcnQgZm9yIHNlbmlvciBkb2dzIGluIGtlbm5lbCBlbnZpcm9ubWVudHMnIH0sCiAgICBdLAogICAgd2hvbGVzYWxlVGVybXM6IFsKICAgICAgJ01PUTogMjAgcGllY2VzIChyZXNjdWUtZnJpZW5kbHkgbWluaW11bSknLAogICAgICAnUmVzY3VlIGRpc2NvdW50OiAyMCUgb2ZmIHN0YW5kYXJkIHdob2xlc2FsZSB3aXRoIHByb29mIG9mIDUwMShjKSgzKSBvciBlcXVpdmFsZW50JywKICAgICAgJ0RvbmF0aW9uIHByb2dyYW06IDEwJSBhZGRpdGlvbmFsIHByb2R1Y3RzIGRvbmF0ZWQgd2l0aCBlYWNoIG9yZGVyJywKICAgICAgJ0xlYWQgdGltZTogMjUtMzUgZGF5cyBhZnRlciBvcmRlciBjb25maXJtYXRpb24nLAogICAgICAnUGF5bWVudDogTmV0LTMwIGZvciBxdWFsaWZ5aW5nIG9yZ2FuaXphdGlvbnMnLAogICAgICAnU2hpcHBpbmc6IEZPQiBOaW5nYm8sIENoaW5hJywKICAgIF0sCiAgICBjdGFUZXh0OiAnQXBwbHkgZm9yIFJlc2N1ZSBQcmljaW5nJywKICB9LApdOwoKZXhwb3J0IGZ1bmN0aW9uIGdldFNvbHV0aW9uQnlTbHVnKHNsdWc6IHN0cmluZyk6IFNvbHV0aW9uUGFnZSB8IHVuZGVmaW5lZCB7CiAgcmV0dXJuIHNvbHV0aW9uc1BhZ2VzLmZpbmQocyA9PiBzLnNsdWcgPT09IHNsdWcpOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0QWxsU29sdXRpb25TbHVncygpOiBzdHJpbmdbXSB7CiAgcmV0dXJuIHNvbHV0aW9uc1BhZ2VzLm1hcChzID0+IHMuc2x1Zyk7Cn0K
+export interface SolutionPage {
+  slug: string;
+  title: string;
+  subtitle: string;
+  painPoint: string;
+  benefits: { icon: string; title: string; description: string }[];
+  recommendedProducts: { slug: string; name: string; reason: string }[];
+  wholesaleTerms: string[];
+  ctaText: string;
+}
+
+export const solutionsPages: SolutionPage[] = [
+  {
+    slug: 'vet-clinics',
+    title: 'Senior Dog Care Solutions for Vet Clinics',
+    subtitle: 'Complement Your Clinical Care with Everyday Comfort Products',
+    painPoint: 'Geriatric patients need more than just medical treatment. Support their comfort between visits with practical, non-toxic products designed for aging dogs. LoyalBond provides vet clinics with a curated range of senior dog care essentials that complement your professional services.',
+    benefits: [
+      { icon: '📦', title: 'Clinic Pricing Program', description: 'Exclusive wholesale pricing with tiered volume discounts for practices of all sizes.' },
+      { icon: '🏷️', title: 'Retail Display Ready', description: 'Products arrive in retail-ready packaging with shelf-stable materials, ideal for clinic waiting areas and lobbies.' },
+      { icon: '📋', title: 'Client Education Materials', description: 'Free printed care guides and product recommendation cards for your clients.' },
+      { icon: '🔄', title: 'Flexible Reorder', description: 'Low MOQ with fast restocking. Mix and match products across categories to suit your clinic needs.' },
+    ],
+    recommendedProducts: [
+      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Ideal for recovery rooms and waiting areas' },
+      { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Assists mobility-impaired patients during examinations' },
+      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Supports stable movement on clinic tile floors' },
+      { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Essential for post-examination cleanup and grooming' },
+    ],
+    wholesaleTerms: [
+      'MOQ: 50 pieces (mixed products accepted)',
+      'Volume discount: 10% off at 100+ units, 15% off at 300+ units',
+      'OEM/Private label available for orders 500+ units',
+      'Lead time: 25-35 days after order confirmation',
+      'Payment: T/T 50% deposit, 50% before shipment',
+      'Shipping: FOB Ningbo, China',
+    ],
+    ctaText: 'Request Clinic Pricing',
+  },
+  {
+    slug: 'pet-stores',
+    title: 'Senior Dog Care Solutions for Pet Stores',
+    subtitle: 'Stock High-Demand Senior Products Your Customers Actually Need',
+    painPoint: 'The senior pet market is growing fast. Pet parents are actively seeking specialized products for aging dogs but often struggle to find them in stores. LoyalBond gives pet stores a differentiated product line with strong margins and fast turnover.',
+    benefits: [
+      { icon: '📊', title: 'High Turnover Category', description: 'Senior dog products are among the fastest-growing segments in pet retail, with repeat purchase rates above 60%.' },
+      { icon: '💰', title: 'Strong Margins', description: 'Wholesale pricing structured for healthy retail margins. Suggested retail pricing guides included.' },
+      { icon: '🎨', title: 'Attractive Packaging', description: 'Clean, premium packaging designed for shelf appeal and gift-giving. Co-branded display stands available.' },
+      { icon: '📣', title: 'Marketing Support', description: 'Free product photography, social media assets, and in-store display materials for partners.' },
+    ],
+    recommendedProducts: [
+      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Top seller, high margin, strong visual shelf appeal' },
+      { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Trending enrichment product, broad customer appeal' },
+      { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Impulse-buy friendly, great add-on product' },
+      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Low price point, high volume seller' },
+    ],
+    wholesaleTerms: [
+      'MOQ: 100 pieces (mixed SKUs accepted)',
+      'Volume discount: 12% off at 200+ units, 18% off at 500+ units',
+      'OEM/Private label available for orders 1000+ units',
+      'Lead time: 25-35 days after order confirmation',
+      'Payment: T/T 50% deposit, 50% before shipment',
+      'Shipping: FOB Ningbo, China',
+    ],
+    ctaText: 'Request Store Pricing',
+  },
+  {
+    slug: 'boarding-facilities',
+    title: 'Senior Dog Care Solutions for Boarding Facilities',
+    subtitle: 'Keep Senior Boarders Comfortable and Reduce Liability',
+    painPoint: 'Senior dogs require extra attention during boarding. Slips, falls, and discomfort on unfamiliar surfaces are common concerns. LoyalBond provides boarding facilities with durable, easy-to-clean products that maintain comfort standards and reduce incident risks.',
+    benefits: [
+      { icon: '🧹', title: 'Easy to Clean & Maintain', description: 'Machine washable covers, wipe-clean surfaces, and durable materials designed for high-turnover environments.' },
+      { icon: '🛡️', title: 'Non-Slip Safety', description: 'Anti-slip products for floors and kennels reduce fall risks, supporting your duty of care for senior boarders.' },
+      { icon: '📐', title: 'Bulk Consistency', description: 'Uniform sizing and quality across large orders ensure every kennel is equally equipped.' },
+      { icon: '⏱️', title: 'Fast Replacement Program', description: 'Quick reorder for high-wear items. Keep your facility fully stocked without long lead times.' },
+    ],
+    recommendedProducts: [
+      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Essential for slippery kennel and hallway floors' },
+      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Comfortable resting surface with washable cover' },
+      { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Safe support for mobility-limited dogs on uneven surfaces' },
+      { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Fast drying after outdoor walks or bath time' },
+    ],
+    wholesaleTerms: [
+      'MOQ: 30 pieces per SKU (minimum 3 SKUs)',
+      'Facility discount: 15% off standard wholesale for 5+ facility locations',
+      'Replacement guarantee: Defective items replaced free within 90 days',
+      'Lead time: 25-35 days after order confirmation',
+      'Payment: T/T 50% deposit, 50% before shipment',
+      'Shipping: FOB Ningbo, China',
+    ],
+    ctaText: 'Request Facility Quote',
+  },
+  {
+    slug: 'rescue-organizations',
+    title: 'Senior Dog Care Solutions for Rescue Organizations',
+    subtitle: 'Affordable Comfort Products for Dogs Who Need It Most',
+    painPoint: 'Rescue organizations often take in senior dogs with mobility challenges, injuries, or age-related conditions. Budget constraints make it difficult to provide specialized comfort products. LoyalBond offers rescue-friendly pricing and donation programs.',
+    benefits: [
+      { icon: '❤️', title: 'Rescue Pricing', description: 'Special discounted pricing exclusively for registered rescue organizations and animal shelters.' },
+      { icon: '🎁', title: 'Donation Matching', description: 'Quarterly product donation program. For every bulk order, we contribute additional items for senior rescues.' },
+      { icon: '🤝', title: 'Flexible Terms', description: 'Net-30 payment terms for qualifying organizations. Split payments available for large orders.' },
+      { icon: '📖', title: 'Adoption Support Kit', description: 'Free product sample kits included with adopted senior dogs, branded with your organization name.' },
+    ],
+    recommendedProducts: [
+      { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Helps mobility-limited rescues during walks and adoption events' },
+      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Affordable non-slip solution for foster homes and kennels' },
+      { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Essential comfort for senior dogs in kennel environments' },
+    ],
+    wholesaleTerms: [
+      'MOQ: 20 pieces (rescue-friendly minimum)',
+      'Rescue discount: 20% off standard wholesale with proof of 501(c)(3) or equivalent',
+      'Donation program: 10% additional products donated with each order',
+      'Lead time: 25-35 days after order confirmation',
+      'Payment: Net-30 for qualifying organizations',
+      'Shipping: FOB Ningbo, China',
+    ],
+    ctaText: 'Apply for Rescue Pricing',
+  },
+];
+
+export function getSolutionBySlug(slug: string): SolutionPage | undefined {
+  return solutionsPages.find(s => s.slug === slug);
+}
+
+export function getAllSolutionSlugs(): string[] {
+  return solutionsPages.map(s => s.slug);
+}
