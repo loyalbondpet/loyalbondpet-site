@@ -1,17 +1,1 @@
-/** @type {import('stylelint').Config} */
-export default {
-  extends: 'stylelint-config-standard',
-  rules: {
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: ['tailwind', 'apply', 'layer', 'theme', 'custom-variant'],
-      },
-    ],
-    'hue-degree-notation': null,
-    'import-notation': null,
-    'lightness-notation': null,
-    'rule-empty-line-before': null,
-    'value-keyword-case': null,
-  },
-};
+LyoqIEB0eXBlIHtpbXBvcnQoJ3N0eWxlbGludCcpLkNvbmZpZ30gKi8KZXhwb3J0IGRlZmF1bHQgewogIGV4dGVuZHM6ICdzdHlsZWxpbnQtY29uZmlnLXN0YW5kYXJkJywKICBydWxlczogewogICAgJ2F0LXJ1bGUtbm8tdW5rbm93bic6IFsKICAgICAgdHJ1ZSwKICAgICAgewogICAgICAgIGlnbm9yZUF0UnVsZXM6IFsndGFpbHdpbmQnLCAnYXBwbHknLCAnbGF5ZXInLCAndGhlbWUnLCAnY3VzdG9tLXZhcmlhbnQnXSwKICAgICAgfSwKICAgIF0sCiAgICAnaHVlLWRlZ3JlZS1ub3RhdGlvbic6IG51bGwsCiAgICAnaW1wb3J0LW5vdGF0aW9uJzogbnVsbCwKICAgICdsaWdodG5lc3Mtbm90YXRpb24nOiBudWxsLAogICAgJ3J1bGUtZW1wdHktbGluZS1iZWZvcmUnOiBudWxsLAogICAgJ3ZhbHVlLWtleXdvcmQtY2FzZSc6IG51bGwsCiAgfSwKfTsK
