@@ -9,14 +9,14 @@ export default function HeroSection() {
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-green/10 rounded-full text-brand-green text-sm font-medium mb-6">
               <span className="w-2 h-2 bg-brand-green rounded-full" />
-              Specialized Supplier for Senior Dog Care | 6 Life Scenarios Covered
+              Functional Wellness for Every Dog | From Senior Care to Recovery Support
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-dark leading-tight mb-6">
-              Give Your Senior Dog the{' '}
+              Give Every Dog the{' '}
               <span className="text-brand-green">Comfort</span> They Deserve
             </h1>
             <p className="text-lg sm:text-xl text-brand-gray mb-8 max-w-lg mx-auto lg:mx-0">
-              Functional products designed for aging pets. Thoughtfully designed, non-toxic, and made with love for your loyal companion.
+              From senior mobility to post-surgery recovery, joint support to anxiety relief — thoughtfully designed, non-toxic products for dogs with special needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
@@ -57,7 +57,7 @@ export default function HeroSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-brand-dark text-sm">Senior Dog Care</p>
+                <p className="font-bold text-brand-dark text-sm">Functional Pet Wellness</p>
                 <p className="text-xs text-brand-gray">Non-Toxic · Thoughtfully Designed</p>
               </div>
             </div>
