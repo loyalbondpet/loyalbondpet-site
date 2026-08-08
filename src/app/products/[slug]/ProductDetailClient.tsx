@@ -82,7 +82,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
         </h1>
         {hasSizeVariants && (
           <p className="text-sm text-brand-gray mb-2">
-            Low Entry Support Bed for Senior, Arthritic & Mobility-Impaired Dogs
+            Low Entry Support Bed for Senior Dogs with Limited Mobility
           </p>
         )}
 
