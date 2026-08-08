@@ -221,31 +221,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Industry Scenarios */}
+      {/* Use Scenarios */}
       <section className="py-16 sm:py-20 bg-brand-beige">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Trusted Across Industries</h2>
-            <p className="text-lg text-brand-gray">How professionals and pet families use LoyalBond products every day.</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Designed for Every Scenario</h2>
+            <p className="text-lg text-brand-gray">How LoyalBond products support senior dogs in different settings.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: '🏥',
-                title: 'Vet Clinics & Rehabilitation Centers',
-                description: 'Veterinary professionals use our Lift-Assist Harnesses and orthopedic beds to support geriatric patients during examinations and recovery. Non-slip silicone paw covers provide stability on clinic tile floors, while our drying towels keep grooming areas clean and efficient between appointments.',
-                stat: 'Recommended by veterinary professionals for everyday senior dog comfort',
+                title: 'Clinical Settings',
+                description: 'Our orthopedic beds and lift-assist harnesses are designed to meet the needs of senior dogs in examination and recovery environments. Non-slip paw covers provide stability on clinic floors, while drying towels keep grooming areas clean between uses.',
+                stat: 'Designed with clinical-grade support for senior dogs in mind',
               },
               {
                 icon: '🏪',
-                title: 'Pet Stores & Retail Partners',
-                description: 'Independent pet stores across the U.S. stock LoyalBond as their go-to senior dog product line. Our product range includes essentials for daily comfort and mobility support. Retail-ready packaging, competitive margins, and free display materials make partnership simple.',
-                stat: 'Trusted by pet parents and retail partners across the United States',
+                title: 'Retail Partnership',
+                description: 'LoyalBond products are built for retail display with professional packaging and competitive margins. Our product range covers essentials for daily comfort and mobility support — ideal for pet stores serving the senior dog market.',
+                stat: 'Wholesale and private-label partnerships welcome',
               },
               {
                 icon: '🏠',
-                title: 'Pet Parents at Home',
-                description: 'Families with aging dogs rely on our products to maintain quality of life at home. The Lift-Assist Harness helps senior dogs navigate stairs and car rides. Orthopedic bolster beds provide joint-friendly rest. Silicone paw covers prevent slips on hardwood floors — giving senior dogs confidence to move freely again.',
+                title: 'At-Home Comfort',
+                description: 'Our product line helps maintain quality of life for aging dogs at home. The Lift-Assist Harness helps senior dogs navigate stairs and car rides. Orthopedic bolster beds provide supportive rest. Silicone paw covers prevent slips on hardwood floors — giving senior dogs confidence to move freely.',
                 stat: 'Designed for dogs 8+ years with mobility, comfort, and daily living needs',
               },
             ].map((scenario) => (
