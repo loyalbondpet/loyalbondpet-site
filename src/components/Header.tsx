@@ -6,8 +6,8 @@ import { useCart } from '@/contexts/CartContext';
 import { Menu, X, ShoppingBag, Search, ChevronDown } from 'lucide-react';
 
 const shopDropdown = [
-  { name: 'Home Safety', href: '/collections/home-safety', emoji: '🏠', desc: 'Orthopedic beds, ramps & non-slip aids' },
-  { name: 'Feeding Aids', href: '/collections/feeding-aids', emoji: '🍽️', desc: 'Elevated bowls & slow feeders' },
+  { name: 'Home Safety', href: '/collections/home-safety', emoji: '🏠', desc: 'Orthopedic beds, paw covers & lift aids' },
+  { name: 'Feeding Aids', href: '/collections/feeding-aids', emoji: '🍽️', desc: 'Slow feeders, snuffle mats & feeding aids' },
   { name: 'Travel & Car', href: '/collections/travel-car', emoji: '🚗', desc: 'Car seats, harnesses & portable bowls' },
   { name: 'Grooming & Bath', href: '/collections/grooming-bath', emoji: '🛁', desc: 'Brushes, elbow pads & paw care' },
   { name: 'Oral Care', href: '/collections/oral-care', emoji: '🦷', desc: 'Dental comfort for senior dogs' },
@@ -22,10 +22,10 @@ const solutionsDropdown = [
 ];
 
 const careGuideDropdown = [
-  { name: 'Arthritis & Hip Dysplasia', href: '/care-guide/arthritis' },
-  { name: 'Post-ACL Surgery Recovery', href: '/care-guide/post-acl-surgery' },
+  { name: 'Mobility & Joint Comfort', href: '/care-guide/arthritis' },
+  { name: 'Mobility Recovery Support', href: '/care-guide/post-acl-surgery' },
   { name: 'Senior Dogs 10+ Years', href: '/care-guide/senior-10plus' },
-  { name: 'Cognitive Dysfunction', href: '/care-guide/cognitive-dysfunction' },
+  { name: 'Cognitive Changes', href: '/care-guide/cognitive-dysfunction' },
   { name: 'Short-Leg Breeds', href: '/care-guide/short-leg-breeds' },
   { name: 'Brachycephalic Breeds', href: '/care-guide/brachycephalic-breeds' },
   { name: 'Pregnant & Postpartum', href: '/care-guide/pregnant-postpartum' },
