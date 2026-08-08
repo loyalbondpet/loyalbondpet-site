@@ -8,8 +8,8 @@ import { Menu, X, ShoppingBag, Search, ChevronDown } from 'lucide-react';
 const shopDropdown = [
   { name: 'Home Safety', href: '/collections/home-safety', emoji: '🏠', desc: 'Orthopedic beds, paw covers & lift aids' },
   { name: 'Feeding Aids', href: '/collections/feeding-aids', emoji: '🍽️', desc: 'Slow feeders, snuffle mats & feeding aids' },
-  { name: 'Travel & Car', href: '/collections/travel-car', emoji: '🚗', desc: 'Car seats, harnesses & portable bowls' },
-  { name: 'Grooming & Bath', href: '/collections/grooming-bath', emoji: '🛁', desc: 'Brushes, elbow pads & paw care' },
+  { name: 'Travel & Car', href: '/collections/travel-car', emoji: '🚗', desc: 'Harnesses, paw covers & travel comfort' },
+  { name: 'Grooming & Bath', href: '/collections/grooming-bath', emoji: '🛁', desc: 'Quick-dry towels & daily coat care' },
   { name: 'Oral Care', href: '/collections/oral-care', emoji: '🦷', desc: 'Dental comfort for senior dogs' },
   { name: 'Seasonal', href: '/collections/seasonal', emoji: '❄️', desc: 'Seasonal comfort & daily living essentials' },
 ];
