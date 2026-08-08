@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Why LoyalBond?</h2>
             <p className="text-lg text-brand-gray max-w-2xl mx-auto">
-              We&apos;re not just another pet brand. Every product is designed with real pets and real families in mind.
+              Every product is designed around the real daily needs of senior dogs and their families.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -257,6 +257,35 @@ export default function HomePage() {
                   <p className="text-sm font-medium text-brand-green">{scenario.stat}</p>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* Solutions for Partners */}
+      <section className="py-12 sm:py-16 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl font-bold text-brand-dark mb-2">Solutions for Every Partner</h2>
+            <p className="text-brand-gray">Tailored product programs for professionals who care for senior dogs.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { name: 'Vet Clinics', href: '/solutions/vet-clinics', emoji: '🏥', desc: 'Comfort products for geriatric patients' },
+              { name: 'Pet Stores', href: '/solutions/pet-stores', emoji: '🏪', desc: 'High-demand senior care products' },
+              { name: 'Boarding Facilities', href: '/solutions/boarding-facilities', emoji: '🏨', desc: 'Durable comfort for boarding seniors' },
+              { name: 'Rescue Organizations', href: '/solutions/rescue-organizations', emoji: '❤️', desc: 'Affordable care for rescue dogs' },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group flex flex-col items-center gap-2 p-5 rounded-xl bg-brand-beige/30 hover:bg-brand-green/10 border border-transparent hover:border-brand-green/30 transition-all duration-200"
+              >
+                <span className="text-3xl group-hover:scale-110 transition-transform">{item.emoji}</span>
+                <p className="font-semibold text-brand-dark text-sm">{item.name}</p>
+                <p className="text-xs text-brand-gray text-center">{item.desc}</p>
+              </Link>
             ))}
           </div>
         </div>
