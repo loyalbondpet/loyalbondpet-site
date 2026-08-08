@@ -92,7 +92,7 @@ export default function HomePage() {
               { icon: '✓', text: 'Thoughtfully Designed' },
               { icon: '🛡', text: 'Non-Toxic Materials' },
               { icon: '🏆', text: 'Quality Craftsmanship' },
-              { icon: '↩', text: '30-Day Returns' },
+              { icon: '📦', text: 'FOB Ningbo Shipping' },
             ].map((item) => (
               <div key={item.text} className="flex items-center justify-center gap-2 text-sm sm:text-base text-brand-dark">
                 <span className="text-brand-green font-bold">{item.icon}</span>
