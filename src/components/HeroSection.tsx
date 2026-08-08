@@ -57,8 +57,8 @@ export default function HeroSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-brand-dark text-sm">Trusted by Pet Parents</p>
-                <p className="text-xs text-brand-gray">Serving Vet Clinics, Pet Stores & Families</p>
+                <p className="font-bold text-brand-dark text-sm">Senior Dog Care</p>
+                <p className="text-xs text-brand-gray">Non-Toxic · Thoughtfully Designed</p>
               </div>
             </div>
           </div>
