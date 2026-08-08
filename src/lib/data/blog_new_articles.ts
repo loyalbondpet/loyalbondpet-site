@@ -4,7 +4,7 @@ const article1 = {
     slug: '5-mobility-aids-senior-dog-owner-guide',
     title: '5 Mobility Aids Every Senior Dog Owner Should Know',
     excerpt: 'Discover five essential mobility aids that can help your aging dog stay active, comfortable, and confident — from support harnesses to snuffle mats and orthopedic beds.',
-    author: 'Sarah Mitchell',
+    author: 'LoyalBond Team',
     date: '2025-01-20',
     readTime: '7 min read',
     category: 'Senior Dog Care',
