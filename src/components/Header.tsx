@@ -11,7 +11,7 @@ const shopDropdown = [
   { name: 'Travel & Car', href: '/collections/travel-car', emoji: '🚗', desc: 'Car seats, harnesses & portable bowls' },
   { name: 'Grooming & Bath', href: '/collections/grooming-bath', emoji: '🛁', desc: 'Brushes, elbow pads & paw care' },
   { name: 'Oral Care', href: '/collections/oral-care', emoji: '🦷', desc: 'Dental comfort for senior dogs' },
-  { name: 'Seasonal', href: '/collections/seasonal', emoji: '❄️', desc: 'Cooling mats & seasonal essentials' },
+  { name: 'Seasonal', href: '/collections/seasonal', emoji: '❄️', desc: 'Seasonal comfort & daily living essentials' },
 ];
 
 const solutionsDropdown = [
