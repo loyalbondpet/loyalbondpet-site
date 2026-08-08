@@ -1,14 +1,14 @@
 import Link from 'next/link'
 
 const careGuides = [
-  { slug: 'arthritis', title: 'Arthritis & Hip Dysplasia' },
-  { slug: 'post-acl-surgery', title: 'Post-ACL Surgery Recovery' },
+  { slug: 'arthritis', title: 'Mobility Challenges' },
+  { slug: 'post-acl-surgery', title: 'Mobility Recovery Support' },
   { slug: 'senior-10plus', title: 'Senior Dogs 10+ Years' },
-  { slug: 'cognitive-dysfunction', title: 'Cognitive Dysfunction' },
+  { slug: 'cognitive-dysfunction', title: 'Age-Related Cognitive Changes' },
   { slug: 'short-leg-breeds', title: 'Short-Leg Breeds (Corgi, Dachshund)' },
   { slug: 'brachycephalic-breeds', title: 'Brachycephalic Breeds (Frenchie, Bulldog)' },
   { slug: 'pregnant-postpartum', title: 'Pregnant & Postpartum Dogs' },
-  { slug: 'weight-management', title: 'Weight Management' },
+  { slug: 'weight-management', title: 'Healthy Weight Management' },
 ]
 
 export default function CareGuidesPage() {
@@ -31,3 +31,4 @@ export default function CareGuidesPage() {
     </div>
   )
 }
+
