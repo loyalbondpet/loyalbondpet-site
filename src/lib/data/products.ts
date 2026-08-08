@@ -491,7 +491,7 @@ export const collections = [
     slug: 'travel-car',
     name: 'Travel & Car',
     title: 'Travel & Car',
-    description: 'Make every journey comfortable for your senior dog. Car seat protectors, supportive harnesses, and portable hydration solutions for safe travel with aging pets.',
+    description: 'Make every journey comfortable for your senior dog. Supportive harnesses and non-slip paw covers for safe, comfortable travel with aging pets.',
     priceRange: '$3.50 – $8.50',
     image: '/collections/travel-car.jpg',
     icon: 'travel',
@@ -501,7 +501,7 @@ export const collections = [
     slug: 'grooming-bath',
     name: 'Grooming & Bath',
     title: 'Grooming & Bath',
-    description: 'Gentle grooming tools and quick-dry towels for senior dogs. Efficient bath-time essentials and coat care accessories for stress-free grooming routines.',
+    description: 'Quick-dry towels and gentle coat care accessories for senior dogs. Efficient bath-time essentials for stress-free grooming routines.',
     priceRange: '$0.14 – $0.27',
     image: '/collections/grooming-bath.jpg',
     icon: 'grooming',
@@ -544,3 +544,4 @@ export function getBestSellers(): Product[] {
 export function getCollectionBySlug(slug: string) {
   return collections.find(c => c.slug === slug);
 }
+
