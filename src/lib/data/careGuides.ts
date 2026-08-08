@@ -60,7 +60,7 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Changed Sleep Patterns', description: 'Senior dogs often sleep more but rest less deeply. An orthopedic bed with bolsters creates a secure, comfortable sleeping environment that supports deeper rest.' },
       { title: 'Sensory Decline', description: 'Hearing and vision loss can make dogs anxious. Consistent floor traction and familiar, non-slip pathways help them navigate their environment with confidence.' },
       { title: 'Reduced Mobility', description: 'Muscle loss and joint stiffness make everyday movements challenging. Support harnesses and low-entry furniture access help maintain mobility and independence.' },
-      { title: 'Changes in Eating Habits', description: 'Senior dogs may eat less or have difficulty with standard bowls. Elevated feeders support comfortable eating posture and encourage regular nutrition.' },
+      { title: 'Changes in Eating Habits', description: 'Senior dogs may eat less or have difficulty with standard bowls. A non-slip mat under the bowl and slightly raised feeding spot can support a comfortable eating posture and encourage regular nutrition.' },
       { title: 'Temperature Sensitivity', description: 'Older dogs regulate body temperature less effectively. Cool, well-ventilated resting spots in summer and warm bedding in winter maintain comfort year-round.' },
     ],
     recommendedProducts: [
@@ -170,7 +170,7 @@ export const careGuidePages: CareGuidePage[] = [
     ],
     recommendedProducts: [
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Built-in maze pattern slows eating by up to 10x, supporting portion control and satiety.' },
-      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Enables assisted, low-impact walks that support gradual weight loss without joint strain.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Enables assisted, low-impact walks that support comfortable daily exercise as part of a healthy weight management routine.' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Distributes the weight of heavier dogs evenly, reducing pressure points during rest.' },
     ],
     relatedBlogLinks: [
@@ -187,4 +187,5 @@ export function getCareGuideBySlug(slug: string): CareGuidePage | undefined {
 export function getAllCareGuideSlugs(): string[] {
   return careGuidePages.map(p => p.slug);
 }
+
 
