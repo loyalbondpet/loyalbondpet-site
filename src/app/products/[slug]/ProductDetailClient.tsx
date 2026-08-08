@@ -95,7 +95,11 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
               </svg>
             ))}
           </div>
-          <span className="text-sm text-brand-gray">({product.reviewCount} reviews)</span>
+          {product.reviewCount > 0 ? (
+            <span className="text-sm text-brand-gray">({product.reviewCount} reviews)</span>
+          ) : (
+            <span className="text-sm text-brand-gray italic">Be the first to review</span>
+          )}
         </div>
 
         {/* Price */}
