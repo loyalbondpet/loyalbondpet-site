@@ -40,8 +40,8 @@ const jsonLd = {
 const sceneIcons = [
   { slug: 'home-safety', name: 'Home Safety', emoji: '🏠', desc: 'Orthopedic beds, supportive foam, comfort essentials' },
   { slug: 'feeding-aids', name: 'Feeding Aids', emoji: '🍽️', desc: 'Slow feeders, puzzle toys, feeding essentials' },
-  { slug: 'travel-car', name: 'Travel & Car', emoji: '🚗', desc: 'Car seats, harnesses, water bowls' },
-  { slug: 'grooming-bath', name: 'Grooming & Bath', emoji: '🛁', desc: 'Grooming gloves, de-shedding tools, daily care' },
+  { slug: 'travel-car', name: 'Travel & Car', emoji: '🚗', desc: 'Harnesses, paw covers, travel comfort' },
+  { slug: 'grooming-bath', name: 'Grooming & Bath', emoji: '🛁', desc: 'Quick-dry towels, coat care, daily grooming' },
   { slug: 'oral-care', name: 'Oral Care', emoji: '🦷', desc: 'Dental comfort essentials' },
   { slug: 'seasonal', name: 'Seasonal', emoji: '❄️', desc: 'Seasonal comfort & daily living essentials' },
 ];
