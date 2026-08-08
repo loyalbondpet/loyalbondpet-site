@@ -38,12 +38,12 @@ const jsonLd = {
 };
 
 const sceneIcons = [
-  { slug: 'home-safety', name: 'Home Safety', emoji: '🏠', desc: 'Orthopedic beds, ramps, non-slip pads' },
-  { slug: 'feeding-aids', name: 'Feeding Aids', emoji: '🍽️', desc: 'Elevated bowls, slow feeders' },
+  { slug: 'home-safety', name: 'Home Safety', emoji: '🏠', desc: 'Orthopedic beds, supportive foam, comfort essentials' },
+  { slug: 'feeding-aids', name: 'Feeding Aids', emoji: '🍽️', desc: 'Slow feeders, puzzle toys, feeding essentials' },
   { slug: 'travel-car', name: 'Travel & Car', emoji: '🚗', desc: 'Car seats, harnesses, water bowls' },
-  { slug: 'grooming-bath', name: 'Grooming & Bath', emoji: '🛁', desc: 'Brushes, elbow pads, paw care' },
+  { slug: 'grooming-bath', name: 'Grooming & Bath', emoji: '🛁', desc: 'Grooming gloves, de-shedding tools, daily care' },
   { slug: 'oral-care', name: 'Oral Care', emoji: '🦷', desc: 'Dental comfort essentials' },
-  { slug: 'seasonal', name: 'Seasonal', emoji: '❄️', desc: 'Cooling mats & seasonal items' },
+  { slug: 'seasonal', name: 'Seasonal', emoji: '❄️', desc: 'Seasonal comfort & daily living essentials' },
 ];
 
 export default function HomePage() {
@@ -204,7 +204,7 @@ export default function HomePage() {
                   That frustration became our mission. We partnered with certified manufacturers to create thoughtfully designed, non-toxic products that genuinely improve daily life for senior dogs and their families. Every product is tested with real pets — because your companion deserves nothing less.
                 </p>
                 <p>
-                  Today, LoyalBond serves pet families across the United States, offering specialized solutions across 6 life scenarios — from mobility support to grooming, feeding, and comfort.
+                  Today, LoyalBond offers thoughtfully designed essentials for senior dogs — from mobility support to grooming, feeding, and comfort.
                 </p>
               </div>
               <Link
@@ -239,7 +239,7 @@ export default function HomePage() {
               {
                 icon: '🏪',
                 title: 'Pet Stores & Retail Partners',
-                description: 'Independent pet stores across the U.S. stock LoyalBond as their go-to senior dog product line. Our Snuffle Mat Sets and orthopedic beds are top sellers with strong repeat purchase rates. Retail-ready packaging, competitive margins, and free display materials make partnership simple.',
+                description: 'Independent pet stores across the U.S. stock LoyalBond as their go-to senior dog product line. Our product range includes essentials for daily comfort and mobility support. Retail-ready packaging, competitive margins, and free display materials make partnership simple.',
                 stat: 'Trusted by pet parents and retail partners across the United States',
               },
               {
