@@ -245,9 +245,9 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
         {/* Trust badges */}
         <div className="flex flex-wrap gap-4 p-4 bg-brand-beige/50 rounded-lg">
           {[
-            { icon: '', text: 'Pet-First Design' },
-            { icon: '↩️', text: '30-Day Returns' },
-            { icon: '🔒', text: 'Secure Checkout' },
+            { icon: '🐾', text: 'Senior Dog Specialists' },
+            { icon: '✅', text: 'Quality Tested' },
+            { icon: '📦', text: 'FOB Ningbo Shipping' },
           ].map((badge) => (
             <div key={badge.text} className="flex items-center gap-2 text-sm text-brand-dark">
               <span>{badge.icon}</span>
