@@ -6,12 +6,12 @@ import HeroSection from '@/components/HeroSection';
 import NewsletterForm from '@/components/NewsletterForm';
 
 export const metadata: Metadata = {
-  title: 'LoyalBond | Senior Dog Products & Pet Essentials',
+  title: 'LoyalBond | Functional Pet Wellness — Senior Care, Recovery & Mobility Aids',
   description:
-    'Give your senior dog the comfort they deserve. Shop thoughtfully designed functional products including orthopedic beds, mobility aids, travel accessories, and daily care essentials. Non-toxic, safe materials.',
+    'Functional wellness products for dogs with special needs — senior mobility, post-surgery recovery, joint support, anxiety relief, and daily comfort. Thoughtfully designed, non-toxic, and made with love.',
   openGraph: {
-    title: 'LoyalBond | Senior Dog Products & Pet Essentials',
-    description: 'Give your senior dog the comfort they deserve. Thoughtfully designed, non-toxic products for aging pets.',
+    title: 'LoyalBond | Functional Pet Wellness — Senior Care, Recovery & Mobility Aids',
+    description: 'Functional wellness products for dogs with special needs — from senior care to recovery support. Thoughtfully designed, non-toxic.',
     url: 'https://www.loyalbondpet.com',
     type: 'website',
   },
@@ -24,7 +24,7 @@ const jsonLd = {
   alternateName: 'LoyalBond Pet',
   url: 'https://www.loyalbondpet.com',
   logo: 'https://www.loyalbondpet.com/logo.png',
-  description: 'Specialized supplier of functional pet products for senior dogs. Quality craftsmanship with certified manufacturers.',
+  description: 'Specialized supplier of functional pet wellness products for dogs with special needs, including senior care, mobility aids, and recovery support. Quality craftsmanship with certified manufacturers.',
   sameAs: [
     'https://facebook.com/loyalbondpet',
     'https://instagram.com/loyalbondpet',
@@ -64,7 +64,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold text-brand-dark mb-2">Shop by Life Scenario</h2>
-            <p className="text-brand-gray">6 specialized collections for every aspect of your senior dog&apos;s daily life</p>
+            <p className="text-brand-gray">6 specialized collections for every aspect of your dog&apos;s daily life</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {sceneIcons.map((scene) => (
@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Why LoyalBond?</h2>
             <p className="text-lg text-brand-gray max-w-2xl mx-auto">
-              Every product is designed around the real daily needs of senior dogs and their families.
+              Every product is designed around the real daily needs of dogs with special requirements and their families.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -160,7 +160,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Best Sellers</h2>
             <p className="text-lg text-brand-gray max-w-2xl mx-auto">
-              Curated essentials for senior dogs and their families.
+              Curated essentials for dogs with special needs and their families.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -198,13 +198,13 @@ export default function HomePage() {
               <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-6">Loyal Companionship, Every Step of the Way</h2>
               <div className="space-y-4 text-brand-gray leading-relaxed">
                 <p>
-                  LoyalBond was born from a simple truth: the bond between humans and their pets is one of life&apos;s greatest gifts. When our own senior dog started struggling with everyday movements, we realized how few quality options existed for aging pets.
+                  LoyalBond was born from a simple truth: the bond between humans and their pets is one of life&apos;s greatest gifts. When our own senior dog started struggling with everyday movements, we realized how few quality options existed for pets with special needs — whether aging, recovering, or living with mobility challenges.
                 </p>
                 <p>
-                  That frustration became our mission. We partnered with certified manufacturers to create thoughtfully designed, non-toxic products that genuinely improve daily life for senior dogs and their families. Every product is tested with real pets — because your companion deserves nothing less.
+                  That frustration became our mission. We partnered with certified manufacturers to create thoughtfully designed, non-toxic products that genuinely improve daily life for dogs with special needs — from senior companions to post-surgery recovery, joint support, and beyond. Every product is tested with real pets — because your companion deserves nothing less.
                 </p>
                 <p>
-                  Today, LoyalBond offers thoughtfully designed essentials for senior dogs — from mobility support to grooming, feeding, and comfort.
+                  Today, LoyalBond offers thoughtfully designed essentials for dogs at every life stage — from senior mobility and recovery support to grooming, feeding, travel, and everyday comfort.
                 </p>
               </div>
               <Link
@@ -226,27 +226,27 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-4">Designed for Every Scenario</h2>
-            <p className="text-lg text-brand-gray">How LoyalBond products support senior dogs in different settings.</p>
+            <p className="text-lg text-brand-gray">How LoyalBond products support dogs with special needs in different settings.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: '🏥',
                 title: 'Clinical Settings',
-                description: 'Our orthopedic beds and lift-assist harnesses are designed to meet the needs of senior dogs in examination and recovery environments. Non-slip paw covers provide stability on clinic floors, while drying towels keep grooming areas clean between uses.',
-                stat: 'Designed with clinical-grade support for senior dogs in mind',
+                description: 'Our orthopedic beds and lift-assist harnesses support dogs with mobility challenges, post-surgery patients, and senior dogs in examination and recovery environments. Non-slip paw covers provide stability on clinic floors, while drying towels keep grooming areas clean between uses.',
+                stat: 'Designed with clinical-grade support for dogs with special needs in mind',
               },
               {
                 icon: '🏪',
                 title: 'Retail Partnership',
-                description: 'LoyalBond products are built for retail display with professional packaging and competitive margins. Our product range covers essentials for daily comfort and mobility support — ideal for pet stores serving the senior dog market.',
+                description: 'LoyalBond products are built for retail display with professional packaging and competitive margins. Our product range covers functional wellness essentials for daily comfort, mobility support, and recovery — ideal for pet stores serving the growing market of dogs with special needs.',
                 stat: 'Wholesale and private-label partnerships welcome',
               },
               {
                 icon: '🏠',
                 title: 'At-Home Comfort',
-                description: 'Our product line helps maintain quality of life for aging dogs at home. The Lift-Assist Harness helps senior dogs navigate stairs and car rides. Orthopedic bolster beds provide supportive rest. Silicone paw covers prevent slips on hardwood floors — giving senior dogs confidence to move freely.',
-                stat: 'Designed for dogs 8+ years with mobility, comfort, and daily living needs',
+                description: 'Our product line helps maintain quality of life for dogs with special needs at home. The Lift-Assist Harness helps dogs with mobility challenges navigate stairs and car rides. Orthopedic bolster beds provide supportive rest for senior and recovering dogs. Silicone paw covers prevent slips on hardwood floors — giving every dog confidence to move freely.',
+                stat: 'Designed for dogs with mobility, comfort, and daily living needs at every life stage',
               },
             ].map((scenario) => (
               <div key={scenario.title} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
@@ -268,14 +268,14 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-bold text-brand-dark mb-2">Solutions for Every Partner</h2>
-            <p className="text-brand-gray">Tailored product programs for professionals who care for senior dogs.</p>
+            <p className="text-brand-gray">Tailored product programs for professionals who care for dogs with special needs.</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { name: 'Vet Clinics', href: '/solutions/vet-clinics', emoji: '🏥', desc: 'Comfort products for geriatric patients' },
-              { name: 'Pet Stores', href: '/solutions/pet-stores', emoji: '🏪', desc: 'High-demand senior care products' },
-              { name: 'Boarding Facilities', href: '/solutions/boarding-facilities', emoji: '🏨', desc: 'Durable comfort for boarding seniors' },
-              { name: 'Rescue Organizations', href: '/solutions/rescue-organizations', emoji: '❤️', desc: 'Affordable care for rescue dogs' },
+              { name: 'Vet Clinics', href: '/solutions/vet-clinics', emoji: '🏥', desc: 'Functional wellness products for senior and recovery patients' },
+              { name: 'Pet Stores', href: '/solutions/pet-stores', emoji: '🏪', desc: 'High-demand functional pet care products' },
+              { name: 'Boarding Facilities', href: '/solutions/boarding-facilities', emoji: '🏨', desc: 'Durable comfort for senior and special-needs boarders' },
+              { name: 'Rescue Organizations', href: '/solutions/rescue-organizations', emoji: '❤️', desc: 'Affordable care for rescue dogs with special needs' },
             ].map((item) => (
               <Link
                 key={item.href}
@@ -296,7 +296,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get 15% Off Your First Order</h2>
           <p className="text-lg text-white/80 mb-8 max-w-xl mx-auto">
-            Join our newsletter for expert senior dog care tips, new product launches, and exclusive offers.
+            Join our newsletter for expert pet wellness tips, new product launches, and exclusive offers.
           </p>
           <NewsletterForm />
         </div>
