@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
     title: '10 Signs Your Senior Dog Needs Extra Support',
     excerpt: 'Is your aging dog showing subtle changes in behavior or mobility? Learn the key signs that indicate your senior companion needs additional support and how to help them stay comfortable.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2024-12-15',
+    date: '2026-08-07',
     readTime: '8 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
@@ -110,7 +110,7 @@ At LoyalBond, we believe every senior dog deserves comfort and dignity. Our prod
     title: 'How to Make Your Home Safe for an Aging Dog',
     excerpt: 'Transform your living space into a senior-dog-friendly haven. From non-slip solutions to strategic furniture placement, discover practical ways to prevent accidents and keep your aging pet comfortable.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2024-12-10',
+    date: '2026-08-07',
     readTime: '10 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
@@ -238,7 +238,7 @@ Remember, every dog ages differently. Observe your individual pet's needs and ad
     title: 'The Ultimate Guide to Senior Dog Mobility Aids',
     excerpt: 'From support harnesses to orthopedic products, explore the full range of mobility aids available for senior dogs. Learn how to choose the right products to keep your aging companion active and comfortable.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2024-12-05',
+    date: '2026-08-07',
     readTime: '12 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
@@ -369,7 +369,7 @@ Remember, the goal isn't to eliminate all challenges of aging, but to provide su
     title: 'Best Travel Accessories for Senior Dogs',
     excerpt: 'Planning a trip with your senior dog? Discover the essential travel accessories that keep aging pets safe, comfortable, and happy on every adventure, from car rides to hotel stays.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2024-11-28',
+    date: '2026-08-07',
     readTime: '9 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
@@ -541,7 +541,7 @@ Remember to start with shorter trips and gradually build up to longer adventures
     title: 'Why Non-Toxic Materials Matter in Pet Products',
     excerpt: 'Not all pet products are created equal when it comes to safety. Learn about the hidden dangers of toxic materials in pet products and how to choose safe alternatives for your furry family member.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2024-11-20',
+    date: '2026-08-07',
     readTime: '8 min read',
     category: 'Pet Health Tips',
     categorySlug: 'pet-health-tips',
@@ -688,7 +688,7 @@ At LoyalBond, safety isn't a marketing claim, it's our foundation. Every product
     title: 'How to Choose the Right Orthopedic Bed for Your Dog',
     excerpt: 'An orthopedic bed can transform your senior dog\'s comfort and mobility. Learn how to choose the perfect bed based on your dog\'s size, sleeping style, and specific health needs.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2024-11-15',
+    date: '2026-08-07',
     readTime: '10 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
@@ -696,13 +696,13 @@ At LoyalBond, safety isn't a marketing claim, it's our foundation. Every product
     tags: ['orthopedic dog bed', 'dog bed for large breeds', 'senior dog comfort', 'dog bed guide'],
     relatedProducts: ['orthopedic-memory-foam-bed', 'cooling-mat', 'elbow-protector-pads'],
     content: `
-A good orthopedic bed is one of the most impactful investments you can make for your senior dog's quality of life. The right bed can reduce joint pain, improve sleep quality, ease morning stiffness, and even help prevent the development of painful pressure sores. But with so many options on the market, choosing the right one requires understanding your dog's specific needs.
+A good orthopedic bed is one of the most impactful investments you can make for your senior dog's quality of life. The right bed can reduce joint discomfort, improve sleep quality, ease morning stiffness, and even help prevent the development of painful pressure sores. But with so many options on the market, choosing the right one requires understanding your dog's specific needs.
 
 ## Why Orthopedic Beds Matter for Senior Dogs
 
 Senior dogs spend significantly more time lying down than younger dogs. A dog who once slept 12 hours a day may spend 16-18 hours resting in their senior years. That means the quality of their sleeping surface has an enormous impact on their overall health and comfort.
 
-Standard dog beds often flatten quickly, providing inadequate support that can actually worsen joint pain and create pressure points. Orthopedic beds, designed with supportive materials that maintain their shape and provide even weight distribution, address these issues directly.
+Standard dog beds often flatten quickly, providing inadequate support that can actually worsen joint discomfort and create pressure points. Orthopedic beds, designed with supportive materials that maintain their shape and provide even weight distribution, address these issues directly.
 
 ## Understanding Orthopedic Bed Materials
 
@@ -732,7 +732,7 @@ Often marketed as orthopedic, egg crate foam provides some pressure relief but l
 
 ### Polyfill and Fiber Fill
 
-These materials are found in budget beds and provide softness but minimal support. They compress quickly and offer little benefit for dogs with joint pain. They may be suitable for young, healthy dogs but aren't true orthopedic solutions.
+These materials are found in budget beds and provide softness but minimal support. They compress quickly and offer little benefit for dogs with joint discomfort. They may be suitable for young, healthy dogs but aren't true orthopedic solutions.
 
 ## Choosing the Right Size
 
@@ -864,7 +864,7 @@ At LoyalBond, we've poured extensive research into creating the ideal orthopedic
     title: '5 Mobility Aids Every Senior Dog Owner Should Know',
     excerpt: 'Discover five essential mobility aids that can help your aging dog stay active, comfortable, and confident — from support harnesses to snuffle mats and orthopedic beds.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-20',
+    date: '2026-08-07',
     readTime: '7 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
@@ -962,7 +962,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
     title: 'How to Choose the Right Lifting Harness for Your Senior Dog',
     excerpt: 'Compare lift-assist harnesses and hind leg support harnesses to find the perfect mobility solution for your aging dog. Learn key differences, ideal use cases, and sizing tips.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-18',
+    date: '2026-08-08',
     readTime: '6 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
@@ -1090,7 +1090,7 @@ At LoyalBond, both our Lift-Assist Harness and Hind Leg Support Harness are desi
     title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds',
     excerpt: 'Discover why low-entry design matters for senior dog beds, how orthopedic support improves rest quality, and what features to look for in a bed for aging dogs.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-15',
+    date: '2026-08-08',
     readTime: '6 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
@@ -1210,7 +1210,7 @@ At LoyalBond, our Orthopedic Bolster Dog Bed is engineered specifically for the 
     title: 'Silicone Paw Covers vs Traditional Dog Boots: What Works Better at Home',
     excerpt: 'Compare silicone paw covers and traditional dog boots to discover which solution works better for indoor traction and everyday protection for senior dogs.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-13',
+    date: '2026-08-08',
     readTime: '5 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
@@ -1324,7 +1324,7 @@ At LoyalBond, our Adjustable Silicone Paw Protector Boots are designed specifica
     title: 'Snuffle Mats for Senior Dogs: Mental Exercise Without Physical Strain',
     excerpt: 'Learn how snuffle mats provide enriching mental stimulation for senior dogs, explore three available styles, and discover how to introduce this activity to your aging companion.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-10',
+    date: '2026-08-08',
     readTime: '5 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
@@ -1450,7 +1450,7 @@ At LoyalBond, our Interactive Dog Snuffle Mat Set is designed with senior dog ne
     title: 'Building a Complete Home Safety Setup for Aging Dogs',
     excerpt: 'Create a comprehensive home safety environment for your senior dog with six essential products. Learn how to build a cohesive system for mobility, comfort, and daily care.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-08',
+    date: '2026-08-08',
     readTime: '7 min read',
     category: 'Pet Health Tips',
     categorySlug: 'pet-health-tips',
@@ -1590,7 +1590,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
     title: 'Post-Bath Care for Senior Dogs: Quick-Dry Towel Guide',
     excerpt: 'Learn best practices for drying and caring for your senior dog after bath time, including why quick-dry coral fleece towels are ideal and how to make the experience comfortable.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-05',
+    date: '2026-08-08',
     readTime: '4 min read',
     category: 'Pet Health Tips',
     categorySlug: 'pet-health-tips',
@@ -1725,7 +1725,7 @@ At LoyalBond, our Pet Quick-Dry Coral Fleece Towel is designed with senior dog c
     title: 'What Pet Stores Need to Know About Stocking Senior Dog Products',
     excerpt: 'A guide for pet store owners on selecting and stocking senior dog products. Covers market trends, product selection, MOQ requirements, and wholesale opportunities.',
     author: 'LOYALBOND PET COCO WU',
-    date: '2025-01-03',
+    date: '2026-08-08',
     readTime: '6 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',

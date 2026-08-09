@@ -6,11 +6,11 @@ import HeroSection from '@/components/HeroSection';
 import NewsletterForm from '@/components/NewsletterForm';
 
 export const metadata: Metadata = {
-  title: 'LoyalBond | Functional Pet Wellness — Senior Care, Recovery & Mobility Aids',
+  title: 'LoyalBond | Senior Pet Wellness — Care & Mobility Aids',
   description:
-    'Functional wellness products for dogs with special needs — senior mobility, post-surgery recovery, joint support, anxiety relief, and daily comfort. Thoughtfully designed, non-toxic, and made with love.',
+    'Functional wellness products for dogs with special needs — senior mobility, recovery support, joint comfort, and daily calm. Thoughtfully designed, non-toxic, and made with love.',
   openGraph: {
-    title: 'LoyalBond | Functional Pet Wellness — Senior Care, Recovery & Mobility Aids',
+    title: 'LoyalBond | Senior Pet Wellness — Care & Mobility Aids',
     description: 'Functional wellness products for dogs with special needs — from senior care to recovery support. Thoughtfully designed, non-toxic.',
     url: 'https://www.loyalbondpet.com',
     type: 'website',

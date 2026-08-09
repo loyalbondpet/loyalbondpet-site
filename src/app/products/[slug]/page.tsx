@@ -213,7 +213,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                     ] : product.slug === 'orthopedic-bolster-dog-bed' ? [
                       { q: 'How do I choose the right size?', a: 'Choose based on your dog\'s weight and sleeping style. The low-entry design allows dogs with weak hind legs to climb in effortlessly. Measure your dog from nose to tail base for the best fit.' },
                       { q: 'Is the cover removable and washable?', a: 'Yes. The fully removable outer cover has a zipper and is machine washable for easy cleanup of fur and stains. The reversible inner mat offers plush fleece for warmth and breathable oxford for summer.' },
-                      { q: 'Does this bed help with joint pain?', a: 'The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors.' },
+                      { q: 'Is this bed good for dogs with stiff joints?', a: 'The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors.' },
                     ] : product.slug === 'drying-towel' ? [
                       { q: 'What\'s the difference between Small and Large?', a: 'Small (30×30cm) is ideal for cats, small dogs, and targeted drying of paws, face, or belly. Large (30×60cm) is suitable for medium to large dogs and full-body drying.' },
                       { q: 'Is the towel safe for sensitive skin?', a: 'Yes. Crafted from high-density coral fleece microfiber that is soft and gentle on sensitive skin and paw pads. Non-toxic and pet-safe.' },
