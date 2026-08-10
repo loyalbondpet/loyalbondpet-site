@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -72,6 +73,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased font-sans ${inter.variable}`}>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZDPNEJYXTM"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZDPNEJYXTM');
+          `}
+        </Script>
         <CartProvider>
         <Header />
         <main className="min-h-screen">{children}</main>
