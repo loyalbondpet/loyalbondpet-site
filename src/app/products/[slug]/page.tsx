@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { products, getProductBySlug, getProductsByCollection } from '@/lib/data/products';
+import { products, getProductBySlug, getRelatedProducts } from '@/lib/data/products';
 import Link from 'next/link';
 import ProductCard from '@/components/ProductCard';
 import ProductDetailClient from './ProductDetailClient';
@@ -41,7 +41,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const product = getProductBySlug(slug);
   if (!product) notFound();
 
-  const relatedProducts = getProductsByCollection(product.collectionSlug).filter(p => p.id !== product.id).slice(0, 4);
+  const relatedProducts = getRelatedProducts(slug);
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -279,7 +279,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         {/* Related Products */}
         {relatedProducts.length > 0 && (
           <section className="mt-16 border-t border-gray-200 pt-12">
-            <h2 className="text-2xl font-bold text-brand-dark mb-8">Frequently Bought Together</h2>
+            <h2 className="text-2xl font-bold text-brand-dark mb-8">Related Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedProducts.map((p) => (
                 <ProductCard key={p.id} product={p} />
