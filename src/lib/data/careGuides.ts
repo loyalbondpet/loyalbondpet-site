@@ -83,7 +83,6 @@ export const careGuidePages: CareGuidePage[] = [
     ],
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Enclosed bolster design provides a secure, nest-like environment that promotes a sense of safety.' },
-      { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Gentle grooming supports bonding and provides calming tactile stimulation.' },
     ],
     relatedBlogLinks: [
       { title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds', href: '/blog/why-senior-dogs-need-low-entry-orthopedic-beds' },
@@ -122,7 +121,6 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Sleep Disruption from Breathing', description: 'Many brachycephalic dogs experience disrupted sleep. A supportive bed with bolster allows them to find a comfortable position that optimizes airway position.' },
     ],
     recommendedProducts: [
-      { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Essential for regular skin fold cleaning and gentle coat maintenance for brachycephalic breeds prone to skin fold infections.' },
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Encourages slow, mindful eating through natural sniffing and foraging behavior.' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Bolster design allows brachycephalic dogs to find comfortable sleeping positions that support restful sleep.' },
     ],

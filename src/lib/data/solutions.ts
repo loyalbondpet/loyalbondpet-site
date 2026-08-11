@@ -24,7 +24,6 @@ export const solutionsPages: SolutionPage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Ideal for recovery rooms and waiting areas' },
       { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Assists mobility-impaired patients during examinations' },
-      { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Essential for post-examination cleanup and grooming' },
     ],
     wholesaleTerms: [
       'MOQ: 50 pieces (mixed products accepted)',
@@ -50,7 +49,6 @@ export const solutionsPages: SolutionPage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Top seller, high margin, strong visual shelf appeal' },
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Trending enrichment product, broad customer appeal' },
-      { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Impulse-buy friendly, great add-on product' },
     ],
     wholesaleTerms: [
       'MOQ: 100 pieces (mixed SKUs accepted)',
@@ -76,7 +74,6 @@ export const solutionsPages: SolutionPage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Comfortable resting surface with washable cover' },
       { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Safe support for mobility-limited dogs on uneven surfaces' },
-      { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Fast drying after outdoor walks or bath time' },
     ],
     wholesaleTerms: [
       'MOQ: 30 pieces per SKU (minimum 3 SKUs)',

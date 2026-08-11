@@ -321,82 +321,6 @@ Available in multiple sizes and colors to match your home decor.`,
     },
   },
   {
-    id: '5',
-    slug: 'drying-towel',
-    name: 'Pet Quick-Dry Coral Fleece Towel',
-    price: 0,
-    priceRange: '$0.14 – $0.27',
-    description: `The LoyalBond Quick-Dry Coral Fleece Towel offers efficient moisture absorption for your pet's daily care routine — whether after bath time, rainy walks, or swimming sessions.
-
-Crafted from high-density coral fleece microfiber, this towel absorbs water quickly and holds more moisture than standard cotton, helping you dry your pet faster with less rubbing. The soft, plush texture is gentle on sensitive skin and paw pads, making bath time more comfortable for dogs and cats of all sizes.
-
-Available in two sizes to match different breeds:
-- Small (30×30cm): Ideal for cats, small dogs, and targeted drying of paws, face, or belly
-- Large (30×60cm): Suitable for medium to large dogs, full-body drying
-
-Despite its high absorbency, the towel remains lightweight (100g per piece) and easy to handle. The quick-dry fabric releases moisture efficiently when hung, reducing musty odors and bacterial growth potential between uses.
-
-Machine washable and durable — maintains softness and absorbency wash after wash. The compact folded size makes it convenient to store in grooming kits or travel bags.
-
-Ideal for pet groomers, boarding facilities, and pet owners who prioritize efficient, gentle drying.`,
-    shortDescription: 'High-absorbency coral fleece microfiber towel for pets. Two sizes (30×30cm / 30×60cm) for cats and dogs. Quick-dry, machine washable, gentle on skin. Perfect for bath time, rainy walks, and grooming.',
-    collection: 'Grooming & Bath',
-    collectionSlug: 'grooming-bath',
-    images: [
-      '/images/products/drying-towel/01-main.jpg',
-      '/images/products/drying-towel/02-yellow.jpg',
-      '/images/products/drying-towel/03-gray.jpg',
-      '/images/products/drying-towel/04-size-compare.jpg',
-      '/images/products/drying-towel/05-absorbency.jpg',
-      '/images/products/drying-towel/06-texture.jpg',
-      '/images/products/drying-towel/07-pet-usage.jpg',
-      '/images/products/drying-towel/08-folded.jpg',
-      '/images/products/drying-towel/09-colors.jpg',
-      '/images/products/drying-towel/10-bath-scene.jpg',
-      '/images/products/drying-towel/11-detail.jpg',
-      '/images/products/drying-towel/12-packaging.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['Small (30×30cm)', 'Large (30×60cm)'],
-    colors: ['Mustard Yellow', 'Gray'],
-    colorOptions: [
-      { name: 'Mustard Yellow', hex: '#D4A537', image: '/images/products/drying-towel/02-yellow.jpg' },
-      { name: 'Gray', hex: '#9E9E9E', image: '/images/products/drying-towel/03-gray.jpg' },
-    ],
-    features: [
-      'High-Density Coral Fleece — Absorbs water faster than standard cotton',
-      'Two Size Options — 30×30cm for small pets / 30×60cm for medium-large dogs',
-      'Quick-Dry Fabric — Releases moisture efficiently to reduce odors',
-      'Soft & Gentle — Plush texture safe for sensitive skin',
-      'Lightweight (100g) — Easy to handle and store',
-      'Machine Washable — Durable, maintains softness wash after wash',
-      'Versatile Use — Bath time, rainy walks, swimming, grooming',
-    ],
-    specifications: {
-      'Material': 'High-density coral fleece microfiber',
-      'Size S': '30×30cm, approx. 100g',
-      'Size L': '30×60cm, approx. 100g',
-      'Weight': '100g per piece',
-      'Colors': 'Mustard Yellow / Gray',
-      'Packaging': '100 pieces per carton',
-      'Washable': 'Yes, machine washable',
-      'Dry Time': 'Quick-dry fabric',
-      'MOQ': '50 pieces (mixed sizes/colors accepted)',
-      'Lead Time': '25-35 days after order confirmation',
-      'Payment': 'T/T 50% deposit, 50% before shipment',
-      'Shipping': 'FOB Ningbo',
-    },
-    wholesaleInfo: {
-      moq: '50 pieces (mixed sizes/colors accepted)',
-      leadTime: '25-35 days after order confirmation',
-      payment: 'T/T 50% deposit, 50% before shipment',
-      shipping: 'FOB Ningbo',
-      note: 'Price varies by size, color, and order quantity. Contact us via email (sales@loyalbondpet.com) or WhatsApp (+8615706802495) for a detailed quote. FOB Ningbo available.',
-    },
-  },
-  {
     id: '6',
     slug: 'mesh-support-sling',
     name: 'Mesh Shoulder Sling Support Harness',
@@ -453,11 +377,11 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
       'Includes': 'Storage bag',
     },
     wholesaleInfo: {
-      moq: '50 pieces (mixed sizes/colors accepted)',
-      leadTime: '25-35 days after order confirmation',
-      payment: 'T/T 50% deposit, 50% before shipment',
-      shipping: 'FOB Ningbo',
-      note: 'Price varies by size, color, and order quantity. Contact us via email (sales@loyalbondpet.com) or WhatsApp (+8615706802495) for a detailed quote. FOB Ningbo available.',
+      moq: '2 pieces',
+      leadTime: '2-3 days for sample; 15-25 days for bulk order',
+      payment: 'Alibaba Trade Assurance / T/T',
+      shipping: 'FOB Yiwu, Zhejiang',
+      note: 'Supplier: Yiwu Zhixing Pet Products Co., Ltd. (义乌市致星宠物用品有限公司, 2-year store on 1688, 73% repeat buyer rate, 100% positive reviews). Main products: pet support harnesses, recovery slings, Elizabethan collars. Export experience: Amazon, eBay, Wish, AliExpress, independent e-commerce sites, LAZADA. Price: ¥13.21 (shoulder sling) / ¥23.90 (chest harness). 4 colors available (Pink/Blue/Navy/Black). Contact sales@loyalbondpet.com for volume pricing.',
     },
   }
 ];
@@ -498,7 +422,7 @@ export const collections = [
     name: 'Grooming & Bath',
     title: 'Grooming & Bath',
     description: 'Quick-dry towels and gentle coat care accessories for senior dogs. Efficient bath-time essentials for stress-free grooming routines.',
-    priceRange: '$0.14 – $0.27',
+    priceRange: 'Coming Soon',
     image: '/collections/grooming-bath.jpg',
     icon: 'grooming',
     emoji: '🛁'

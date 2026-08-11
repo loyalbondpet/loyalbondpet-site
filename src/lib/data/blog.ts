@@ -1456,7 +1456,7 @@ At LoyalBond, our Interactive Dog Snuffle Mat Set is designed with senior dog ne
     categorySlug: 'pet-health-tips',
     image: '/blog/home-safety-setup-aging-dogs.jpg',
     tags: ['senior dog home safety', 'aging dog care products', 'complete senior dog setup', 'dog mobility aids', 'senior dog comfort products'],
-    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed', 'drying-towel'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
     content: `
 As our dogs age, the home environment they have navigated effortlessly for years can suddenly become challenging. Slippery floors become hazards, stairs become obstacles, and simple activities like standing up require effort and sometimes assistance. Building a complete home safety setup for your aging dog is not just about preventing accidents — it is about maintaining their quality of life, confidence, and independence throughout their golden years.
 
@@ -1596,7 +1596,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
     categorySlug: 'pet-health-tips',
     image: '/blog/post-bath-care-senior-dogs.jpg',
     tags: ['senior dog bath care', 'dog drying towel', 'quick dry pet towel', 'dog grooming tips', 'senior dog hygiene'],
-    relatedProducts: ['drying-towel'],
+    relatedProducts: [],
     content: `
 Bath time is an essential part of keeping your senior dog clean and comfortable, but the process does not end when you turn off the water. For senior dogs, proper post-bath care is especially important because they are more susceptible to getting chilled, their skin may be more sensitive, and the bathing experience itself can be tiring. The right drying approach makes the difference between a bath that is simply routine and one that leaves your dog comfortable, warm, and ready to resume their day.
 
@@ -1731,7 +1731,7 @@ At LoyalBond, our Pet Quick-Dry Coral Fleece Towel is designed with senior dog c
     categorySlug: 'product-guides',
     image: '/blog/pet-stores-senior-dog-products.jpg',
     tags: ['pet store wholesale products', 'senior dog products wholesale', 'pet product sourcing', 'pet retail merchandising', 'dog mobility aids wholesale'],
-    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed', 'drying-towel'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
     content: `
 The pet industry is experiencing a significant shift as the population of senior dogs grows and pet owners increasingly seek specialized products to support their aging companions. For pet store owners and buyers, understanding this market segment and stocking the right products represents both a meaningful opportunity to serve customers and a profitable addition to product offerings. This guide covers everything pet retailers need to know about selecting, stocking, and selling senior dog products.
 
