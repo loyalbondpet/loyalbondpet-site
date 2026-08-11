@@ -401,6 +401,70 @@ Ideal for pet groomers, boarding facilities, and pet owners who prioritize effic
       shipping: 'FOB Ningbo',
       note: 'Price varies by size, color, and order quantity. Contact us via email (sales@loyalbondpet.com) or WhatsApp (+8615706802495) for a detailed quote. FOB Ningbo available.',
     },
+  },
+  {
+    id: '6',
+    slug: 'mesh-support-sling',
+    name: 'Mesh Shoulder Sling Support Harness',
+    price: 0,
+    priceRange: '$4.50 – $6.50',
+    description: `The LoyalBond Mesh Shoulder Sling is a lightweight support sling designed for dogs with mobility challenges, aging joints, or recovering from injury.
+
+The sling wraps gently around your dog's belly and lower torso, while the adjustable shoulder straps let you carry part of your dog's weight on your own shoulders — keeping your back upright and reducing strain during walks, stair climbing, or car boarding.
+
+The outer shell is made from durable Oxford fabric that holds its shape under load, while the inner lining uses soft air mesh to promote airflow and keep your dog comfortable during extended use. Reflective strips run along all webbing straps for better visibility during early morning or evening outings.
+
+A padded top handle gives you extra control when you need to lift or steady your dog. The shoulder straps feature smooth-adjusting buckles so you can quickly set the right height for your body and your dog's size.
+
+Available in four colors — Pink, Blue, Navy, and Black — and folds flat into the included storage bag for easy transport.`,
+    shortDescription: 'Shoulder-sling support harness with Oxford fabric shell and breathable air mesh lining. Reflective webbing, padded handle, and adjustable straps. Folds into included storage bag. Available in 4 colors.',
+    collection: 'Travel & Car',
+    collectionSlug: 'travel-car',
+    images: [
+      '/images/products/mesh-support-sling/01-main.jpg',
+      '/images/products/mesh-support-sling/02-feature.jpg',
+      '/images/products/mesh-support-sling/03-detail.jpg',
+      '/images/products/mesh-support-sling/04-detail2.jpg',
+      '/images/products/mesh-support-sling/05-detail3.jpg',
+      '/images/products/mesh-support-sling/06-scene1.jpg',
+      '/images/products/mesh-support-sling/07-scene2.jpg',
+      '/images/products/mesh-support-sling/08-scene3.jpg',
+      '/images/products/mesh-support-sling/09-size-chart.png',
+      '/images/products/mesh-support-sling/10-colors.jpg',
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Pink', 'Blue', 'Navy', 'Black'],
+    features: [
+      'Shoulder-Sling Design — Owner wears adjustable shoulder straps; sling supports dog\'s belly and lower torso',
+      'Oxford Fabric Shell — Durable outer layer maintains shape under load',
+      'Breathable Air Mesh Lining — Soft inner layer promotes airflow for extended comfort',
+      'Reflective Webbing — Enhanced visibility during low-light walks',
+      'Padded Top Handle — Extra control for lifting and steadying your dog',
+      'Adjustable Buckle Straps — Quick height adjustment to fit your body and dog size',
+      'Includes Storage Bag — Folds flat for portable storage and travel',
+    ],
+    specifications: {
+      'Material': 'Oxford fabric outer shell with air mesh inner lining',
+      'Design': 'Shoulder-sling style; supports belly and lower torso',
+      'Handle': 'Padded top handle with reflective stitching',
+      'Straps': 'Adjustable nylon webbing with smooth-sliding buckles',
+      'Safety': 'Reflective strips on all webbing for low-light visibility',
+      'Sizes': 'S / M / L / XL',
+      'Recommended Weight': 'S: 2-9 kg (4-18 lbs) / M: 7.5-25 kg (15-50 lbs) / L: 22.5-40 kg (45-80 lbs) / XL: 37.5-65 kg (75-130 lbs)',
+      'Product Weight': 'S: 170g / M: 220g / L: 250g / XL: 300g',
+      'Colors': 'Pink / Blue / Navy / Black',
+      'Includes': 'Storage bag',
+    },
+    wholesaleInfo: {
+      moq: '50 pieces (mixed sizes/colors accepted)',
+      leadTime: '25-35 days after order confirmation',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo',
+      note: 'Price varies by size, color, and order quantity. Contact us via email (sales@loyalbondpet.com) or WhatsApp (+8615706802495) for a detailed quote. FOB Ningbo available.',
+    },
   }
 ];
 
@@ -470,8 +534,9 @@ export const collections = [
 // Cross-sell product recommendations (curated groups)
 export const crossSellMap: Record<string, string[]> = {
   // Joint care group
-  'lift-assist-harness': ['hind-leg-support-harness'],
-  'hind-leg-support-harness': ['lift-assist-harness'],
+  'lift-assist-harness': ['hind-leg-support-harness', 'mesh-support-sling'],
+  'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling'],
+  'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness'],
   // Daily care group
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
