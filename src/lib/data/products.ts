@@ -529,6 +529,36 @@ export const collections = [
   }
 ];
 
+// Cross-sell product recommendations (curated groups)
+export const crossSellMap: Record<string, string[]> = {
+  // Joint care group
+  'lift-assist-harness': ['hind-leg-support-harness'],
+  'hind-leg-support-harness': ['lift-assist-harness'],
+  // Daily care group
+  'silicone-paw-protector-boots': ['drying-towel'],
+  'drying-towel': ['silicone-paw-protector-boots'],
+  // Comfort living group
+  'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
+  'orthopedic-bolster-dog-bed': ['snuffle-mat-set'],
+};
+
+export function getRelatedProducts(slug: string): Product[] {
+  const crossSlugs = crossSellMap[slug] || [];
+  const crossProducts = crossSlugs
+    .map(s => products.find(p => p.slug === s))
+    .filter((p): p is Product => !!p);
+  
+  // Also include same-collection products (excluding self and already-added cross-sell)
+  const crossSet = new Set(crossSlugs);
+  crossSet.add(slug);
+  const product = products.find(p => p.slug === slug);
+  const sameCollection = product
+    ? products.filter(p => p.collectionSlug === product.collectionSlug && !crossSet.has(p.slug))
+    : [];
+  
+  return [...crossProducts, ...sameCollection].slice(0, 4);
+}
+
 export function getProductBySlug(slug: string): Product | undefined {
   return products.find(p => p.slug === slug);
 }
