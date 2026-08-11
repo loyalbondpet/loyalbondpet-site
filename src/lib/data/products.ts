@@ -108,16 +108,14 @@ The entire harness is machine washable for easy maintenance, and includes a conv
     name: 'Senior Dog Hind Leg Support Harness',
     price: 0,
     priceRange: '$3.50 – $5.00',
-    description: `The LoyalBond Hind Leg Support Harness provides targeted rear-end assistance for dogs experiencing back leg weakness, balance challenges, or mobility limitations.
+    description: `The LoyalBond Hind Leg Support Harness is a lightweight rear-end sling designed to assist dogs with back leg weakness, balance issues, or mobility challenges during daily activities.
 
-Unlike full-body support slings, this focused hind leg design uses an ergonomic mesh panel that wraps comfortably around the lower torso and upper hind legs. Two precisely sized leg openings ensure a secure, natural fit without restricting movement or affecting your dog's natural bodily functions.
+The sling uses a dual-ring design — two soft coral fleece rings wrap gently around your dog's hind legs while an adjustable webbing strap runs along the spine. A padded top handle lets you provide targeted lift exactly when your dog needs it, such as climbing stairs, getting into the car, or standing up after rest.
 
-The breathable mesh fabric promotes continuous air circulation, making this harness suitable for warm weather and extended daily wear — a key advantage over fully enclosed support designs that can cause overheating and skin irritation.
+The coral fleece lining is soft against your dog's skin and prevents chafing from the webbing edges. The 2cm-wide nylon webbing is strong and durable while remaining flexible enough to adjust to different body shapes. Adjustable slider buckles on both sides let you fine-tune the strap length (40–70cm range) to fit your dog comfortably.
 
-The adjustable padded handle features multiple length settings, allowing you to customize the lift height to match your dog's size and your own comfort. A quick-release buckle closure makes it easy to put on and take off in seconds — simply step in and clip, no complex threading required.
-
-Lightweight construction (68–76g depending on size) adds minimal burden to dogs with low stamina. Available in 4 sizes (S, M, L, XL) to accommodate breeds from small terriers to large dogs.`,
-    shortDescription: 'Lightweight breathable mesh hind leg support harness with adjustable padded handle and dual leg openings. Designed for rear-end mobility assistance. Quick on/off with buckle closure. Available in S–XL.',
+At just 48g, this sling adds virtually no burden to dogs with low stamina. The one-size adjustable design accommodates a wide range of breeds — from small terriers to medium and large dogs — eliminating the need to guess sizing. Available in Orange and Black.`,
+    shortDescription: 'Ultra-lightweight (48g) hind leg support sling with soft coral fleece rings and adjustable webbing straps. One-size adjustable fit (40–70cm). Coral fleece lining prevents chafing. Available in Orange and Black.',
     collection: 'Travel & Car',
     collectionSlug: 'travel-car',
     images: [
@@ -133,38 +131,34 @@ Lightweight construction (68–76g depending on size) adds minimal burden to dog
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
-    sizes: ['S (Waist 11"–14")', 'M (Waist 14"–18")', 'L (Waist 17"–21")', 'XL (Waist 19"–24")'],
+    sizes: ['One Size'],
+    colors: ['Orange', 'Black'],
     features: [
-      'Targeted Hind Leg Support — Focused rear-end lift design',
-      'Breathable Mesh Construction — Air-circulating fabric for all-day wear',
-      'Dual Leg Opening Design — Ergonomic cutouts for natural leg movement',
-      'Quick Buckle Closure — Easy on/off in seconds',
-      'Adjustable Padded Handle — Customizable lift height',
-      'Ultra-Lightweight Design (68–76g) — Minimal added burden',
-      'Ergonomic Physiological Design — Reserved cutout for natural bodily functions',
+      'Dual-Ring Sling Design — Soft coral fleece rings support both hind legs comfortably',
+      'Coral Fleece Lining — Gentle on skin, prevents webbing edge chafing',
+      'Adjustable Webbing Straps — Slider buckles adjust strap length from 40cm to 70cm',
+      'Padded Top Handle — Targeted lift assistance when your dog needs it most',
+      'Ultra-Lightweight (48g) — Negligible added weight for dogs with low stamina',
+      'One-Size Adjustable Fit — Fits small to large breeds with a single adjustable design',
+      'Quick On/Off — Step-in ring design, no complex threading or multiple buckles',
     ],
     specifications: {
-      'Material': 'Breathable mesh fabric',
-      'Design': 'Targeted hind leg support with dual leg openings',
-      'Handle': 'Adjustable padded handle with multiple length settings',
-      'Closure': 'Quick-release buckle',
-      'Weight': '68–76g (varies by size)',
-      'Sizes': 'S / M / L / XL',
-      'Size S': 'Waist 11"–14", Leg Opening 6.7", Handle 11"–21"',
-      'Size M': 'Waist 14"–18", Leg Opening 9.4", Handle 12"–22"',
-      'Size L': 'Waist 17"–21", Leg Opening 10.6", Handle 7.5"–14"',
-      'Size XL': 'Waist 19"–24", Leg Opening 12.2", Handle 6.3"–12.5"',
-      'MOQ': '50 pieces (mixed sizes/colors accepted)',
-      'Lead Time': '25-35 days after order confirmation',
-      'Payment': 'T/T 50% deposit, 50% before shipment',
-      'Shipping': 'FOB Ningbo',
+      'Material': 'Coral fleece lining + 2cm nylon webbing',
+      'Design': 'Hind leg sling with dual fleece rings and adjustable spine strap',
+      'Handle': 'Padded coral fleece top handle',
+      'Closure': 'Adjustable slider buckles on both sides',
+      'Weight': '48g',
+      'Adjustment Range': '40–70cm (webbing strap length)',
+      'Webbing Width': '2cm',
+      'Fit': 'One Size — adjustable for small to large breeds',
+      'Colors': 'Orange / Black',
     },
     wholesaleInfo: {
-      moq: '50 pieces (mixed sizes/colors accepted)',
+      moq: '50 pieces (mixed colors accepted)',
       leadTime: '25-35 days after order confirmation',
       payment: 'T/T 50% deposit, 50% before shipment',
       shipping: 'FOB Ningbo',
-      note: 'Price varies by size, color, and order quantity. Contact us via email (sales@loyalbondpet.com) or WhatsApp (+8615706802495) for a detailed quote. FOB Ningbo available.',
+      note: 'Supplier: Pingyang Changbao Crafts Factory (17-year factory, Zhejiang). Price varies by color and order quantity. Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
   {
