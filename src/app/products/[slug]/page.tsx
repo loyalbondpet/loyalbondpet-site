@@ -202,10 +202,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
                       { q: 'How lightweight is this harness?', a: 'Only 68–76g depending on size — minimal added burden for dogs with low stamina. Available in S through XL to fit breeds from small terriers to large dogs.' },
                       { q: 'How do I put it on my dog?', a: 'Simply step in and clip! The quick-release buckle closure makes it easy to put on and take off in seconds — no complex threading required.' },
                       { q: 'Is it suitable for small breeds?', a: 'Yes, Size S fits waist 11"–14". The ergonomic mesh panel and dual leg openings ensure a secure, natural fit without restricting movement.' },
-                    ] : product.slug === 'silicone-paw-protector-boots' ? [
-                      { q: 'Are these safe if my dog licks them?', a: 'Yes. Made from food-grade flexible silicone that is non-toxic and safe for pets. The material is gentle on sensitive paws.' },
-                      { q: 'Will they stay on during walking?', a: 'The adjustable wide velcro strap provides a customizable, secure fit that stays in place during daily movement — without squeezing or restricting circulation.' },
-                      { q: 'How do I clean the paw covers?', a: 'Simply rinse with water after use. The one-piece waterproof silicone design resists dirt buildup and dries quickly.' },
                     ] : product.slug === 'snuffle-mat-set' ? [
                       { q: 'Which style is best for my senior dog?', a: 'Style 1 (Bone-Shaped) offers deep cylindrical pockets for patient foraging. Style 2 (Plum Blossom) has a compact 60cm size that fits beside beds. Style 3 (Rectangular) is ideal for large senior dogs and multi-pet homes.' },
                       { q: 'Is the mat easy to clean?', a: 'Yes, the entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses.' },

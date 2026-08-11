@@ -171,74 +171,6 @@ Lightweight construction (68–76g depending on size) adds minimal burden to dog
   },
   {
     id: '3',
-    slug: 'silicone-paw-protector-boots',
-    name: 'Adjustable Silicone Paw Protector Boots',
-    bestSeller: true,
-    price: 0,
-    priceRange: '$2.00 – $3.80 / set',
-    description: `The LoyalBond Silicone Paw Covers offer a gentle, protective solution for dogs with sensitive paws — especially aging pets, dogs with mobility challenges, and breeds that struggle on smooth indoor surfaces.
-
-Made from flexible, food-grade silicone, each cover stretches naturally to conform to your dog's paw shape. The widened, rounded anti-slip base increases friction on smooth tile, marble, and hardwood floors, helping dogs with weaker balance and slower reflexes walk more steadily around the house.
-
-The full paw coverage design encloses the entire paw, shielding sensitive skin from hot outdoor surfaces, cold floors, and rough ground. The adjustable wide velcro strap lets you customize the fit for a secure hold that stays in place during daily movement — without squeezing the leg or restricting circulation.
-
-Despite the full coverage, the slim silicone structure adds minimal weight, so dogs with low stamina won't feel burdened during regular walks or household activity. The one-piece waterproof silicone is easy to clean: simply rinse after use. It resists dirt buildup, keeping your dog's paws dry and clean after outdoor trips, bathroom visits, or rainy days.
-
-Available in multiple colors to match your style.`,
-    shortDescription: 'Food-grade silicone paw covers with anti-slip rounded base and adjustable velcro strap. Full paw coverage protects sensitive pads from hot surfaces and slippery floors. Lightweight, waterproof, and easy to clean.',
-    collection: 'Home Safety',
-    collectionSlug: 'home-safety',
-    images: [
-      '/images/products/paw-covers/01-lifestyle.jpg',
-      '/images/products/paw-covers/02-yellow.jpg',
-      '/images/products/paw-covers/03-pink.jpg',
-      '/images/products/paw-covers/04-teal.jpg',
-      '/images/products/paw-covers/05-antislip-detail.jpg',
-      '/images/products/paw-covers/06-fit-demo.jpg',
-      '/images/products/paw-covers/07-material.jpg',
-      '/images/products/paw-covers/08-strap-adjust.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['S', 'M', 'L'],
-    colors: ['Yellow', 'Pink', 'Teal'],
-    colorOptions: [
-      { name: 'Yellow', hex: '#F5D442', image: '/images/products/paw-covers/02-yellow.jpg' },
-      { name: 'Pink', hex: '#E88CA5', image: '/images/products/paw-covers/03-pink.jpg' },
-      { name: 'Teal', hex: '#5BBCAD', image: '/images/products/paw-covers/04-teal.jpg' },
-    ],
-    features: [
-      'Anti-Slip Rounded Silicone Base — Increased friction on smooth floors',
-      'Food-Grade Soft Silicone — Flexible, gentle material',
-      'Adjustable Velcro Strap — Customizable secure fit',
-      'Full Paw Coverage — Complete protection',
-      'Lightweight Build — Minimal added weight',
-      'Waterproof & Easy Clean — One-piece rinseable design',
-      'Multi-Scenario Versatility — Indoor and outdoor use',
-    ],
-    specifications: {
-      'Material': 'Food-grade flexible silicone',
-      'Base': 'Anti-slip rounded design',
-      'Closure': 'Adjustable wide velcro strap',
-      'Design': 'Full paw coverage',
-      'Waterproof': 'Yes, one-piece silicone construction',
-      'Washable': 'Yes, rinse after use',
-      'MOQ': '50 pieces (mixed sizes/colors accepted)',
-      'Lead Time': '25-35 days after order confirmation',
-      'Payment': 'T/T 50% deposit, 50% before shipment',
-      'Shipping': 'FOB Ningbo',
-    },
-    wholesaleInfo: {
-      moq: '50 pieces (mixed sizes/colors accepted)',
-      leadTime: '25-35 days after order confirmation',
-      payment: 'T/T 50% deposit, 50% before shipment',
-      shipping: 'FOB Ningbo',
-      note: 'Price varies by size, color, and order quantity. Contact us via email (sales@loyalbondpet.com) or WhatsApp (+8615706802495) for a detailed quote. FOB Ningbo available.',
-    },
-  },
-  {
-    id: '4',
     slug: 'snuffle-mat-set',
     name: 'Interactive Dog Snuffle Mat Set',
     bestSeller: true,
@@ -479,7 +411,7 @@ export const collections = [
     slug: 'home-safety',
     name: 'Home Safety',
     title: 'Home Safety',
-    description: 'Transform your home into a safe haven for your senior pet. Orthopedic beds, non-slip paw covers, and lift aids help prevent accidents and support comfortable living for aging companions.',
+    description: 'Transform your home into a safe haven for your senior pet. Orthopedic beds and lift aids help prevent accidents and support comfortable living for aging companions.',
     priceRange: '$2.00 – $28.00',
     image: '/collections/home-safety.jpg',
     icon: 'home',
@@ -543,8 +475,6 @@ export const crossSellMap: Record<string, string[]> = {
   'lift-assist-harness': ['hind-leg-support-harness'],
   'hind-leg-support-harness': ['lift-assist-harness'],
   // Daily care group
-  'silicone-paw-protector-boots': ['drying-towel'],
-  'drying-towel': ['silicone-paw-protector-boots'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set'],

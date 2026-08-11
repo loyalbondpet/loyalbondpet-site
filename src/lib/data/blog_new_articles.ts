@@ -11,5 +11,5 @@ const article1 = {
     categorySlug: 'senior-dog-care',
     image: '/blog/5-mobility-aids-senior-dog.jpg',
     tags: ['senior dog mobility aids', 'aging dog support products', 'dog harness for seniors', 'orthopedic dog bed', 'snuffle mat for dogs'],
-    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set']
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set']
 };

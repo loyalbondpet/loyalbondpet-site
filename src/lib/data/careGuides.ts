@@ -23,11 +23,9 @@ export const careGuidePages: CareGuidePage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: '4-inch memory foam distributes body weight evenly, reducing pressure points during rest.' },
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Provides gentle lift support for rear-end assistance during walks, supporting comfortable movement.' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Adds traction to paws, providing stable footing on smooth floors.' },
     ],
     relatedBlogLinks: [
       { title: 'How to Choose the Right Orthopedic Bed for Your Dog', href: '/blog/how-to-choose-the-right-orthopedic-bed-for-your-dog' },
-      { title: 'Silicone Paw Covers vs Traditional Dog Boots: What Works Better at Home', href: '/blog/silicone-paw-covers-vs-traditional-boots' },
     ],
   },
   {
@@ -44,7 +42,6 @@ export const careGuidePages: CareGuidePage[] = [
     recommendedProducts: [
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Essential for assisting bathroom breaks and controlled walks without straining the recovering leg.' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Provides comfortable, pressure-free resting surface during extended confinement periods.' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Critical for preventing slips that could set back progress during early recovery.' },
     ],
     relatedBlogLinks: [
       { title: 'How to Choose the Right Lifting Harness for Your Senior Dog', href: '/blog/how-to-choose-lifting-harness-senior-dog' },
@@ -87,7 +84,6 @@ export const careGuidePages: CareGuidePage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Enclosed bolster design provides a secure, nest-like environment that promotes a sense of safety.' },
       { slug: 'drying-towel', name: 'Pet Drying Towel', reason: 'Gentle grooming supports bonding and provides calming tactile stimulation.' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Consistent traction helps disoriented dogs navigate with more confidence.' },
     ],
     relatedBlogLinks: [
       { title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds', href: '/blog/why-senior-dogs-need-low-entry-orthopedic-beds' },
@@ -107,7 +103,6 @@ export const careGuidePages: CareGuidePage[] = [
     ],
     recommendedProducts: [
       { slug: 'hind-leg-support-harness', name: 'Senior Dog Hind Leg Support Harness', reason: 'Provides targeted rear-end support for breeds prone to back challenges, supporting comfortable daily movement.' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Essential traction for short-legged dogs on hardwood and tile floors.' },
       { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Provides rear-end lift assistance for breeds prone to hind leg weakness.' },
     ],
     relatedBlogLinks: [

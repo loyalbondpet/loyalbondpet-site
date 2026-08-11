@@ -24,7 +24,6 @@ export const solutionsPages: SolutionPage[] = [
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Ideal for recovery rooms and waiting areas' },
       { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Assists mobility-impaired patients during examinations' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Supports stable movement on clinic tile floors' },
       { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Essential for post-examination cleanup and grooming' },
     ],
     wholesaleTerms: [
@@ -52,7 +51,6 @@ export const solutionsPages: SolutionPage[] = [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Top seller, high margin, strong visual shelf appeal' },
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Trending enrichment product, broad customer appeal' },
       { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Impulse-buy friendly, great add-on product' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Low price point, high volume seller' },
     ],
     wholesaleTerms: [
       'MOQ: 100 pieces (mixed SKUs accepted)',
@@ -76,7 +74,6 @@ export const solutionsPages: SolutionPage[] = [
       { icon: '⏱️', title: 'Fast Replacement Program', description: 'Quick reorder for high-wear items. Keep your facility fully stocked without long lead times.' },
     ],
     recommendedProducts: [
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Essential for slippery kennel and hallway floors' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Comfortable resting surface with washable cover' },
       { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Safe support for mobility-limited dogs on uneven surfaces' },
       { slug: 'drying-towel', name: 'Quick-Dry Coral Fleece Towel', reason: 'Fast drying after outdoor walks or bath time' },
@@ -104,7 +101,6 @@ export const solutionsPages: SolutionPage[] = [
     ],
     recommendedProducts: [
       { slug: 'lift-assist-harness', name: 'Lift-Assist Harness', reason: 'Helps mobility-limited rescues during walks and adoption events' },
-      { slug: 'silicone-paw-protector-boots', name: 'Silicone Paw Protector Boots', reason: 'Affordable non-slip solution for foster homes and kennels' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Essential comfort for senior dogs in kennel environments' },
     ],
     wholesaleTerms: [
