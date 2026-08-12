@@ -63,6 +63,9 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
+  other: {
+    'msvalidate.01': '483243806A3058B85CE190E6FA847612',
+  },
 };
 
 export default function RootLayout({
