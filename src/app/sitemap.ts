@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: baseUrl, lastModified: new Date('2026-08-09'), changeFrequency: 'weekly' as const, priority: 1 },
     { url: `${baseUrl}/about`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/blog`, lastModified: new Date('2026-08-08'), changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/products`, lastModified: new Date('2026-08-07'), changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/products`, lastModified: new Date('2026-08-12'), changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/contact`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/wholesale`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/faq`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.6 },
@@ -50,10 +50,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Product pages - FDA vocabulary fix applied 2026-08-09
+  // Product pages - supplier info updated 2026-08-12
   const productPages = products.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
-    lastModified: new Date('2026-08-09'),
+    lastModified: new Date('2026-08-12'),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));

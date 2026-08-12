@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
     categorySlug: 'senior-dog-care',
     image: '/blog/senior-dog-signs.jpg',
     tags: ['senior dog care', 'aging dog symptoms', 'older dog mobility', 'dog health'],
-    relatedProducts: ['senior-support-harness', 'orthopedic-memory-foam-bed', 'elbow-protector-pads'],
+    relatedProducts: ['lift-assist-harness', 'orthopedic-bolster-dog-bed', 'mesh-support-sling'],
     content: `
 As our beloved dogs age, they go through changes that aren't always obvious at first. Unlike humans who might complain about aching joints or difficulty moving, dogs tend to adapt silently to discomfort. This means it's up to us as pet parents to recognize the subtle signs that our senior dogs need extra support.
 
@@ -116,7 +116,7 @@ At LoyalBond, we believe every senior dog deserves comfort and dignity. Our prod
     categorySlug: 'senior-dog-care',
     image: '/blog/home-safety-dog.jpg',
     tags: ['dog-proofing home', 'non-slip solutions for dogs', 'senior dog home safety', 'aging pet care'],
-    relatedProducts: ['non-slip-pet-ramp', 'orthopedic-memory-foam-bed', 'non-slip-paw-grip-pads'],
+    relatedProducts: ['lift-assist-harness', 'orthopedic-bolster-dog-bed', 'hind-leg-support-harness'],
     content: `
 Your home is your senior dog's entire world. As they age and their mobility changes, the environment they've navigated easily for years can suddenly become full of hazards. The good news is that with some thoughtful modifications, you can transform your home into a safe, comfortable sanctuary that helps your aging dog maintain their independence and quality of life.
 
@@ -244,7 +244,7 @@ Remember, every dog ages differently. Observe your individual pet's needs and ad
     categorySlug: 'product-guides',
     image: '/blog/mobility-aids-guide.jpg',
     tags: ['dog mobility aids', 'dog harness for seniors', 'orthopedic dog products', 'senior dog products'],
-    relatedProducts: ['senior-support-harness', 'non-slip-paw-grip-pads', 'elbow-protector-pads'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling'],
     content: `
 Mobility is one of the most important factors in a senior dog's quality of life. When a dog can move comfortably, they remain engaged with their family, maintain muscle mass, and enjoy mental stimulation from exploring their environment. The right mobility aids can make the difference between a dog who withdraws from life and one who continues to thrive in their senior years.
 
@@ -375,7 +375,7 @@ Remember, the goal isn't to eliminate all challenges of aging, but to provide su
     categorySlug: 'product-guides',
     image: '/blog/travel-accessories.jpg',
     tags: ['senior dog travel', 'car safety for dogs', 'portable dog accessories', 'dog travel tips'],
-    relatedProducts: ['car-seat-protector', 'portable-travel-water-bowl', 'senior-support-harness'],
+    relatedProducts: ['lift-assist-harness', 'snuffle-mat-set'],
     content: `
 Traveling with a senior dog requires more planning than traveling with a young, resilient pup, but the rewards are immeasurable. Sharing adventures with your aging companion creates precious memories and provides them with mental stimulation that enriches their golden years. With the right accessories and preparation, you can make every journey comfortable and safe for your senior dog.
 
@@ -547,7 +547,7 @@ Remember to start with shorter trips and gradually build up to longer adventures
     categorySlug: 'pet-health-tips',
     image: '/blog/non-toxic-pet-products.jpg',
     tags: ['non-toxic pet products', 'safe dog toys', 'pet product safety', 'pet health'],
-    relatedProducts: ['gentle-grooming-brush', 'cooling-mat', 'elevated-slow-feeder-bowl'],
+    relatedProducts: ['mesh-support-sling', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
     content: `
 When we bring a new pet product into our homes, we trust that it's safe for our beloved companions. Unfortunately, the pet product industry isn't as tightly regulated as you might think, and many popular products contain materials that can harm your dog's health over time. Understanding what to look for and what to avoid is essential for every responsible pet owner.
 
@@ -694,7 +694,7 @@ At LoyalBond, safety isn't a marketing claim, it's our foundation. Every product
     categorySlug: 'product-guides',
     image: '/blog/orthopedic-bed-guide.jpg',
     tags: ['orthopedic dog bed', 'dog bed for large breeds', 'senior dog comfort', 'dog bed guide'],
-    relatedProducts: ['orthopedic-memory-foam-bed', 'cooling-mat', 'elbow-protector-pads'],
+    relatedProducts: ['orthopedic-bolster-dog-bed', 'mesh-support-sling'],
     content: `
 A good orthopedic bed is one of the most impactful investments you can make for your senior dog's quality of life. The right bed can reduce joint discomfort, improve sleep quality, ease morning stiffness, and even help prevent the development of painful pressure sores. But with so many options on the market, choosing the right one requires understanding your dog's specific needs.
 
@@ -870,7 +870,7 @@ At LoyalBond, we've poured extensive research into creating the ideal orthopedic
     categorySlug: 'senior-dog-care',
     image: '/blog/5-mobility-aids-senior-dog.jpg',
     tags: ['senior dog mobility aids', 'aging dog support products', 'dog harness for seniors', 'orthopedic dog bed', 'snuffle mat for dogs'],
-    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
     content: `
 As our beloved dogs age, maintaining their mobility and quality of life becomes a top priority for pet owners. Modern pet products have evolved significantly, offering innovative solutions that help senior dogs stay active, comfortable, and engaged with their families. In this comprehensive guide, we explore five essential mobility aids that every senior dog owner should consider, along with practical advice on integrating them into your dog's daily routine.
 
@@ -1216,7 +1216,7 @@ At LoyalBond, our Orthopedic Bolster Dog Bed is engineered specifically for the 
     categorySlug: 'product-guides',
     image: '/blog/silicone-paw-covers-vs-boots.jpg',
     tags: ['silicone paw covers', 'dog boots comparison', 'dog paw protection', 'non-slip dog paw products', 'indoor paw protection for dogs'],
-    relatedProducts: ['silicone-paw-protector-boots'],
+    relatedProducts: ['mesh-support-sling'],
     content: `
 If your senior dog slips on smooth floors or has sensitive paws that need protection, you have probably searched for solutions and encountered two main options: silicone paw covers and traditional dog boots. Both claim to provide traction and protection, but they work very differently and serve different purposes. Understanding the distinctions helps you choose the right solution for your dog's specific needs and your home environment.
 
@@ -1456,7 +1456,7 @@ At LoyalBond, our Interactive Dog Snuffle Mat Set is designed with senior dog ne
     categorySlug: 'pet-health-tips',
     image: '/blog/home-safety-setup-aging-dogs.jpg',
     tags: ['senior dog home safety', 'aging dog care products', 'complete senior dog setup', 'dog mobility aids', 'senior dog comfort products'],
-    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
     content: `
 As our dogs age, the home environment they have navigated effortlessly for years can suddenly become challenging. Slippery floors become hazards, stairs become obstacles, and simple activities like standing up require effort and sometimes assistance. Building a complete home safety setup for your aging dog is not just about preventing accidents — it is about maintaining their quality of life, confidence, and independence throughout their golden years.
 
@@ -1731,7 +1731,7 @@ At LoyalBond, our Pet Quick-Dry Coral Fleece Towel is designed with senior dog c
     categorySlug: 'product-guides',
     image: '/blog/pet-stores-senior-dog-products.jpg',
     tags: ['pet store wholesale products', 'senior dog products wholesale', 'pet product sourcing', 'pet retail merchandising', 'dog mobility aids wholesale'],
-    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'silicone-paw-protector-boots', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
+    relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
     content: `
 The pet industry is experiencing a significant shift as the population of senior dogs grows and pet owners increasingly seek specialized products to support their aging companions. For pet store owners and buyers, understanding this market segment and stocking the right products represents both a meaningful opportunity to serve customers and a profitable addition to product offerings. This guide covers everything pet retailers need to know about selecting, stocking, and selling senior dog products.
 

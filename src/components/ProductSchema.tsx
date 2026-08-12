@@ -63,6 +63,7 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
         highPrice: parsed.high,
         priceCurrency: 'USD',
         availability: 'https://schema.org/InStock',
+        offerCount: 2,
         url: `${baseUrl}/products/${slug}`,
       };
     } else {
