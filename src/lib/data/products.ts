@@ -48,8 +48,7 @@ export const products: Product[] = [
     slug: 'lift-assist-harness',
     name: 'Adjustable Dog Lift-Assist Harness',
     bestSeller: true,
-    price: 0,
-    priceRange: '$5.00 – $8.50',
+    price: 24.99,
     description: `The LoyalBond Lift-Assist Harness is designed to help you support your aging or mobility-limited dog through daily activities with comfort and confidence.
 
 The wide wrap-around panel distributes your dog's weight evenly across the chest and belly, rather than concentrating pressure on a single point. This balanced support helps when assisting your dog with stairs, getting into vehicles, standing up from a seated position, or navigating uneven surfaces.
@@ -74,6 +73,12 @@ The entire harness is machine washable for easy maintenance, and includes a conv
     reviewCount: 0,
     badge: 'New Arrival',
     sizes: ['S', 'M', 'L', 'XL'],
+    sizeVariants: [
+      { label: 'S', dimensions: '45-55 cm chest', weight: '0.25 kg', price: 19.99 },
+      { label: 'M', dimensions: '55-70 cm chest', weight: '0.30 kg', price: 24.99 },
+      { label: 'L', dimensions: '70-85 cm chest', weight: '0.35 kg', price: 29.99 },
+      { label: 'XL', dimensions: '85-100 cm chest', weight: '0.40 kg', price: 34.99 },
+    ],
     features: [
       'Dual-Side Support Design — Works for both front and hind leg weakness',
       'Reinforced Padded Handle — Multi-layer stitched with stable load-bearing capacity',
@@ -106,8 +111,7 @@ The entire harness is machine washable for easy maintenance, and includes a conv
     id: '2',
     slug: 'hind-leg-support-harness',
     name: 'Senior Dog Hind Leg Support Harness',
-    price: 0,
-    priceRange: '$3.50 – $5.00',
+    price: 17.99,
     description: `The LoyalBond Hind Leg Support Harness is a lightweight rear-end sling designed to assist dogs with back leg weakness, balance issues, or mobility challenges during daily activities.
 
 The sling uses a dual-ring design — two soft coral fleece rings wrap gently around your dog's hind legs while an adjustable webbing strap runs along the spine. A padded top handle lets you provide targeted lift exactly when your dog needs it, such as climbing stairs, getting into the car, or standing up after rest.
@@ -166,8 +170,7 @@ At just 48g, this sling adds virtually no burden to dogs with low stamina. The o
     slug: 'snuffle-mat-set',
     name: 'Interactive Dog Snuffle Mat Set',
     bestSeller: true,
-    price: 0,
-    priceRange: '$3.50 – $5.50',
+    price: 14.99,
     description: `The LoyalBond Snuffle Mat Series transforms mealtime into an engaging, mentally stimulating experience for dogs of all ages — with features specifically optimized for senior and mobility-limited pets.
 
 Each mat features multiple independent foraging zones where you can hide kibble and treats, tapping into your dog's natural sniffing and foraging instincts. This engaging activity slows down eating pace, promotes healthier digestion, and provides meaningful mental exercise without requiring running, jumping, or strenuous physical activity.
@@ -246,8 +249,7 @@ Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm) — Large format for 
     slug: 'orthopedic-bolster-dog-bed',
     name: 'Orthopedic Bolster Dog Bed',
     bestSeller: true,
-    price: 0,
-    priceRange: '$14.00 – $28.00',
+    price: 49.99,
     description: `Give your senior dog a comfortable, supportive resting space with the LoyalBond Orthopedic Bolster Dog Bed.
 
 Built with high-density supportive foam that distributes weight evenly to support comfortable rest.
@@ -280,9 +282,9 @@ Available in multiple sizes and colors to match your home decor.`,
     reviewCount: 0,
     badge: 'New Arrival',
     sizeVariants: [
-      { label: 'S', dimensions: '60 x 47 x 17 cm', weight: '4.00 kg', price: 0 },
-      { label: 'M', dimensions: '73 x 57 x 18 cm', weight: '9.00 kg', price: 0 },
-      { label: 'L', dimensions: '92 x 72 x 19 cm', weight: '8.00 kg', price: 0 },
+      { label: 'S', dimensions: '60 x 47 x 17 cm', weight: '4.00 kg', price: 39.99 },
+      { label: 'M', dimensions: '73 x 57 x 18 cm', weight: '9.00 kg', price: 49.99 },
+      { label: 'L', dimensions: '92 x 72 x 19 cm', weight: '8.00 kg', price: 59.99 },
     ],
     colorOptions: [
       { name: 'Dark Gray', hex: '#4A4A4A', image: '/images/products/orthopedic-bed/01-main.jpg' },
@@ -324,8 +326,7 @@ Available in multiple sizes and colors to match your home decor.`,
     id: '6',
     slug: 'mesh-support-sling',
     name: 'Mesh Shoulder Sling Support Harness',
-    price: 0,
-    priceRange: '$4.50 – $6.50',
+    price: 15.99,
     description: `The LoyalBond Mesh Shoulder Sling is a lightweight support sling designed for dogs with mobility challenges, aging joints, or recovering from injury.
 
 The sling wraps gently around your dog's belly and lower torso, while the adjustable shoulder straps let you carry part of your dog's weight on your own shoulders — keeping your back upright and reducing strain during walks, stair climbing, or car boarding.
@@ -388,8 +389,7 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     id: '18',
     slug: 'foam-dog-stairs',
     name: 'Foldable Foam Pet Stairs & Ramp',
-    price: 0,
-    priceRange: '$35.99 – $49.99',
+    price: 46.99,
     description: `Help your senior dog safely access beds, sofas, and vehicles with the LoyalBond Foldable Foam Pet Stairs.
 
 Crafted from high-density foam that provides stable, cushioned support — reducing joint strain for dogs with arthritis, hip dysplasia, or general mobility challenges. The gradual incline is more natural and comfortable than jumping, especially for smaller breeds and elderly dogs.
@@ -442,8 +442,7 @@ Available in 3-step and 4-step configurations to suit different heights.`,
     id: '19',
     slug: 'anti-slip-dog-socks',
     name: 'Anti-Slip Dog Socks with Paw Protection (4-Pack)',
-    price: 0,
-    priceRange: '$9.99 – $14.99',
+    price: 12.99,
     description: `Give your senior dog confident footing on slippery floors with LoyalBond Anti-Slip Dog Socks.
 
 Specially designed for dogs with mobility challenges, these lightweight socks feature anti-slip rubber grips on the sole that provide traction on tile, hardwood, and laminate surfaces. The breathable knit fabric keeps paws comfortable while the elastic ankle band holds socks securely in place without restricting circulation.
@@ -494,8 +493,7 @@ Each pack includes 4 socks in your choice of size. Available in multiple colors 
     id: '20',
     slug: 'maze-slow-feeder-bowl',
     name: 'Maze Slow Feeder Dog Bowl',
-    price: 0,
-    priceRange: '$9.99 – $14.99',
+    price: 11.99,
     description: `Transform mealtime into a healthy, engaging experience with the LoyalBond Maze Slow Feeder Bowl.
 
 The raised ridge pattern creates a maze-like path that naturally slows down eating, promoting better digestion and reducing the risk of bloat — a common concern for deep-chested breeds and senior dogs. The non-slip base keeps the bowl steady during enthusiastic meals.
@@ -547,8 +545,7 @@ Available in multiple colors to match your home décor.`,
     id: '21',
     slug: 'pet-gel-cooling-mat',
     name: 'Self-Cooling Gel Pet Mat',
-    price: 0,
-    priceRange: '$19.99 – $29.99',
+    price: 16.99,
     description: `Keep your senior dog cool and comfortable during hot weather with the LoyalBond Self-Cooling Gel Mat.
 
 The pressure-activated gel core automatically absorbs and dissipates body heat when your dog lies down — no water, electricity, or refrigeration needed. The cooling effect lasts up to 3 hours per session and the mat recharges itself within 15-20 minutes of non-use.
@@ -602,8 +599,7 @@ Designed for dogs of all ages, but especially beneficial for senior dogs, thick-
     id: '22',
     slug: 'elevated-slow-feeder-bowl',
     name: 'Elevated Neck-Protection Slow Feeder Bowl',
-    price: 0,
-    priceRange: '$12.99 – $18.99',
+    price: 21.99,
     description: `Combine the benefits of slow feeding with ergonomic neck support using the LoyalBond Elevated Slow Feeder Bowl.
 
 The raised stand positions the bowl at a comfortable height that reduces neck strain and promotes natural eating posture — especially important for senior dogs with cervical spine issues, arthritis, or mobility challenges. The elevated design also aids digestion by allowing food to travel more easily from mouth to stomach.
