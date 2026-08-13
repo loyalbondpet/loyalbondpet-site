@@ -122,6 +122,15 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
 
         </div>
 
+        {/* Wholesale pricing hint */}
+        <div className="mb-6 px-4 py-3 bg-brand-beige/50 rounded-lg border border-brand-beige">
+          <p className="text-sm text-brand-dark">
+            <span className="font-semibold">Wholesale pricing available</span> for pet stores &amp; distributors
+          </p>
+          <p className="text-xs text-brand-gray mt-1">
+            Inquire for official price list — Volume discounts from 10 pcs
+          </p>
+        </div>
 
 
         {/* Color selector - visual swatches */}
@@ -236,13 +245,13 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           Add to Cart
         </button>
 
-        {/* Wholesale inquiry button */}
+        {/* Wholesale inquiry button - mailto */}
         {product.wholesaleInfo && (
           <a
-            href="/contact"
+            href={`mailto:sales@loyalbondpet.com?subject=Wholesale%20Inquiry%20-%20${encodeURIComponent(product.name)}&body=Hello%20LoyalBond%20team,%0A%0AI%20am%20interested%20in%20wholesale%20pricing%20for:%0A%0AProduct:%20${encodeURIComponent(product.name)}%0AProduct%20URL:%20https://www.loyalbondpet.com/products/${product.slug}%0A%0AMonthly%20purchase%20volume:%20%0APet%20store%20name:%20%0ALocation:%20%0A%0APlease%20send%20me%20your%20official%20wholesale%20price%20list.%0A%0AThank%20you!`}
             className="block w-full py-3 border-2 border-brand-green text-brand-green font-semibold text-center rounded-lg hover:bg-brand-green/5 transition-all duration-200 mb-6"
           >
-            Wholesale Inquiry
+            Get Wholesale Quote
           </a>
         )}
 
