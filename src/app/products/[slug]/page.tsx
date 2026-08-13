@@ -53,10 +53,67 @@ export default async function ProductPage({ params }: ProductPageProps) {
     ],
   };
 
+  // Build FAQ list for this product
+  const faqList: Array<{ q: string; a: string }> = product.slug === 'lift-assist-harness' ? [
+    { q: 'How do I choose the right size for my dog?', a: 'Please refer to the size guide above each product listing. Measure your dog\'s chest girth and weight to select the best fit. If between sizes, we recommend sizing up for comfort.' },
+    { q: 'Can this harness be used for both front and hind leg support?', a: 'Yes! The dual-side support design works for both front and hind leg weakness. The wide wrap-around panel distributes weight evenly across the chest and belly.' },
+    { q: 'Is the harness machine washable?', a: 'Yes, the entire harness is machine washable for easy maintenance. It also comes with a convenient storage bag for portability.' },
+  ] : product.slug === 'hind-leg-support-harness' ? [
+    { q: 'How lightweight is this harness?', a: 'Only 68–76g depending on size — minimal added burden for dogs with low stamina. Available in S through XL to fit breeds from small terriers to large dogs.' },
+    { q: 'How do I put it on my dog?', a: 'Simply step in and clip! The quick-release buckle closure makes it easy to put on and take off in seconds — no complex threading required.' },
+    { q: 'Is it suitable for small breeds?', a: 'Yes, Size S fits waist 11"–14". The ergonomic mesh panel and dual leg openings ensure a secure, natural fit without restricting movement.' },
+  ] : product.slug === 'snuffle-mat-set' ? [
+    { q: 'Which style is best for my senior dog?', a: 'Style 1 (Bone-Shaped) offers deep cylindrical pockets for patient foraging. Style 2 (Plum Blossom) has a compact 60cm size that fits beside beds. Style 3 (Rectangular) is ideal for large senior dogs and multi-pet homes.' },
+    { q: 'Is the mat easy to clean?', a: 'Yes, the entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses.' },
+    { q: 'Will it help slow down eating?', a: 'Absolutely. Multiple independent foraging zones naturally extend mealtime, promote healthier digestion, and provide meaningful mental exercise without requiring running or jumping.' },
+  ] : product.slug === 'orthopedic-bolster-dog-bed' ? [
+    { q: 'How do I choose the right size?', a: 'Choose based on your dog\'s weight and sleeping style. The low-entry design allows dogs with weak hind legs to climb in effortlessly. Measure your dog from nose to tail base for the best fit.' },
+    { q: 'Is the cover removable and washable?', a: 'Yes. The fully removable outer cover has a zipper and is machine washable for easy cleanup of fur and stains. The reversible inner mat offers plush fleece for warmth and breathable oxford for summer.' },
+    { q: 'Is this bed good for dogs with stiff joints?', a: 'The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors.' },
+  ] : product.slug === 'foam-dog-stairs' ? [
+    { q: 'Are foam stairs safe for heavy dogs?', a: 'The foam stairs support up to 50 kg (110 lbs). The high-density foam core provides stable, cushioned support. The non-slip bottom keeps them firmly in place on tile, hardwood and laminate floors. For dogs over 50 kg, consider our orthopedic bed with reinforced base.' },
+    { q: 'How do I clean the foam stairs?', a: 'The removable cover is machine washable. Simply unzip, remove, and wash on a gentle cycle with cold water. The foam base can be spot-cleaned with a damp cloth. Air dry completely before reassembling.' },
+    { q: 'Should I choose 3-step or 4-step?', a: 'Choose 3-step (40×35×48cm) for beds and sofas up to 48cm high. Choose 4-step (50×40×60cm) for taller furniture. For senior dogs with limited mobility, the gentler incline of the 4-step is easier despite the same height.' },
+  ] : product.slug === 'anti-slip-dog-socks' ? [
+    { q: 'Will the socks stay on during walks?', a: 'The elastic ankle band is designed to hold securely without restricting circulation. For active walks, we recommend pairing with our mesh support sling for additional stability. The socks are primarily designed for indoor traction on smooth floors.' },
+    { q: 'How do I choose the right size?', a: 'Measure your dog\'s paw width at the widest point. S fits 3-5kg dogs, M fits 5-10kg, L fits 10-20kg, XL fits 20-40kg. If between sizes, size up for comfort.' },
+    { q: 'Are these good for post-surgery recovery?', a: 'Yes. The soft fabric protects paws from licking and scratching after surgery, while the anti-slip grips prevent falls on smooth floors. Many customers use them for dogs recovering from ACL surgery, IVDD, or hip replacement.' },
+  ] : product.slug === 'maze-slow-feeder-bowl' ? [
+    { q: 'How much slower does it make my dog eat?', a: 'The maze ridge pattern naturally slows eating pace by 3-5x. This reduces the risk of bloat (GDV), improves digestion, and provides meaningful mental stimulation during meals.' },
+    { q: 'Is it safe for dogs with flat faces (brachycephalic breeds)?', a: 'Yes. The wide, shallow design and smooth ridge pattern are accessible for brachycephalic breeds like Bulldogs, Pugs, and Shih Tzus. The food-grade melamine surface is gentle on sensitive noses.' },
+    { q: 'Can I put it in the dishwasher?', a: 'Yes, the bowl is dishwasher safe (top rack recommended). The food-grade melamine material resists odor absorption and maintains its shape after repeated cleaning.' },
+  ] : product.slug === 'pet-gel-cooling-mat' ? [
+    { q: 'How does the self-cooling gel work?', a: 'The pressure-activated gel core automatically absorbs and dissipates body heat when your dog lies down — no water, electricity, or refrigeration needed. It recharges itself within 15-20 minutes of non-use.' },
+    { q: 'How long does the cooling last?', a: 'Up to 3 hours per session, depending on ambient temperature and your dog\'s body heat. The mat recharges automatically when not in use. In hot climates, consider having two mats to rotate.' },
+    { q: 'Is it durable enough for dogs that chew?', a: 'The nylon exterior is scratch-resistant and waterproof, designed for normal pet use. However, no product is completely chew-proof. For aggressive chewers, supervise use and consider our elevated slow feeder as an alternative cooling solution.' },
+  ] : product.slug === 'elevated-slow-feeder-bowl' ? [
+    { q: 'How does elevation help my dog\'s neck?', a: 'The raised stand positions the bowl at a comfortable height that reduces neck strain and promotes natural eating posture. This is especially important for senior dogs with cervical spine issues, arthritis, or large breeds prone to neck stress.' },
+    { q: 'Can the stainless steel bowl be used separately?', a: 'Yes! The removable 304 stainless steel inner bowl can be used as a standalone food or water bowl. The slow feeder maze insert can also be removed for regular feeding.' },
+    { q: 'Is assembly difficult?', a: 'No tools required. The metal frame uses a snap-together design that sets up in seconds. The non-slip rubber feet keep the feeder stable during meals on any floor surface.' },
+  ] : [
+    { q: 'Is this product suitable for all dog breeds?', a: 'Yes, our products are designed to accommodate all breeds. Please check the size guide to select the best fit for your dog.' },
+    { q: 'Are the materials safe for pets?', a: 'Absolutely. All LoyalBond products use non-toxic, pet-safe materials that have been independently tested and certified.' },
+    { q: 'How do I clean this product?', a: 'Most of our products feature removable, machine-washable covers. Specific care instructions are included with each product.' },
+  ];
+
+  const faqPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqList.map(faq => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   return (
     <>
       <ProductSchema product={product} slug={slug} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd) }} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Breadcrumb */}
@@ -193,40 +250,17 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <div>
                 <h2 className="text-2xl font-bold text-brand-dark mb-4">FAQ</h2>
                 <div className="space-y-4">
-                  {(() => {
-                    const faqs: Array<{ q: string; a: string }> = product.slug === 'lift-assist-harness' ? [
-                      { q: 'How do I choose the right size for my dog?', a: 'Please refer to the size guide above each product listing. Measure your dog\'s chest girth and weight to select the best fit. If between sizes, we recommend sizing up for comfort.' },
-                      { q: 'Can this harness be used for both front and hind leg support?', a: 'Yes! The dual-side support design works for both front and hind leg weakness. The wide wrap-around panel distributes weight evenly across the chest and belly.' },
-                      { q: 'Is the harness machine washable?', a: 'Yes, the entire harness is machine washable for easy maintenance. It also comes with a convenient storage bag for portability.' },
-                    ] : product.slug === 'hind-leg-support-harness' ? [
-                      { q: 'How lightweight is this harness?', a: 'Only 68–76g depending on size — minimal added burden for dogs with low stamina. Available in S through XL to fit breeds from small terriers to large dogs.' },
-                      { q: 'How do I put it on my dog?', a: 'Simply step in and clip! The quick-release buckle closure makes it easy to put on and take off in seconds — no complex threading required.' },
-                      { q: 'Is it suitable for small breeds?', a: 'Yes, Size S fits waist 11"–14". The ergonomic mesh panel and dual leg openings ensure a secure, natural fit without restricting movement.' },
-                    ] : product.slug === 'snuffle-mat-set' ? [
-                      { q: 'Which style is best for my senior dog?', a: 'Style 1 (Bone-Shaped) offers deep cylindrical pockets for patient foraging. Style 2 (Plum Blossom) has a compact 60cm size that fits beside beds. Style 3 (Rectangular) is ideal for large senior dogs and multi-pet homes.' },
-                      { q: 'Is the mat easy to clean?', a: 'Yes, the entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses.' },
-                      { q: 'Will it help slow down eating?', a: 'Absolutely. Multiple independent foraging zones naturally extend mealtime, promote healthier digestion, and provide meaningful mental exercise without requiring running or jumping.' },
-                    ] : product.slug === 'orthopedic-bolster-dog-bed' ? [
-                      { q: 'How do I choose the right size?', a: 'Choose based on your dog\'s weight and sleeping style. The low-entry design allows dogs with weak hind legs to climb in effortlessly. Measure your dog from nose to tail base for the best fit.' },
-                      { q: 'Is the cover removable and washable?', a: 'Yes. The fully removable outer cover has a zipper and is machine washable for easy cleanup of fur and stains. The reversible inner mat offers plush fleece for warmth and breathable oxford for summer.' },
-                      { q: 'Is this bed good for dogs with stiff joints?', a: 'The high-density supportive foam distributes weight evenly to support comfortable rest. The surrounding bolster provides neck support, and the anti-slip base prevents sliding on smooth floors.' },
-                    ] : [
-                      { q: 'Is this product suitable for all dog breeds?', a: 'Yes, our products are designed to accommodate all breeds. Please check the size guide to select the best fit for your dog.' },
-                      { q: 'Are the materials safe for pets?', a: 'Absolutely. All LoyalBond products use non-toxic, pet-safe materials that have been independently tested and certified.' },
-                      { q: 'How do I clean this product?', a: 'Most of our products feature removable, machine-washable covers. Specific care instructions are included with each product.' },
-                    ];
-                    return faqs.map((faq) => (
-                      <details key={faq.q} className="group bg-brand-beige/30 rounded-lg">
-                        <summary className="cursor-pointer px-6 py-4 font-medium text-brand-dark flex items-center justify-between">
-                          {faq.q}
-                          <svg className="w-5 h-5 text-brand-gray group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                          </svg>
-                        </summary>
-                        <p className="px-6 pb-4 text-brand-gray">{faq.a}</p>
-                      </details>
-                    ));
-                  })()}
+                  {faqList.map((faq) => (
+                    <details key={faq.q} className="group bg-brand-beige/30 rounded-lg">
+                      <summary className="cursor-pointer px-6 py-4 font-medium text-brand-dark flex items-center justify-between">
+                        {faq.q}
+                        <svg className="w-5 h-5 text-brand-gray group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </summary>
+                      <p className="px-6 pb-4 text-brand-gray">{faq.a}</p>
+                    </details>
+                  ))}
                 </div>
               </div>
             </div>

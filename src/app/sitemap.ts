@@ -50,10 +50,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Product pages - supplier info updated 2026-08-12
+  // Product pages - 5 new products added + supplier info updated 2026-08-13
   const productPages = products.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
-    lastModified: new Date('2026-08-12'),
+    lastModified: new Date('2026-08-13'),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
