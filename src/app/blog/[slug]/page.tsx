@@ -46,12 +46,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
+    image: post.image.startsWith('http') ? post.image : `https://www.loyalbondpet.com${post.image}`,
     author: { '@type': 'Person', name: post.author },
     datePublished: post.date,
+    dateModified: post.date,
     publisher: {
       '@type': 'Organization',
       name: 'LoyalBond',
       url: 'https://www.loyalbondpet.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.loyalbondpet.com/logo.png',
+      },
     },
   };
 

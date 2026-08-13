@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const orgJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'LoyalBond',
@@ -25,15 +25,27 @@ const jsonLd = {
   url: 'https://www.loyalbondpet.com',
   logo: 'https://www.loyalbondpet.com/logo.png',
   description: 'Specialized supplier of functional pet wellness products for dogs with special needs, including senior care, mobility aids, and recovery support. Quality craftsmanship with certified manufacturers.',
-  sameAs: [
-    'https://facebook.com/loyalbondpet',
-    'https://instagram.com/loyalbondpet',
-    'https://twitter.com/loyalbondpet',
-  ],
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'sales@loyalbondpet.com',
     contactType: 'customer service',
+    url: 'https://www.loyalbondpet.com/contact',
+  },
+};
+
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'LoyalBond',
+  url: 'https://www.loyalbondpet.com',
+  description: 'Functional wellness products for senior dogs — mobility aids, orthopedic beds, and daily care essentials.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://www.loyalbondpet.com/products?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
   },
 };
 
@@ -53,7 +65,11 @@ export default function HomePage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
 
       {/* Hero Section */}

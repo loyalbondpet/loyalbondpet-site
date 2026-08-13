@@ -22,8 +22,40 @@ export default async function CareGuidePage({ params }: { params: Promise<{ slug
   const guide = getCareGuideBySlug(slug);
   if (!guide) notFound();
 
+  const baseUrl = 'https://www.loyalbondpet.com';
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+      { '@type': 'ListItem', position: 2, name: 'Care Guides', item: `${baseUrl}/care-guides` },
+      { '@type': 'ListItem', position: 3, name: guide.title, item: `${baseUrl}/care-guide/${slug}` },
+    ],
+  };
+
+  const webPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: guide.title,
+    description: guide.description,
+    url: `${baseUrl}/care-guide/${slug}`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'LoyalBond',
+      url: baseUrl,
+    },
+    about: {
+      '@type': 'Thing',
+      name: guide.subtitle,
+    },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }} />
+
       {/* Hero */}
       <section className="bg-brand-beige py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

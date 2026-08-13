@@ -23,8 +23,36 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
   const solution = getSolutionBySlug(slug);
   if (!solution) notFound();
 
+  const baseUrl = 'https://www.loyalbondpet.com';
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+      { '@type': 'ListItem', position: 2, name: 'Wholesale', item: `${baseUrl}/wholesale` },
+      { '@type': 'ListItem', position: 3, name: solution.title, item: `${baseUrl}/solutions/${slug}` },
+    ],
+  };
+
+  const webPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: solution.title,
+    description: solution.subtitle,
+    url: `${baseUrl}/solutions/${slug}`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'LoyalBond',
+      url: baseUrl,
+    },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }} />
+
       {/* Hero */}
       <section className="bg-brand-beige py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

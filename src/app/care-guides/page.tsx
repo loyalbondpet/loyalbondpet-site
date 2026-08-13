@@ -11,8 +11,19 @@ const careGuides = [
   { slug: 'weight-management', title: 'Healthy Weight Management' },
 ]
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.loyalbondpet.com' },
+    { '@type': 'ListItem', position: 2, name: 'Care Guides', item: 'https://www.loyalbondpet.com/care-guides' },
+  ],
+};
+
 export default function CareGuidesPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">Care Guides</h1>
       <p className="text-gray-600 mb-8">Expert guidance for your senior dog's comfort and quality of life.</p>
@@ -29,6 +40,7 @@ export default function CareGuidesPage() {
         ))}
       </div>
     </div>
+    </>
   )
 }
 

@@ -16,7 +16,10 @@ function parsePriceRange(priceRange: string | undefined): { low: number; high: n
 export default function ProductSchema({ product, slug }: ProductSchemaProps) {
   const baseUrl = 'https://www.loyalbondpet.com';
 
-  // Determine price/offer structure
+  // Generate SKU from slug: e.g. "lift-assist-harness" -> "LB-LIFT-ASSIST-HARNESS"
+  const sku = `LB-${slug.toUpperCase()}`;
+
+  // Determine price/offer structure — never output price: 0
   let offers: Record<string, unknown>;
 
   if (product.sizeVariants && product.sizeVariants.length > 0) {
@@ -41,12 +44,13 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
           highPrice: parsed.high,
           priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
+          offerCount: product.sizeVariants.length,
           url: `${baseUrl}/products/${slug}`,
         };
       } else {
+        // No valid price — omit price field, keep availability + url
         offers = {
           '@type': 'Offer',
-          price: 0,
           priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
           url: `${baseUrl}/products/${slug}`,
@@ -66,7 +70,7 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
         offerCount: 2,
         url: `${baseUrl}/products/${slug}`,
       };
-    } else {
+    } else if (product.price > 0) {
       offers = {
         '@type': 'Offer',
         price: product.price,
@@ -74,11 +78,26 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
         availability: 'https://schema.org/InStock',
         url: `${baseUrl}/products/${slug}`,
       };
+    } else {
+      offers = {
+        '@type': 'Offer',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        url: `${baseUrl}/products/${slug}`,
+      };
     }
-  } else {
+  } else if (product.price > 0) {
     offers = {
       '@type': 'Offer',
       price: product.price,
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: `${baseUrl}/products/${slug}`,
+    };
+  } else {
+    // No valid price at all
+    offers = {
+      '@type': 'Offer',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
       url: `${baseUrl}/products/${slug}`,
@@ -90,6 +109,7 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
     '@type': 'Product',
     name: product.name,
     description: product.shortDescription,
+    sku,
     image: product.images.map(img =>
       img.startsWith('http') ? img : `${baseUrl}${img}`
     ),
@@ -100,7 +120,7 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
     offers,
   };
 
-  // Only include aggregateRating if the product has reviews
+  // Only include aggregateRating if the product has real reviews
   if (product.rating > 0 && product.reviewCount > 0) {
     schema.aggregateRating = {
       '@type': 'AggregateRating',
