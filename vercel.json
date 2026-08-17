@@ -1,1 +1,15 @@
-{"framework":"nextjs"}
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "loyalbondpet.com"
+        }
+      ],
+      "destination": "https://www.loyalbondpet.com/:path*",
+      "permanent": true
+    }
+  ]
+}
