@@ -995,7 +995,6 @@ export const crossSellMap: Record<string, string[]> = {
   'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
   'waterproof-silicone-dog-rain-boots': ['anti-slip-dog-socks', 'snuffle-mat-set', 'folding-pet-stairs'],
-  'anti-slip-dog-socks': ['waterproof-silicone-dog-rain-boots', 'lift-assist-harness', 'folding-pet-stairs'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
