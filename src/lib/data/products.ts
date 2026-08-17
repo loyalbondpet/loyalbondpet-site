@@ -777,6 +777,62 @@ Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, t
       note: 'FOB tier pricing by size: S: $2.50/pc (10-49 pcs), $2.00/pc (50-99 pcs); M: $3.80/pc (10-49 pcs), $3.10/pc (50-99 pcs); L: $5.20/pc (10-49 pcs), $4.20/pc (50-99 pcs). Orders of 100+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Supplier: Jinhua, Zhejiang factory (镇店之宝, 110,000+ units sold, 24.24% repurchase rate). Cross-border export ready. OEM/custom packaging available.',
     },
   },
+  {
+    id: '25',
+    slug: 'anti-choke-slow-feeder-bowl',
+    name: 'Anti-Choke Slow Feeder Bowl',
+    price: 9.99,
+    compareAtPrice: 13.99,
+    description: `Help your dog or cat eat at a healthier pace with the LoyalBond Anti-Choke Slow Feeder Bowl.
+The interior is designed with a central raised dome surrounded by radiating fin barriers and rounded nodules. This maze-like obstacle pattern naturally breaks up each mouthful, extending a meal that would take about 5 minutes in a regular bowl to roughly 20 minutes. Slower eating supports better digestion, reduces gulping and choking risk, and helps prevent bloat, regurgitation, and overeating — important for fast eaters, senior pets, and multi-pet households.
+The wide-mouth, elevated rim design gives pets comfortable access to every corner without straining their neck, while the bowl depth of 4.5 cm keeps kibble contained and reduces spills. The smooth, food-safe surface is easy to wipe or rinse clean after each meal.
+Crafted from durable, BPA-free plastic with a non-slip, wide star-shaped base that stays firmly in place on tile, hardwood, and laminate floors — even during enthusiastic meals. The stackable design makes storage simple when multiple bowls are in use.
+Available in five modern colors to match any home décor: Pink, Teal, Mint Green, Grey, and Black. Suitable for both dogs and cats of small to medium size.`,
+    shortDescription: 'Anti-choke slow feeder bowl with maze pattern that extends mealtime from ~5 to ~20 minutes. BPA-free plastic, non-slip star base, wide mouth, easy to clean. 5 colors, suitable for dogs and cats.',
+    collection: 'Feeding Aids',
+    collectionSlug: 'feeding-aids',
+    images: [
+      '/images/products/anti-choke-slow-feeder-bowl/01-main.jpg',
+      '/images/products/anti-choke-slow-feeder-bowl/02-slow-feeder-design.jpg',
+      '/images/products/anti-choke-slow-feeder-bowl/03-dogs-cats.jpg',
+      '/images/products/anti-choke-slow-feeder-bowl/04-eating-comparison.jpg',
+      '/images/products/anti-choke-slow-feeder-bowl/05-colors.jpg',
+      '/images/products/anti-choke-slow-feeder-bowl/06-dimensions.jpg',
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    colors: ['Pink', 'Teal', 'Mint Green', 'Grey', 'Black'],
+    features: [
+      'Anti-Choke Maze Design — Central dome + fin barriers + nodules slow eating by ~4x',
+      'Extends Mealtime to ~20 Minutes — From about 5 minutes in a regular bowl',
+      'Supports Healthy Digestion — Reduces gulping, bloat, regurgitation and overeating',
+      'Wide Mouth & Elevated Rim — Comfortable access, reduced neck strain',
+      'Non-Slip Star Base — Wide five-point base stays put on smooth floors',
+      'BPA-Free Food-Safe Plastic — Durable, smooth and easy to rinse clean',
+      '5 Color Options — Pink, Teal, Mint Green, Grey and Black',
+      'For Dogs & Cats — One size fits small to medium pets',
+    ],
+    specifications: {
+      'Material': 'BPA-free food-safe plastic',
+      'Top Diameter': '18 cm (7.1 in)',
+      'Bottom Diameter': '22.5 cm (8.9 in)',
+      'Height': '5 cm (2.0 in)',
+      'Bowl Depth': '4.5 cm (1.8 in)',
+      'Design': 'Central dome + fin barriers + rounded nodules (maze pattern)',
+      'Base': 'Wide star-shaped non-slip base',
+      'Colors': 'Pink / Teal / Mint Green / Grey / Black',
+      'Suitable For': 'Small to medium dogs and cats',
+      'Care': 'Rinse with water or wipe clean',
+    },
+    wholesaleInfo: {
+      moq: '10 pieces (mixed colors accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Zhejiang',
+      note: 'FOB tier pricing: $2.20/pc (10-49 pcs), $1.80/pc (50-99 pcs), $1.50/pc (100-499 pcs). Orders of 500+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Zhejiang with cross-border export experience. OEM/custom packaging and color customization available.',
+    },
+  },
 
 ];
 
@@ -861,6 +917,10 @@ export const crossSellMap: Record<string, string[]> = {
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
+  // Feeding group
+  'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
+  'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
+  'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
