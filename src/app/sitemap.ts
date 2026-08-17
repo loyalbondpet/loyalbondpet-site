@@ -53,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Product pages - 5 new products added + supplier info updated 2026-08-13
   const productPages = products.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
-    lastModified: new Date('2026-08-13'),
+    lastModified: new Date('2026-08-17'),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
