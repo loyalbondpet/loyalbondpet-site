@@ -833,6 +833,81 @@ Available in five modern colors to match any home décor: Pink, Teal, Mint Green
       note: 'FOB tier pricing: $2.20/pc (10-49 pcs), $1.80/pc (50-99 pcs), $1.50/pc (100-499 pcs). Orders of 500+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Zhejiang with cross-border export experience. OEM/custom packaging and color customization available.',
     },
   },
+  {
+    id: '26',
+    slug: 'waterproof-silicone-dog-rain-boots',
+    name: 'Waterproof Silicone Dog Rain Boots',
+    price: 12.99,
+    compareAtPrice: 16.99,
+    priceRange: '$12.99 – $16.99',
+    description: `Keep your dog's paws clean, dry, and protected in any weather with the LoyalBond Waterproof Silicone Rain Boots.
+
+Made from premium food-grade silicone, these boots form a flexible yet durable waterproof barrier that keeps mud, rain, snow, slush, and puddles away from your dog's paws. The thick, non-slip sole has a textured paw-print tread that grips wet pavement, tile, wood floors, and slippery surfaces, helping prevent slips and falls during daily walks or outdoor adventures.
+
+Each set includes four boots in a matching color with adjustable hook-and-loop straps at the top opening. Simply slide the boot over the paw and fasten the strap for a snug, secure fit that stays on even during active walking, running, and playing. The soft silicone material flexes naturally with your dog's movement, making the boots far more comfortable than rigid plastic alternatives.
+
+From tiny teacup breeds to medium and large dogs, five sizes are available based on your pet's body weight. Choose from six vibrant colors — Dark Blue, Light Blue, Red, Orange, Light Pink, and Light Green — to match your dog's style. After a muddy walk, simply rinse the boots under running water and they're ready for the next outing.
+
+Ideal for rainy walks, snowy days, beach trips, post-surgery paw protection, and keeping floors clean after outdoor play. Suitable for small to large dogs.`,
+    shortDescription: 'Waterproof silicone dog rain boots with non-slip sole and adjustable straps. 5 sizes (XS-XL), 6 colors. Set of 4. Keeps paws dry, clean, and protected in rain, snow, and mud.',
+    collection: 'Travel & Car',
+    collectionSlug: 'travel-car',
+    images: [
+      '/images/products/waterproof-silicone-dog-rain-boots/01-main.jpg',
+      '/images/products/waterproof-silicone-dog-rain-boots/02-waterproof.jpg',
+      '/images/products/waterproof-silicone-dog-rain-boots/03-orange.jpg',
+      '/images/products/waterproof-silicone-dog-rain-boots/04-pink.jpg',
+      '/images/products/waterproof-silicone-dog-rain-boots/05-green.jpg',
+      '/images/products/waterproof-silicone-dog-rain-boots/06-features.jpg',
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Dark Blue', 'Light Blue', 'Red', 'Orange', 'Light Pink', 'Light Green'],
+    sizeVariants: [
+      { label: 'XS', dimensions: 'Fits 1.5–5.5 kg (3–11 lb)', weight: '0.20 kg', price: 12.99 },
+      { label: 'S', dimensions: 'Fits 5–7.5 kg (10–15 lb)', weight: '0.20 kg', price: 13.99 },
+      { label: 'M', dimensions: 'Fits 7.5–11.5 kg (15–23 lb)', weight: '0.20 kg', price: 14.99 },
+      { label: 'L', dimensions: 'Fits 11.5–18 kg (23–36 lb)', weight: '0.20 kg', price: 15.99 },
+      { label: 'XL', dimensions: 'Fits 18–25 kg (36–50 lb)', weight: '0.20 kg', price: 16.99 },
+    ],
+    features: [
+      '100% Waterproof Silicone — Premium food-grade silicone keeps paws dry in rain, snow, and mud',
+      'Non-Slip Paw-Print Sole — Textured tread grips wet, slippery surfaces for safe walking',
+      'Adjustable Hook-and-Loop Strap — Snug, secure fit that stays on during active play',
+      '5 Sizes (XS–XL) — Fits dogs from 1.5 to 25 kg (3 to 50 lb)',
+      '6 Vibrant Colors — Dark Blue, Light Blue, Red, Orange, Light Pink, Light Green',
+      'Set of 4 Boots — One set covers all four paws',
+      'Soft & Flexible — Comfortable natural movement, more flexible than rigid plastic boots',
+      'Easy to Clean — Simply rinse under water after muddy walks',
+      'Lightweight — Only 200 g per set (all sizes)',
+      'Multi-Season Use — Rain, snow, beach trips, post-surgery protection, and floor protection',
+    ],
+    specifications: {
+      'Material': 'Premium food-grade silicone',
+      'Sizes': 'XS / S / M / L / XL',
+      'XS': 'Fits 1.5–5.5 kg (3–11 lb)',
+      'S': 'Fits 5–7.5 kg (10–15 lb)',
+      'M': 'Fits 7.5–11.5 kg (15–23 lb)',
+      'L': 'Fits 11.5–18 kg (23–36 lb)',
+      'XL': 'Fits 18–25 kg (36–50 lb)',
+      'Colors': 'Dark Blue / Light Blue / Red / Orange / Light Pink / Light Green',
+      'Set Includes': '4 boots per set',
+      'Weight per Set': '200 g (all sizes)',
+      'Closure': 'Adjustable hook-and-loop (Velcro) strap',
+      'Sole': 'Non-slip paw-print textured tread',
+      'Suitable For': 'Small to large dogs',
+      'Care': 'Rinse with water; air dry',
+    },
+    wholesaleInfo: {
+      moq: '10 sets (mixed sizes and colors accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Shenzhen/Guangdong',
+      note: 'FOB tier pricing: XS $1.80/set, S $1.95/set, M $2.10/set, L $2.25/set, XL $2.40/set (10-49 sets); 10% off for 50-99 sets; 15% off for 100-499 sets. Orders of 500+ sets: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Dongguan, Guangdong. Cross-border export ready. OEM/custom packaging and custom colors available.',
+    },
+  },
 
 ];
 
@@ -918,6 +993,9 @@ export const crossSellMap: Record<string, string[]> = {
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
   'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
+  // Outdoor / travel group
+  'waterproof-silicone-dog-rain-boots': ['anti-slip-dog-socks', 'snuffle-mat-set', 'folding-pet-stairs'],
+  'anti-slip-dog-socks': ['waterproof-silicone-dog-rain-boots', 'lift-assist-harness', 'folding-pet-stairs'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
