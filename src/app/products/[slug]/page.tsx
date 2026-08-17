@@ -113,6 +113,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
     { q: 'Is this product suitable for all dog breeds?', a: 'Yes, our products are designed to accommodate all breeds. Please check the size guide to select the best fit for your dog.' },
     { q: 'Are the materials safe for pets?', a: 'Absolutely. All LoyalBond products use non-toxic, pet-safe materials that have been independently tested and certified.' },
     { q: 'How do I clean this product?', a: 'Most of our products feature removable, machine-washable covers. Specific care instructions are included with each product.' },
+  ] : product.slug === 'waterproof-silicone-dog-rain-boots' ? [
+    { q: 'How do I choose the right size for my dog?', a: 'Size is based on your dog\'s body weight. XS fits 1.5-5.5 kg (3-11 lb), S fits 5-7.5 kg (10-15 lb), M fits 7.5-11.5 kg (15-23 lb), L fits 11.5-18 kg (23-36 lb), and XL fits 18-25 kg (36-50 lb). If your dog is between sizes or has wider paws, we recommend sizing up for comfort.' },
+    { q: 'Are these boots truly waterproof?', a: 'Yes. The boots are made from premium food-grade silicone that forms a complete waterproof barrier. They keep your dog\'s paws completely dry in rain, snow, puddles, mud, and wet grass. The adjustable top strap also helps seal out moisture and debris.' },
+    { q: 'Will the boots stay on while my dog walks or runs?', a: 'Yes. Each boot has an adjustable hook-and-loop (Velcro) strap at the top that fastens securely around the ankle. The soft, flexible silicone stretches to fit the paw shape and the strap prevents boots from slipping off during normal walking, running, and play.' },
+    { q: 'What colors and sizes are available?', a: 'The boots come in six colors: Dark Blue, Light Blue, Red, Orange, Light Pink, and Light Green. Five sizes are available: XS, S, M, L, and XL. Each set includes four matching boots.' },
+    { q: 'How do I clean the boots?', a: 'Simply rinse them under running water after each walk to remove mud and dirt, then air dry. The non-porous silicone surface does not absorb odors and dries quickly. For deeper cleaning, use mild soap and warm water.' },
+    { q: 'Are these boots suitable for all seasons?', a: 'Yes. The silicone material works year-round — they keep paws dry in spring rain, protect from hot pavement in summer, shield from snow and slush in winter, and keep paws clean during autumn walks. They are also useful for post-surgery paw protection and keeping indoor floors clean.' },
   ];
 
   const faqPageJsonLd = {
