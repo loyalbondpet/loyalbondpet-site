@@ -327,7 +327,7 @@ Available in multiple sizes and colors to match your home decor.`,
     slug: 'mesh-support-sling',
     name: 'Mesh Shoulder Sling Support Harness',
     price: 15.99,
-    description: `The LoyalBond Mesh Shoulder Sling is a lightweight support sling designed for dogs with mobility challenges, aging joints, or recovering from injury.
+    description: `The LoyalBond Mesh Shoulder Sling is a lightweight support sling designed for dogs with mobility challenges, aging joints, or adjusting to limited mobility.
 
 The sling wraps gently around your dog's belly and lower torso, while the adjustable shoulder straps let you carry part of your dog's weight on your own shoulders — keeping your back upright and reducing strain during walks, stair climbing, or car boarding.
 
@@ -392,7 +392,7 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     price: 46.99,
     description: `Help your senior dog safely access beds, sofas, and vehicles with the LoyalBond Foldable Foam Pet Stairs.
 
-Crafted from high-density foam that provides stable, cushioned support — reducing joint strain for dogs with arthritis, hip dysplasia, or general mobility challenges. The gradual incline is more natural and comfortable than jumping, especially for smaller breeds and elderly dogs.
+Crafted from high-density foam that provides stable, cushioned support — reducing joint strain for dogs with stiff joints, hip discomfort, or general mobility challenges. The gradual incline is more natural and comfortable than jumping, especially for smaller breeds and elderly dogs.
 
 The removable, machine-washable cover is made from soft plush fabric that's gentle on paws and easy to clean. Non-slip bottom keeps the stairs firmly in place on tile, hardwood and laminate floors.
 
@@ -447,7 +447,7 @@ Available in 3-step and 4-step configurations to suit different heights.`,
 
 Specially designed for dogs with mobility challenges, these lightweight socks feature anti-slip rubber grips on the sole that provide traction on tile, hardwood, and laminate surfaces. The breathable knit fabric keeps paws comfortable while the elastic ankle band holds socks securely in place without restricting circulation.
 
-Beyond anti-slip protection, these socks also shield paw pads from hot pavement in summer, cold floors in winter, and post-surgery licking or scratching. The soft fabric is gentle on sensitive paws and wounds.
+Beyond anti-slip protection, these socks also shield paw pads from hot pavement in summer, cold floors in winter, and everyday licking or scratching. The soft fabric is gentle on sensitive paws.
 
 Each pack includes 4 socks in your choice of size. Available in multiple colors to match your pet's style.`,
     shortDescription: 'Breathable anti-slip dog socks with rubber grip soles. Protects paws on smooth floors, hot pavement, and cold surfaces. Elastic ankle band for secure fit. 4-pack, multiple sizes.',
@@ -469,8 +469,8 @@ Each pack includes 4 socks in your choice of size. Available in multiple colors 
       'Anti-Slip Rubber Grips — Provides traction on smooth floors',
       'Breathable Knit Fabric — Keeps paws comfortable and dry',
       'Elastic Ankle Band — Secure fit without restricting circulation',
-      'All-Season Protection — Shields from hot pavement, cold floors, and post-surgery scratching',
-      'Soft & Gentle — Safe for sensitive paws and wounds',
+      'All-Season Protection — Shields from hot pavement, cold floors, and everyday scratching',
+      'Soft & Gentle — Safe for sensitive paws and delicate skin',
       '4-Pack Value — Complete set for all four paws',
     ],
     specifications: {
@@ -479,7 +479,7 @@ Each pack includes 4 socks in your choice of size. Available in multiple colors 
       'Sizes': 'S / M / L / XL',
       'Colors': 'Black / Gray / Pink / Blue',
       'Washable': 'Yes, machine washable',
-      'Target': 'Senior dogs, dogs with mobility issues, post-surgery recovery',
+      'Target': 'Senior dogs, dogs with limited mobility, dogs needing extra paw protection',
     },
     wholesaleInfo: {
       moq: '50 packs',
@@ -552,7 +552,7 @@ The pressure-activated gel core automatically absorbs and dissipates body heat w
 
 The durable nylon exterior is scratch-resistant, waterproof, and easy to wipe clean. Rounded corners and soft edges are gentle on aging joints. The mat folds flat for easy storage and portability — take it to the car, crate, or outdoor patio.
 
-Designed for dogs of all ages, but especially beneficial for senior dogs, thick-coated breeds, and dogs with arthritis who suffer in hot weather.`,
+Designed for dogs of all ages, but especially beneficial for senior dogs, thick-coated breeds, and dogs with stiff joints who are sensitive to hot weather.`,
     shortDescription: 'Pressure-activated self-cooling gel mat for dogs. No water or electricity needed. Cools for up to 3 hours, recharges in 15 minutes. Waterproof nylon exterior, scratch-resistant. Folds flat for storage.',
     collection: 'Seasonal',
     collectionSlug: 'seasonal',
@@ -602,7 +602,7 @@ Designed for dogs of all ages, but especially beneficial for senior dogs, thick-
     price: 21.99,
     description: `Combine the benefits of slow feeding with ergonomic neck support using the LoyalBond Elevated Slow Feeder Bowl.
 
-The raised stand positions the bowl at a comfortable height that reduces neck strain and promotes natural eating posture — especially important for senior dogs with cervical spine issues, arthritis, or mobility challenges. The elevated design also aids digestion by allowing food to travel more easily from mouth to stomach.
+The raised stand positions the bowl at a comfortable height that reduces neck strain and promotes natural eating posture — especially important for senior dogs with neck stiffness, stiff joints, or mobility challenges. The elevated design also aids digestion by allowing food to travel more easily from mouth to stomach.
 
 The inner bowl features a maze-style ridge pattern that slows eating pace and reduces the risk of bloat. The stainless steel inner bowl is removable for easy cleaning and can be used separately as a regular water or food bowl.
 
@@ -848,7 +848,7 @@ Each set includes four boots in a matching color with adjustable hook-and-loop s
 
 From tiny teacup breeds to medium and large dogs, five sizes are available based on your pet's body weight. Choose from six vibrant colors — Dark Blue, Light Blue, Red, Orange, Light Pink, and Light Green — to match your dog's style. After a muddy walk, simply rinse the boots under running water and they're ready for the next outing.
 
-Ideal for rainy walks, snowy days, beach trips, post-surgery paw protection, and keeping floors clean after outdoor play. Suitable for small to large dogs.`,
+Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and keeping floors clean after outdoor play. Suitable for small to large dogs.`,
     shortDescription: 'Waterproof silicone dog rain boots with non-slip sole and adjustable straps. 5 sizes (XS-XL), 6 colors. Set of 4. Keeps paws dry, clean, and protected in rain, snow, and mud.',
     collection: 'Travel & Car',
     collectionSlug: 'travel-car',
@@ -882,7 +882,7 @@ Ideal for rainy walks, snowy days, beach trips, post-surgery paw protection, and
       'Soft & Flexible — Comfortable natural movement, more flexible than rigid plastic boots',
       'Easy to Clean — Simply rinse under water after muddy walks',
       'Lightweight — Only 200 g per set (all sizes)',
-      'Multi-Season Use — Rain, snow, beach trips, post-surgery protection, and floor protection',
+      'Multi-Season Use — Rain, snow, beach trips, sensitive paw protection, and floor protection',
     ],
     specifications: {
       'Material': 'Premium food-grade silicone',
