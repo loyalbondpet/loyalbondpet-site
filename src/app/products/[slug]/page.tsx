@@ -201,6 +201,21 @@ export default async function ProductPage({ params }: ProductPageProps) {
                         <tbody>
                           {product.colorOptions.map((color) =>
                             product.sizeVariants!.map((variant, vIdx) => {
+                              // Only show numeric dimensions table if dimensions field contains " x " separated numbers
+                              const hasNumericDims = /\d+(\.\d+)?\s*x\s*\d+(\.\d+)?\s*x\s*\d+(\.\d+)?/.test(variant.dimensions);
+                              if (!hasNumericDims) {
+                                return (
+                                  <tr key={`${color.name}-${variant.label}`} className="hover:bg-brand-beige/30 transition-colors">
+                                    {vIdx === 0 && (
+                                      <td className="border border-gray-200 px-4 py-3 font-medium text-brand-dark" rowSpan={product.sizeVariants!.length}>
+                                        {color.name}
+                                      </td>
+                                    )}
+                                    <td className="border border-gray-200 px-4 py-3 text-center font-medium text-brand-dark">{variant.label}</td>
+                                    <td className="border border-gray-200 px-4 py-3 text-center text-brand-gray" colSpan={6}>{variant.dimensions || '—'}</td>
+                                  </tr>
+                                );
+                              }
                               const dims = variant.dimensions.split(' x ').map(d => parseFloat(d));
                               const length = dims[0];
                               const width = dims[1];
@@ -234,8 +249,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   </div>
                 )}
 
-                {/* Size Chart Image (only for products with size variants) */}
-                {product.sizeVariants && (
+                {/* Size Chart - orthopedic bed has dedicated size image; others show table from sizeVariants */}
+                {product.sizeVariants && product.slug === 'orthopedic-bolster-dog-bed' && (
                   <div className="mt-8">
                     <h3 className="text-xl font-bold text-brand-dark mb-4">Size Guide</h3>
                     <div className="rounded-xl overflow-hidden border border-gray-200 bg-white">
@@ -248,6 +263,36 @@ export default async function ProductPage({ params }: ProductPageProps) {
                     </div>
                     <p className="text-sm text-brand-gray mt-3 text-center">
                       Choose the right size based on your dog's weight. Measure your dog from nose to tail base for the best fit.
+                    </p>
+                  </div>
+                )}
+                {product.sizeVariants && product.slug !== 'orthopedic-bolster-dog-bed' && (
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold text-brand-dark mb-4">Size Guide</h3>
+                    <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white">
+                      <table className="w-full border-collapse text-sm">
+                        <thead>
+                          <tr className="bg-brand-beige/70">
+                            <th className="border-b border-gray-200 px-4 py-3 text-left font-semibold text-brand-dark">Size</th>
+                            <th className="border-b border-gray-200 px-4 py-3 text-left font-semibold text-brand-dark">Suitable For</th>
+                            <th className="border-b border-gray-200 px-4 py-3 text-center font-semibold text-brand-dark">Weight</th>
+                            <th className="border-b border-gray-200 px-4 py-3 text-right font-semibold text-brand-dark">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {product.sizeVariants.map((variant) => (
+                            <tr key={variant.label} className="hover:bg-brand-beige/30 transition-colors">
+                              <td className="border-b border-gray-100 px-4 py-3 font-medium text-brand-dark">{variant.label}</td>
+                              <td className="border-b border-gray-100 px-4 py-3 text-brand-gray">{variant.dimensions}</td>
+                              <td className="border-b border-gray-100 px-4 py-3 text-center text-brand-gray">{variant.weight}</td>
+                              <td className="border-b border-gray-100 px-4 py-3 text-right font-medium text-brand-dark">${variant.price.toFixed(2)}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                    <p className="text-sm text-brand-gray mt-3 text-center">
+                      If your dog is between sizes, we recommend sizing up for comfort.
                     </p>
                   </div>
                 )}
