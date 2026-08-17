@@ -911,16 +911,13 @@ export const crossSellMap: Record<string, string[]> = {
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'maze-slow-feeder-bowl'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'foam-dog-stairs', 'pet-gel-cooling-mat'],
   // Feeding group
-  'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
-  'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'snuffle-mat-set'],
+  'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
+  'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'folding-pet-stairs': ['foam-dog-stairs', 'orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
-  // Feeding group
   'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
-  'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
-  'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
