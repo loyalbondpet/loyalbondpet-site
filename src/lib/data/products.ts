@@ -866,7 +866,7 @@ export const crossSellMap: Record<string, string[]> = {
 
 export function getRelatedProducts(slug: string): Product[] {
   const crossSlugs = crossSellMap[slug] || [];
-  const crossProducts = crossSlugs
+  const crossProducts: Product[] = crossSlugs
     .map(s => products.find(p => p.slug === s))
     .filter((p): p is Product => !!p);
   
