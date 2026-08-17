@@ -710,7 +710,6 @@ No assembly required — unfold and ready to use.`,
       note: 'Wholesale tier pricing: 10-49 pcs at $33.99/pc (15% off), 50-99 pcs at $27.99/pc (30% off). Orders of 100+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Supplier: Nadi Pet Products (纳蒂, Jinhua Zhejiang), cross-border export specialist, 17,000+ units sold, 46.58% repurchase rate. OEM/custom packaging available.',
     },
   },
-,
   {
     id: '24',
     slug: 'snowflake-cooling-mat',
