@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "loyalbondpet.com"
+        }
+      ],
+      "destination": "https://www.loyalbondpet.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
