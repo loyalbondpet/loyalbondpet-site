@@ -647,7 +647,70 @@ The sturdy metal frame with non-slip feet keeps the feeder stable during meals. 
       shipping: 'FOB Ningbo',
       note: 'Supplier: Yiwu Miaoxinbao Pet Products Co., Ltd. (义乌市喵心宝宠物用品, 6-year store, Zhejiang Jinhua). Purchase price: ¥10.50/piece. Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
     },
-  }
+  },
+  {
+    id: '23',
+    slug: 'folding-pet-stairs',
+    name: '3-Tier Folding Pet Stairs with Storage',
+    price: 34.99,
+    compareAtPrice: 39.99,
+    description: `Help your dog or cat reach their favorite spots safely and independently with the LoyalBond 3-Tier Folding Pet Stairs.
+
+Designed for sofas, low beds, window perches, and car seats up to 32 cm (12.6 inches) high, these stairs give small breeds, senior pets, and recovering animals a gentle, steady climb — no jumping, no straining.
+
+The sturdy board-and-fabric construction holds its shape step after step, unlike soft foam stairs that can sink underfoot. Each step is covered in durable, textured Oxford fabric with a non-slip surface for confident paw traction. The wide base and anti-slip bottom pads keep the unit stable on tile, hardwood, and laminate floors.
+
+A built-in storage compartment under the top step opens to hold toys, treats, leashes, or grooming supplies — turning a mobility aid into a practical organizer. When not in use, the stairs fold flat to just 11 cm thick for sliding under furniture, tucking beside a cabinet, or taking along when traveling.
+
+The dark grey fabric cover is removable and machine washable for easy maintenance. At only 3.6 kg, the stairs are light enough to move between rooms yet solid enough for daily use.
+
+No assembly required — unfold and ready to use.`,
+    shortDescription: '3-tier folding pet stairs with built-in storage for small dogs and cats. Sturdy board-and-fabric construction supports confident climbing on sofas and low beds up to 32cm. Anti-slip steps, folds flat for storage, removable washable cover.',
+    collection: 'Home Safety',
+    collectionSlug: 'home-safety',
+    images: [
+      '/images/products/folding-pet-stairs/01-main.jpg',
+      '/images/products/folding-pet-stairs/02-storage.jpg',
+      '/images/products/folding-pet-stairs/03-step-detail.jpg',
+      '/images/products/folding-pet-stairs/04-storage-detail.jpg',
+      '/images/products/folding-pet-stairs/05-white-bg.jpg',
+      '/images/products/folding-pet-stairs/06-lifestyle.jpg',
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    features: [
+      '3-Tier Design — Ideal height for sofas and low beds up to 32 cm (12.6 in)',
+      'Built-In Storage — Top step opens to a compartment for toys, treats & accessories',
+      'Sturdy Board & Fabric Construction — Firm steps that won\'t sink like foam',
+      'Non-Slip Step Surface — Textured Oxford fabric for confident paw traction',
+      'Folds Flat — Collapses to 11 cm thick for easy storage and travel',
+      'Removable Washable Cover — Zippered dark grey cover, machine washable',
+      'Anti-Slip Bottom Pads — Stays firmly in place on tile, hardwood & laminate',
+      'No Assembly Required — Unfold and ready to use',
+    ],
+    specifications: {
+      'Material': 'Board frame with Oxford fabric cover',
+      'Color': 'Dark Grey',
+      'Open Dimensions': '74 × 42 × 32 cm (29.1 × 16.5 × 12.6 in)',
+      'Folded Dimensions': '42.5 × 33 × 11 cm (16.7 × 13 × 4.3 in)',
+      'Product Weight': '3.6 kg (7.9 lbs)',
+      'Step Count': '3 steps',
+      'Storage Compartment': 'Yes, under top step',
+      'Cover': 'Removable, machine washable',
+      'Base': 'Anti-slip bottom pads',
+      'Assembly': 'No assembly required',
+      'Best For': 'Small dogs, cats, senior & recovering pets',
+    },
+    wholesaleInfo: {
+      moq: '10 pieces',
+      leadTime: '1-100 pieces: 24h / 101-500 pieces: 72h / 500+ pieces: ~25 days',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Zhejiang',
+      note: 'Wholesale tier pricing: 10-49 pcs at $33.99/pc (15% off), 50-99 pcs at $27.99/pc (30% off). Orders of 100+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Supplier: Nadi Pet Products (纳蒂, Jinhua Zhejiang), cross-border export specialist, 17,000+ units sold, 46.58% repurchase rate. OEM/custom packaging available.',
+    },
+  },
+
 ];
 
 export const collections = [
@@ -655,8 +718,8 @@ export const collections = [
     slug: 'home-safety',
     name: 'Home Safety',
     title: 'Home Safety',
-    description: 'Transform your home into a safe haven for your senior pet. Orthopedic beds and lift aids help prevent accidents and support comfortable living for aging companions.',
-    priceRange: '$2.00 – $28.00',
+    description: 'Transform your home into a safe haven for your senior pet. Orthopedic beds, pet stairs, and lift aids help prevent accidents and support comfortable living for aging companions.',
+    priceRange: '$12.99 – $59.99',
     image: '/collections/home-safety.jpg',
     icon: 'home',
     emoji: '🏠'
@@ -720,13 +783,14 @@ export const crossSellMap: Record<string, string[]> = {
   'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling', 'anti-slip-dog-socks'],
   'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness', 'anti-slip-dog-socks'],
   'anti-slip-dog-socks': ['lift-assist-harness', 'hind-leg-support-harness', 'foam-dog-stairs'],
-  'foam-dog-stairs': ['orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
+  'foam-dog-stairs': ['orthopedic-bolster-dog-bed', 'anti-slip-dog-socks', 'folding-pet-stairs'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'maze-slow-feeder-bowl'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'foam-dog-stairs', 'pet-gel-cooling-mat'],
   // Feeding group
   'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'snuffle-mat-set'],
+  'folding-pet-stairs': ['foam-dog-stairs', 'orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed'],
 };
