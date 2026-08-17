@@ -1883,7 +1883,7 @@ Watching your dog struggle to climb onto their favorite spot on the couch or bed
 
 As dogs enter their senior years — typically around 7-10 years old depending on breed size — several physical changes make jumping difficult:
 
-**Joint stiffness and arthritis** are the most common culprits. The cartilage in hips, knees, and elbows wears down over time, making explosive movements like jumping painful. Even dogs who don't show obvious signs of limping may experience discomfort when bearing weight on their hind legs.
+**Joint stiffness** is one of the most common signs of aging. The cushioning in hips, knees, and elbows naturally wears down over time, making energetic movements like jumping uncomfortable. Even dogs who don't show obvious signs of slowing down may feel stiff when bearing weight on their hind legs.
 
 **Muscle loss**, particularly in the hindquarters, reduces the power needed to push off the ground. Senior dogs naturally lose muscle mass as they become less active, creating a cycle where less movement leads to weaker muscles, which makes jumping even harder.
 
@@ -1895,13 +1895,13 @@ As dogs enter their senior years — typically around 7-10 years old depending o
 
 Allowing a senior dog to continue jumping onto beds and sofas can lead to several problems:
 
-- **Acute injuries** from awkward landings, including sprains, fractures, and cruciate ligament tears
-- **Worsening arthritis** caused by repeated impact on already-inflamed joints
-- **Spinal strain**, especially in long-backed breeds like Dachshunds and Corgis who are prone to intervertebral disc disease
+- **Stumbles and falls** from awkward landings, especially on hard surfaces
+- **Added stress on stiff joints** caused by repeated impact
+- **Back strain**, especially in long-backed breeds like Dachshunds and Corgis
 - **Loss of confidence** that extends beyond furniture — dogs who slip or fall may become generally anxious about movement
 - **Reluctance to seek comfort**, causing your dog to sleep on the floor instead of near you, which can affect their emotional well-being
 
-Some owners resort to lifting their dogs manually, but this carries its own risks — both for the dog (awkward lifting positions can strain their spine) and for the owner (back injuries from lifting 50+ pound dogs repeatedly).
+Some owners resort to lifting their dogs manually, but this carries its own risks — both for the dog (awkward lifting positions can strain their back) and for the owner (back strain from lifting 50+ pound dogs repeatedly).
 
 ## How Folding Pet Stairs Solve the Problem
 
@@ -1937,7 +1937,7 @@ Not all pet stairs are created equal. Here are the features that matter most for
 
 **Weight of the stairs themselves**: If you plan to move stairs between rooms, a lightweight design (under 10 pounds) makes this practical. Heavier wooden stairs may be sturdier but less portable.
 
-**Soft or rounded edges**: Senior dogs with reduced vision or unsteady movement benefit from rounded corners and soft surfaces that minimize injury if they bump into the stairs.
+**Soft or rounded edges**: Senior dogs with reduced vision or unsteady movement benefit from rounded corners and soft surfaces that minimize bumps and bruises.
 
 **Easy-to-clean materials**: Look for removable, machine-washable covers or surfaces that wipe clean easily. Senior dogs may have accidents or track in dirt.
 
@@ -1968,7 +1968,7 @@ Both stairs and ramps help senior dogs access elevated surfaces, but they serve 
 - The surface is very high (vehicle access, tall beds)
 - Your dog has severe balance issues or neurological conditions
 - Your dog is very large and needs a gradual slope
-- You're helping a dog recover from surgery
+- You're helping a dog rest after a veterinary procedure
 
 For most senior dog owners dealing with bed and sofa access, folding stairs are the more practical and space-efficient choice.
 
@@ -1990,15 +1990,15 @@ Beyond stairs, consider these complementary adjustments:
 
 Always supervise your dog during the first few uses of any new stairs. Check the stairs regularly for loose screws, worn fabric, or structural weakness. Place the stairs on a level surface and ensure they sit flush against the furniture without gaps that could catch a paw.
 
-If your dog has had recent surgery, suffers from severe balance disorders, or has a condition that affects coordination, consult your veterinarian before using pet stairs. In some cases, a ramp or assisted lifting may be more appropriate.
+If your dog has had a recent veterinary procedure, has severe balance challenges, or has trouble with coordination, check with your veterinarian before using pet stairs. In some cases, a ramp or assisted lifting may be more appropriate.
 
 ## Conclusion
 
-Folding pet stairs are one of the simplest, most affordable investments you can make in your senior dog's quality of life. They restore independent access to the furniture your dog loves, reduce the risk of injury from jumping, and fold away neatly when you need the space.
+Folding pet stairs are one of the simplest, most affordable investments you can make in your senior dog's quality of life. They restore independent access to the furniture your dog loves, make climbing safer and easier than jumping, and fold away neatly when you need the space.
 
-The right set of stairs — sturdy, appropriately sized, and non-slip — can extend the years your dog comfortably spends napping beside you on the couch or sleeping at your feet on the bed. That comfort and companionship is what caring for a senior dog is all about.
+The right set of stairs — sturdy, appropriately sized, and non-slip — can extend the years your dog happily spends napping beside you on the couch or resting at your feet on the bed. That comfort and companionship is what caring for a senior dog is all about.
 
-At LoyalBond, our 3-Tier Folding Pet Stairs are designed specifically for senior and small breed dogs, with a sturdy frame, non-slip steps, and a foldable design that stores flat. Each step is covered in soft, easy-to-clean fabric, and the lightweight build makes moving between rooms effortless.
+At LoyalBond, our 3-Tier Folding Pet Stairs are designed with senior and small breed dogs in mind, with a sturdy frame, non-slip steps, and a foldable design that stores flat. Each step is covered in soft, easy-to-clean fabric, and the lightweight build makes moving between rooms effortless.
 
 Explore our full Senior Mobility Collection to find more products designed to keep your aging companion comfortable, safe, and independent.
 `
