@@ -874,7 +874,7 @@ export function getRelatedProducts(slug: string): Product[] {
   const crossSet = new Set(crossSlugs);
   crossSet.add(slug);
   const product = products.find(p => p.slug === slug);
-  const sameCollection = product
+  const sameCollection: Product[] = product
     ? products.filter(p => p.collectionSlug === product.collectionSlug && !crossSet.has(p.slug))
     : [];
   
