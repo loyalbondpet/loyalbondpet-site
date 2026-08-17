@@ -1966,7 +1966,7 @@ Both stairs and ramps help senior dogs access elevated surfaces, but they serve 
 
 **Ramps work best when**:
 - The surface is very high (vehicle access, tall beds)
-- Your dog has severe balance issues or neurological conditions
+- Your dog has severe balance challenges or limited coordination
 - Your dog is very large and needs a gradual slope
 - You're helping a dog rest after a veterinary procedure
 
