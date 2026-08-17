@@ -16,6 +16,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.loyalbondpet.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'LoyalBond | Senior Dog Products & Pet Essentials',
     template: '%s | LoyalBond',
