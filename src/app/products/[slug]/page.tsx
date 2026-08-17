@@ -27,6 +27,9 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   return {
     title: `${product.name} | LoyalBond`,
     description: product.shortDescription,
+    alternates: {
+      canonical: `/products/${slug}`,
+    },
     openGraph: {
       title: `${product.name} - LoyalBond`,
       description: product.shortDescription,
