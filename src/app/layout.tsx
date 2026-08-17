@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   title: {
     default: 'LoyalBond | Senior Dog Products & Pet Essentials',
-    template: '%s | LoyalBond',
+    template: '%s',
   },
   description:
     'LoyalBond offers thoughtfully designed functional products for senior dogs and pets. Shop orthopedic beds, mobility aids, travel accessories, and daily care essentials. Non-toxic, safe materials.',
