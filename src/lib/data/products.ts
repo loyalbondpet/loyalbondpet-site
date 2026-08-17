@@ -710,6 +710,74 @@ No assembly required — unfold and ready to use.`,
       note: 'Wholesale tier pricing: 10-49 pcs at $33.99/pc (15% off), 50-99 pcs at $27.99/pc (30% off). Orders of 100+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Supplier: Nadi Pet Products (纳蒂, Jinhua Zhejiang), cross-border export specialist, 17,000+ units sold, 46.58% repurchase rate. OEM/custom packaging available.',
     },
   },
+,
+  {
+    id: '24',
+    slug: 'snowflake-cooling-mat',
+    name: 'Snowflake Self-Cooling Pet Mat',
+    price: 12.99,
+    compareAtPrice: 16.99,
+    description: `Give your pet a cool place to rest this summer with the LoyalBond Snowflake Self-Cooling Mat.
+
+The pressure-activated cooling core automatically absorbs and dissipates body heat the moment your pet lies down — no water filling, no electricity, no refrigeration required. The cooling effect activates instantly and recharges naturally when your pet steps away, making it a hassle-free solution for hot days.
+
+The premium snowflake-patterned surface is soft yet highly elastic, providing a comfortable resting area that won\'t crack or harden over time. The durable material is scratch-resistant and bite-tough for everyday use, while the waterproof backing prevents leaks and protects floors, sofas, and car seats from spills and accidents.
+
+Cleaning is effortless — simply wipe with a damp cloth or rinse under running water. The mat dries quickly and maintains its shape without deformation after repeated washing. When not in use, it folds flat for compact storage or travel.
+
+Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, tile, inside crates, on sofas, car seats, or outdoor patios. Available in three sizes to accommodate cats, small dogs, and medium breeds.`,
+    shortDescription: 'Self-cooling gel pet mat with snowflake pattern. Pressure-activated cooling — no water, electricity or refrigeration needed. Scratch-resistant, waterproof, folds flat. 3 sizes for cats and small to medium dogs.',
+    collection: 'Seasonal',
+    collectionSlug: 'seasonal',
+    images: [
+      '/images/products/snowflake-cooling-mat/01-main.jpg',
+      '/images/products/snowflake-cooling-mat/02-lifestyle.jpg',
+      '/images/products/snowflake-cooling-mat/03-gel-tech.jpg',
+      '/images/products/snowflake-cooling-mat/04-features.jpg',
+      '/images/products/snowflake-cooling-mat/05-size-guide.jpg',
+      '/images/products/snowflake-cooling-mat/06-construction.jpg',
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizeVariants: [
+      { label: 'S', dimensions: '40 x 30 cm', weight: '0.85 kg', price: 12.99 },
+      { label: 'M', dimensions: '50 x 40 cm', weight: '1.40 kg', price: 17.99 },
+      { label: 'L', dimensions: '60 x 50 cm', weight: '2.20 kg', price: 22.99 },
+    ],
+    features: [
+      'Instant Self-Cooling — Pressure-activated core absorbs body heat on contact',
+      'No Water or Electricity — No filling, no charging, no refrigeration needed',
+      'Soft & Highly Elastic — Premium surface that stays comfortable and won\'t crack',
+      'Scratch & Bite Resistant — Durable material built for everyday pet use',
+      'Waterproof Backing — Protects floors, sofas, and car seats from leaks',
+      'Easy to Clean — Wipe or rinse, dries fast, no deformation after washing',
+      'Folds Flat for Storage — Lightweight and portable for home or travel',
+      'Multi-Purpose — Use on floors, sofas, in crates, car seats, and patios',
+    ],
+    specifications: {
+      'Material': 'Self-cooling polymer core with premium PVC/nylon surface',
+      'Pattern': 'Blue Snowflake',
+      'Cooling Type': 'Pressure-activated physical cooling (imported formula)',
+      'Small (S)': '40 × 30 cm — for cats, toy breeds & puppies up to 5 kg (11 lbs)',
+      'Medium (M)': '50 × 40 cm — for small dogs & large cats up to 10 kg (22 lbs)',
+      'Large (L)': '60 × 50 cm — for medium dogs up to 20 kg (44 lbs)',
+      'Product Weight (S)': '850 g',
+      'Product Weight (M)': '1,400 g',
+      'Product Weight (L)': '2,200 g',
+      'Waterproof': 'Yes',
+      'Foldable': 'Yes',
+      'Care': 'Wipe clean or rinse with water; air dry',
+      'Safety': 'Non-toxic, pet-safe materials',
+    },
+    wholesaleInfo: {
+      moq: '10 pieces (mixed sizes accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Zhejiang',
+      note: 'FOB tier pricing by size: S: $2.50/pc (10-49 pcs), $2.00/pc (50-99 pcs); M: $3.80/pc (10-49 pcs), $3.10/pc (50-99 pcs); L: $5.20/pc (10-49 pcs), $4.20/pc (50-99 pcs). Orders of 100+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Supplier: Jinhua, Zhejiang factory (镇店之宝, 110,000+ units sold, 24.24% repurchase rate). Cross-border export ready. OEM/custom packaging available.',
+    },
+  },
 
 ];
 
@@ -769,7 +837,7 @@ export const collections = [
     name: 'Seasonal',
     title: 'Seasonal',
     description: 'Seasonal comfort essentials for senior dogs. Supportive accessories for summer heat and winter chill — comfort all year round.',
-    priceRange: 'Contact for pricing',
+    priceRange: '$12.99 – $22.99',
     image: '/collections/seasonal.jpg',
     icon: 'seasonal',
     emoji: '❄️'
@@ -792,7 +860,8 @@ export const crossSellMap: Record<string, string[]> = {
   'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'snuffle-mat-set'],
   'folding-pet-stairs': ['foam-dog-stairs', 'orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
   // Seasonal
-  'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed'],
+  'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
+  'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
