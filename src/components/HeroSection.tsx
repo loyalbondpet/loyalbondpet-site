@@ -9,7 +9,7 @@ export default function HeroSection() {
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-green/10 rounded-full text-brand-green text-sm font-medium mb-6">
               <span className="w-2 h-2 bg-brand-green rounded-full" />
-              Functional Wellness for Every Dog | From Senior Care to Recovery Support
+              Functional Comfort for Every Dog | From Senior Care to Mobility Support
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-dark leading-tight mb-6">
               Give Every Dog the{' '}
