@@ -23,7 +23,7 @@ const solutionsDropdown = [
 
 const careGuideDropdown = [
   { name: 'Mobility & Joint Comfort', href: '/care-guide/arthritis' },
-  { name: 'Mobility Recovery Support', href: '/care-guide/post-acl-surgery' },
+  { name: 'Limited Mobility Support', href: '/care-guide/post-acl-surgery' },
   { name: 'Senior Dogs 10+ Years', href: '/care-guide/senior-10plus' },
   { name: 'Cognitive Changes', href: '/care-guide/cognitive-dysfunction' },
   { name: 'Short-Leg Breeds', href: '/care-guide/short-leg-breeds' },
