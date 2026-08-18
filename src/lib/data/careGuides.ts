@@ -30,17 +30,17 @@ export const careGuidePages: CareGuidePage[] = [
   },
   {
     slug: 'post-acl-surgery',
-    title: 'Mobility Recovery Support for Dogs',
+    title: 'Mobility Support for Dogs with Limited Movement',
     subtitle: 'Helping Your Dog Move with Confidence and Comfort',
-    description: 'Dogs recovering from leg injuries or mobility setbacks need careful movement management and extra support. The recovery period requires patience and the right products to keep your dog comfortable while gradually rebuilding confidence in movement.',
+    description: 'Dogs returning from leg injuries or mobility setbacks benefit from careful movement management and gentle support. This period requires patience and the right products to keep your dog comfortable while gradually rebuilding confidence in movement.',
     challenges: [
-      { title: 'Restricted Movement', description: 'Dogs in recovery need limited, controlled movement. A support harness allows you to assist with bathroom breaks and short walks without putting strain on the affected leg.' },
-      { title: 'Comfortable Rest Positioning', description: 'Finding a comfortable resting position is crucial during recovery. Orthopedic beds with even weight distribution help maintain rest quality.' },
-      { title: 'Floor Traction During Recovery', description: 'Even brief slips can set back progress. Non-slip paw pads provide essential traction during the critical recovery phase.' },
-      { title: 'Weight Management During Confinement', description: 'Reduced activity during recovery can lead to weight gain. Controlled feeding with slow feeders supports appropriate caloric intake.' },
+      { title: 'Restricted Movement', description: 'Dogs in this period need limited, controlled movement. A support harness allows you to assist with bathroom breaks and short walks without putting strain on the affected leg.' },
+      { title: 'Comfortable Rest Positioning', description: 'Finding a comfortable resting position is crucial during this period. Orthopedic beds with even weight distribution help maintain rest quality.' },
+      { title: 'Floor Traction During This Period', description: 'Even brief slips can set back progress. Non-slip paw pads provide essential traction during this important phase.' },
+      { title: 'Weight Management During Restricted Activity', description: 'Reduced activity during restricted movement can lead to weight gain. Controlled feeding with slow feeders supports appropriate caloric intake.' },
     ],
     recommendedProducts: [
-      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Essential for assisting bathroom breaks and controlled walks without straining the recovering leg.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Essential for assisting bathroom breaks and controlled walks without straining the affected leg.' },
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Provides comfortable, pressure-free resting surface during extended confinement periods.' },
     ],
     relatedBlogLinks: [
@@ -98,7 +98,7 @@ export const careGuidePages: CareGuidePage[] = [
       { title: 'Spinal Stress from Jumping', description: 'Jumping on and off furniture is one of the highest-risk activities for long-backed breeds. Furniture stairs and gradual-access solutions help reduce strain on their back significantly.' },
       { title: 'Difficulty on Slippery Surfaces', description: 'Short legs provide less stability on smooth floors. Paw grips and non-slip solutions are essential for preventing dangerous slips.' },
       { title: 'Weight Management', description: 'Extra weight puts disproportionate stress on their spine. Slow feeders and controlled portioning help maintain healthy weight.' },
-      { title: 'Rear Leg Weakness', description: 'Many short-leg breeds develop rear leg weakness with age. A support harness assists with walking and prevents dragging injuries.' },
+      { title: 'Rear Leg Weakness', description: 'Many short-leg breeds develop rear leg weakness with age. A support harness assists with walking and helps prevent paw scuffs from dragging.' },
     ],
     recommendedProducts: [
       { slug: 'hind-leg-support-harness', name: 'Senior Dog Hind Leg Support Harness', reason: 'Provides targeted rear-end support for breeds prone to back challenges, supporting comfortable daily movement.' },
@@ -132,17 +132,17 @@ export const careGuidePages: CareGuidePage[] = [
   {
     slug: 'pregnant-postpartum',
     title: 'Care Guide for Pregnant & Postpartum Dogs',
-    subtitle: 'Supporting Mothers Through Pregnancy and Recovery',
-    description: 'Pregnancy and nursing place extraordinary physical demands on dogs. From the physical stress of carrying puppies to the demands of nursing and recovery, mother dogs need extra comfort and support. The right products can reduce physical strain during this demanding period.',
+    subtitle: 'Supporting Mothers Through Pregnancy and Nursing',
+    description: 'Pregnancy and nursing place extraordinary physical demands on dogs. From the physical demands of carrying puppies to the demands of nursing, mother dogs need extra comfort and support. The right products can reduce physical strain during this demanding period.',
     challenges: [
       { title: 'Increasing Weight and Mobility Challenges', description: 'As pregnancy progresses, extra weight makes movement more difficult. A support harness assists with walking and stair navigation in late pregnancy.' },
       { title: 'Comfortable Nursing Environment', description: 'Nursing mothers spend extended periods lying down. An orthopedic bed with bolsters provides a comfortable, secure nursing area with easy cleanup.' },
       { title: 'Joint Stress from Extra Weight', description: 'The extra weight of pregnancy adds physical demands. Non-slip solutions prevent dangerous falls that could harm both mother and puppies.' },
-      { title: 'Post-Partum Recovery', description: 'After delivery, mothers need rest and nutrition support. Consistent, gentle enrichment activities like snuffle mats provide mental stimulation during the demanding nursing period.' },
+      { title: 'Post-Partum Rest', description: 'After delivery, mothers need rest and nutrition support. Consistent, gentle enrichment activities like snuffle mats provide mental stimulation during the demanding nursing period.' },
     ],
     recommendedProducts: [
       { slug: 'orthopedic-bolster-dog-bed', name: 'Orthopedic Bolster Dog Bed', reason: 'Creates a comfortable, enclosed nursing area with machine-washable covers for easy cleanup.' },
-      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Assists mobility in late pregnancy and during post-partum recovery walks.' },
+      { slug: 'lift-assist-harness', name: 'Dog Lift-Assist Harness', reason: 'Assists mobility in late pregnancy and during post-partum walks.' },
       { slug: 'snuffle-mat-set', name: 'Snuffle Mat Set', reason: 'Provides gentle mental enrichment and slows eating pace during pregnancy and nursing.' },
     ],
     relatedBlogLinks: [
@@ -156,7 +156,7 @@ export const careGuidePages: CareGuidePage[] = [
     subtitle: 'Helping Your Dog Maintain a Healthy Weight',
     description: 'A significant number of companion dogs carry extra weight, which can affect their mobility and overall comfort. A comprehensive weight management approach includes controlled feeding, appropriate exercise, and supportive products to maintain daily comfort.',
     challenges: [
-      { title: 'Controlled Feeding', description: 'Overfeeding is the primary cause of canine obesity. Slow feeders extend meal time, promoting satiety signals and preventing rapid consumption.' },
+      { title: 'Controlled Feeding', description: 'Overfeeding is the primary cause of unhealthy weight gain in dogs. Slow feeders extend meal time, promoting satiety signals and preventing rapid consumption.' },
       { title: 'Reduced Exercise Capacity', description: 'Overweight dogs often struggle with exercise. A support harness enables gentle, assisted walks that gradually build fitness without overloading joints.' },
       { title: 'Joint Pressure from Extra Weight', description: 'Extra weight adds pressure during rest. Orthopedic beds with pressure-distributing foam help reduce pressure points and support comfortable sleep.' },
       { title: 'Floor Safety for Heavier Dogs', description: 'Heavier dogs are more prone to slipping on smooth surfaces. Non-slip paw pads provide essential traction to prevent falls.' },
