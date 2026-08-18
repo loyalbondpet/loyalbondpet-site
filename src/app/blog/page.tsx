@@ -45,13 +45,12 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={`/blog/${featuredPost.slug}`} className="group block">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              <div className="aspect-[16/10] bg-gradient-to-br from-brand-green/10 to-brand-beige rounded-2xl flex items-center justify-center overflow-hidden">
-                <div className="text-center">
-                  <svg className="w-20 h-20 mx-auto text-brand-green/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={0.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                  </svg>
-                  <p className="text-brand-green/40 text-sm mt-2">Featured Post Image</p>
-                </div>
+              <div className="aspect-[16/10] rounded-2xl overflow-hidden bg-brand-beige">
+                <img
+                  src={featuredPost.image}
+                  alt={featuredPost.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
               <div>
                 <span className="inline-block px-3 py-1 bg-brand-green/10 text-brand-green text-sm font-medium rounded-full mb-4">
@@ -95,10 +94,13 @@ export default function BlogPage() {
             {otherPosts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
                 <article className="bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
-                  <div className="aspect-[16/10] bg-gradient-to-br from-brand-beige to-brand-green/5 flex items-center justify-center">
-                    <svg className="w-12 h-12 text-brand-green/20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                    </svg>
+                  <div className="aspect-[16/10] overflow-hidden bg-brand-beige">
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
                   </div>
                   <div className="p-6 flex flex-col flex-1">
                     <span className="inline-block px-3 py-1 bg-brand-green/10 text-brand-green text-xs font-medium rounded-full mb-3 w-fit">
