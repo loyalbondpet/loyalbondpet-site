@@ -27,6 +27,13 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       type: 'article',
       authors: [post.author],
       publishedTime: post.date,
+      images: [{ url: post.image.startsWith('http') ? post.image : `https://www.loyalbondpet.com${post.image}` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image.startsWith('http') ? post.image : `https://www.loyalbondpet.com${post.image}`],
     },
   };
 }
@@ -107,13 +114,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Featured Image */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4">
-        <div className="aspect-[16/9] bg-gradient-to-br from-brand-green/10 to-brand-beige rounded-2xl flex items-center justify-center">
-          <div className="text-center">
-            <svg className="w-16 h-16 mx-auto text-brand-green/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={0.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-            </svg>
-            <p className="text-brand-green/40 text-sm mt-2">Featured Image</p>
-          </div>
+        <div className="aspect-[16/9] rounded-2xl overflow-hidden bg-brand-beige">
+          <img
+            src={post.image}
+            alt={post.title}
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
 
@@ -182,10 +188,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {relatedPosts.map((rp) => (
                 <Link key={rp.slug} href={`/blog/${rp.slug}`} className="group">
-                  <div className="aspect-[16/10] bg-brand-beige rounded-xl flex items-center justify-center mb-3">
-                    <svg className="w-8 h-8 text-brand-green/20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                    </svg>
+                  <div className="aspect-[16/10] rounded-xl overflow-hidden mb-3 bg-brand-beige">
+                    <img
+                      src={rp.image}
+                      alt={rp.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
                   </div>
                   <h3 className="font-semibold text-brand-dark group-hover:text-brand-green transition-colors line-clamp-2">{rp.title}</h3>
                   <p className="text-sm text-brand-gray mt-1">{rp.readTime}</p>
