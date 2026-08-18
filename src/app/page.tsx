@@ -214,10 +214,10 @@ export default function HomePage() {
               <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark mb-6">Loyal Companionship, Every Step of the Way</h2>
               <div className="space-y-4 text-brand-gray leading-relaxed">
                 <p>
-                  LoyalBond was born from a simple truth: the bond between humans and their pets is one of life&apos;s greatest gifts. When our own senior dog started struggling with everyday movements, we realized how few quality options existed for pets with special needs — whether aging, recovering, or living with mobility challenges.
+                  LoyalBond was born from a simple truth: the bond between humans and their pets is one of life&apos;s greatest gifts. When our own senior dog started struggling with everyday movements, we realized how few quality options existed for aging pets and dogs with mobility challenges.
                 </p>
                 <p>
-                  That frustration became our mission. We partnered with certified manufacturers to create thoughtfully designed, non-toxic products that genuinely improve daily life for dogs at every life stage — from senior companions to post-surgery recovery, joint support, and beyond. Every product is tested with real pets — because your companion deserves nothing less.
+                  That frustration became our mission. We partnered with certified manufacturers to create thoughtfully designed, non-toxic products that genuinely improve daily life for dogs at every life stage — from senior companions with mobility challenges to dogs needing joint comfort and beyond. Every product is tested with real pets — because your companion deserves nothing less.
                 </p>
                 <p>
                   Today, LoyalBond offers thoughtfully designed essentials for dogs at every life stage — from senior mobility and joint comfort to grooming, feeding, travel, and everyday comfort.
@@ -248,20 +248,20 @@ export default function HomePage() {
             {[
               {
                 icon: '🏥',
-                title: 'Clinical Settings',
-                description: 'Our orthopedic beds and lift-assist harnesses support dogs with mobility challenges and senior dogs in examination and resting environments. Non-slip paw covers provide stability on clinic floors, while drying towels keep grooming areas clean between uses.',
+                title: 'Veterinary Practices',
+                description: 'Our orthopedic beds and lift-assist harnesses support dogs with mobility challenges and senior dogs in exam and resting areas. Non-slip paw covers provide stability on clinic floors, while drying towels keep grooming areas clean between uses.',
                 stat: 'Designed with comfort and safety in mind for dogs of all ages',
               },
               {
                 icon: '🏪',
                 title: 'Retail Partnership',
-                description: 'LoyalBond products are built for retail display with professional packaging and competitive margins. Our product range covers functional comfort essentials for daily comfort, mobility support, and recovery — ideal for pet stores serving the growing market of dogs with special needs.',
+                description: 'LoyalBond products are built for retail display with professional packaging and competitive margins. Our product range covers functional comfort essentials for daily comfort and mobility support — ideal for pet stores serving the growing market of senior dogs and dogs with mobility challenges.',
                 stat: 'Wholesale and private-label partnerships welcome',
               },
               {
                 icon: '🏠',
                 title: 'At-Home Comfort',
-                description: 'Our product line helps maintain quality of life for dogs at home. The Lift-Assist Harness helps dogs with mobility challenges navigate stairs and car rides. Orthopedic bolster beds provide supportive rest for senior and recovering dogs. Silicone paw covers prevent slips on hardwood floors — giving every dog confidence to move freely.',
+                description: 'Our product line helps maintain quality of life for dogs at home. The Lift-Assist Harness helps dogs with mobility challenges navigate stairs and car rides. Orthopedic bolster beds provide supportive rest for senior dogs and dogs with mobility challenges. Silicone paw covers prevent slips on hardwood floors — giving every dog confidence to move freely.',
                 stat: 'Designed for dogs with mobility, comfort, and daily living needs at every life stage',
               },
             ].map((scenario) => (
@@ -290,7 +290,7 @@ export default function HomePage() {
             {[
               { name: 'Vet Clinics', href: '/solutions/vet-clinics', emoji: '🏥', desc: 'Functional comfort products for senior dogs and resting pets' },
               { name: 'Pet Stores', href: '/solutions/pet-stores', emoji: '🏪', desc: 'High-demand functional pet care products' },
-              { name: 'Boarding Facilities', href: '/solutions/boarding-facilities', emoji: '🏨', desc: 'Durable comfort for senior and special-needs boarders' },
+              { name: 'Boarding Facilities', href: '/solutions/boarding-facilities', emoji: '🏨', desc: 'Durable comfort for senior dogs and dogs with mobility challenges' },
               { name: 'Rescue Organizations', href: '/solutions/rescue-organizations', emoji: '❤️', desc: 'Affordable comfort for rescue dogs of all ages' },
             ].map((item) => (
               <Link
