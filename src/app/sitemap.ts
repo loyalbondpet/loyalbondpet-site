@@ -9,14 +9,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // lastmod dates based on actual content update history
   const staticPages = [
-    { url: baseUrl, lastModified: new Date('2026-08-09'), changeFrequency: 'weekly' as const, priority: 1 },
-    { url: `${baseUrl}/about`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/blog`, lastModified: new Date('2026-08-08'), changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/products`, lastModified: new Date('2026-08-12'), changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/contact`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.6 },
-    { url: `${baseUrl}/wholesale`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/faq`, lastModified: new Date('2026-08-07'), changeFrequency: 'monthly' as const, priority: 0.6 },
-    { url: `${baseUrl}/collections`, lastModified: new Date('2026-08-07'), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: baseUrl, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 1 },
+    { url: `${baseUrl}/about`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/products`, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/contact`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/wholesale`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/faq`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/collections`, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 0.9 },
   ];
 
   // Collections (6 scenarios) - product pages went live 2026-08-07
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'seasonal',
   ].map(slug => ({
     url: `${baseUrl}/collections/${slug}`,
-    lastModified: new Date('2026-08-07'),
+    lastModified: new Date('2026-08-18'),
     changeFrequency: 'weekly' as const,
     priority: 0.9,
   }));
@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Solutions pages (4 B2B) - created during site launch 2026-08-07
   const solutionPages = getAllSolutionSlugs().map(slug => ({
     url: `${baseUrl}/solutions/${slug}`,
-    lastModified: new Date('2026-08-07'),
+    lastModified: new Date('2026-08-18'),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
@@ -45,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Care Guide pages (8 audience) - created during site launch 2026-08-07
   const careGuidePages = getAllCareGuideSlugs().map(slug => ({
     url: `${baseUrl}/care-guide/${slug}`,
-    lastModified: new Date('2026-08-07'),
+    lastModified: new Date('2026-08-18'),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
