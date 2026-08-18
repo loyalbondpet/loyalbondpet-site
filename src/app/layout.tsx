@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'LoyalBond | Loyal Companionship for Every Stage of Life',
     description:
-      'Functional pet products designed for senior dogs. Thoughtfully designed, non-toxic materials. Quality craftsmanship.',
+      'Functional pet products designed for dogs at every life stage. Thoughtfully designed, non-toxic materials. Quality craftsmanship.',
     url: 'https://www.loyalbondpet.com',
     siteName: 'LoyalBond',
     locale: 'en_US',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'LoyalBond | Senior Dog Products & Pet Essentials',
-    description: 'Functional pet products designed for senior dogs. Thoughtfully designed, non-toxic materials.',
+    description: 'Functional pet products designed for dogs at every life stage. Thoughtfully designed, non-toxic materials.',
   },
   robots: {
     index: true,
