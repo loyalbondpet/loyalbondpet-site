@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 const careGuides = [
-  { slug: 'arthritis', title: 'Mobility Challenges' },
-  { slug: 'post-acl-surgery', title: 'Mobility Recovery Support' },
+  { slug: 'arthritis', title: 'Joint Comfort & Mobility' },
+  { slug: 'post-acl-surgery', title: 'Mobility Support' },
   { slug: 'senior-10plus', title: 'Senior Dogs 10+ Years' },
   { slug: 'cognitive-dysfunction', title: 'Age-Related Cognitive Changes' },
   { slug: 'short-leg-breeds', title: 'Short-Leg Breeds (Corgi, Dachshund)' },
