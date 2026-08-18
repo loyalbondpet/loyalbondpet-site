@@ -16,7 +16,7 @@ export default function HeroSection() {
               <span className="text-brand-green">Comfort</span> They Deserve
             </h1>
             <p className="text-lg sm:text-xl text-brand-gray mb-8 max-w-lg mx-auto lg:mx-0">
-              From senior mobility to post-surgery recovery, joint support to everyday calm support — thoughtfully designed, non-toxic products for dogs with special needs.
+              From senior mobility to everyday joint comfort — thoughtfully designed, non-toxic products for dogs at every life stage.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
