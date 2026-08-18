@@ -22,6 +22,165 @@ export const blogCategories = [
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'cooling-mat-guide-summer-dog-comfort',
+    title: 'How to Keep Your Dog Cool This Summer: The Complete Cooling Mat Guide',
+    excerpt: 'Discover how self-cooling gel mats work, which size is right for your dog, and essential safety tips to help your furry friend stay comfortable all summer long.',
+    author: 'LOYALBOND PET COCO WU',
+    date: '2026-08-18',
+    readTime: '9 min read',
+    category: 'New Arrivals',
+    categorySlug: 'new-arrivals',
+    image: '/blog/cooling-mat-guide.jpg',
+    tags: ['cooling mat', 'summer dog care', 'pet comfort', 'heat safety', 'cooling gel mat'],
+    relatedProducts: ['snowflake-cooling-mat', 'pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
+    content: `Summer is here, and as temperatures climb, our furry friends rely on us to help them stay comfortable. Unlike humans, dogs can't sweat through their skin — they cool down primarily through panting and through the small sweat glands on their paw pads. This makes it harder for them to regulate body temperature in hot weather, especially senior dogs, thick-coated breeds, and pups who love their afternoon sunbathing sessions.
+
+A cooling mat is one of the simplest and most effective ways to give your dog a comfortable place to rest during warm months. In this guide, we'll explain how cooling mats work, who benefits most from them, how to choose the right size, and how to use them safely throughout the season.
+
+## Why Dogs Struggle in Hot Weather
+
+Dogs run a normal body temperature of 38–39°C (100–102.5°F), slightly higher than humans. When the ambient temperature rises, their primary cooling mechanism — panting — becomes less efficient. Humidity makes things worse because the moisture from their breath doesn't evaporate as easily, trapping heat instead of releasing it.
+
+Certain dogs are especially sensitive to heat:
+
+- **Senior dogs** often have slower metabolism and less energy to move away from hot spots
+- **Thick-coated breeds** like Huskies, Golden Retrievers, and Chow Chows carry extra insulation year-round
+- **Brachycephalic breeds** (Pugs, Bulldogs, French Bulldogs) have shorter airways that make panting less efficient
+- **Dogs carrying extra weight** generate more body heat and tire more quickly
+- **Dogs with stiff joints or limited mobility** may not be able to reposition themselves to cooler areas
+
+Providing a dedicated cooling spot gives these dogs a reliable way to lower their body temperature without expending energy walking to a cooler room or tile floor.
+
+## How Self-Cooling Gel Mats Work
+
+Self-cooling gel mats use a pressure-activated gel core that automatically absorbs and dissipates body heat the moment your dog lies down. The science is straightforward: the gel has a high thermal conductivity, meaning it draws heat away from warmer surfaces (your dog) and spreads it across the cooler surface of the mat. As heat disperses, the contact area feels noticeably cooler than the surrounding air.
+
+Here's what makes them convenient:
+
+- **No water, electricity, or refrigeration needed** — the cooling effect activates from your dog's body weight alone
+- **Lasts up to 3 hours per session** depending on ambient temperature and your dog's size
+- **Recharges automatically** within 15–20 minutes after your dog steps away
+- **No ongoing costs** — unlike electric cooling pads, there's nothing to plug in or monitor, and no replacement pads to buy
+
+The gel inside is typically non-toxic and sealed within a durable, waterproof outer layer. When your dog rests on the mat, the gel draws heat away from the contact points and distributes it across the mat's surface, creating a noticeably cooler resting surface compared to regular bedding, carpet, or bare floors that have absorbed room heat.
+
+## Solid Gel Mat vs. Snowflake Pattern Mat: Which Is Right for You?
+
+LoyalBond offers two cooling mat designs, each with distinct advantages depending on your dog's size, your home environment, and your budget.
+
+### Snowflake Self-Cooling Pet Mat
+
+The snowflake mat features a premium patterned surface that's soft yet highly elastic. The snowflake texture serves a practical purpose — it creates subtle air channels between your dog's fur and the mat surface, allowing heat to dissipate more efficiently than a completely smooth surface.
+
+**Best for:**
+- Small to medium dogs (under 15 kg / 33 lb)
+- Cats and multi-pet households
+- Homes with hardwood or tile floors where the mat may slide
+- Pet parents looking for a budget-friendly option
+
+**Key features:**
+- Elastic snowflake-patterned surface that won't crack or harden over time
+- Waterproof backing protects floors, sofas, and car seats
+- Scratch-resistant material holds up to everyday pawing and nesting
+- Three sizes (S/M/L) to fit crates, carriers, and favorite resting spots
+- Lightweight enough to move between rooms or pack for travel
+
+### Self-Cooling Gel Pet Mat
+
+The solid gel mat uses a denser gel core that provides longer-lasting cooling for larger dogs who generate more body heat. The smooth nylon exterior is easy to wipe clean and comes in two neutral colors.
+
+**Best for:**
+- Medium to large dogs (15 kg / 33 lb and up)
+- Senior dogs and thick-coated breeds who run hot
+- Multi-dog households where a larger surface area is useful
+- Crate training in warm weather
+
+**Key features:**
+- Pressure-activated gel core cools for up to 3 hours per session
+- Durable nylon exterior is scratch-resistant and waterproof
+- Four sizes (S through XL) accommodate breeds from terriers to Shepherds
+- Available in Blue and Gray to match home décor
+- Rounded corners and soft edges for safety and comfort
+- Folds flat for storage when not in season
+
+Both mats use the same pressure-activated cooling principle — no water, electricity, or refrigeration required. Choose based on your dog's size and your preferred surface texture.
+
+## Choosing the Right Size
+
+Pick a mat that matches your dog's resting size, not just their standing size. When dogs lie down, they often spread out or flop onto their side — measure the space your dog typically occupies when fully stretched out during a nap, and choose accordingly.
+
+| Dog Size | Mat Size | Typical Breeds |
+|----------|----------|----------------|
+| Small | 40×30cm (16×12 in) | Chihuahua, Yorkshire Terrier, cats, puppies |
+| Medium | 50×40cm (20×16 in) | French Bulldog, Corgi, Shih Tzu, Miniature Poodle |
+| Large | 65×50cm (26×20 in) | Border Collie, Cocker Spaniel, Beagle, Bulldog |
+| XL | 90×65cm (35×26 in) | Golden Retriever, Labrador, German Shepherd, Husky |
+
+If you're between sizes, go larger — dogs appreciate having room to shift positions and find their ideal cool spot. A mat that's too small may only cool part of their body, reducing the benefit.
+
+## Where to Use a Cooling Mat
+
+One of the best things about gel cooling mats is their versatility. Unlike built-in cooling systems or elevated beds that stay in one place, these mats move with your dog's routine:
+
+- **Living room floor** — place it near your dog's favorite resting spot or bed
+- **Inside the crate** — choose a size that lies flat without bunching up
+- **On the sofa or bed** — the waterproof backing protects your furniture from spills and damp fur
+- **In the car** — makes road trips and vet visits more comfortable in warm weather
+- **Outdoor patio or balcony** — gives your dog a cool spot during fresh-air time
+- **Near a sunny window** — for dogs who love sunbathing but need a break from direct heat
+- **Kitchen or bathroom tile** — lay it over the naturally cool floor for an extra boost
+
+The mat folds flat when not in use, making it easy to slide under a bed, store in a closet, or pack in a travel bag during cooler months.
+
+## Cooling Mat Safety Tips
+
+While cooling mats are designed to be safe and low-maintenance, follow these guidelines to ensure the best experience:
+
+1. **Supervise initially** — especially with chewers, teething puppies, or dogs who destroy plush toys. While the exterior is durable, no mat is completely chew-proof, and ingesting gel can cause stomach upset.
+2. **Inspect regularly** — check for signs of wear, tears, or leaks. If you notice any damage, discontinue use and replace the mat.
+3. **Always provide fresh water** — a cooling mat helps with comfort but doesn't replace hydration. Make sure clean water is available at all times.
+4. **Ensure access to shade** — if using outdoors, the mat should be in a shaded or partially shaded area. Direct sunlight on the mat for hours can warm the surface.
+5. **Wipe clean regularly** — use a damp cloth to remove dirt, hair, and saliva. For deeper cleaning, rinse with mild soap and warm water, then air dry completely before storing.
+6. **Rotate two mats in hot climates** — while one recharges after use, the other is ready for your dog. This is especially useful in regions where summer temperatures stay above 30°C (86°F) for weeks at a time.
+7. **Don't leave unattended outdoors in rain** — while the mat is water-resistant, prolonged exposure to standing water isn't recommended.
+
+## Recognizing When Your Dog Is Overheated
+
+Even with a cooling mat, it's important to recognize signs that your dog is too hot. Watch for:
+
+- Excessive panting that doesn't slow down at rest
+- Heavy drooling or thick saliva
+- Restlessness or inability to settle comfortably
+- Bright red gums or tongue
+- Vomiting or diarrhea
+- Stumbling, lack of coordination, or weakness
+- Glazed or unfocused eyes
+
+If your dog shows any of these signs, move them to an air-conditioned or cooler area immediately, offer small amounts of cool (not ice-cold) water, and contact your veterinarian. A cooling mat is a comfort product for everyday warmth — it is not a substitute for professional veterinary attention when a dog is in distress.
+
+## Tips for Maximizing Cooling Comfort
+
+Get the most out of your cooling mat with these simple strategies:
+
+**Pre-cool in the fridge:** For extra hot days, place the mat in a plastic bag and refrigerate it for 30 minutes before use. Don't freeze it — freezing can make the gel too hard and reduce its ability to contour to your dog's body.
+
+**Pair with a fan:** Air moving across the mat's surface speeds up heat dissipation, making the cooling effect more intense and longer-lasting.
+
+**Elevate slightly:** Placing the mat on an elevated bed or platform allows air to circulate underneath, keeping the bottom of the mat cooler.
+
+**Use in multiple locations:** If your dog has several favorite spots around the house, consider a second mat rather than moving one back and forth throughout the day.
+
+**Introduce gradually:** Some dogs are unsure about the cool sensation at first. Place the mat in their resting area with a familiar blanket on top for the first day, then remove the blanket once they're comfortable.
+
+## Make This Summer Comfortable
+
+A cooling mat is a small investment that makes a noticeable difference in your dog's daily comfort during warm weather. Whether your dog is a senior who struggles with heat, a thick-coated breed that runs hot year-round, or simply a pup who loves lounging in a sunbeam, a dedicated cooling spot gives them a place to rest comfortably without expending energy searching for a cool floor or tile surface.
+
+Pair the cooling mat with plenty of fresh water, access to shade and air conditioning during peak heat, and moderate exercise during the cooler morning and evening hours. With the right setup, your dog can enjoy summer just as much as you do — comfortably and safely.
+
+Explore our [Seasonal collection](/collections/seasonal) to find the right cooling mat for your dog. Have questions about sizing or which mat is best for your breed? Our team is happy to help at [sales@loyalbondpet.com](mailto:sales@loyalbondpet.com).`,
+  },
+  {
     slug: '10-signs-your-senior-dog-needs-extra-support',
     title: '10 Signs Your Senior Dog Needs Extra Support',
     excerpt: 'Is your aging dog showing subtle changes in behavior or mobility? Learn the key signs that indicate your senior companion needs additional support and how to help them stay comfortable.',
@@ -30,7 +189,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
-    image: '/blog/senior-dog-signs.jpg',
+    image: '/images/products/lift-assist-harness/01-main.jpg',
     tags: ['senior dog care', 'aging dog symptoms', 'older dog mobility', 'dog health'],
     relatedProducts: ['lift-assist-harness', 'orthopedic-bolster-dog-bed', 'mesh-support-sling'],
     content: `
@@ -114,7 +273,7 @@ At LoyalBond, we believe every senior dog deserves comfort and dignity. Our prod
     readTime: '10 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
-    image: '/blog/home-safety-dog.jpg',
+    image: '/images/products/foam-dog-stairs/01-main.jpg',
     tags: ['dog-proofing home', 'non-slip solutions for dogs', 'senior dog home safety', 'aging pet care'],
     relatedProducts: ['lift-assist-harness', 'orthopedic-bolster-dog-bed', 'hind-leg-support-harness'],
     content: `
@@ -242,7 +401,7 @@ Remember, every dog ages differently. Observe your individual pet's needs and ad
     readTime: '12 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
-    image: '/blog/mobility-aids-guide.jpg',
+    image: '/images/products/mesh-support-sling/01-main.jpg',
     tags: ['dog mobility aids', 'dog harness for seniors', 'orthopedic dog products', 'senior dog products'],
     relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling'],
     content: `
@@ -373,7 +532,7 @@ Remember, the goal isn't to eliminate all challenges of aging, but to provide su
     readTime: '9 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
-    image: '/blog/travel-accessories.jpg',
+    image: '/images/products/waterproof-silicone-dog-rain-boots/01-main.jpg',
     tags: ['senior dog travel', 'car safety for dogs', 'portable dog accessories', 'dog travel tips'],
     relatedProducts: ['lift-assist-harness', 'snuffle-mat-set'],
     content: `
@@ -545,7 +704,7 @@ Remember to start with shorter trips and gradually build up to longer adventures
     readTime: '8 min read',
     category: 'Pet Health Tips',
     categorySlug: 'pet-health-tips',
-    image: '/blog/non-toxic-pet-products.jpg',
+    image: '/images/products/orthopedic-bed/01-main.jpg',
     tags: ['non-toxic pet products', 'safe dog toys', 'pet product safety', 'pet health'],
     relatedProducts: ['mesh-support-sling', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
     content: `
@@ -692,7 +851,7 @@ At LoyalBond, safety isn't a marketing claim, it's our foundation. Every product
     readTime: '10 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
-    image: '/blog/orthopedic-bed-guide.jpg',
+    image: '/images/products/orthopedic-bed/01-main.jpg',
     tags: ['orthopedic dog bed', 'dog bed for large breeds', 'senior dog comfort', 'dog bed guide'],
     relatedProducts: ['orthopedic-bolster-dog-bed', 'mesh-support-sling'],
     content: `
@@ -868,7 +1027,7 @@ At LoyalBond, we've poured extensive research into creating the ideal orthopedic
     readTime: '7 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
-    image: '/blog/5-mobility-aids-senior-dog.jpg',
+    image: '/images/products/hind-leg-harness/01-main.jpg',
     tags: ['senior dog mobility aids', 'aging dog support products', 'dog harness for seniors', 'orthopedic dog bed', 'snuffle mat for dogs'],
     relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
     content: `
@@ -966,7 +1125,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
     readTime: '6 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
-    image: '/blog/lifting-harness-guide.jpg',
+    image: '/images/products/lift-assist-harness/01-main.jpg',
     tags: ['dog lifting harness', 'senior dog harness comparison', 'hind leg support harness', 'lift assist harness', 'dog mobility harness'],
     relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness'],
     content: `
@@ -1094,7 +1253,7 @@ At LoyalBond, both our Lift-Assist Harness and Hind Leg Support Harness are desi
     readTime: '6 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
-    image: '/blog/low-entry-orthopedic-bed.jpg',
+    image: '/images/products/orthopedic-bed/02-lifestyle.jpg',
     tags: ['low entry dog bed', 'orthopedic bed for senior dogs', 'senior dog sleeping solutions', 'dog bed for mobility issues', 'aging dog comfort'],
     relatedProducts: ['orthopedic-bolster-dog-bed'],
     content: `
@@ -1214,7 +1373,7 @@ At LoyalBond, our Orthopedic Bolster Dog Bed is engineered specifically for the 
     readTime: '5 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
-    image: '/blog/silicone-paw-covers-vs-boots.jpg',
+    image: '/images/products/anti-slip-dog-socks/01-main.jpg',
     tags: ['silicone paw covers', 'dog boots comparison', 'dog paw protection', 'non-slip dog paw products', 'indoor paw protection for dogs'],
     relatedProducts: ['mesh-support-sling'],
     content: `
@@ -1328,7 +1487,7 @@ At LoyalBond, our Adjustable Silicone Paw Protector Boots are designed specifica
     readTime: '5 min read',
     category: 'Senior Dog Care',
     categorySlug: 'senior-dog-care',
-    image: '/blog/snuffle-mats-senior-dogs.jpg',
+    image: '/images/products/snuffle-mat/01-lifestyle.jpg',
     tags: ['snuffle mat for senior dogs', 'mental exercise for dogs', 'dog enrichment activities', 'slow feeder dog mat', 'senior dog activities'],
     relatedProducts: ['snuffle-mat-set'],
     content: `
@@ -1454,7 +1613,7 @@ At LoyalBond, our Interactive Dog Snuffle Mat Set is designed with senior dog ne
     readTime: '7 min read',
     category: 'Pet Health Tips',
     categorySlug: 'pet-health-tips',
-    image: '/blog/home-safety-setup-aging-dogs.jpg',
+    image: '/images/products/folding-pet-stairs/01-main.jpg',
     tags: ['senior dog home safety', 'aging dog care products', 'complete senior dog setup', 'dog mobility aids', 'senior dog comfort products'],
     relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
     content: `
@@ -1594,7 +1753,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
     readTime: '4 min read',
     category: 'Pet Health Tips',
     categorySlug: 'pet-health-tips',
-    image: '/blog/post-bath-care-senior-dogs.jpg',
+    image: '/images/products/drying-towel/01-main.jpg',
     tags: ['senior dog bath care', 'dog drying towel', 'quick dry pet towel', 'dog grooming tips', 'senior dog hygiene'],
     relatedProducts: [],
     content: `
@@ -1729,7 +1888,7 @@ At LoyalBond, our Pet Quick-Dry Coral Fleece Towel is designed with senior dog c
     readTime: '6 min read',
     category: 'Product Guides',
     categorySlug: 'product-guides',
-    image: '/blog/pet-stores-senior-dog-products.jpg',
+    image: '/images/products/gel-cooling-mat/01-main.jpg',
     tags: ['pet store wholesale products', 'senior dog products wholesale', 'pet product sourcing', 'pet retail merchandising', 'dog mobility aids wholesale'],
     relatedProducts: ['lift-assist-harness', 'hind-leg-support-harness', 'mesh-support-sling', 'snuffle-mat-set', 'orthopedic-bolster-dog-bed'],
     content: `
