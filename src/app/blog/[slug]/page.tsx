@@ -50,21 +50,27 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
     image: post.image.startsWith('http') ? post.image : `https://www.loyalbondpet.com${post.image}`,
-    author: { '@type': 'Person', name: post.author },
-    datePublished: post.date,
-    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: 'LoyalBond',
+    },
     publisher: {
       '@type': 'Organization',
       name: 'LoyalBond',
-      url: 'https://www.loyalbondpet.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.loyalbondpet.com/logo.png',
+        url: 'https://www.loyalbondpet.com/favicon.ico',
       },
+    },
+    datePublished: post.date,
+    dateModified: post.date,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.loyalbondpet.com/blog/${slug}`,
     },
   };
 
