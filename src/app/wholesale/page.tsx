@@ -129,6 +129,133 @@ export default function WholesalePage() {
         </div>
       </section>
 
+      {/* OEM & ODM Services */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-brand-dark text-center mb-4">
+            OEM &amp; ODM Services
+          </h2>
+          <p className="text-brand-gray text-center mb-12 max-w-2xl mx-auto">
+            Beyond our ready-to-ship catalog, we offer comprehensive OEM and ODM solutions to help you build a unique product line that stands out in your market.
+          </p>
+
+          {/* OEM & ODM Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            {/* OEM Card */}
+            <div className="p-8 rounded-2xl bg-brand-beige/30 hover:bg-brand-beige/60 transition-colors">
+              <div className="text-4xl mb-4">🎨</div>
+              <h3 className="text-2xl font-bold text-brand-dark mb-3">OEM — Custom Branding</h3>
+              <p className="text-brand-gray leading-relaxed mb-6">
+                Put your brand on our proven products. We customize packaging, labels, hangtags, color schemes, and insert cards to match your brand identity. Perfect for retailers and distributors who want to sell quality products under their own brand.
+              </p>
+              <ul className="space-y-3">
+                {[
+                  'Custom logo printing & labeling',
+                  'Branded packaging design',
+                  'Custom color options',
+                  'Private label hangtags & insert cards',
+                  'Mixed product assortment in one shipment',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-brand-gray">
+                    <span className="text-brand-green mt-0.5">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* ODM Card */}
+            <div className="p-8 rounded-2xl bg-brand-beige/30 hover:bg-brand-beige/60 transition-colors">
+              <div className="text-4xl mb-4">🔧</div>
+              <h3 className="text-2xl font-bold text-brand-dark mb-3">ODM — Original Design</h3>
+              <p className="text-brand-gray leading-relaxed mb-6">
+                Have a product idea or design sketch? We work with certified factories to bring your concept to life — from tooling and prototyping to mass production. Ideal for brands looking to create exclusive products.
+              </p>
+              <ul className="space-y-3">
+                {[
+                  'Custom tooling & mold development',
+                  'Product design & prototyping',
+                  'Material & specification customization',
+                  'Exclusive product manufacturing',
+                  'Full QC inspection before shipment',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-brand-gray">
+                    <span className="text-brand-green mt-0.5">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Customization Process */}
+          <h3 className="text-2xl font-bold text-brand-dark text-center mb-10">
+            Customization Process
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto mb-16">
+            {[
+              {
+                step: '01',
+                title: 'Share Your Vision',
+                desc: 'Send us your product requirements, reference images, or design files. Tell us your target market and quantity.',
+              },
+              {
+                step: '02',
+                title: 'Sampling',
+                desc: 'We create samples for your approval. OEM samples typically take 7-10 days; ODM samples with new tooling take 20-30 days.',
+              },
+              {
+                step: '03',
+                title: 'Production',
+                desc: 'After sample confirmation, we proceed to mass production with strict quality control at every stage.',
+              },
+              {
+                step: '04',
+                title: 'Delivery',
+                desc: 'Final inspection, packaging, and shipment from Ningbo port. We handle export documentation.',
+              },
+            ].map((item) => (
+              <div key={item.step} className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-brand-green/10 rounded-full flex items-center justify-center">
+                  <span className="text-2xl font-bold text-brand-green">{item.step}</span>
+                </div>
+                <h4 className="text-lg font-bold text-brand-dark mb-2">{item.title}</h4>
+                <p className="text-brand-gray text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* MOQ & Lead Time */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+            <div className="bg-brand-cream rounded-lg p-6 text-center">
+              <p className="text-sm font-medium text-brand-gray mb-1">OEM MOQ</p>
+              <p className="text-brand-dark font-bold text-lg">500 pieces per model</p>
+              <p className="text-sm text-brand-gray mt-1">(mixed colors accepted)</p>
+            </div>
+            <div className="bg-brand-cream rounded-lg p-6 text-center">
+              <p className="text-sm font-medium text-brand-gray mb-1">ODM MOQ</p>
+              <p className="text-brand-dark font-bold text-lg">1,000 pieces per model</p>
+              <p className="text-sm text-brand-gray mt-1">(new tooling required)</p>
+            </div>
+            <div className="bg-brand-cream rounded-lg p-6 text-center">
+              <p className="text-sm font-medium text-brand-gray mb-1">Lead Time</p>
+              <p className="text-brand-dark font-bold text-lg">OEM 25-35 days</p>
+              <p className="text-sm text-brand-gray mt-1">ODM 40-50 days after sample approval</p>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-coral hover:bg-brand-coral/90 text-white font-semibold rounded-lg transition-colors"
+            >
+              Request OEM/ODM Quote
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Product Categories */}
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
