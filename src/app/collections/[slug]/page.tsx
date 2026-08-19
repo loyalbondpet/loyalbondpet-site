@@ -16,9 +16,12 @@ export async function generateMetadata({ params }: CollectionPageProps): Promise
   const { slug } = await params;
   const collection = getCollectionBySlug(slug);
   if (!collection) return {};
+  const collectionProducts = getProductsByCollection(slug);
+  const isEmpty = collectionProducts.length === 0;
   return {
     title: `${collection.title} - Premium Pet Products`,
     description: collection.description,
+    robots: isEmpty ? { index: false, follow: false } : { index: true, follow: true },
     openGraph: {
       title: `${collection.title} - LoyalBond`,
       description: collection.description,
