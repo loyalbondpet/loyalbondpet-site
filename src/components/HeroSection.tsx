@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -43,11 +44,14 @@ export default function HeroSection() {
           {/* Hero Image */}
           <div className="order-1 lg:order-2 relative">
             <div className="aspect-[4/3] lg:aspect-square rounded-3xl overflow-hidden shadow-2xl">
-              <img
+              <Image
                 src="/images/hero-senior-dog.jpg"
                 alt="Happy senior dog enjoying comfort at home with loving owner"
+                width={800}
+                height={800}
+                priority
                 className="w-full h-full object-cover"
-               fetchPriority="high" decoding="async"/>
+              />
             </div>
             {/* Floating badge */}
             <div className="absolute -bottom-4 -left-4 sm:bottom-6 sm:left-6 bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
