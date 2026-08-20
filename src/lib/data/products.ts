@@ -386,58 +386,6 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     },
   },
   {
-    id: '20',
-    slug: 'maze-slow-feeder-bowl',
-    name: 'Maze Slow Feeder Dog Bowl',
-    price: 11.99,
-    description: `Transform mealtime into a healthy, engaging experience with the LoyalBond Maze Slow Feeder Bowl.
-
-The raised ridge pattern creates a maze-like path that naturally slows down eating, promoting better digestion and reducing the risk of bloat — a common concern for deep-chested breeds and senior dogs. The non-slip base keeps the bowl steady during enthusiastic meals.
-
-Made from food-grade melamine material that's BPA-free, durable, and dishwasher safe. The smooth surface is easy to clean and resists odor absorption. The wide, shallow design is accessible for senior dogs with neck or joint stiffness.
-
-Available in multiple colors to match your home décor.`,
-    shortDescription: 'Food-grade melamine maze slow feeder bowl with non-slip base. Slows eating pace naturally, promotes healthy digestion. BPA-free, dishwasher safe. Wide shallow design ideal for senior dogs.',
-    collection: 'Feeding Aids',
-    collectionSlug: 'feeding-aids',
-    images: [
-      '/images/products/maze-slow-feeder/01-main.jpg',
-      '/images/products/maze-slow-feeder/02-maze-pattern.jpg',
-      '/images/products/maze-slow-feeder/03-non-slip-base.jpg',
-      '/images/products/maze-slow-feeder/04-dog-eating.jpg',
-      '/images/products/maze-slow-feeder/05-colors.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['Small (18×18×4cm)', 'Medium (22×22×5cm)', 'Large (26×26×5.5cm)'],
-    colors: ['Green', 'Blue', 'Pink', 'Orange'],
-    features: [
-      'Maze Ridge Pattern — Naturally slows eating pace by 3-5x',
-      'Food-Grade Melamine — BPA-free, durable, and odor-resistant',
-      'Non-Slip Base — Keeps bowl steady during meals',
-      'Wide Shallow Design — Easy access for senior dogs with neck stiffness',
-      'Dishwasher Safe — Easy to clean and maintain',
-      'Promotes Healthy Digestion — Reduces risk of bloat and regurgitation',
-    ],
-    specifications: {
-      'Material': 'Food-grade melamine (BPA-free)',
-      'Small': '18 × 18 × 4 cm',
-      'Medium': '22 × 22 × 5 cm',
-      'Large': '26 × 26 × 5.5 cm',
-      'Base': 'Non-slip rubber bottom',
-      'Dishwasher': 'Yes, top rack safe',
-      'Colors': 'Green / Blue / Pink / Orange',
-    },
-    wholesaleInfo: {
-      moq: '5 pieces',
-      leadTime: '3-5 days for sample; 15-25 days for bulk order',
-      payment: 'Alibaba Trade Assurance / T/T',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Shaoxing Bobo Pet Products Factory (绍兴波波宠物用品厂, 24-year factory, Zhejiang). 8600㎡ facility, 30+ patents, melamine specialist. Purchase price: ¥16.2-18/piece. Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
     id: '21',
     slug: 'pet-gel-cooling-mat',
     name: 'Self-Cooling Gel Pet Mat',
@@ -489,59 +437,6 @@ Designed for dogs of all ages, but especially beneficial for senior dogs, thick-
       payment: 'Alibaba Trade Assurance / T/T',
       shipping: 'FOB Ningbo',
       note: 'Supplier: Pujiang Lele Xin Pet Products Factory (浦江县乐乐欣, 11-year factory, Zhejiang). Monthly sales: 5,800+ units. Purchase price: ¥6.65/piece (Small). Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
-    id: '22',
-    slug: 'elevated-slow-feeder-bowl',
-    name: 'Elevated Neck-Protection Slow Feeder Bowl',
-    price: 21.99,
-    description: `Combine the benefits of slow feeding with ergonomic neck support using the LoyalBond Elevated Slow Feeder Bowl.
-
-The raised stand positions the bowl at a comfortable height that reduces neck strain and promotes natural eating posture — especially important for senior dogs with neck stiffness, stiff joints, or mobility challenges. The elevated design also aids digestion by allowing food to travel more easily from mouth to stomach.
-
-The inner bowl features a maze-style ridge pattern that slows eating pace and reduces the risk of bloat. The stainless steel inner bowl is removable for easy cleaning and can be used separately as a regular water or food bowl.
-
-The sturdy metal frame with non-slip feet keeps the feeder stable during meals. Assembly is tool-free and takes seconds.`,
-    shortDescription: 'Elevated slow feeder with stainless steel bowl and neck-protection stand. Reduces neck strain for senior dogs. Maze pattern slows eating. Tool-free assembly, non-slip feet.',
-    collection: 'Feeding Aids',
-    collectionSlug: 'feeding-aids',
-    images: [
-      '/images/products/elevated-slow-feeder/01-main.jpg',
-      '/images/products/elevated-slow-feeder/02-elevated-view.jpg',
-      '/images/products/elevated-slow-feeder/03-maze-bowl.jpg',
-      '/images/products/elevated-slow-feeder/04-steel-bowl.jpg',
-      '/images/products/elevated-slow-feeder/05-size-chart.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['Small (bowl diameter 16cm, height 10cm)', 'Medium (bowl diameter 20cm, height 15cm)', 'Large (bowl diameter 24cm, height 20cm)'],
-    colors: ['Silver/Black', 'Silver/White'],
-    features: [
-      'Elevated Design — Reduces neck strain and promotes natural eating posture',
-      'Maze Slow Feeder Pattern — Slows eating pace, reduces bloat risk',
-      'Stainless Steel Bowl — Removable, hygienic, dishwasher safe',
-      'Sturdy Metal Frame — Stable construction with non-slip feet',
-      'Tool-Free Assembly — Sets up in seconds',
-      'Dual Function — Elevated stand + slow feeder in one',
-    ],
-    specifications: {
-      'Stand Material': 'Powder-coated metal frame',
-      'Bowl Material': 'Food-grade 304 stainless steel',
-      'Small': 'Bowl diameter 16cm, stand height 10cm',
-      'Medium': 'Bowl diameter 20cm, stand height 15cm',
-      'Large': 'Bowl diameter 24cm, stand height 20cm',
-      'Base': 'Non-slip rubber feet',
-      'Assembly': 'Tool-free, snap-together design',
-      'Colors': 'Silver/Black frame + Silver bowl / Silver/White frame + Silver bowl',
-    },
-    wholesaleInfo: {
-      moq: '2 pieces',
-      leadTime: '3-5 days for sample; 15-20 days for bulk order',
-      payment: 'Alibaba Trade Assurance / T/T',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Yiwu Miaoxinbao Pet Products Co., Ltd. (义乌市喵心宝宠物用品, 6-year store, Zhejiang Jinhua). Purchase price: ¥10.50/piece. Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
   {
@@ -877,16 +772,14 @@ export const crossSellMap: Record<string, string[]> = {
   'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
   'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
-  'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'maze-slow-feeder-bowl'],
+  'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'anti-choke-slow-feeder-bowl'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs', 'pet-gel-cooling-mat'],
   // Feeding group
-  'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
-  'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed'],
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
-  'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
+  'anti-choke-slow-feeder-bowl': ['anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
   'waterproof-silicone-dog-rain-boots': ['orthopedic-bolster-dog-bed', 'snuffle-mat-set', 'folding-pet-stairs'],
 };
