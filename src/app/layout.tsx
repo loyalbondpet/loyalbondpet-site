@@ -79,6 +79,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased font-sans ${inter.variable}`}>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-brand-green focus:text-white focus:rounded-lg focus:shadow-lg"
+        >
+          Skip to content
+        </a>
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-ZDPNEJYXTM"
@@ -93,7 +99,7 @@ export default function RootLayout({
         </Script>
         <CartProvider>
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main id="main-content" className="min-h-screen">{children}</main>
         <Footer />
         <BackToTop />
         <WhatsAppButton />
