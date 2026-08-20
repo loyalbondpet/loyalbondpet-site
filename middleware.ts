@@ -10,6 +10,8 @@ const PRODUCT_REDIRECTS: Record<string, string> = {
   '/products/snuffle-mat': '/products/snuffle-mat-set',
   '/products/foam-dog-stairs': '/products/folding-pet-stairs',
   '/products/anti-slip-dog-socks': '/products/orthopedic-bolster-dog-bed',
+  '/products/maze-slow-feeder-bowl': '/products/anti-choke-slow-feeder-bowl',
+  '/products/elevated-slow-feeder-bowl': '/products/anti-choke-slow-feeder-bowl',
 };
 
 export function middleware(request: NextRequest) {
