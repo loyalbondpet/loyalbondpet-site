@@ -386,59 +386,6 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     },
   },
   {
-    id: '18',
-    slug: 'foam-dog-stairs',
-    name: 'Foldable Foam Pet Stairs & Ramp',
-    price: 46.99,
-    description: `Help your senior dog safely access beds, sofas, and vehicles with the LoyalBond Foldable Foam Pet Stairs.
-
-Crafted from high-density foam that provides stable, cushioned support — reducing joint strain for dogs with stiff joints, hip discomfort, or general mobility challenges. The gradual incline is more natural and comfortable than jumping, especially for smaller breeds and elderly dogs.
-
-The removable, machine-washable cover is made from soft plush fabric that's gentle on paws and easy to clean. Non-slip bottom keeps the stairs firmly in place on tile, hardwood and laminate floors.
-
-When not in use, the stairs fold flat for convenient storage. The lightweight foam construction makes it easy to move between rooms or take along when traveling with your pet.
-
-Available in 3-step and 4-step configurations to suit different heights.`,
-    shortDescription: 'High-density foam pet stairs with removable washable cover. Foldable design for easy storage. Non-slip base safe for tile and hardwood floors. Ideal for senior dogs accessing beds and sofas.',
-    collection: 'Home Safety',
-    collectionSlug: 'home-safety',
-    images: [
-      '/images/products/foam-dog-stairs/01-main.jpg',
-      '/images/products/foam-dog-stairs/02-in-use.jpg',
-      '/images/products/foam-dog-stairs/03-folded.jpg',
-      '/images/products/foam-dog-stairs/04-non-slip-base.jpg',
-      '/images/products/foam-dog-stairs/05-size-chart.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['3-Step (40×35×48cm)', '4-Step (50×40×60cm)'],
-    features: [
-      'High-Density Foam Core — Provides stable, cushioned support for joints',
-      'Gradual Incline Design — Safer and more comfortable than jumping',
-      'Removable Machine-Washable Cover — Soft plush fabric, easy to clean',
-      'Non-Slip Bottom — Stays firmly in place on smooth floors',
-      'Foldable Design — Folds flat for easy storage and travel',
-      'Lightweight — Easy to move between rooms',
-    ],
-    specifications: {
-      'Material': 'High-density foam with plush fabric cover',
-      '3-Step Dimensions': '40 × 35 × 48 cm',
-      '4-Step Dimensions': '50 × 40 × 60 cm',
-      'Cover': 'Removable, machine washable',
-      'Base': 'Non-slip fabric bottom',
-      'Weight Capacity': 'Up to 50 kg (110 lbs)',
-      'Target': 'Senior dogs, small breeds, dogs with joint issues',
-    },
-    wholesaleInfo: {
-      moq: '10 pieces',
-      leadTime: '15-25 days for bulk order',
-      payment: 'T/T 50% deposit, 50% before shipment',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Nantong Shule Sponge Products Co., Ltd. (南通舒乐海绵制品, Jiangsu). Purchase price: ¥103/piece (3-step). Part of our consolidated 3-factory sourcing plan (Foam Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
     id: '19',
     slug: 'anti-slip-dog-socks',
     name: 'Anti-Slip Dog Socks with Paw Protection (4-Pack)',
@@ -980,15 +927,14 @@ export const crossSellMap: Record<string, string[]> = {
   'lift-assist-harness': ['hind-leg-support-harness', 'mesh-support-sling', 'anti-slip-dog-socks'],
   'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling', 'anti-slip-dog-socks'],
   'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness', 'anti-slip-dog-socks'],
-  'anti-slip-dog-socks': ['lift-assist-harness', 'hind-leg-support-harness', 'foam-dog-stairs'],
-  'foam-dog-stairs': ['orthopedic-bolster-dog-bed', 'anti-slip-dog-socks', 'folding-pet-stairs'],
+  'anti-slip-dog-socks': ['lift-assist-harness', 'hind-leg-support-harness', 'folding-pet-stairs'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'maze-slow-feeder-bowl'],
-  'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'foam-dog-stairs', 'pet-gel-cooling-mat'],
+  'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs', 'pet-gel-cooling-mat'],
   // Feeding group
   'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
-  'folding-pet-stairs': ['foam-dog-stairs', 'orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
+  'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
