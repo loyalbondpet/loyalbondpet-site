@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getBestSellers } from '@/lib/data/products';
 import ProductCard from '@/components/ProductCard';
 import HeroSection from '@/components/HeroSection';
@@ -203,10 +204,14 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div className="rounded-2xl overflow-hidden shadow-lg">
-              <img
+              <Image
                 src="/images/brand-story.jpg"
                 alt="LoyalBond founder with a senior dog"
+                width={1200}
+                height={800}
                 className="w-full h-auto object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
