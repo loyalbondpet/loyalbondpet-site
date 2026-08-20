@@ -386,57 +386,6 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     },
   },
   {
-    id: '19',
-    slug: 'anti-slip-dog-socks',
-    name: 'Anti-Slip Dog Socks with Paw Protection (4-Pack)',
-    price: 12.99,
-    description: `Give your senior dog confident footing on slippery floors with LoyalBond Anti-Slip Dog Socks.
-
-Specially designed for dogs with mobility challenges, these lightweight socks feature anti-slip rubber grips on the sole that provide traction on tile, hardwood, and laminate surfaces. The breathable knit fabric keeps paws comfortable while the elastic ankle band holds socks securely in place without restricting circulation.
-
-Beyond anti-slip protection, these socks also shield paw pads from hot pavement in summer, cold floors in winter, and everyday licking or scratching. The soft fabric is gentle on sensitive paws.
-
-Each pack includes 4 socks in your choice of size. Available in multiple colors to match your pet's style.`,
-    shortDescription: 'Breathable anti-slip dog socks with rubber grip soles. Protects paws on smooth floors, hot pavement, and cold surfaces. Elastic ankle band for secure fit. 4-pack, multiple sizes.',
-    collection: 'Home Safety',
-    collectionSlug: 'home-safety',
-    images: [
-      '/images/products/anti-slip-dog-socks/01-main.jpg',
-      '/images/products/anti-slip-dog-socks/02-on-paw.jpg',
-      '/images/products/anti-slip-dog-socks/03-grip-detail.jpg',
-      '/images/products/anti-slip-dog-socks/04-size-chart.jpg',
-      '/images/products/anti-slip-dog-socks/05-4pack.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['S (for 3-5kg dogs)', 'M (for 5-10kg dogs)', 'L (for 10-20kg dogs)', 'XL (for 20-40kg dogs)'],
-    colors: ['Black', 'Gray', 'Pink', 'Blue'],
-    features: [
-      'Anti-Slip Rubber Grips — Provides traction on smooth floors',
-      'Breathable Knit Fabric — Keeps paws comfortable and dry',
-      'Elastic Ankle Band — Secure fit without restricting circulation',
-      'All-Season Protection — Shields from hot pavement, cold floors, and everyday scratching',
-      'Soft & Gentle — Safe for sensitive paws and delicate skin',
-      '4-Pack Value — Complete set for all four paws',
-    ],
-    specifications: {
-      'Material': 'Breathable knit fabric with rubber grip sole',
-      'Pack': '4 socks per pack',
-      'Sizes': 'S / M / L / XL',
-      'Colors': 'Black / Gray / Pink / Blue',
-      'Washable': 'Yes, machine washable',
-      'Target': 'Senior dogs, dogs with limited mobility, dogs needing extra paw protection',
-    },
-    wholesaleInfo: {
-      moq: '50 packs',
-      leadTime: '15-25 days for bulk order',
-      payment: 'T/T 50% deposit, 50% before shipment',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Shaoxing Chunjili Pet Products Co., Ltd. (绍兴春及里宠物用品, Zhejiang). Purchase price: ¥4.00/pack (4 socks). Part of our consolidated 3-factory sourcing plan (Textile Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
     id: '20',
     slug: 'maze-slow-feeder-bowl',
     name: 'Maze Slow Feeder Dog Bowl',
@@ -924,23 +873,22 @@ export const collections = [
 // Cross-sell product recommendations (curated groups)
 export const crossSellMap: Record<string, string[]> = {
   // Joint care / mobility group
-  'lift-assist-harness': ['hind-leg-support-harness', 'mesh-support-sling', 'anti-slip-dog-socks'],
-  'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling', 'anti-slip-dog-socks'],
-  'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness', 'anti-slip-dog-socks'],
-  'anti-slip-dog-socks': ['lift-assist-harness', 'hind-leg-support-harness', 'folding-pet-stairs'],
+  'lift-assist-harness': ['hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
+  'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
+  'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'maze-slow-feeder-bowl'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs', 'pet-gel-cooling-mat'],
   // Feeding group
   'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
-  'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed', 'anti-slip-dog-socks'],
+  'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed'],
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
   'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
-  'waterproof-silicone-dog-rain-boots': ['anti-slip-dog-socks', 'snuffle-mat-set', 'folding-pet-stairs'],
+  'waterproof-silicone-dog-rain-boots': ['orthopedic-bolster-dog-bed', 'snuffle-mat-set', 'folding-pet-stairs'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
