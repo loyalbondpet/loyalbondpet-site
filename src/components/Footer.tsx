@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-3">Join the LoyalBond Family</h3>
-            <p className="text-gray-400 mb-6">Get 15% off your first order plus expert senior dog care tips delivered to your inbox.</p>
+            <p className="text-gray-300 mb-6">Get 15% off your first order plus expert senior dog care tips delivered to your inbox.</p>
             <NewsletterForm />
           </div>
         </div>
@@ -58,13 +58,13 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-bold text-white">LoyalBond</span>
-                <span className="block text-xs text-gray-400 -mt-0.5">LoyalBond — Loyal companionship for every stage of life</span>
+                <span className="block text-xs text-gray-300 -mt-0.5">LoyalBond — Loyal companionship for every stage of life</span>
               </div>
             </Link>
-            <p className="text-gray-400 text-sm mb-4 max-w-sm">
+            <p className="text-gray-300 text-sm mb-4 max-w-sm">
               Specialized supplier of functional pet products for senior dogs. We work with certified manufacturers to deliver quality, safety, and comfort in every product.
             </p>
-            <p className="text-gray-400 text-sm mb-6 max-w-sm">
+            <p className="text-gray-300 text-sm mb-6 max-w-sm">
               Email: sales@loyalbondpet.com | WhatsApp: +8615706802495
             </p>
             {/* Social links */}
@@ -91,7 +91,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 {section.links.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                    <Link href={link.href} className="text-sm text-gray-300 hover:text-white transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -115,7 +115,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} LoyalBond. All rights reserved.</p>
+            <p className="text-sm text-gray-300">&copy; {new Date().getFullYear()} LoyalBond. All rights reserved.</p>
             {/* Payment icons */}
             <div className="flex items-center gap-3">
               <div className="px-2 py-1 bg-white/10 rounded text-xs text-gray-300 font-medium">Visa</div>
