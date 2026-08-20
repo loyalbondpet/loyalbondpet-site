@@ -494,6 +494,55 @@ Designed for dogs of all ages, but especially beneficial for senior dogs, thick-
   {
     id: '22',
     slug: 'elevated-slow-feeder-bowl',
+    name: '5-Height Adjustable Elevated Dog Bowl with Slow Feeder',
+    price: 39.99,
+    description: `The LoyalBond 5-Height Adjustable Elevated Dog Bowl grows with your pet from puppyhood through the senior years. With five height settings — 3.3, 6.3, 9.1, 12.2, and 13.6 inches (8.5–34.5 cm) — this dual-bowl feeder adapts to small, medium, and large breeds, promoting a comfortable dining posture that reduces neck strain.
+
+Each set includes two stainless steel bowls: one maze-pattern slow feeder that encourages paced eating for better digestive comfort, and one open bowl for water or regular food. Both bowls lift out effortlessly for quick cleaning.
+
+The ABS frame features a foldable, trapezoidal design with non-slip pads that keep the feeder stable during meals while protecting floors. The entire unit weighs 1.25 kg and folds flat for storage or travel. Available in Black or Grey.`,
+    shortDescription: '5-height adjustable elevated dog bowl (3.3–13.6 in) with dual stainless steel bowls — one slow feeder maze bowl and one water/food bowl. Foldable ABS frame, non-slip base, easy-clean removable bowls. Black or Grey.',
+    collection: 'Feeding Aids',
+    collectionSlug: 'feeding-aids',
+    images: [
+      '/images/products/elevated-slow-feeder/01-main.jpg',
+      '/images/products/elevated-slow-feeder/02-comfort.jpg',
+      '/images/products/elevated-slow-feeder/03-detachable.jpg',
+      '/images/products/elevated-slow-feeder/04-heights.jpg',
+      '/images/products/elevated-slow-feeder/05-specs.jpg',
+      '/images/products/elevated-slow-feeder/06-colors.jpg',
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['5 height settings: 3.3 / 6.3 / 9.1 / 12.2 / 13.6 in (8.5 / 16 / 23 / 31 / 34.5 cm)'],
+    colors: ['Black', 'Grey'],
+    features: [
+      '5 Adjustable Heights — 8.5 to 34.5 cm, suitable for small to large breeds at every life stage',
+      'Dual Stainless Steel Bowls — One maze slow feeder + one open bowl for water or food',
+      'Maze Slow-Feed Pattern — Encourages paced eating for better digestive comfort',
+      'Foldable ABS Frame — Trapezoidal design folds flat for storage and travel',
+      'Removable & Easy-Clean Bowls — Lift out for quick washing; hygienic stainless steel',
+      'Non-Slip Stable Base — Padded feet prevent sliding and protect floors',
+    ],
+    specifications: {
+      'Material': 'ABS frame + stainless steel bowls',
+      'Height Settings': '8.5 / 16 / 23 / 31 / 34.5 cm (3.3 / 6.3 / 9.1 / 12.2 / 13.6 in)',
+      'Product Dimensions': '43 × 24 × 24.5 cm (17 × 9.4 × 9.6 in, max height)',
+      'Weight': '1,250 g (2.76 lb)',
+      'Bowls': '2 stainless steel (1 slow feeder + 1 open bowl)',
+      'Colors': 'Black / Grey',
+      'Assembly': 'No tools required; foldable design',
+      'Care': 'Bowls are removable and washable; wipe frame clean',
+    },
+    wholesaleInfo: {
+      moq: '2 pieces',
+      leadTime: '7 days for sample order; 15–20 days for bulk order',
+      payment: 'PayPal / T/T (XTransfer)',
+      shipping: 'FOB Ningbo',
+      note: 'Supplier: Yongkang Pailide Industry & Trade Co., Ltd. (永康派力德, Model PB006, Zhejiang Jinhua). Purchase price: ¥36/piece. Custom labeling (+¥0.5/pc), carton marking (+¥0.3/pc), English manual (+¥0.1/pc, MOQ 1000). 12 pcs/carton, carton size 46×61×48 cm. Export-experienced; ships to eBay, Amazon, AliExpress, Lazada, and independent sites worldwide. Contact sales@loyalbondpet.com for volume pricing.',
+    },
+  },
     name: 'Elevated Neck-Protection Slow Feeder Bowl',
     price: 21.99,
     description: `Combine the benefits of slow feeding with ergonomic neck support using the LoyalBond Elevated Slow Feeder Bowl.
