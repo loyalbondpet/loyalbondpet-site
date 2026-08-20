@@ -82,7 +82,7 @@ export default function Header() {
 
             {/* Solutions */}
             <div className="relative group">
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green rounded-lg hover:bg-gray-50 transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green rounded-lg hover:bg-gray-50 transition-colors" aria-haspopup="true" aria-expanded="false">
                 Solutions
                 <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
               </button>
@@ -104,7 +104,7 @@ export default function Header() {
 
             {/* Care Guide */}
             <div className="relative group">
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green rounded-lg hover:bg-gray-50 transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green rounded-lg hover:bg-gray-50 transition-colors" aria-haspopup="true" aria-expanded="false">
                 Care Guide
                 <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
               </button>
