@@ -523,7 +523,7 @@ The ABS frame features a foldable, trapezoidal design with non-slip pads that ke
       'Maze Slow-Feed Pattern — Encourages paced eating for better digestive comfort',
       'Foldable ABS Frame — Trapezoidal design folds flat for storage and travel',
       'Removable & Easy-Clean Bowls — Lift out for quick washing; hygienic stainless steel',
-      'Non-Slip Stable Base — Padded feet prevent sliding and protect floors',
+      'Non-Slip Stable Base — Padded feet minimize sliding and protect floors',
     ],
     specifications: {
       'Material': 'ABS frame + stainless steel bowls',
