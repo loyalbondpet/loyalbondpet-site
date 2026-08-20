@@ -47,7 +47,7 @@ export default function HeroSection() {
                 src="/images/hero-senior-dog.jpg"
                 alt="Happy senior dog enjoying comfort at home with loving owner"
                 className="w-full h-full object-cover"
-              />
+               fetchPriority="high" decoding="async"/>
             </div>
             {/* Floating badge */}
             <div className="absolute -bottom-4 -left-4 sm:bottom-6 sm:left-6 bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
