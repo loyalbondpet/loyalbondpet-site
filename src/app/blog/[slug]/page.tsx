@@ -124,6 +124,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <img
             src={post.image}
             alt={post.title}
+            width={1200}
+            height={674}
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
             className="w-full h-full object-cover"
           />
         </div>
@@ -171,7 +176,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <Link key={product.id} href={`/products/${product.slug}`} className="bg-white rounded-xl p-4 hover:shadow-md transition-shadow flex gap-3 items-start">
                   <div className="w-16 h-16 rounded-lg overflow-hidden bg-brand-beige/30 shrink-0">
                     {product.images && product.images.length > 0 && (
-                      <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover" loading="lazy" />
+                      <img src={product.images[0]} alt={product.name} width={400} height={400} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                     )}
                   </div>
                   <div className="flex-1 min-w-0">
