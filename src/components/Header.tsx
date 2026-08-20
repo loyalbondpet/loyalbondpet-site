@@ -43,7 +43,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
@@ -57,7 +57,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-1">
             {/* Shop */}
             <div className="relative group">
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green rounded-lg hover:bg-gray-50 transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green rounded-lg hover:bg-gray-50 transition-colors" aria-haspopup="true" aria-expanded="false">
                 Shop
                 <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
               </button>
@@ -133,10 +133,10 @@ export default function Header() {
 
           {/* Right Icons */}
           <div className="flex items-center gap-3">
-            <button className="p-2 text-gray-600 hover:text-brand-green hover:bg-gray-50 rounded-lg transition-colors">
+            <button aria-label="Search" className="p-2 text-gray-600 hover:text-brand-green hover:bg-gray-50 rounded-lg transition-colors">
               <Search className="w-5 h-5" />
             </button>
-            <Link href="/cart" className="relative p-2 text-gray-600 hover:text-brand-green hover:bg-gray-50 rounded-lg transition-colors">
+            <Link href="/cart" aria-label={`Shopping cart with ${totalItems} items`} className="relative p-2 text-gray-600 hover:text-brand-green hover:bg-gray-50 rounded-lg transition-colors">
               <ShoppingBag className="w-5 h-5" />
               {totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 w-5 h-5 bg-brand-coral text-white text-xs font-bold rounded-full flex items-center justify-center">
@@ -147,6 +147,8 @@ export default function Header() {
             <button
               className="lg:hidden p-2 text-gray-600 hover:text-brand-green rounded-lg"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
