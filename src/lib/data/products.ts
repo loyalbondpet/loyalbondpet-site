@@ -543,56 +543,6 @@ The ABS frame features a foldable, trapezoidal design with non-slip pads that ke
       note: 'Supplier: Yongkang Pailide Industry & Trade Co., Ltd. (永康派力德, Model PB006, Zhejiang Jinhua). Purchase price: ¥36/piece. Custom labeling (+¥0.5/pc), carton marking (+¥0.3/pc), English manual (+¥0.1/pc, MOQ 1000). 12 pcs/carton, carton size 46×61×48 cm. Export-experienced; ships to eBay, Amazon, AliExpress, Lazada, and independent sites worldwide. Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
-    name: 'Elevated Neck-Protection Slow Feeder Bowl',
-    price: 21.99,
-    description: `Combine the benefits of slow feeding with ergonomic neck support using the LoyalBond Elevated Slow Feeder Bowl.
-
-The raised stand positions the bowl at a comfortable height that reduces neck strain and promotes natural eating posture — especially important for senior dogs with neck stiffness, stiff joints, or mobility challenges. The elevated design also aids digestion by allowing food to travel more easily from mouth to stomach.
-
-The inner bowl features a maze-style ridge pattern that slows eating pace and reduces the risk of bloat. The stainless steel inner bowl is removable for easy cleaning and can be used separately as a regular water or food bowl.
-
-The sturdy metal frame with non-slip feet keeps the feeder stable during meals. Assembly is tool-free and takes seconds.`,
-    shortDescription: 'Elevated slow feeder with stainless steel bowl and neck-protection stand. Reduces neck strain for senior dogs. Maze pattern slows eating. Tool-free assembly, non-slip feet.',
-    collection: 'Feeding Aids',
-    collectionSlug: 'feeding-aids',
-    images: [
-      '/images/products/elevated-slow-feeder/01-main.jpg',
-      '/images/products/elevated-slow-feeder/02-elevated-view.jpg',
-      '/images/products/elevated-slow-feeder/03-maze-bowl.jpg',
-      '/images/products/elevated-slow-feeder/04-steel-bowl.jpg',
-      '/images/products/elevated-slow-feeder/05-size-chart.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['Small (bowl diameter 16cm, height 10cm)', 'Medium (bowl diameter 20cm, height 15cm)', 'Large (bowl diameter 24cm, height 20cm)'],
-    colors: ['Silver/Black', 'Silver/White'],
-    features: [
-      'Elevated Design — Reduces neck strain and promotes natural eating posture',
-      'Maze Slow Feeder Pattern — Slows eating pace, reduces bloat risk',
-      'Stainless Steel Bowl — Removable, hygienic, dishwasher safe',
-      'Sturdy Metal Frame — Stable construction with non-slip feet',
-      'Tool-Free Assembly — Sets up in seconds',
-      'Dual Function — Elevated stand + slow feeder in one',
-    ],
-    specifications: {
-      'Stand Material': 'Powder-coated metal frame',
-      'Bowl Material': 'Food-grade 304 stainless steel',
-      'Small': 'Bowl diameter 16cm, stand height 10cm',
-      'Medium': 'Bowl diameter 20cm, stand height 15cm',
-      'Large': 'Bowl diameter 24cm, stand height 20cm',
-      'Base': 'Non-slip rubber feet',
-      'Assembly': 'Tool-free, snap-together design',
-      'Colors': 'Silver/Black frame + Silver bowl / Silver/White frame + Silver bowl',
-    },
-    wholesaleInfo: {
-      moq: '2 pieces',
-      leadTime: '3-5 days for sample; 15-20 days for bulk order',
-      payment: 'Alibaba Trade Assurance / T/T',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Yiwu Miaoxinbao Pet Products Co., Ltd. (义乌市喵心宝宠物用品, 6-year store, Zhejiang Jinhua). Purchase price: ¥10.50/piece. Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
   {
     id: '23',
     slug: 'folding-pet-stairs',
