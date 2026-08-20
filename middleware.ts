@@ -8,6 +8,7 @@ const PRODUCT_REDIRECTS: Record<string, string> = {
   '/products/hind-leg-harness': '/products/hind-leg-support-harness',
   '/products/drying-towel': '/products/snuffle-mat-set',
   '/products/snuffle-mat': '/products/snuffle-mat-set',
+  '/products/foam-dog-stairs': '/products/folding-pet-stairs',
 };
 
 export function middleware(request: NextRequest) {
