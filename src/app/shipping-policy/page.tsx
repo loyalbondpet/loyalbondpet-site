@@ -36,7 +36,7 @@ export default function ShippingPolicyPage() {
                 <tr>
                   <td className="border border-gray-200 px-4 py-3">Standard Shipping</td>
                   <td className="border border-gray-200 px-4 py-3">10-18 business days</td>
-                  <td className="border border-gray-200 px-4 py-3">$4.99 (Free over $49)</td>
+                  <td className="border border-gray-200 px-4 py-3">$4.99 flat rate</td>
                 </tr>
                 <tr className="bg-brand-cream">
                   <td className="border border-gray-200 px-4 py-3">Express Shipping (DHL/FedEx)</td>
