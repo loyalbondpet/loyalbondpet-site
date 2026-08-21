@@ -2174,7 +2174,7 @@ Explore our full Senior Mobility Collection to find more products designed to ke
     categorySlug: 'product-guides',
     image: '/blog/slow-feeder-guide.jpg',
     tags: ['slow feeder bowl', 'dog eating habits', 'healthy digestion', 'digestive comfort', 'feeding accessories'],
-    relatedProducts: ['anti-choke-slow-feeder-bowl', 'maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl'],
+    relatedProducts: ['anti-choke-slow-feeder-bowl', 'elevated-slow-feeder-bowl'],
     content: `
 Does your dog gulp down their entire meal in under a minute? If mealtime sounds more like a vacuum cleaner than a calm dinner, you're not alone. Many dogs eat far too quickly for their own good, and the consequences can range from messy regurgitation to serious digestive discomfort. A slow feeder bowl is one of the simplest changes you can make to transform your dog's eating habits and support their overall wellbeing.
 
