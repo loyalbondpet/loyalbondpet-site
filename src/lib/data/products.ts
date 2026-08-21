@@ -439,12 +439,12 @@ Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, t
     collection: 'Seasonal',
     collectionSlug: 'seasonal',
     images: [
-      '/images/products/snowflake-cooling-mat/01-main.jpg',
-      '/images/products/snowflake-cooling-mat/02-lifestyle.jpg',
-      '/images/products/snowflake-cooling-mat/03-gel-tech.jpg',
-      '/images/products/snowflake-cooling-mat/04-features.jpg',
-      '/images/products/snowflake-cooling-mat/05-size-guide.jpg',
-      '/images/products/snowflake-cooling-mat/06-construction.jpg'],
+    '/images/products/snowflake-cooling-mat/01-main.jpg',
+    '/images/products/snowflake-cooling-mat/02-lifestyle.jpg',
+    '/images/products/snowflake-cooling-mat/03-gel-tech.jpg',
+    '/images/products/snowflake-cooling-mat/04-features.jpg',
+    '/images/products/snowflake-cooling-mat/06-construction.jpg',
+  ]
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
