@@ -268,10 +268,6 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     collectionSlug: 'travel-car',
     images: [
       '/images/products/mesh-support-sling/01-main.jpg',
-      '/images/products/mesh-support-sling/02-feature.jpg',
-      '/images/products/mesh-support-sling/03-detail.jpg',
-      '/images/products/mesh-support-sling/04-detail2.jpg',
-      '/images/products/mesh-support-sling/05-detail3.jpg',
       '/images/products/mesh-support-sling/06-scene1.jpg',
       '/images/products/mesh-support-sling/07-scene2.jpg',
       '/images/products/mesh-support-sling/08-scene3.jpg',
