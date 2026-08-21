@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Shipping Policy - Delivery Info & Rates',
-  description: 'LoyalBond shipping policy: standard delivery 5-7 business days, express 2-3 days. International shipping available (buyer pays shipping).',
+  description: 'LoyalBond shipping policy: standard delivery 10-18 business days from China, express 5-8 business days via DHL/FedEx. International shipping available (buyer pays shipping).',
 };
 
 export default function ShippingPolicyPage() {
@@ -18,10 +18,11 @@ export default function ShippingPolicyPage() {
       <h1 className="text-4xl font-bold text-brand-dark mb-8">Shipping Policy</h1>
 
       <div className="prose prose-lg max-w-none text-brand-gray space-y-6">
-        <p className="text-lg">Last updated: January 2025</p>
+        <p className="text-lg">Last updated: August 2025</p>
 
         <section>
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Shipping Rates & Delivery Times</h2>
+          <p>All orders ship directly from our warehouse in China via tracked international logistics. Please allow extra time for customs clearance.</p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-200 rounded-lg">
               <thead>
@@ -34,18 +35,13 @@ export default function ShippingPolicyPage() {
               <tbody>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3">Standard Shipping</td>
-                  <td className="border border-gray-200 px-4 py-3">5-7 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">10-18 business days</td>
                   <td className="border border-gray-200 px-4 py-3">$4.99 (Free over $49)</td>
                 </tr>
                 <tr className="bg-brand-cream">
-                  <td className="border border-gray-200 px-4 py-3">Express Shipping</td>
-                  <td className="border border-gray-200 px-4 py-3">2-3 business days</td>
-                  <td className="border border-gray-200 px-4 py-3">$9.99</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3">Overnight Shipping</td>
-                  <td className="border border-gray-200 px-4 py-3">1 business day</td>
-                  <td className="border border-gray-200 px-4 py-3">$19.99</td>
+                  <td className="border border-gray-200 px-4 py-3">Express Shipping (DHL/FedEx)</td>
+                  <td className="border border-gray-200 px-4 py-3">5-8 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$24.99</td>
                 </tr>
               </tbody>
             </table>
@@ -53,34 +49,41 @@ export default function ShippingPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Shipping Terms</h2>
-          <p>All orders are shipped FOB Ningbo, China. International shipping costs are borne by the buyer. Shipping rates and delivery times vary by location and will be calculated at checkout or quoted separately for bulk orders.</p>
-        </section>
-
-        <section>
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">International Shipping</h2>
-          <p>We currently ship to select international destinations. International shipping rates and delivery times vary by location and will be calculated at checkout.</p>
+          <p>We currently ship to the following international destinations. Delivery times include customs processing and may vary depending on your local postal service.</p>
           <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Canada: 7-14 business days, rates starting at $14.99</li>
-            <li>Europe: 10-20 business days, rates starting at $24.99</li>
-            <li>Asia-Pacific: 14-25 business days, rates starting at $29.99</li>
+            <li>United States: 10-18 business days (standard), 5-8 business days (express)</li>
+            <li>Canada: 12-22 business days, rates starting at $14.99</li>
+            <li>Europe (UK, Germany, France, etc.): 12-25 business days, rates starting at $19.99</li>
+            <li>Australia & New Zealand: 14-25 business days, rates starting at $19.99</li>
+            <li>Other Asia-Pacific: 10-20 business days, rates starting at $14.99</li>
           </ul>
-          <p className="mt-4">Please note that international orders may be subject to customs duties and taxes, which are the responsibility of the recipient.</p>
+          <p className="mt-4">Please note that international orders may be subject to customs duties and taxes, which are the responsibility of the recipient. These charges are not included in the product price or shipping cost.</p>
         </section>
 
         <section>
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Order Processing</h2>
-          <p>Orders are processed within 1-2 business days (excluding weekends and holidays). You will receive a confirmation email with tracking information once your order has shipped.</p>
+          <p>Orders are processed within 1-3 business days (excluding weekends and Chinese public holidays). You will receive a confirmation email with tracking information once your order has shipped.</p>
         </section>
 
         <section>
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Tracking Your Order</h2>
-          <p>Once your order ships, you will receive an email with a tracking number. You can use this number to track your package on our website or the carrier&apos;s website.</p>
+          <p>Once your order ships, you will receive an email with a tracking number. You can use this number to track your package on our website or the carrier&apos;s website. Tracking information may take 24-48 hours to update after shipment.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Shipping Terms</h2>
+          <p>All orders are shipped FOB Ningbo, China. Risk of loss transfers to the buyer upon delivery to the carrier. International shipping costs are borne by the buyer. For bulk or wholesale orders, shipping will be quoted separately based on volume and destination — contact us at sales@loyalbondpet.com for a freight quote.</p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Delays</h2>
+          <p>While we strive to meet the delivery times above, actual transit times may vary due to customs inspections, weather conditions, carrier delays, or peak shopping seasons (e.g., Black Friday, Christmas). We appreciate your patience and encourage you to order early during holiday periods.</p>
         </section>
 
         <section>
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Damaged or Lost Packages</h2>
-          <p>If your package arrives damaged or doesn&apos;t arrive at all, please contact us at <strong className="text-brand-dark">sales@loyalbondpet.com</strong> within 7 days of the expected delivery date. We will work with the carrier to resolve the issue and send a replacement if necessary.</p>
+          <p>If your package arrives damaged or doesn&apos;t arrive within the estimated delivery window, please contact us at <strong className="text-brand-dark">sales@loyalbondpet.com</strong> within 7 days of the expected delivery date. We will work with the carrier to resolve the issue and send a replacement if necessary.</p>
         </section>
 
         <section>
