@@ -677,18 +677,15 @@ export const collections = [
 // Cross-sell product recommendations (curated groups)
 export const crossSellMap: Record<string, string[]> = {
   // Joint care / mobility group
-  : ['hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
   'hind-leg-support-harness': ['mesh-support-sling', 'orthopedic-bolster-dog-bed'],
   'mesh-support-sling': ['hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs'],
   // Feeding group
-  : ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'elevated-slow-feeder-bowl': ['anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed'],
   // Seasonal
-  : ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['orthopedic-bolster-dog-bed'],
   'anti-choke-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
