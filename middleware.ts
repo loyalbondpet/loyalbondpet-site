@@ -12,6 +12,7 @@ const PRODUCT_REDIRECTS: Record<string, string> = {
   '/products/anti-slip-dog-socks': '/products/orthopedic-bolster-dog-bed',
   '/products/maze-slow-feeder-bowl': '/products/anti-choke-slow-feeder-bowl',
   '/products/lift-assist-harness': '/products/hind-leg-support-harness',
+  '/products/pet-gel-cooling-mat': '/products/snowflake-cooling-mat',
 };
 
 export function middleware(request: NextRequest) {
