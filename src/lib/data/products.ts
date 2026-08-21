@@ -66,7 +66,6 @@ The entire harness is machine washable for easy maintenance, and includes a conv
       '/images/products/lift-assist-harness/02-action.jpg',
       '/images/products/lift-assist-harness/03-feature.jpg',
       '/images/products/lift-assist-harness/04-detail.jpg',
-      '/images/products/lift-assist-harness/05-wearing.jpg',
       '/images/products/lift-assist-harness/06-color.jpg',
     ],
     rating: 0,
