@@ -44,69 +44,6 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: '1',
-    slug: 'lift-assist-harness',
-    name: 'Adjustable Dog Lift-Assist Harness',
-    bestSeller: true,
-    price: 24.99,
-    description: `The LoyalBond Lift-Assist Harness is designed to help you support your aging or mobility-limited dog through daily activities with comfort and confidence.
-
-The wide wrap-around panel distributes your dog's weight evenly across the chest and belly, rather than concentrating pressure on a single point. This balanced support helps when assisting your dog with stairs, getting into vehicles, standing up from a seated position, or navigating uneven surfaces.
-
-The main cushion is crafted from lightweight, breathable hollow mesh fabric that promotes air circulation and reduces stuffiness during extended wear — important for dogs who need daily, long-hour support. Multiple layers of reinforced stitching on the webbing handles ensure stable load bearing for medium and large senior dogs.
-
-The extended padded handle keeps your body upright while lifting, helping you maintain proper posture and reducing strain on your own back when assisting your pet repeatedly throughout the day. Reflective stitching supports better visibility during early morning or evening walks.
-
-The entire harness is machine washable for easy maintenance, and includes a convenient storage bag for portability.`,
-    shortDescription: 'Breathable mesh lift harness with adjustable padded handle and reinforced webbing straps. Supports front or hind leg weakness. Machine washable with reflective stitching for visibility.',
-    collection: 'Travel & Car',
-    collectionSlug: 'travel-car',
-    images: [
-      '/images/products/lift-assist-harness/01-main.jpg',
-      '/images/products/lift-assist-harness/02-action.jpg',
-      '/images/products/lift-assist-harness/03-feature.jpg',
-      '/images/products/lift-assist-harness/04-detail.jpg',
-      '/images/products/lift-assist-harness/06-color.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['S', 'M', 'L', 'XL'],
-    sizeVariants: [
-      { label: 'S', dimensions: '45-55 cm chest', weight: '0.25 kg', price: 19.99 },
-      { label: 'M', dimensions: '55-70 cm chest', weight: '0.30 kg', price: 24.99 },
-      { label: 'L', dimensions: '70-85 cm chest', weight: '0.35 kg', price: 29.99 },
-      { label: 'XL', dimensions: '85-100 cm chest', weight: '0.40 kg', price: 34.99 },
-    ],
-    features: [
-      'Dual-Side Support Design — Works for both front and hind leg weakness',
-      'Reinforced Padded Handle — Multi-layer stitched with stable load-bearing capacity',
-      'Adjustable Chest Plate — Velcro closure for quick on/off and custom fit',
-      'Breathable Mesh Body — Lightweight hollow mesh fabric for all-day comfort',
-      'Reflective Safety Strips — Enhanced visibility during early morning or evening walks',
-      'Wide Weight Distribution Panel — Spreads pressure evenly across chest and belly',
-      'Machine Washable — Easy care, lightweight and portable',
-    ],
-    specifications: {
-      'Material': 'Breathable hollow mesh fabric with reinforced webbing',
-      'Design': 'One-piece full-body support (chest, belly & hip)',
-      'Handle': 'Padded lift handle with reinforced stitching',
-      'Closure': 'Adjustable Velcro chest plate + side buckles',
-      'Safety': 'Reflective strips for low-light visibility',
-      'Sizes': 'S / M / L / XL',
-      'Weight Capacity': '1.5 – 30 kg (3 – 66 lbs)',
-      'Colors': 'Black',
-      'Washable': 'Yes, machine washable',
-    },
-    wholesaleInfo: {
-      moq: '1 piece (sample order welcome)',
-      leadTime: '3-5 days for sample; 15-25 days for bulk order',
-      payment: 'Alibaba Trade Assurance / T/T',
-      shipping: 'FOB Ningbo, Zhejiang',
-      note: 'Supplier: Pujiang Aibeiite Pet Products Co., Ltd. (浦江爱贝特宠物用品有限公司, 12-year factory, Zhejiang). 7378㎡ facility, 47 patents, 3.49万 followers on 1688. Export experience: Amazon, eBay, AliExpress. Part of our consolidated 3-factory sourcing plan. Price varies by size. Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
     id: '2',
     slug: 'hind-leg-support-harness',
     name: 'Senior Dog Hind Leg Support Harness',
@@ -129,8 +66,7 @@ At just 48g, this sling adds virtually no burden to dogs with low stamina. The o
       '/images/products/hind-leg-harness/05-flat-lay.jpg',
       '/images/products/hind-leg-harness/06-ergonomic.jpg',
       '/images/products/hind-leg-harness/07-material.jpg',
-      '/images/products/hind-leg-harness/08-variant.jpg',
-    ],
+      '/images/products/hind-leg-harness/08-variant.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -143,8 +79,7 @@ At just 48g, this sling adds virtually no burden to dogs with low stamina. The o
       'Padded Top Handle — Targeted lift assistance when your dog needs it most',
       'Ultra-Lightweight (48g) — Negligible added weight for dogs with low stamina',
       'One-Size Adjustable Fit — Fits small to large breeds with a single adjustable design',
-      'Quick On/Off — Step-in ring design, no complex threading or multiple buckles',
-    ],
+      'Quick On/Off — Step-in ring design, no complex threading or multiple buckles'],
     specifications: {
       'Material': 'Coral fleece lining + 2cm nylon webbing',
       'Design': 'Hind leg sling with dual fleece rings and adjustable spine strap',
@@ -204,16 +139,14 @@ Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm) — Large format for 
       '/images/products/snuffle-mat-new/13-burn-energy.jpg',
       '/images/products/snuffle-mat-new/14-are-you-worried.jpg',
       '/images/products/snuffle-mat-new/15-slows-down-eating.jpg',
-      '/images/products/snuffle-mat-new/16-walk-at-home.jpg',
-    ],
+      '/images/products/snuffle-mat-new/16-walk-at-home.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
     sizes: [
       'Style 1: Bone-Shaped Cloud Mat',
       'Style 2: Plum Blossom Mat (60cm × 60cm)',
-      'Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm)',
-    ],
+      'Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm)'],
     features: [
       'Multi-Zone Foraging Design — Multiple independent treat-hiding areas in one mat',
       'Slow-Feeding Function — Extends mealtime naturally',
@@ -221,8 +154,7 @@ Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm) — Large format for 
       'Soft Thick Fleece Fabric — Gentle on paws and comfortable',
       'Anti-Slip Bottom — Raised plastic dot base',
       'Machine Washable — Easy to clean and maintain',
-      '3 Style Options — Bone-shaped, Plum Blossom, Rectangular',
-    ],
+      '3 Style Options — Bone-shaped, Plum Blossom, Rectangular'],
     specifications: {
       'Material': 'Soft thick fleece fabric with raised plastic dot anti-slip base',
       'Style 1': 'Bone-Shaped Cloud Mat — 5 functional zones',
@@ -275,32 +207,28 @@ Available in multiple sizes and colors to match your home decor.`,
       '/images/products/orthopedic-bed/04-removable-cover.jpg',
       '/images/products/orthopedic-bed/05-dog-on-bed.jpg',
       '/images/products/orthopedic-bed/06-color-peacock-blue.jpg',
-      '/images/products/orthopedic-bed/07-size-chart.jpg',
-    ],
+      '/images/products/orthopedic-bed/07-size-chart.jpg'],
     rating: 4.8,
     reviewCount: 0,
     badge: 'New Arrival',
     sizeVariants: [
       { label: 'S', dimensions: '60 x 47 x 17 cm', weight: '4.00 kg', price: 39.99 },
       { label: 'M', dimensions: '73 x 57 x 18 cm', weight: '9.00 kg', price: 49.99 },
-      { label: 'L', dimensions: '92 x 72 x 19 cm', weight: '8.00 kg', price: 59.99 },
-    ],
+      { label: 'L', dimensions: '92 x 72 x 19 cm', weight: '8.00 kg', price: 59.99 }],
     colorOptions: [
       { name: 'Dark Gray', hex: '#4A4A4A', image: '/images/products/orthopedic-bed/01-main.jpg' },
       { name: 'Denim Blue', hex: '#5B7FA5', image: '/images/products/orthopedic-bed/01-main.jpg' },
       { name: 'Navy Blue', hex: '#1B2A4A', image: '/images/products/orthopedic-bed/01-main.jpg' },
       { name: 'Olive Green', hex: '#6B7F3A', image: '/images/products/orthopedic-bed/01-main.jpg' },
       { name: 'Peacock Blue', hex: '#006D77', image: '/images/products/orthopedic-bed/06-color-peacock-blue.jpg' },
-      { name: 'Yellow', hex: '#E8B931', image: '/images/products/orthopedic-bed/01-main.jpg' },
-    ],
+      { name: 'Yellow', hex: '#E8B931', image: '/images/products/orthopedic-bed/01-main.jpg' }],
     features: [
       'High-density orthopedic foam for balanced weight distribution & everyday support',
       'Low entry access for senior dogs with limited mobility',
       'Surround bolster rim for neck support & wind protection',
       'Dual-sided reversible mattress for all seasons',
       'Zippered removable washable cover',
-      'Non-slip base prevents sliding on smooth flooring',
-    ],
+      'Non-slip base prevents sliding on smooth flooring'],
     specifications: {
       'Material': 'High-density supportive foam + Oxford fabric exterior',
       'Inner Mat': 'Dual-sided (plush fleece + breathable oxford)',
@@ -348,8 +276,7 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
       '/images/products/mesh-support-sling/07-scene2.jpg',
       '/images/products/mesh-support-sling/08-scene3.jpg',
       '/images/products/mesh-support-sling/09-size-chart.png',
-      '/images/products/mesh-support-sling/10-colors.jpg',
-    ],
+      '/images/products/mesh-support-sling/10-colors.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -362,8 +289,7 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
       'Reflective Webbing — Enhanced visibility during low-light walks',
       'Padded Top Handle — Extra control for lifting and steadying your dog',
       'Adjustable Buckle Straps — Quick height adjustment to fit your body and dog size',
-      'Includes Storage Bag — Folds flat for portable storage and travel',
-    ],
+      'Includes Storage Bag — Folds flat for portable storage and travel'],
     specifications: {
       'Material': 'Oxford fabric outer shell with air mesh inner lining',
       'Design': 'Shoulder-sling style; supports belly and lower torso',
@@ -382,58 +308,6 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
       payment: 'Alibaba Trade Assurance / T/T',
       shipping: 'FOB Yiwu, Zhejiang',
       note: 'Supplier: Wenzhou Midali Pet Products Co., Ltd. (温州市米达力宠物用品, 9-year factory, Zhejiang Pingyang). 30-day sales volume: 56,195 units. Purchase price: ¥19/piece. Part of our consolidated 3-factory sourcing plan (Textile Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
-    id: '20',
-    slug: 'maze-slow-feeder-bowl',
-    name: 'Maze Slow Feeder Dog Bowl',
-    price: 11.99,
-    description: `Transform mealtime into a healthy, engaging experience with the LoyalBond Maze Slow Feeder Bowl.
-
-The raised ridge pattern creates a maze-like path that naturally slows down eating, promoting better digestion and reducing the risk of bloat — a common concern for deep-chested breeds and senior dogs. The non-slip base keeps the bowl steady during enthusiastic meals.
-
-Made from food-grade melamine material that's BPA-free, durable, and dishwasher safe. The smooth surface is easy to clean and resists odor absorption. The wide, shallow design is accessible for senior dogs with neck or joint stiffness.
-
-Available in multiple colors to match your home décor.`,
-    shortDescription: 'Food-grade melamine maze slow feeder bowl with non-slip base. Slows eating pace naturally, promotes healthy digestion. BPA-free, dishwasher safe. Wide shallow design ideal for senior dogs.',
-    collection: 'Feeding Aids',
-    collectionSlug: 'feeding-aids',
-    images: [
-      '/images/products/maze-slow-feeder/01-main.jpg',
-      '/images/products/maze-slow-feeder/02-maze-pattern.jpg',
-      '/images/products/maze-slow-feeder/03-non-slip-base.jpg',
-      '/images/products/maze-slow-feeder/04-dog-eating.jpg',
-      '/images/products/maze-slow-feeder/05-colors.jpg',
-    ],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['Small (18×18×4cm)', 'Medium (22×22×5cm)', 'Large (26×26×5.5cm)'],
-    colors: ['Green', 'Blue', 'Pink', 'Orange'],
-    features: [
-      'Maze Ridge Pattern — Naturally slows eating pace by 3-5x',
-      'Food-Grade Melamine — BPA-free, durable, and odor-resistant',
-      'Non-Slip Base — Keeps bowl steady during meals',
-      'Wide Shallow Design — Easy access for senior dogs with neck stiffness',
-      'Dishwasher Safe — Easy to clean and maintain',
-      'Promotes Healthy Digestion — Reduces risk of bloat and regurgitation',
-    ],
-    specifications: {
-      'Material': 'Food-grade melamine (BPA-free)',
-      'Small': '18 × 18 × 4 cm',
-      'Medium': '22 × 22 × 5 cm',
-      'Large': '26 × 26 × 5.5 cm',
-      'Base': 'Non-slip rubber bottom',
-      'Dishwasher': 'Yes, top rack safe',
-      'Colors': 'Green / Blue / Pink / Orange',
-    },
-    wholesaleInfo: {
-      moq: '5 pieces',
-      leadTime: '3-5 days for sample; 15-25 days for bulk order',
-      payment: 'Alibaba Trade Assurance / T/T',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Shaoxing Bobo Pet Products Factory (绍兴波波宠物用品厂, 24-year factory, Zhejiang). 8600㎡ facility, 30+ patents, melamine specialist. Purchase price: ¥16.2-18/piece. Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
   {
@@ -456,8 +330,7 @@ Designed for dogs of all ages, but especially beneficial for senior dogs, thick-
       '/images/products/gel-cooling-mat/02-dog-on-mat.jpg',
       '/images/products/gel-cooling-mat/03-gel-core.jpg',
       '/images/products/gel-cooling-mat/04-folded.jpg',
-      '/images/products/gel-cooling-mat/05-size-chart.jpg',
-    ],
+      '/images/products/gel-cooling-mat/05-size-chart.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -469,8 +342,7 @@ Designed for dogs of all ages, but especially beneficial for senior dogs, thick-
       'Up to 3 Hours Cooling — Recharges in 15-20 minutes',
       'Durable Nylon Exterior — Scratch-resistant and waterproof',
       'Folds Flat — Easy storage and portable',
-      'Gentle on Joints — Soft, rounded edges ideal for senior dogs',
-    ],
+      'Gentle on Joints — Soft, rounded edges ideal for senior dogs'],
     specifications: {
       'Material': 'Pressure-activated gel core with nylon exterior',
       'Small': '40 × 30 cm',
@@ -509,8 +381,7 @@ The ABS frame features a foldable, trapezoidal design with non-slip pads that ke
       '/images/products/elevated-slow-feeder/03-detachable.jpg',
       '/images/products/elevated-slow-feeder/04-heights.jpg',
       '/images/products/elevated-slow-feeder/05-specs.jpg',
-      '/images/products/elevated-slow-feeder/06-colors.jpg',
-    ],
+      '/images/products/elevated-slow-feeder/06-colors.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -522,8 +393,7 @@ The ABS frame features a foldable, trapezoidal design with non-slip pads that ke
       'Maze Slow-Feed Pattern — Encourages paced eating for better digestive comfort',
       'Foldable ABS Frame — Trapezoidal design folds flat for storage and travel',
       'Removable & Easy-Clean Bowls — Lift out for quick washing; hygienic stainless steel',
-      'Non-Slip Stable Base — Padded feet minimize sliding and protect floors',
-    ],
+      'Non-Slip Stable Base — Padded feet minimize sliding and protect floors'],
     specifications: {
       'Material': 'ABS frame + stainless steel bowls',
       'Height Settings': '8.5 / 16 / 23 / 31 / 34.5 cm (3.3 / 6.3 / 9.1 / 12.2 / 13.6 in)',
@@ -568,8 +438,7 @@ No assembly required — unfold and ready to use.`,
       '/images/products/folding-pet-stairs/03-step-detail.jpg',
       '/images/products/folding-pet-stairs/04-storage-detail.jpg',
       '/images/products/folding-pet-stairs/05-white-bg.jpg',
-      '/images/products/folding-pet-stairs/06-lifestyle.jpg',
-    ],
+      '/images/products/folding-pet-stairs/06-lifestyle.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -581,8 +450,7 @@ No assembly required — unfold and ready to use.`,
       'Folds Flat — Collapses to 11 cm thick for easy storage and travel',
       'Removable Washable Cover — Zippered dark grey cover, machine washable',
       'Anti-Slip Bottom Pads — Stays firmly in place on tile, hardwood & laminate',
-      'No Assembly Required — Unfold and ready to use',
-    ],
+      'No Assembly Required — Unfold and ready to use'],
     specifications: {
       'Material': 'Board frame with Oxford fabric cover',
       'Color': 'Dark Grey',
@@ -628,16 +496,14 @@ Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, t
       '/images/products/snowflake-cooling-mat/03-gel-tech.jpg',
       '/images/products/snowflake-cooling-mat/04-features.jpg',
       '/images/products/snowflake-cooling-mat/05-size-guide.jpg',
-      '/images/products/snowflake-cooling-mat/06-construction.jpg',
-    ],
+      '/images/products/snowflake-cooling-mat/06-construction.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
     sizeVariants: [
       { label: 'S', dimensions: '40 x 30 cm', weight: '0.85 kg', price: 12.99 },
       { label: 'M', dimensions: '50 x 40 cm', weight: '1.40 kg', price: 17.99 },
-      { label: 'L', dimensions: '60 x 50 cm', weight: '2.20 kg', price: 22.99 },
-    ],
+      { label: 'L', dimensions: '60 x 50 cm', weight: '2.20 kg', price: 22.99 }],
     features: [
       'Instant Self-Cooling — Pressure-activated core absorbs body heat on contact',
       'No Water or Electricity — No filling, no charging, no refrigeration needed',
@@ -646,8 +512,7 @@ Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, t
       'Waterproof Backing — Protects floors, sofas, and car seats from leaks',
       'Easy to Clean — Wipe or rinse, dries fast, no deformation after washing',
       'Folds Flat for Storage — Lightweight and portable for home or travel',
-      'Multi-Purpose — Use on floors, sofas, in crates, car seats, and patios',
-    ],
+      'Multi-Purpose — Use on floors, sofas, in crates, car seats, and patios'],
     specifications: {
       'Material': 'Self-cooling polymer core with premium PVC/nylon surface',
       'Pattern': 'Blue Snowflake',
@@ -691,8 +556,7 @@ Available in five modern colors to match any home décor: Pink, Teal, Mint Green
       '/images/products/anti-choke-slow-feeder-bowl/03-dogs-cats.jpg',
       '/images/products/anti-choke-slow-feeder-bowl/04-eating-comparison.jpg',
       '/images/products/anti-choke-slow-feeder-bowl/05-colors.jpg',
-      '/images/products/anti-choke-slow-feeder-bowl/06-dimensions.jpg',
-    ],
+      '/images/products/anti-choke-slow-feeder-bowl/06-dimensions.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -705,8 +569,7 @@ Available in five modern colors to match any home décor: Pink, Teal, Mint Green
       'Non-Slip Star Base — Wide five-point base stays put on smooth floors',
       'BPA-Free Food-Safe Plastic — Durable, smooth and easy to rinse clean',
       '5 Color Options — Pink, Teal, Mint Green, Grey and Black',
-      'For Dogs & Cats — One size fits small to medium pets',
-    ],
+      'For Dogs & Cats — One size fits small to medium pets'],
     specifications: {
       'Material': 'BPA-free food-safe plastic',
       'Top Diameter': '18 cm (7.1 in)',
@@ -752,8 +615,7 @@ Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and ke
       '/images/products/waterproof-silicone-dog-rain-boots/03-orange.jpg',
       '/images/products/waterproof-silicone-dog-rain-boots/04-pink.jpg',
       '/images/products/waterproof-silicone-dog-rain-boots/05-green.jpg',
-      '/images/products/waterproof-silicone-dog-rain-boots/06-features.jpg',
-    ],
+      '/images/products/waterproof-silicone-dog-rain-boots/06-features.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
@@ -764,8 +626,7 @@ Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and ke
       { label: 'S', dimensions: 'Fits 5–7.5 kg (10–15 lb)', weight: '0.20 kg', price: 13.99 },
       { label: 'M', dimensions: 'Fits 7.5–11.5 kg (15–23 lb)', weight: '0.20 kg', price: 14.99 },
       { label: 'L', dimensions: 'Fits 11.5–18 kg (23–36 lb)', weight: '0.20 kg', price: 15.99 },
-      { label: 'XL', dimensions: 'Fits 18–25 kg (36–50 lb)', weight: '0.20 kg', price: 16.99 },
-    ],
+      { label: 'XL', dimensions: 'Fits 18–25 kg (36–50 lb)', weight: '0.20 kg', price: 16.99 }],
     features: [
       '100% Waterproof Silicone — Premium food-grade silicone keeps paws dry in rain, snow, and mud',
       'Non-Slip Paw-Print Sole — Textured tread grips wet, slippery surfaces for safe walking',
@@ -776,8 +637,7 @@ Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and ke
       'Soft & Flexible — Comfortable natural movement, more flexible than rigid plastic boots',
       'Easy to Clean — Simply rinse under water after muddy walks',
       'Lightweight — Only 200 g per set (all sizes)',
-      'Multi-Season Use — Rain, snow, beach trips, sensitive paw protection, and floor protection',
-    ],
+      'Multi-Season Use — Rain, snow, beach trips, sensitive paw protection, and floor protection'],
     specifications: {
       'Material': 'Premium food-grade silicone',
       'Sizes': 'XS / S / M / L / XL',
@@ -801,9 +661,7 @@ Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and ke
       shipping: 'FOB Shenzhen/Guangdong',
       note: 'FOB tier pricing: XS $1.80/set, S $1.95/set, M $2.10/set, L $2.25/set, XL $2.40/set (10-49 sets); 10% off for 50-99 sets; 15% off for 100-499 sets. Orders of 500+ sets: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Dongguan, Guangdong. Cross-border export ready. OEM/custom packaging and custom colors available.',
     },
-  },
-
-];
+  }];
 
 export const collections = [
   {
@@ -871,20 +729,20 @@ export const collections = [
 // Cross-sell product recommendations (curated groups)
 export const crossSellMap: Record<string, string[]> = {
   // Joint care / mobility group
-  'lift-assist-harness': ['hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
-  'hind-leg-support-harness': ['lift-assist-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
-  'mesh-support-sling': ['lift-assist-harness', 'hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
+  : ['hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
+  'hind-leg-support-harness': ['mesh-support-sling', 'orthopedic-bolster-dog-bed'],
+  'mesh-support-sling': ['hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
-  'snuffle-mat-set': ['orthopedic-bolster-dog-bed', 'maze-slow-feeder-bowl'],
+  'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs', 'pet-gel-cooling-mat'],
   // Feeding group
-  'maze-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
-  'elevated-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
+  : ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
+  'elevated-slow-feeder-bowl': ['anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed'],
   // Seasonal
   'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
   'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
-  'anti-choke-slow-feeder-bowl': ['maze-slow-feeder-bowl', 'elevated-slow-feeder-bowl', 'snuffle-mat-set'],
+  'anti-choke-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
   'waterproof-silicone-dog-rain-boots': ['orthopedic-bolster-dog-bed', 'snuffle-mat-set', 'folding-pet-stairs'],
 };
