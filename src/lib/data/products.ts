@@ -311,58 +311,6 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     },
   },
   {
-    id: '21',
-    slug: 'pet-gel-cooling-mat',
-    name: 'Self-Cooling Gel Pet Mat',
-    price: 16.99,
-    description: `Keep your senior dog cool and comfortable during hot weather with the LoyalBond Self-Cooling Gel Mat.
-
-The pressure-activated gel core automatically absorbs and dissipates body heat when your dog lies down — no water, electricity, or refrigeration needed. The cooling effect lasts up to 3 hours per session and the mat recharges itself within 15-20 minutes of non-use.
-
-The durable nylon exterior is scratch-resistant, waterproof, and easy to wipe clean. Rounded corners and soft edges are gentle on aging joints. The mat folds flat for easy storage and portability — take it to the car, crate, or outdoor patio.
-
-Designed for dogs of all ages, but especially beneficial for senior dogs, thick-coated breeds, and dogs with stiff joints who are sensitive to hot weather.`,
-    shortDescription: 'Pressure-activated self-cooling gel mat for dogs. No water or electricity needed. Cools for up to 3 hours, recharges in 15 minutes. Waterproof nylon exterior, scratch-resistant. Folds flat for storage.',
-    collection: 'Seasonal',
-    collectionSlug: 'seasonal',
-    images: [
-      '/images/products/gel-cooling-mat/01-main.jpg',
-      '/images/products/gel-cooling-mat/02-dog-on-mat.jpg',
-      '/images/products/gel-cooling-mat/03-gel-core.jpg',
-      '/images/products/gel-cooling-mat/04-folded.jpg',
-      '/images/products/gel-cooling-mat/05-size-chart.jpg'],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['Small (40×30cm)', 'Medium (50×40cm)', 'Large (65×50cm)', 'XL (90×65cm)'],
-    colors: ['Blue', 'Gray'],
-    features: [
-      'Pressure-Activated Gel — Automatically cools when your dog lies down',
-      'No Water or Electricity Needed — Maintenance-free cooling',
-      'Up to 3 Hours Cooling — Recharges in 15-20 minutes',
-      'Durable Nylon Exterior — Scratch-resistant and waterproof',
-      'Folds Flat — Easy storage and portable',
-      'Gentle on Joints — Soft, rounded edges ideal for senior dogs'],
-    specifications: {
-      'Material': 'Pressure-activated gel core with nylon exterior',
-      'Small': '40 × 30 cm',
-      'Medium': '50 × 40 cm',
-      'Large': '65 × 50 cm',
-      'XL': '90 × 65 cm',
-      'Cooling Duration': 'Up to 3 hours',
-      'Recharge Time': '15-20 minutes',
-      'Waterproof': 'Yes',
-      'Colors': 'Blue / Gray',
-    },
-    wholesaleInfo: {
-      moq: '1 piece',
-      leadTime: '3-5 days for sample; 15-20 days for bulk order',
-      payment: 'Alibaba Trade Assurance / T/T',
-      shipping: 'FOB Ningbo',
-      note: 'Supplier: Pujiang Lele Xin Pet Products Factory (浦江县乐乐欣, 11-year factory, Zhejiang). Monthly sales: 5,800+ units. Purchase price: ¥6.65/piece (Small). Part of our consolidated 3-factory sourcing plan (Tableware Factory group). Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  },
-  {
     id: '22',
     slug: 'elevated-slow-feeder-bowl',
     name: '5-Height Adjustable Elevated Dog Bowl with Slow Feeder',
@@ -734,14 +682,14 @@ export const crossSellMap: Record<string, string[]> = {
   'mesh-support-sling': ['hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
-  'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs', 'pet-gel-cooling-mat'],
+  'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs'],
   // Feeding group
   : ['elevated-slow-feeder-bowl', 'anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'elevated-slow-feeder-bowl': ['anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
   'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed'],
   // Seasonal
-  'pet-gel-cooling-mat': ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
-  'snowflake-cooling-mat': ['pet-gel-cooling-mat', 'orthopedic-bolster-dog-bed'],
+  : ['orthopedic-bolster-dog-bed', 'snowflake-cooling-mat'],
+  'snowflake-cooling-mat': ['orthopedic-bolster-dog-bed'],
   'anti-choke-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
   'waterproof-silicone-dog-rain-boots': ['orthopedic-bolster-dog-bed', 'snuffle-mat-set', 'folding-pet-stairs'],
