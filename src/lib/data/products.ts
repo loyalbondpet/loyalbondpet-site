@@ -444,7 +444,7 @@ Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, t
     '/images/products/snowflake-cooling-mat/03-gel-tech.jpg',
     '/images/products/snowflake-cooling-mat/04-features.jpg',
     '/images/products/snowflake-cooling-mat/06-construction.jpg',
-  ]
+  ],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
