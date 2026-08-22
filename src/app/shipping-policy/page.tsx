@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Shipping Policy - Delivery Info & Rates',
-  description: 'LoyalBond shipping policy: standard delivery 10-18 business days from China, express 5-8 business days via DHL/FedEx. Shipping calculated at checkout based on weight and destination.',
+  description: 'LoyalBond shipping policy: standard delivery 13-23 business days from China, express 8-13 business days via DHL/FedEx. Shipping calculated at checkout based on weight and destination.',
 };
 
 export default function ShippingPolicyPage() {
@@ -35,12 +35,12 @@ export default function ShippingPolicyPage() {
               <tbody>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3">Standard Shipping</td>
-                  <td className="border border-gray-200 px-4 py-3">10-18 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">13-23 business days</td>
                   <td className="border border-gray-200 px-4 py-3">Calculated at checkout based on weight &amp; destination</td>
                 </tr>
                 <tr className="bg-brand-cream">
                   <td className="border border-gray-200 px-4 py-3">Express Shipping (DHL/FedEx)</td>
-                  <td className="border border-gray-200 px-4 py-3">5-8 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">8-13 business days</td>
                   <td className="border border-gray-200 px-4 py-3">Calculated at checkout based on weight &amp; destination</td>
                 </tr>
               </tbody>
@@ -52,11 +52,11 @@ export default function ShippingPolicyPage() {
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">International Shipping</h2>
           <p>We currently ship to the following international destinations. Delivery times include customs processing and may vary depending on your local postal service.</p>
           <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>United States: 10-18 business days (standard), 5-8 business days (express)</li>
-            <li>Canada: 12-22 business days, calculated at checkout</li>
-            <li>Europe (UK, Germany, France, etc.): 12-25 business days, calculated at checkout</li>
-            <li>Australia & New Zealand: 14-25 business days, calculated at checkout</li>
-            <li>Other Asia-Pacific: 10-20 business days, calculated at checkout</li>
+            <li>United States: 13-23 business days (standard), 8-13 business days (express)</li>
+            <li>Canada: 15-27 business days, calculated at checkout</li>
+            <li>Europe (UK, Germany, France, etc.): 15-30 business days, calculated at checkout</li>
+            <li>Australia & New Zealand: 17-30 business days, calculated at checkout</li>
+            <li>Other Asia-Pacific: 13-25 business days, calculated at checkout</li>
           </ul>
           <p className="mt-4">Please note that international orders may be subject to customs duties and taxes, which are the responsibility of the recipient. These charges are not included in the product price or shipping cost.</p>
         </section>
