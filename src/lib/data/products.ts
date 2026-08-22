@@ -310,7 +310,7 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
     id: '22',
     slug: 'elevated-slow-feeder-bowl',
     name: '5-Height Adjustable Elevated Dog Bowl with Slow Feeder',
-    price: 24.99,
+    price: 22.99,
     description: `The LoyalBond 5-Height Adjustable Elevated Dog Bowl grows with your pet from puppyhood through the senior years. With five height settings — 3.3, 6.3, 9.1, 12.2, and 13.6 inches (8.5–34.5 cm) — this dual-bowl feeder adapts to small, medium, and large breeds, promoting a comfortable dining posture that reduces neck strain.
 
 Each set includes two stainless steel bowls: one maze-pattern slow feeder that encourages paced eating for better digestive comfort, and one open bowl for water or regular food. Both bowls lift out effortlessly for quick cleaning.
