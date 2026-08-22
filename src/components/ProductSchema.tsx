@@ -110,6 +110,7 @@ export default function ProductSchema({ product, slug }: ProductSchemaProps) {
     name: product.name,
     description: product.shortDescription,
     sku,
+    mpn: sku,
     image: product.images.map(img =>
       img.startsWith('http') ? img : `${baseUrl}${img}`
     ),
