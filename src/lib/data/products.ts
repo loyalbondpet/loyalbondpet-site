@@ -680,7 +680,7 @@ export const crossSellMap: Record<string, string[]> = {
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs'],
   // Feeding group
   'elevated-slow-feeder-bowl': ['anti-choke-slow-feeder-bowl', 'snuffle-mat-set'],
-  'folding-pet-stairs': ['folding-pet-stairs', 'orthopedic-bolster-dog-bed'],
+  'folding-pet-stairs': ['orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
   // Seasonal
   'snowflake-cooling-mat': ['orthopedic-bolster-dog-bed'],
   'anti-choke-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
