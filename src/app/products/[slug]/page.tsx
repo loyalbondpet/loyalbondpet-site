@@ -312,10 +312,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
                       </>
                     ) : (
                       <>
-                        <li>International shipping available (buyer pays shipping)</li>
-                        <li>Standard shipping (5-7 business days): $4.99</li>
-                        <li>Express shipping (2-3 business days): $9.99</li>
-                        <li>International shipping available to select countries</li>
+                        <li>Ships from China worldwide</li>
+                        <li>Standard shipping: 13–23 business days, calculated at checkout based on weight &amp; destination</li>
+                        <li>Express shipping (DHL/FedEx): 8–13 business days, calculated at checkout based on weight &amp; destination</li>
+                        <li>Buyer is responsible for any import duties or taxes</li>
                         <li>All orders include tracking information</li>
                       </>
                     )}
