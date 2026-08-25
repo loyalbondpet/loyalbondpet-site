@@ -1,21 +1,30 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import type { Product, SizeVariant, ColorOption } from '@/lib/data/products';
+import { useCart } from '@/contexts/CartContext';
+import { Check, ShoppingCart } from 'lucide-react';
 
 interface ProductDetailClientProps {
   product: Product;
 }
 
 export default function ProductDetailClient({ product }: ProductDetailClientProps) {
+  const router = useRouter();
+  const { addToCart } = useCart();
+
   const hasSizeVariants = product.sizeVariants && product.sizeVariants.length > 0;
   const hasColorOptions = product.colorOptions && product.colorOptions.length > 0;
+  const hasSimpleSizes = !hasSizeVariants && product.sizes && product.sizes.length > 0;
+  const hasSimpleColors = !hasColorOptions && product.colors && product.colors.length > 0;
 
   const [selectedSizeIdx, setSelectedSizeIdx] = useState(0);
   const [selectedColorIdx, setSelectedColorIdx] = useState(0);
-    const [selectedImage, setSelectedImage] = useState(0);
+  const [selectedImage, setSelectedImage] = useState(0);
+  const [justAdded, setJustAdded] = useState(false);
 
-  // Determine current price based on size variant or base price
   const currentPrice = useMemo(() => {
     if (hasSizeVariants && product.sizeVariants![selectedSizeIdx]) {
       return product.sizeVariants![selectedSizeIdx].price;
@@ -23,12 +32,20 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
     return product.price;
   }, [selectedSizeIdx, hasSizeVariants, product.price, product.sizeVariants]);
 
-  const displayPrice = currentPrice;
+  const selectedColorName = hasColorOptions
+    ? product.colorOptions![selectedColorIdx]?.name
+    : hasSimpleColors
+      ? product.colors![selectedColorIdx]
+      : undefined;
 
-  // Use product images as the gallery (7 product photos)
+  const selectedSizeName = hasSizeVariants
+    ? product.sizeVariants![selectedSizeIdx]?.label
+    : hasSimpleSizes
+      ? product.sizes![selectedSizeIdx]
+      : undefined;
+
   const displayImages = product.images;
 
-  // When color changes, find matching image in gallery
   const handleColorChange = (idx: number) => {
     setSelectedColorIdx(idx);
     if (hasColorOptions && product.colorOptions![idx]?.image) {
@@ -38,11 +55,41 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
     }
   };
 
+  const handleAddToCart = () => {
+    addToCart({
+      productId: product.id,
+      slug: product.slug,
+      name: product.name,
+      price: currentPrice,
+      quantity: 1,
+      image: product.images[0],
+      color: selectedColorName,
+      size: selectedSizeName,
+    });
+    setJustAdded(true);
+    setTimeout(() => setJustAdded(false), 1800);
+  };
+
+  const handleBuyNow = () => {
+    addToCart({
+      productId: product.id,
+      slug: product.slug,
+      name: product.name,
+      price: currentPrice,
+      quantity: 1,
+      image: product.images[0],
+      color: selectedColorName,
+      size: selectedSizeName,
+    });
+    router.push('/checkout');
+  };
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
       {/* Image Gallery */}
       <div>
         <div className="aspect-square bg-brand-beige rounded-2xl overflow-hidden mb-4 border border-gray-100">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={displayImages[selectedImage] || product.images[0]}
             alt={`${product.name} - Image ${selectedImage + 1}`}
@@ -60,11 +107,8 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                   : 'border-gray-200 hover:border-brand-green/50'
               }`}
             >
-              <img
-                src={img}
-                alt={`${product.name} thumbnail ${i + 1}`}
-                className="w-full h-full object-cover"
-              />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={img} alt={`${product.name} thumbnail ${i + 1}`} className="w-full h-full object-cover" />
             </button>
           ))}
         </div>
@@ -81,9 +125,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           {product.name}
         </h1>
         {hasSizeVariants && (
-          <p className="text-sm text-brand-gray mb-2">
-            {product.shortDescription}
-          </p>
+          <p className="text-sm text-brand-gray mb-2">{product.shortDescription}</p>
         )}
 
         {/* Rating */}
@@ -106,34 +148,22 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
         <div className="flex items-baseline gap-3 mb-6">
           <span className="text-3xl font-bold text-brand-green">
             {currentPrice === 0 ? (
-              product.priceRange ? (
-                product.priceRange
-              ) : (
-                "Request Quote"
-              )
+              product.priceRange ? product.priceRange : 'Request Quote'
             ) : (
-              <>$
-                {displayPrice.toFixed(2)}
-                {hasSizeVariants && <span className="text-sm font-normal text-brand-gray ml-1">/ unit</span>}
-              </>
+              <>${currentPrice.toFixed(2)}{hasSizeVariants && <span className="text-sm font-normal text-brand-gray ml-1">/ unit</span>}</>
             )}
           </span>
-
-
         </div>
 
-        {/* Wholesale pricing hint */}
+        {/* Wholesale hint */}
         <div className="mb-6 px-4 py-3 bg-brand-beige/50 rounded-lg border border-brand-beige">
           <p className="text-sm text-brand-dark">
-            <span className="font-semibold">Wholesale pricing available</span> for pet stores &amp; distributors
+            <span className="font-semibold">Wholesale pricing available</span> for pet stores & distributors
           </p>
-          <p className="text-xs text-brand-gray mt-1">
-            Inquire for official price list — Volume discounts from 10 pcs
-          </p>
+          <p className="text-xs text-brand-gray mt-1">Inquire for official price list — Volume discounts from 10 pcs</p>
         </div>
 
-
-        {/* Color selector - visual swatches */}
+        {/* Color - visual swatches */}
         {hasColorOptions && (
           <div className="mb-6">
             <label className="block text-sm font-medium text-brand-dark mb-2">
@@ -145,22 +175,14 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                   key={color.name}
                   onClick={() => handleColorChange(idx)}
                   className={`group relative w-10 h-10 rounded-full transition-all duration-200 ${
-                    selectedColorIdx === idx
-                      ? 'ring-2 ring-brand-green ring-offset-2 scale-110'
-                      : 'ring-1 ring-gray-200 hover:ring-brand-green/50 hover:scale-105'
+                    selectedColorIdx === idx ? 'ring-2 ring-brand-green ring-offset-2 scale-110' : 'ring-1 ring-gray-200 hover:ring-brand-green/50 hover:scale-105'
                   }`}
                   style={{ backgroundColor: color.hex }}
                   title={color.name}
                   aria-label={`Select ${color.name}`}
                 >
                   {selectedColorIdx === idx && (
-                    <svg
-                      className="absolute inset-0 m-auto w-5 h-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke={isLightColor(color.hex) ? '#1A1A1A' : '#FFFFFF'}
-                      strokeWidth={3}
-                    >
+                    <svg className="absolute inset-0 m-auto w-5 h-5" fill="none" viewBox="0 0 24 24" stroke={isLightColor(color.hex) ? '#1A1A1A' : '#FFFFFF'} strokeWidth={3}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   )}
@@ -170,7 +192,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           </div>
         )}
 
-        {/* Size selector - with dimensions and pricing */}
+        {/* Size - variants with pricing */}
         {hasSizeVariants && (
           <div className="mb-6">
             <label className="block text-sm font-medium text-brand-dark mb-2">Size</label>
@@ -180,28 +202,24 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                   key={variant.label}
                   onClick={() => setSelectedSizeIdx(idx)}
                   className={`relative py-3 px-3 rounded-lg border-2 text-center transition-all ${
-                    selectedSizeIdx === idx
-                      ? 'border-brand-green bg-brand-green/5'
-                      : 'border-gray-200 hover:border-brand-green/50'
+                    selectedSizeIdx === idx ? 'border-brand-green bg-brand-green/5' : 'border-gray-200 hover:border-brand-green/50'
                   }`}
                 >
-                  <div className={`text-lg font-bold ${selectedSizeIdx === idx ? 'text-brand-green' : 'text-brand-dark'}`}>
-                    {variant.label}
-                  </div>
+                  <div className={`text-lg font-bold ${selectedSizeIdx === idx ? 'text-brand-green' : 'text-brand-dark'}`}>{variant.label}</div>
                   <div className="text-xs text-brand-gray mt-0.5">{variant.dimensions}</div>
-                  <div className="text-sm font-semibold text-brand-dark mt-1">{variant.price > 0 ? `$${variant.price.toFixed(2)}` : "Request Quote"}</div>
+                  <div className="text-sm font-semibold text-brand-dark mt-1">{variant.price > 0 ? `$${variant.price.toFixed(2)}` : 'Request Quote'}</div>
                 </button>
               ))}
             </div>
           </div>
         )}
 
-        {/* Fallback: simple size selector (for products without sizeVariants) */}
-        {!hasSizeVariants && product.sizes && product.sizes.length > 0 && (
+        {/* Fallback simple size */}
+        {hasSimpleSizes && (
           <div className="mb-6">
             <label className="block text-sm font-medium text-brand-dark mb-2">Size</label>
             <div className="flex flex-wrap gap-2">
-              {product.sizes.map((size) => (
+              {product.sizes!.map((size) => (
                 <button
                   key={size}
                   onClick={() => setSelectedSizeIdx(product.sizes!.indexOf(size))}
@@ -218,12 +236,12 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           </div>
         )}
 
-        {/* Fallback: simple color selector (for products without colorOptions) */}
-        {!hasColorOptions && product.colors && product.colors.length > 0 && (
+        {/* Fallback simple color */}
+        {hasSimpleColors && (
           <div className="mb-6">
             <label className="block text-sm font-medium text-brand-dark mb-2">Color</label>
             <div className="flex flex-wrap gap-2">
-              {product.colors.map((color) => (
+              {product.colors!.map((color) => (
                 <button
                   key={color}
                   onClick={() => setSelectedColorIdx(product.colors!.indexOf(color))}
@@ -240,12 +258,35 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           </div>
         )}
 
-        {/* Add to Cart */}
-        <button className="w-full py-4 bg-brand-coral hover:bg-brand-coral/90 text-white font-bold text-lg rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-brand-coral/20 mb-4">
-          Add to Cart
-        </button>
+        {/* Add to Cart + Buy Now */}
+        <div className="space-y-3 mb-4">
+          <button
+            onClick={handleAddToCart}
+            className={`w-full py-4 font-bold text-lg rounded-lg transition-all duration-200 flex items-center justify-center gap-2 ${
+              justAdded
+                ? 'bg-green-600 text-white'
+                : 'bg-brand-coral hover:bg-brand-coral/90 text-white hover:shadow-lg hover:shadow-brand-coral/20'
+            }`}
+          >
+            {justAdded ? (
+              <><Check className="w-5 h-5" /> Added to Cart!</>
+            ) : (
+              <><ShoppingCart className="w-5 h-5" /> Add to Cart</>
+            )}
+          </button>
+          <button
+            onClick={handleBuyNow}
+            className="w-full py-3 border-2 border-brand-green text-brand-green font-semibold rounded-lg hover:bg-brand-green/5 transition-all duration-200"
+          >
+            Buy it now
+          </button>
+        </div>
 
-        {/* Wholesale inquiry button - mailto */}
+        <Link href="/cart" className="block text-center text-sm text-brand-gray hover:text-brand-green mb-6">
+          View cart
+        </Link>
+
+        {/* Wholesale inquiry */}
         {product.wholesaleInfo && (
           <a
             href={`mailto:sales@loyalbondpet.com?subject=Wholesale%20Inquiry%20-%20${encodeURIComponent(product.name)}&body=Hello%20LoyalBond%20team,%0A%0AI%20am%20interested%20in%20wholesale%20pricing%20for:%0A%0AProduct:%20${encodeURIComponent(product.name)}%0AProduct%20URL:%20https://www.loyalbondpet.com/products/${product.slug}%0A%0AMonthly%20purchase%20volume:%20%0APet%20store%20name:%20%0ALocation:%20%0A%0APlease%20send%20me%20your%20official%20wholesale%20price%20list.%0A%0AThank%20you!`}
@@ -288,7 +329,6 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
   );
 }
 
-// Helper: determine if a hex color is light (for checkmark contrast)
 function isLightColor(hex: string): boolean {
   const r = parseInt(hex.slice(1, 3), 16);
   const g = parseInt(hex.slice(3, 5), 16);
