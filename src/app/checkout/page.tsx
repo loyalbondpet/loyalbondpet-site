@@ -1,19 +1,27 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
 import { useCart } from '@/contexts/CartContext';
-import { ShoppingBag, Loader2, Lock, ShieldCheck } from 'lucide-react';
-
-const SHIPPING_FLAT = 5.99;
-const FREE_SHIP_THRESHOLD = 75;
+import { calculateShipping } from '@/lib/shipping';
+import { ShoppingBag, Loader2, Lock, ShieldCheck, Truck, AlertTriangle } from 'lucide-react';
 
 declare global {
   interface Window {
     paypal?: any;
   }
 }
+
+const SUPPORTED_COUNTRIES: { code: string; name: string }[] = [
+  { code: 'US', name: 'United States' },
+  { code: 'CA', name: 'Canada' },
+  { code: 'GB', name: 'United Kingdom' },
+  { code: 'AU', name: 'Australia' },
+  { code: 'DE', name: 'Germany' },
+  { code: 'FR', name: 'France' },
+  { code: 'JP', name: 'Japan' },
+];
 
 export default function CheckoutPage() {
   const { items, subtotal, isLoaded, clearCart } = useCart();
@@ -32,23 +40,43 @@ export default function CheckoutPage() {
     phone: '',
   });
   const [formValid, setFormValid] = useState(false);
-  const buttonsRendered = useRef(false);
+  const buttonsRef = useRef<any>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  const shipping = subtotal >= FREE_SHIP_THRESHOLD ? 0 : SHIPPING_FLAT;
-  const total = subtotal + shipping;
+  // Calculate shipping based on cart items and destination country
+  const shippingQuote = useMemo(() => {
+    if (items.length === 0) return null;
+    return calculateShipping(
+      items.map(it => ({ productId: it.productId, quantity: it.quantity, size: it.size })),
+      shippingForm.countryCode,
+    );
+  }, [items, shippingForm.countryCode]);
+
+  const shipping = shippingQuote?.cost ?? 0;
+  const shippingBlocked = shippingQuote?.cost === -1;
+  const total = subtotal + (shippingBlocked ? 0 : shipping);
   const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
 
   useEffect(() => {
     const { name, addressLine1, city, state, postalCode, countryCode, email } = shippingForm;
     setFormValid(
       !!name && !!addressLine1 && !!city && !!state && !!postalCode &&
-      !!countryCode && !!email && items.length > 0,
+      !!countryCode && !!email && items.length > 0 && !shippingBlocked,
     );
-  }, [shippingForm, items.length]);
+  }, [shippingForm, items.length, shippingBlocked]);
 
+  // Render / re-render PayPal buttons whenever shipping or items change
   useEffect(() => {
-    if (!sdkReady || !window.paypal || buttonsRendered.current || !formValid) return;
-    buttonsRendered.current = true;
+    if (!sdkReady || !window.paypal || !formValid || !containerRef.current) return;
+
+    // Close previous buttons instance to avoid duplicates
+    if (buttonsRef.current) {
+      buttonsRef.current.close().catch(() => {});
+      buttonsRef.current = null;
+    }
+
+    // Clear container
+    containerRef.current.innerHTML = '';
 
     const paypal = window.paypal;
     const buttons = paypal.Buttons({
@@ -107,12 +135,19 @@ export default function CheckoutPage() {
       },
     });
 
-    buttons.render('#paypal-button-container').catch((err: unknown) => {
+    buttonsRef.current = buttons;
+    buttons.render(containerRef.current).catch((err: unknown) => {
       console.error('PayPal render error', err);
       setError('Unable to load PayPal buttons. Please refresh.');
-      buttonsRendered.current = false;
     });
-  }, [sdkReady, formValid, items, shipping, clearCart]);
+
+    return () => {
+      if (buttonsRef.current) {
+        buttonsRef.current.close().catch(() => {});
+        buttonsRef.current = null;
+      }
+    };
+  }, [sdkReady, formValid, items, shipping, clearCart, shippingForm.name, shippingForm.addressLine1, shippingForm.addressLine2, shippingForm.city, shippingForm.state, shippingForm.postalCode, shippingForm.countryCode, shippingForm.email]);
 
   if (!isLoaded) {
     return <div className="max-w-6xl mx-auto px-4 py-20 text-center text-brand-gray">Loading…</div>;
@@ -156,13 +191,9 @@ export default function CheckoutPage() {
                   onChange={e => setShippingForm({ ...shippingForm, countryCode: e.target.value })}
                   className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-brand-green/40"
                 >
-                  <option value="US">United States</option>
-                  <option value="CA">Canada</option>
-                  <option value="GB">United Kingdom</option>
-                  <option value="AU">Australia</option>
-                  <option value="DE">Germany</option>
-                  <option value="FR">France</option>
-                  <option value="JP">Japan</option>
+                  {SUPPORTED_COUNTRIES.map(c => (
+                    <option key={c.code} value={c.code}>{c.name}</option>
+                  ))}
                 </select>
               </div>
             </div>
@@ -174,7 +205,15 @@ export default function CheckoutPage() {
               <Lock className="w-4 h-4 text-brand-green" />
               <h2 className="text-lg font-bold text-brand-dark">Payment</h2>
             </div>
-            {!formValid ? (
+            {shippingBlocked ? (
+              <div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+                <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+                <div className="text-sm text-amber-800">
+                  <p className="font-semibold mb-1">Shipping unavailable</p>
+                  <p>{shippingQuote?.breakdown}</p>
+                </div>
+              </div>
+            ) : !formValid ? (
               <p className="text-sm text-brand-gray">Please fill in all required shipping fields to enable payment.</p>
             ) : !clientId ? (
               <p className="text-sm text-red-500">PayPal is not configured. Please contact support.</p>
@@ -185,7 +224,7 @@ export default function CheckoutPage() {
                   strategy="afterInteractive"
                   onLoad={() => setSdkReady(true)}
                 />
-                <div id="paypal-button-container" className="min-h-[150px]" />
+                <div ref={containerRef} className="min-h-[150px]" />
                 {loading && (
                   <div className="flex items-center justify-center gap-2 mt-3 text-sm text-brand-gray">
                     <Loader2 className="w-4 h-4 animate-spin" /> Processing payment…
@@ -226,14 +265,24 @@ export default function CheckoutPage() {
             </div>
             <div className="border-t border-brand-beige pt-4 space-y-2 text-sm">
               <div className="flex justify-between text-brand-gray">
-                <span>Subtotal</span><span>${subtotal.toFixed(2)}</span>
+                <span>Subtotal</span>
+                <span>${subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-brand-gray">
-                <span>Shipping{subtotal >= FREE_SHIP_THRESHOLD ? ' (free over $75)' : ''}</span>
-                <span>{shipping === 0 ? 'FREE' : `$${shipping.toFixed(2)}`}</span>
+                <span className="flex items-center gap-1">
+                  <Truck className="w-3.5 h-3.5" />
+                  Shipping
+                </span>
+                <span>{shippingBlocked ? 'Unavailable' : shippingQuote ? `$${shipping.toFixed(2)}` : '—'}</span>
               </div>
+              {shippingQuote && !shippingBlocked && (
+                <div className="text-xs text-brand-gray pl-5 -mt-1">
+                  {shippingQuote.breakdown}
+                </div>
+              )}
               <div className="flex justify-between font-bold text-brand-dark text-base pt-2 border-t border-brand-beige">
-                <span>Total</span><span>${total.toFixed(2)}</span>
+                <span>Total</span>
+                <span>${total.toFixed(2)}</span>
               </div>
             </div>
           </div>
