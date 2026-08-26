@@ -2699,8 +2699,7 @@ Elevated dog bowls are a simple change that can make a big difference in your do
 
 *Sources: American Kennel Club (AKC) guide to elevated dog bowls; Veterinary Information Network (VIN) discussion on raised feeders and GDV risk; PetMD feeding posture recommendations for senior dogs.*
 `
-  },,
-
+  },
 
   {
     slug: 'dog-arthritis-care-guide',
