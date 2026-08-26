@@ -735,7 +735,9 @@ Two sizes are available to fit your pet — Small for toy and small breeds, Medi
       note: 'FOB tier pricing: Small $0.85/pc, Medium $1.15/pc (10-49 pcs); 10% off for 50-99 pcs; 15% off for 100-499 pcs. Custom labels (+$0.03/pc, MOQ 10) and carton marks available. Orders of 500+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Pingyang, Zhejiang. Cross-border export ready.',
     },
   }
-]; (curated groups)
+];
+
+// Cross-sell product recommendations (curated groups)
 export const crossSellMap: Record<string, string[]> = {
   // Joint care / mobility group
   'hind-leg-support-harness': ['mesh-support-sling', 'orthopedic-bolster-dog-bed'],
