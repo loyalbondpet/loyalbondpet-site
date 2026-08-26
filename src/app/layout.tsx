@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: '%s',
   },
   description:
-    'LoyalBond offers thoughtfully designed functional products for senior dogs and pets. Shop orthopedic beds, mobility aids, travel accessories, and daily care essentials. Non-toxic, safe materials.',
+    'Functional products for senior dogs — orthopedic beds, mobility aids, and daily care essentials. Non-toxic, thoughtfully designed, made with care.',
   keywords: [
     'senior dog products',
     'orthopedic dog bed',

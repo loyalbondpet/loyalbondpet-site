@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'cooling-mat-guide-summer-dog-comfort',
     title: 'How to Keep Your Dog Cool This Summer: The Complete Cooling Mat Guide',
-    excerpt: 'Discover how self-cooling gel mats work, which size is right for your dog, and essential safety tips to help your furry friend stay comfortable all summer long.',
+    excerpt: 'Learn how self-cooling gel mats work, find the right size for your dog, and get safety tips for a cool, comfortable summer.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-18',
     readTime: '9 min read',
@@ -183,7 +183,7 @@ Explore our [Seasonal collection](/collections/seasonal) to find the right cooli
   {
     slug: '10-signs-your-senior-dog-needs-extra-support',
     title: '10 Signs Your Senior Dog Needs Extra Support',
-    excerpt: 'Is your aging dog showing subtle changes in behavior or mobility? Learn the key signs that indicate your senior companion needs additional support and how to help them stay comfortable.',
+    excerpt: 'Notice subtle changes in your aging dog? Learn key signs your senior companion needs support and how to keep them comfortable.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-07',
     readTime: '8 min read',
@@ -267,7 +267,7 @@ At LoyalBond, we believe every senior dog deserves comfort and dignity. Our prod
   {
     slug: 'how-to-make-your-home-safe-for-aging-dog',
     title: 'How to Make Your Home Safe for an Aging Dog',
-    excerpt: 'Transform your living space into a senior-dog-friendly haven. From non-slip solutions to strategic furniture placement, discover practical ways to prevent accidents and keep your aging pet comfortable.',
+    excerpt: 'Create a senior-dog-friendly home with non-slip solutions and smart furniture placement. Practical tips to prevent accidents and keep aging pets safe..',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-07',
     readTime: '10 min read',
@@ -395,7 +395,7 @@ Remember, every dog ages differently. Observe your individual pet's needs and ad
   {
     slug: 'ultimate-guide-to-senior-dog-mobility-aids',
     title: 'The Ultimate Guide to Senior Dog Mobility Aids',
-    excerpt: 'From support harnesses to orthopedic products, explore the full range of mobility aids available for senior dogs. Learn how to choose the right products to keep your aging companion active and comfortable.',
+    excerpt: 'Explore mobility aids for senior dogs — from support harnesses to orthopedic beds. Learn how to choose the right products for your aging companion.able.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-07',
     readTime: '12 min read',
@@ -526,7 +526,7 @@ Remember, the goal isn't to eliminate all challenges of aging, but to provide su
   {
     slug: 'best-travel-accessories-for-senior-dogs',
     title: 'Best Travel Accessories for Senior Dogs',
-    excerpt: 'Planning a trip with your senior dog? Discover the essential travel accessories that keep aging pets safe, comfortable, and happy on every adventure, from car rides to hotel stays.',
+    excerpt: 'Traveling with your senior dog? Discover essential accessories to keep aging pets safe and comfortable on car rides, hotel stays, and adventures.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-07',
     readTime: '9 min read',
@@ -698,7 +698,7 @@ Remember to start with shorter trips and gradually build up to longer adventures
   {
     slug: 'why-non-toxic-materials-matter-in-pet-products',
     title: 'Why Non-Toxic Materials Matter in Pet Products',
-    excerpt: 'Not all pet products are created equal when it comes to safety. Learn about the hidden dangers of toxic materials in pet products and how to choose safe alternatives for your furry family member.',
+    excerpt: 'Learn the hidden dangers of toxic materials in pet products and how to choose safe, non-toxic alternatives for your furry family member.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-07',
     readTime: '8 min read',
@@ -1021,7 +1021,7 @@ At LoyalBond, we've poured extensive research into creating the ideal orthopedic
   {
     slug: '5-mobility-aids-senior-dog-owner-guide',
     title: '5 Mobility Aids Every Senior Dog Owner Should Know',
-    excerpt: 'Discover five essential mobility aids that can help your aging dog stay active, comfortable, and confident — from support harnesses to snuffle mats and orthopedic beds.',
+    excerpt: 'Five essential mobility aids to help your aging dog stay active and confident — from support harnesses to snuffle mats and orthopedic beds.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-07',
     readTime: '7 min read',
@@ -1119,7 +1119,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
   {
     slug: 'how-to-choose-lifting-harness-senior-dog',
     title: 'How to Choose the Right Lifting Harness for Your Senior Dog',
-    excerpt: 'Compare lift-assist harnesses and hind leg support harnesses to find the perfect mobility solution for your aging dog. Learn key differences, ideal use cases, and sizing tips.',
+    excerpt: 'Compare lift-assist vs. hind leg support harnesses. Learn key differences, ideal use cases, and sizing tips for your senior dog.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-08',
     readTime: '6 min read',
@@ -1247,7 +1247,7 @@ At LoyalBond, both our Lift-Assist Harness and Hind Leg Support Harness are desi
   {
     slug: 'why-senior-dogs-need-low-entry-orthopedic-beds',
     title: 'Why Senior Dogs Need Low-Entry Orthopedic Beds',
-    excerpt: 'Discover why low-entry design matters for senior dog beds, how orthopedic support improves rest quality, and what features to look for in a bed for aging dogs.',
+    excerpt: 'Why low-entry design matters for senior dogs. Learn how orthopedic support improves rest and what features to look for in an aging dog bed.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-08',
     readTime: '6 min read',
@@ -1481,7 +1481,7 @@ At LoyalBond, our Adjustable Silicone Paw Protector Boots are designed specifica
   {
     slug: 'snuffle-mats-senior-dogs-mental-exercise',
     title: 'Snuffle Mats for Senior Dogs: Mental Exercise Without Physical Strain',
-    excerpt: 'Learn how snuffle mats provide enriching mental stimulation for senior dogs, explore three available styles, and discover how to introduce this activity to your aging companion.',
+    excerpt: 'How snuffle mats provide mental stimulation for senior dogs. Explore three styles and learn how to introduce this enriching activity.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-08',
     readTime: '5 min read',
@@ -1607,7 +1607,7 @@ At LoyalBond, our Interactive Dog Snuffle Mat Set is designed with senior dog ne
   {
     slug: 'building-complete-home-safety-setup-aging-dogs',
     title: 'Building a Complete Home Safety Setup for Aging Dogs',
-    excerpt: 'Create a comprehensive home safety environment for your senior dog with six essential products. Learn how to build a cohesive system for mobility, comfort, and daily care.',
+    excerpt: 'Build a senior-dog-safe home with six essential products covering mobility, comfort, and daily care for your aging companion.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-08',
     readTime: '7 min read',
@@ -1747,7 +1747,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
   {
     slug: 'post-bath-care-senior-dogs-quick-dry-towel-guide',
     title: 'Post-Bath Care for Senior Dogs: Quick-Dry Towel Guide',
-    excerpt: 'Learn best practices for drying and caring for your senior dog after bath time, including why quick-dry coral fleece towels are ideal and how to make the experience comfortable.',
+    excerpt: 'Best practices for drying your senior dog after baths. Learn why quick-dry coral fleece towels are ideal and how to make bath time comfortable.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-08',
     readTime: '4 min read',
@@ -1882,7 +1882,7 @@ At LoyalBond, our Pet Quick-Dry Coral Fleece Towel is designed with senior dog c
   {
     slug: 'what-pet-stores-need-know-stocking-senior-dog-products',
     title: 'What Pet Stores Need to Know About Stocking Senior Dog Products',
-    excerpt: 'A guide for pet store owners on selecting and stocking senior dog products. Covers market trends, product selection, MOQ requirements, and wholesale opportunities.',
+    excerpt: 'Guide for pet store owners on stocking senior dog products. Market trends, product selection, MOQ requirements, and wholesale opportunities.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-08',
     readTime: '6 min read',
@@ -2026,7 +2026,7 @@ For wholesale inquiries, contact us via email at sales@loyalbondpet.com or Whats
   {
     slug: 'how-folding-pet-stairs-help-senior-dogs',
     title: 'How Folding Pet Stairs Help Senior Dogs Access Beds & Sofas Safely',
-    excerpt: 'Discover how folding pet stairs give aging dogs independent access to furniture, reduce joint strain, and fold away for storage. A practical guide for senior dog owners.',
+    excerpt: 'How folding pet stairs give aging dogs independent access to furniture while reducing joint strain. Practical guide for senior dog owners.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-17',
     readTime: '7 min read',
@@ -2166,7 +2166,7 @@ Explore our full Senior Mobility Collection to find more products designed to ke
   {
     slug: 'why-slow-feeder-bowls-matter-dogs',
     title: 'Why Slow Feeder Bowls Matter: A Complete Guide for Dog Owners',
-    excerpt: 'Fast eating can lead to digestive discomfort, choking, and overeating. Discover how slow feeder bowls work, which type is right for your dog, and how to introduce one smoothly.',
+    excerpt: 'Fast eating causes digestive issues and choking. Learn how slow feeder bowls work, which type fits your dog, and how to introduce one.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-19',
     readTime: '8 min read',
@@ -2377,7 +2377,7 @@ Every bowl uses pet-safe, BPA-free materials and is designed with non-slip stabi
   {
     slug: 'dog-rain-boots-complete-guide',
     title: 'Dog Rain Boots: The Complete Guide to Waterproof Paw Protection',
-    excerpt: 'Discover why waterproof silicone dog rain boots are essential for wet-weather walks, how to choose the right size and material, and how to get your dog comfortable wearing boots.',
+    excerpt: 'Why waterproof silicone rain boots are essential for wet-weather walks. Learn sizing, material tips, and how to get your dog comfortable in boots.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-21',
     readTime: '11 min read',
@@ -2580,7 +2580,7 @@ Give your dog the comfort and protection they deserve on every wet-weather adven
   {
     slug: 'elevated-dog-bowls-complete-guide',
     title: 'Elevated Dog Bowls: Are They Right for Your Dog? A Complete Guide',
-    excerpt: 'Learn the benefits of elevated dog bowls, how height affects digestion and joint comfort, and how to choose the perfect adjustable feeding station for your pup.',
+    excerpt: 'Benefits of elevated dog bowls for digestion and joint comfort. Learn how to choose the right adjustable feeding station for your dog.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-26',
     readTime: '8 min read',
@@ -2705,7 +2705,7 @@ Elevated dog bowls are a simple change that can make a big difference in your do
   {
     slug: 'dog-arthritis-care-guide',
     title: 'Helping Your Dog with Arthritis: A Complete Care Guide',
-    excerpt: 'Arthritis affects 1 in 5 dogs. Learn how to spot the signs, what you can do at home, and which mobility aids and bedding choices make the biggest difference.',
+    excerpt: 'Arthritis affects 1 in 5 dogs. Learn to spot signs, home care tips, and which mobility aids and bedding make the biggest difference.',
     author: 'LOYALBOND PET COCO WU',
     date: '2026-08-26',
     readTime: '10 min read',

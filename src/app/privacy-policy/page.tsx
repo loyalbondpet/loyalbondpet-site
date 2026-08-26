@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Data Protection & GDPR',
-  description: 'LoyalBond privacy policy. We respect your privacy and protect your personal data. GDPR-compliant. Learn how we collect, use, and safeguard your information.',
+  description: 'LoyalBond privacy policy. Learn how we collect, use, and protect your personal data. GDPR-compliant.',
 };
 
 export default function PrivacyPolicyPage() {

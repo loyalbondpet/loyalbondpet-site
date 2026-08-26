@@ -4,7 +4,7 @@ import { collections } from '@/lib/data/products';
 
 export const metadata: Metadata = {
   title: 'All Collections | LoyalBond',
-  description: 'Browse our 6 life scenario collections designed for senior dogs. Shop Home Safety, Feeding Aids, Travel & Car, Grooming & Bath, Oral Care, and Seasonal essentials.',
+  description: 'Shop 6 senior dog collections: Home Safety, Feeding Aids, Travel, Grooming, Oral Care, and Seasonal essentials for aging pets.',
 };
 
 export default function CollectionsPage() {

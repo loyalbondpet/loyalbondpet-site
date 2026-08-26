@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'FAQ - Wholesale Ordering & Product Information',
   description:
-    'Answers to common questions about wholesale ordering, shipping, product categories, and compliance. LoyalBond serves independent pet stores, vet clinics, boarding facilities, and rescue organizations.',
+    'FAQ about LoyalBond wholesale orders, shipping, products, and compliance. Serving pet stores, vet clinics, and rescue organizations.',
   openGraph: {
     title: 'FAQ - Wholesale Ordering & Product Information | LoyalBond',
     description:

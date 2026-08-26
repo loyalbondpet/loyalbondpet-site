@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Terms of Service - E-Commerce Terms & Conditions',
-  description: 'LoyalBond terms of service. Read our terms and conditions for using our website, purchasing products, and our policies on warranties, liability, and disputes.',
+  description: 'LoyalBond terms of service. Read our terms for website use, purchases, warranties, liability, and dispute policies.',
 };
 
 export default function TermsOfServicePage() {

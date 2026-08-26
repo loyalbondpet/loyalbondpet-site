@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About Us - Our Story & Mission',
-  description: 'Learn about LoyalBond, founded by pet lovers who understand the bond between humans and their aging pets. Our mission: quality, safety, and compassion for every pet.',
+  description: 'LoyalBond creates safe, non-toxic functional products for senior dogs. Founded by pet lovers who understand the bond with aging companions.',
   openGraph: {
     title: 'About Us - LoyalBond',
     description: 'Founded by pet lovers. Driven by compassion. Creating safe, quality products for senior dogs and beyond.',

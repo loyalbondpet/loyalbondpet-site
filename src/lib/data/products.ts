@@ -55,7 +55,7 @@ The sling uses a dual-ring design — two soft coral fleece rings wrap gently ar
 The coral fleece lining is soft against your dog's skin and prevents chafing from the webbing edges. The 2cm-wide nylon webbing is strong and durable while remaining flexible enough to adjust to different body shapes. Adjustable slider buckles on both sides let you fine-tune the strap length (40–70cm range) to fit your dog comfortably.
 
 At just 48g, this sling adds virtually no burden to dogs with low stamina. The one-size adjustable design accommodates a wide range of breeds — from small terriers to medium and large dogs — eliminating the need to guess sizing. Available in Orange and Black.`,
-    shortDescription: 'Ultra-lightweight (48g) hind leg support sling with soft coral fleece rings and adjustable webbing straps. One-size adjustable fit (40–70cm). Coral fleece lining prevents chafing. Available in Orange and Black.',
+    shortDescription: 'Ultra-lightweight 48g hind leg support sling with soft coral fleece lining and adjustable straps. One-size fits 40–70cm. Supports rear mobility. and Black.',
     collection: 'Travel & Car',
     collectionSlug: 'travel-car',
     images: [
@@ -120,7 +120,7 @@ Style 1: Bone-Shaped Cloud Mat — 5 functional zones including cylindrical trea
 Style 2: Plum Blossom Mat (60cm × 60cm) — Symmetrical round design with no sharp corners, safe for dogs with slower reactions. Six variable-size round holes plus a central flower sniffing area deliver balanced, moderate difficulty. Compact 60cm size fits beside dog beds for easy access.
 
 Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm) — Large format for big senior dogs and multi-pet households. Decorative carrot and butterfly design doubles as home décor. Gradient-difficulty fold zones allow adjustable training intensity.`,
-    shortDescription: '3-style interactive snuffle mat series with multiple treat-hiding zones. Slow-feeding design promotes healthy eating pace. Soft fleece construction, anti-slip bottom, machine washable. Ideal for senior dogs, all breeds, and multi-pet homes.',
+    shortDescription: 'Interactive snuffle mat series with treat-hiding zones for slow feeding. Soft fleece, anti-slip bottom, machine washable. For senior dogs and cats.r dogs, all breeds, and multi-pet homes.',
     collection: 'Feeding Aids',
     collectionSlug: 'feeding-aids',
     images: [
@@ -197,7 +197,7 @@ Anti-slip bottom keeps the bed stable on slippery tile, vinyl and wooden floors,
 Designed for senior dogs, older pets and dogs experiencing mobility challenges.
 
 Available in multiple sizes and colors to match your home decor.`,
-    shortDescription: 'Supportive orthopedic bolster dog bed engineered for aging dogs. Low entry design avoids hard jumping; surrounding rim offers neck support and blocks cold air drafts. Removable washable cover & anti-slip base perfect for tile and hardwood floors.',
+    shortDescription: 'Orthopedic bolster dog bed for aging dogs. Low-entry design, supportive rim for neck comfort, removable washable cover, anti-slip bottom. 3 sizes.lip base perfect for tile and hardwood floors.',
     collection: 'Home Safety',
     collectionSlug: 'home-safety',
     images: [
@@ -263,7 +263,7 @@ The outer shell is made from durable Oxford fabric that holds its shape under lo
 A padded top handle gives you extra control when you need to lift or steady your dog. The shoulder straps feature smooth-adjusting buckles so you can quickly set the right height for your body and your dog's size.
 
 Available in four colors — Pink, Blue, Navy, and Black — and folds flat into the included storage bag for easy transport.`,
-    shortDescription: 'Shoulder-sling support harness with Oxford fabric shell and breathable air mesh lining. Reflective webbing, padded handle, and adjustable straps. Folds into included storage bag. Available in 4 colors.',
+    shortDescription: 'Shoulder-sling support harness with Oxford shell, breathable mesh lining, reflective straps, and padded handle. Folds into storage bag. 4 sizes..',
     collection: 'Travel & Car',
     collectionSlug: 'travel-car',
     images: [
@@ -316,7 +316,7 @@ Available in four colors — Pink, Blue, Navy, and Black — and folds flat into
 Each set includes two stainless steel bowls: one maze-pattern slow feeder that encourages paced eating for better digestive comfort, and one open bowl for water or regular food. Both bowls lift out effortlessly for quick cleaning.
 
 The ABS frame features a foldable, trapezoidal design with non-slip pads that keep the feeder stable during meals while protecting floors. The entire unit weighs 1.25 kg and folds flat for storage or travel. Available in Black or Grey.`,
-    shortDescription: '5-height adjustable elevated dog bowl (3.3–13.6 in) with dual stainless steel bowls — one slow feeder maze bowl and one water/food bowl. Foldable ABS frame, non-slip base, easy-clean removable bowls. Black or Grey.',
+    shortDescription: '5-height adjustable elevated dog bowl with dual stainless steel bowls — slow feeder maze and water bowl. Foldable frame, non-slip base, easy clean. Black or Grey.',
     collection: 'Feeding Aids',
     collectionSlug: 'feeding-aids',
     images: [
@@ -373,7 +373,7 @@ A built-in storage compartment under the top step opens to hold toys, treats, le
 The dark grey fabric cover is removable and machine washable for easy maintenance. At only 3.6 kg, the stairs are light enough to move between rooms yet solid enough for daily use.
 
 No assembly required — unfold and ready to use.`,
-    shortDescription: '3-tier folding pet stairs with built-in storage for small dogs and cats. Sturdy board-and-fabric construction supports confident climbing on sofas and low beds up to 32cm. Anti-slip steps, folds flat for storage, removable washable cover.',
+    shortDescription: '3-tier folding pet stairs with built-in storage for small dogs and cats. Supports climbing up to 32cm, anti-slip steps, folds flat for storage. for storage, removable washable cover.',
     collection: 'Home Safety',
     collectionSlug: 'home-safety',
     images: [
@@ -431,7 +431,7 @@ The premium snowflake-patterned surface is soft yet highly elastic, providing a 
 Cleaning is effortless — simply wipe with a damp cloth or rinse under running water. The mat dries quickly and maintains its shape without deformation after repeated washing. When not in use, it folds flat for compact storage or travel.
 
 Lightweight and versatile, use it anywhere your pet rests: on hardwood floors, tile, inside crates, on sofas, car seats, or outdoor patios. Available in three sizes to accommodate cats, small dogs, and medium breeds.`,
-    shortDescription: 'Self-cooling gel pet mat with snowflake pattern. Pressure-activated cooling — no water, electricity or refrigeration needed. Scratch-resistant, waterproof, folds flat. 3 sizes for cats and small to medium dogs.',
+    shortDescription: 'Self-cooling gel pet mat with pressure-activated cooling — no water or electricity needed. Scratch-resistant, waterproof, folds flat. 3 sizes.dium dogs.',
     collection: 'Seasonal',
     collectionSlug: 'seasonal',
     images: [
@@ -491,7 +491,7 @@ The interior is designed with a central raised dome surrounded by radiating fin 
 The wide-mouth, elevated rim design gives pets comfortable access to every corner without straining their neck, while the bowl depth of 4.5 cm keeps kibble contained and reduces spills. The smooth, food-safe surface is easy to wipe or rinse clean after each meal.
 Crafted from durable, BPA-free plastic with a non-slip, wide star-shaped base that stays firmly in place on tile, hardwood, and laminate floors — even during enthusiastic meals. The stackable design makes storage simple when multiple bowls are in use.
 Available in five modern colors to match any home décor: Pink, Teal, Mint Green, Grey, and Black. Suitable for both dogs and cats of small to medium size.`,
-    shortDescription: 'Anti-choke slow feeder bowl with maze pattern that extends mealtime from ~5 to ~20 minutes. BPA-free plastic, non-slip star base, wide mouth, easy to clean. 5 colors, suitable for dogs and cats.',
+    shortDescription: 'Anti-choke slow feeder bowl extends mealtime from 5 to 20 minutes. BPA-free, non-slip base, easy clean. 5 colors for dogs and cats.',
     collection: 'Feeding Aids',
     collectionSlug: 'feeding-aids',
     images: [
@@ -550,7 +550,7 @@ Each set includes four boots in a matching color with adjustable hook-and-loop s
 From tiny teacup breeds to medium and large dogs, five sizes are available based on your pet's body weight. Choose from six vibrant colors — Dark Blue, Light Blue, Red, Orange, Light Pink, and Light Green — to match your dog's style. After a muddy walk, simply rinse the boots under running water and they're ready for the next outing.
 
 Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and keeping floors clean after outdoor play. Suitable for small to large dogs.`,
-    shortDescription: 'Waterproof silicone dog rain boots with non-slip sole and adjustable straps. 5 sizes (XS-XL), 6 colors. Set of 4. Keeps paws dry, clean, and protected in rain, snow, and mud.',
+    shortDescription: 'Waterproof silicone dog rain boots with non-slip sole and adjustable straps. 5 sizes, 6 colors. Set of 4. Keeps paws dry in rain, snow, and mud.',
     collection: 'Travel & Car',
     collectionSlug: 'travel-car',
     images: [
@@ -612,7 +612,7 @@ export const collections = [
     slug: 'home-safety',
     name: 'Home Safety',
     title: 'Home Safety',
-    description: 'Transform your home into a safe haven for your senior pet. Orthopedic beds, pet stairs, and lift aids help prevent accidents and support comfortable living for aging companions.',
+    description: 'Senior pet home safety essentials — orthopedic beds, pet stairs, and lift aids to prevent accidents and support comfortable aging-in-place.',
     priceRange: '$12.99 – $59.99',
     image: '/collections/home-safety.jpg',
     icon: 'home',
@@ -622,7 +622,7 @@ export const collections = [
     slug: 'feeding-aids',
     name: 'Feeding Aids',
     title: 'Feeding Aids',
-    description: 'Make mealtime comfortable with slow feeders, snuffle mats, and feeding accessories designed for senior dogs with limited mobility or changing nutritional needs.',
+    description: 'Comfortable mealtime solutions — slow feeders, snuffle mats, and feeding accessories for senior dogs with limited mobility.',
     priceRange: '$3.50 – $5.50',
     image: '/collections/feeding-aids.jpg',
     icon: 'feeding',

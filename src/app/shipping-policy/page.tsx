@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Shipping Policy - Delivery Info & Rates',
-  description: 'LoyalBond ships to 7 countries worldwide from China via tracked international logistics. Shipping is calculated at checkout based on package weight and destination. Delivery in 8-15 business days.',
+  description: 'LoyalBond ships to 7 countries with tracked international delivery. Shipping calculated by weight and destination. Delivery in 8-15 business days.',
 };
 
 export default function ShippingPolicyPage() {

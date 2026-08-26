@@ -9,7 +9,7 @@ import NewsletterForm from '@/components/NewsletterForm';
 export const metadata: Metadata = {
   title: 'LoyalBond | Senior Pet Wellness — Care & Mobility Aids',
   description:
-    'Functional comfort products for dogs at every life stage — senior mobility, joint comfort, and daily calm. Thoughtfully designed, non-toxic, and made with care.',
+    'Functional comfort products for dogs at every life stage — senior mobility, joint support, and daily calm. Non-toxic, thoughtfully designed.',
   openGraph: {
     title: 'LoyalBond | Senior Pet Wellness — Care & Mobility Aids',
     description: 'Functional comfort products for dogs at every life stage — from senior care to everyday support. Thoughtfully designed, non-toxic.',
