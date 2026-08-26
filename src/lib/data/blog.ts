@@ -2575,6 +2575,7 @@ Give your dog the comfort and protection they deserve on every wet-weather adven
 
 *Sources: American Veterinary Medical Association (AVMA) cold weather pet safety guidelines; ASPCA cold weather safety tips and de-icer guidance; PetMD winter paw protection recommendations.*
 `
+  },
 
   {
     slug: 'elevated-dog-bowls-complete-guide',
@@ -2895,7 +2896,7 @@ If you suspect your dog has arthritis, start with a vet visit this week. Then bu
 
 *Sources: Canine Arthritis Management (caninearthritis.org); American College of Veterinary Surgeons (ACVS) osteoarthritis resources; Morris Animal Foundation golden retriever lifetime study; PetMD weight management and arthritis guidelines.*
 `
-  },
+  }
 
 ];
 
