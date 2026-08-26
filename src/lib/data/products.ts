@@ -605,69 +605,7 @@ Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and ke
       shipping: 'FOB Shenzhen/Guangdong',
       note: 'FOB tier pricing: XS $1.80/set, S $1.95/set, M $2.10/set, L $2.25/set, XL $2.40/set (10-49 sets); 10% off for 50-99 sets; 15% off for 100-499 sets. Orders of 500+ sets: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Dongguan, Guangdong. Cross-border export ready. OEM/custom packaging and custom colors available.',
     },
-  }];
-
-export const collections = [
-  {
-    slug: 'home-safety',
-    name: 'Home Safety',
-    title: 'Home Safety',
-    description: 'Senior pet home safety essentials — orthopedic beds, pet stairs, and lift aids to prevent accidents and support comfortable aging-in-place.',
-    priceRange: '$12.99 – $59.99',
-    image: '/collections/home-safety.jpg',
-    icon: 'home',
-    emoji: '🏠'
-  },
-  {
-    slug: 'feeding-aids',
-    name: 'Feeding Aids',
-    title: 'Feeding Aids',
-    description: 'Comfortable mealtime solutions — slow feeders, snuffle mats, and feeding accessories for senior dogs with limited mobility.',
-    priceRange: '$3.50 – $5.50',
-    image: '/collections/feeding-aids.jpg',
-    icon: 'feeding',
-    emoji: '🍽️'
-  },
-  {
-    slug: 'travel-car',
-    name: 'Travel & Car',
-    title: 'Travel & Car',
-    description: 'Make every journey comfortable for your senior dog. Supportive harnesses and non-slip paw covers for safe, comfortable travel with aging pets.',
-    priceRange: '$3.50 – $8.50',
-    image: '/collections/travel-car.jpg',
-    icon: 'travel',
-    emoji: '🚗'
-  },
-  {
-    slug: 'grooming-bath',
-    name: 'Grooming & Bath',
-    title: 'Grooming & Bath',
-    description: 'Paw cleaners and grooming essentials for quick, stress-free cleanups. Keep your pet fresh and your home spotless after every walk.',
-    priceRange: '$9.99 - $12.99',
-    image: '/collections/grooming-bath.jpg',
-    icon: 'grooming',
-    emoji: '🛁'
-  },
-  {
-    slug: 'oral-care',
-    name: 'Oral Care',
-    title: 'Oral Care',
-    description: 'Coming soon — oral care products specially selected for senior dogs. Maintaining dental comfort is an important part of overall well-being.',
-    priceRange: 'Coming Soon',
-    image: '/collections/oral-care.jpg',
-    icon: 'oral',
-    emoji: '🦷'
-  },
-  {
-    slug: 'seasonal',
-    name: 'Seasonal',
-    title: 'Seasonal',
-    description: 'Seasonal comfort essentials for senior dogs. Supportive accessories for summer heat and winter chill — comfort all year round.',
-    priceRange: '$12.99 – $22.99',
-    image: '/collections/seasonal.jpg',
-    icon: 'seasonal',
-    emoji: '❄️'
-  },
+    },
   {
     id: '27',
     slug: 'pet-paw-cleaner-cup',
@@ -734,6 +672,69 @@ Two sizes are available to fit your pet — Small for toy and small breeds, Medi
       shipping: 'FOB Ningbo/Shanghai',
       note: 'FOB tier pricing: Small $0.85/pc, Medium $1.15/pc (10-49 pcs); 10% off for 50-99 pcs; 15% off for 100-499 pcs. Custom labels (+$0.03/pc, MOQ 10) and carton marks available. Orders of 500+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Pingyang, Zhejiang. Cross-border export ready.',
     },
+  }
+];
+
+export const collections = [
+  {
+    slug: 'home-safety',
+    name: 'Home Safety',
+    title: 'Home Safety',
+    description: 'Senior pet home safety essentials — orthopedic beds, pet stairs, and lift aids to prevent accidents and support comfortable aging-in-place.',
+    priceRange: '$12.99 – $59.99',
+    image: '/collections/home-safety.jpg',
+    icon: 'home',
+    emoji: '🏠'
+  },
+  {
+    slug: 'feeding-aids',
+    name: 'Feeding Aids',
+    title: 'Feeding Aids',
+    description: 'Comfortable mealtime solutions — slow feeders, snuffle mats, and feeding accessories for senior dogs with limited mobility.',
+    priceRange: '$3.50 – $5.50',
+    image: '/collections/feeding-aids.jpg',
+    icon: 'feeding',
+    emoji: '🍽️'
+  },
+  {
+    slug: 'travel-car',
+    name: 'Travel & Car',
+    title: 'Travel & Car',
+    description: 'Make every journey comfortable for your senior dog. Supportive harnesses and non-slip paw covers for safe, comfortable travel with aging pets.',
+    priceRange: '$3.50 – $8.50',
+    image: '/collections/travel-car.jpg',
+    icon: 'travel',
+    emoji: '🚗'
+  },
+  {
+    slug: 'grooming-bath',
+    name: 'Grooming & Bath',
+    title: 'Grooming & Bath',
+    description: 'Paw cleaners and grooming essentials for quick, stress-free cleanups. Keep your pet fresh and your home spotless after every walk.',
+    priceRange: '$9.99 - $12.99',
+    image: '/collections/grooming-bath.jpg',
+    icon: 'grooming',
+    emoji: '🛁'
+  },
+  {
+    slug: 'oral-care',
+    name: 'Oral Care',
+    title: 'Oral Care',
+    description: 'Coming soon — oral care products specially selected for senior dogs. Maintaining dental comfort is an important part of overall well-being.',
+    priceRange: 'Coming Soon',
+    image: '/collections/oral-care.jpg',
+    icon: 'oral',
+    emoji: '🦷'
+  },
+  {
+    slug: 'seasonal',
+    name: 'Seasonal',
+    title: 'Seasonal',
+    description: 'Seasonal comfort essentials for senior dogs. Supportive accessories for summer heat and winter chill — comfort all year round.',
+    priceRange: '$12.99 – $22.99',
+    image: '/collections/seasonal.jpg',
+    icon: 'seasonal',
+    emoji: '❄️'
   }
 ];
 
