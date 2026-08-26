@@ -622,7 +622,7 @@ The inner silicone brush removes completely from the durable PP plastic shell, m
 Lightweight and portable, the Paw Cleaner Cup is perfect for home entryways, travel, camping, beach trips, and post-walk cleanup. It's also gentle enough for cats and small pets who need occasional paw cleaning.
 
 Two sizes are available to fit your pet — Small for toy and small breeds, Medium for small to medium dogs. Available in Blue, Green, and Pink.`,
-    shortDescription: 'Portable silicone pet paw cleaner cup with 360° soft bristles. Add water, twist, and rinse — mud-free paws in seconds. 2 sizes, removable & easy to clean.',
+    shortDescription: 'Silicone paw cleaner cup with 360° soft bristles. Add water, twist, rinse — clean paws in seconds. 2 sizes, removable & easy to clean.',
     collection: 'Grooming & Bath',
     collectionSlug: 'grooming-bath',
     images: [
