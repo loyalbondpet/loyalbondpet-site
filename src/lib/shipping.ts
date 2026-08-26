@@ -93,6 +93,11 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
     L: { weight: 0.30, length: 22, width: 18, height: 5 },
     XL: { weight: 0.32, length: 24, width: 20, height: 5 },
   },
+  // id 27 — Pet Paw Cleaner Cup (individual poly bag + carton)
+  '27': {
+    S: { weight: 0.25, length: 12, width: 12, height: 16 },
+    M: { weight: 0.35, length: 14, width: 14, height: 19 },
+  },
 };
 
 // ─── Country Shipping Methods ────────────────────────────────────────────────

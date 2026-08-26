@@ -642,8 +642,8 @@ export const collections = [
     slug: 'grooming-bath',
     name: 'Grooming & Bath',
     title: 'Grooming & Bath',
-    description: 'Quick-dry towels and gentle coat care accessories for senior dogs. Efficient bath-time essentials for stress-free grooming routines.',
-    priceRange: 'Coming Soon',
+    description: 'Paw cleaners and grooming essentials for quick, stress-free cleanups. Keep your pet fresh and your home spotless after every walk.',
+    priceRange: '$9.99 - $12.99',
     image: '/collections/grooming-bath.jpg',
     icon: 'grooming',
     emoji: '🛁'
@@ -667,10 +667,75 @@ export const collections = [
     image: '/collections/seasonal.jpg',
     icon: 'seasonal',
     emoji: '❄️'
-  }
-];
+  },
+  {
+    id: '27',
+    slug: 'pet-paw-cleaner-cup',
+    name: 'Pet Paw Cleaner Cup',
+    price: 9.99,
+    compareAtPrice: 14.99,
+    priceRange: '$9.99 - $12.99',
+    description: `Keep your floors clean and your dog's paws healthy with the LoyalBond Pet Paw Cleaner Cup — the fast, mess-free way to wash muddy, dirty paws after every walk.
 
-// Cross-sell product recommendations (curated groups)
+Simply add a little water, insert your dog's paw, and gently twist the cup. Soft silicone bristles line the inside, spinning 360 degrees to loosen and lift dirt, mud, sand, and debris from between paw pads and around nails — no bathtub, no towels, no struggle.
+
+The inner silicone brush removes completely from the durable PP plastic shell, making it quick and easy to rinse clean after each use. A snug-fit snap lid keeps water contained and prevents spills, while a built-in hang hole lets you air-dry and store it neatly by the door or in the car.
+
+Lightweight and portable, the Paw Cleaner Cup is perfect for home entryways, travel, camping, beach trips, and post-walk cleanup. It's also gentle enough for cats and small pets who need occasional paw cleaning.
+
+Two sizes are available to fit your pet — Small for toy and small breeds, Medium for small to medium dogs. Available in Blue, Green, and Pink.`,
+    shortDescription: 'Portable silicone pet paw cleaner cup with 360° soft bristles. Add water, twist, and rinse — mud-free paws in seconds. 2 sizes, removable & easy to clean.',
+    collection: 'Grooming & Bath',
+    collectionSlug: 'grooming-bath',
+    images: [
+      '/products/paw-cleaner-01-hero.jpg',
+      '/products/paw-cleaner-02-painpoints.jpg',
+      '/products/paw-cleaner-03-details.jpg',
+      '/products/paw-cleaner-04-features.jpg',
+      '/products/paw-cleaner-05-materials.jpg',
+      '/products/paw-cleaner-06-specs.jpg',
+      '/products/paw-cleaner-07-colors.jpg'],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['S', 'M'],
+    colors: ['Blue', 'Green', 'Pink'],
+    sizeVariants: [
+      { label: 'S', dimensions: 'Small breeds, cats & puppies | 80 x 122 mm', weight: '200 g', price: 9.99 },
+      { label: 'M', dimensions: 'Small to medium dogs | 94 x 155 mm', weight: '300 g', price: 12.99 }],
+    features: [
+      '360° Silicone Bristles — Soft, flexible bristles gently scrub every angle of the paw pad',
+      'Just Add Water & Twist — No soap needed; a quick twist lifts dirt in seconds',
+      'Removable Inner Brush — Detaches from the PP shell for easy rinsing and cleaning',
+      'Snap-Fit Lid — Secure lid prevents spills and keeps water contained during use',
+      'Built-In Hang Hole — Air-dry and store neatly by the door or in your car',
+      '2 Sizes — Small for toy breeds, cats & puppies; Medium for small to medium dogs',
+      '3 Colors — Choose Blue, Green, or Pink',
+      'Portable & Lightweight — Only 200 g (S) / 300 g (M); great for home, travel, and outdoor trips',
+      'Multi-Pet Use — Gentle enough for dogs, cats, and small pets',
+      'Durable Materials — Made from food-grade silicone bristles and sturdy PP plastic'],
+    specifications: {
+      'Material': 'Food-grade silicone bristles + PP plastic shell',
+      'Sizes': 'S / M',
+      'Small': 'Ø 80 x 122 mm | 200 g | For small breeds, cats & puppies',
+      'Medium': 'Ø 94 x 155 mm | 300 g | For small to medium dogs',
+      'Colors': 'Blue / Green / Pink',
+      'Bristle Type': '360° soft silicone nubs',
+      'Lid': 'Snap-fit, removable',
+      'Cleaning': 'Remove inner silicone; rinse with water; air dry',
+      'Suitable For': 'Dogs, cats, and small pets',
+      'Weight (S)': '200 g',
+      'Weight (M)': '300 g',
+    },
+    wholesaleInfo: {
+      moq: '10 pieces (mixed sizes and colors accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Shanghai',
+      note: 'FOB tier pricing: Small $0.85/pc, Medium $1.15/pc (10-49 pcs); 10% off for 50-99 pcs; 15% off for 100-499 pcs. Custom labels (+$0.03/pc, MOQ 10) and carton marks available. Orders of 500+ pcs: contact sales@loyalbondpet.com for custom bulk pricing. Factory-direct from Pingyang, Zhejiang. Cross-border export ready.',
+    },
+  }
+]; (curated groups)
 export const crossSellMap: Record<string, string[]> = {
   // Joint care / mobility group
   'hind-leg-support-harness': ['mesh-support-sling', 'orthopedic-bolster-dog-bed'],
@@ -685,7 +750,9 @@ export const crossSellMap: Record<string, string[]> = {
   'snowflake-cooling-mat': ['orthopedic-bolster-dog-bed'],
   'anti-choke-slow-feeder-bowl': ['elevated-slow-feeder-bowl', 'snuffle-mat-set'],
   // Outdoor / travel group
-  'waterproof-silicone-dog-rain-boots': ['orthopedic-bolster-dog-bed', 'snuffle-mat-set', 'folding-pet-stairs'],
+  'waterproof-silicone-dog-rain-boots': ['pet-paw-cleaner-cup', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
+  // Grooming / paw care group
+  'pet-paw-cleaner-cup': ['waterproof-silicone-dog-rain-boots', 'orthopedic-bolster-dog-bed'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
