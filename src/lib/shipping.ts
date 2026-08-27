@@ -53,12 +53,12 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
     Small: { weight: 0.30, length: 25, width: 18, height: 6 },
     Large: { weight: 0.45, length: 30, width: 22, height: 8 },
   },
-  // id 6 — Mesh Shoulder Sling (folds into storage bag, poly mailer)
+  // id 6 — Fleece-Lined Dog Support Harness (poly mailer)
   '6': {
-    S: { weight: 0.22, length: 22, width: 18, height: 4 },
-    M: { weight: 0.27, length: 24, width: 20, height: 4 },
-    L: { weight: 0.30, length: 26, width: 22, height: 4 },
-    XL: { weight: 0.35, length: 28, width: 24, height: 4 },
+    S: { weight: 0.28, length: 24, width: 16, height: 4 },
+    M: { weight: 0.33, length: 28, width: 19, height: 4 },
+    L: { weight: 0.38, length: 30, width: 22, height: 4 },
+    XL: { weight: 0.43, length: 34, width: 26, height: 4 },
   },
   // id 11 — Orthopedic Bolster Dog Bed (vacuum compressed in carton)
   // ⚠️ Compressed carton dimensions are ESTIMATES — confirm with supplier
