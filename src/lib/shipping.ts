@@ -69,34 +69,34 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
   },
 // id 22 — Elevated Slow Feeder Bowl (folded flat in carton)
   '22': {
-    Default: { weight: 1.35, length: 46, width: 26, height: 8 },
+    Default: { weight: 1.20, length: 44, width: 24, height: 8 },
   },
   // id 23 — Folding Pet Stairs (folded in carton)
   '23': {
-    Default: { weight: 3.80, length: 45, width: 35, height: 13 },
+    Default: { weight: 3.60, length: 42.5, width: 33, height: 11 },
   },
   // id 24 — Snowflake Cooling Mat (flat in poly mailer/carton)
   '24': {
-    S: { weight: 0.95, length: 42, width: 32, height: 3 },
-    M: { weight: 1.50, length: 52, width: 42, height: 3 },
-    L: { weight: 2.30, length: 62, width: 52, height: 3 },
+    S: { weight: 0.85, length: 42, width: 32, height: 3 },
+    M: { weight: 1.40, length: 52, width: 42, height: 3 },
+    L: { weight: 2.20, length: 62, width: 52, height: 3 },
   },
   // id 25 — Anti-Choke Slow Feeder Bowl (in carton)
   '25': {
-    Default: { weight: 0.30, length: 24, width: 24, height: 7 },
+    Default: { weight: 0.145, length: 22.5, width: 18, height: 5 },
   },
   // id 26 — Silicone Dog Rain Boots (in poly bag/carton)
   '26': {
-    XS: { weight: 0.25, length: 18, width: 14, height: 5 },
-    S: { weight: 0.25, length: 18, width: 14, height: 5 },
-    M: { weight: 0.28, length: 20, width: 16, height: 5 },
-    L: { weight: 0.30, length: 22, width: 18, height: 5 },
-    XL: { weight: 0.32, length: 24, width: 20, height: 5 },
+    XS: { weight: 0.20, length: 15, width: 12, height: 4 },
+    S: { weight: 0.25, length: 15, width: 12, height: 4 },
+    M: { weight: 0.28, length: 17, width: 14, height: 4 },
+    L: { weight: 0.30, length: 19, width: 16, height: 4 },
+    XL: { weight: 0.32, length: 21, width: 18, height: 4 },
   },
   // id 27 — Pet Paw Cleaner Cup (individual poly bag + carton)
   '27': {
-    S: { weight: 0.25, length: 12, width: 12, height: 16 },
-    M: { weight: 0.35, length: 14, width: 14, height: 19 },
+    S: { weight: 0.20, length: 12, width: 12, height: 16 },
+    M: { weight: 0.30, length: 14, width: 14, height: 19 },
   },
 };
 
