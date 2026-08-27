@@ -133,23 +133,8 @@ Perfect for puppies, adult dogs, and seniors alike — low-impact sniffing requi
     colors: ['Red', 'Yellow-Green', 'Yellow', 'Orange-Green', 'Green'],
     sizes: ['Small', 'Large'],
     sizeVariants: [
-      {
-        size: 'Small',
-        dimensions: '300g',
-        weight: '300g',
-        price: 12.99,
-        compareAtPrice: 19.99,
-        colors: ['Red', 'Yellow-Green'],
-      },
-      {
-        size: 'Large',
-        dimensions: '440g',
-        weight: '440g',
-        price: 16.99,
-        compareAtPrice: 24.99,
-        colors: ['Yellow', 'Orange-Green', 'Green'],
-      },
-    ],
+      { label: 'Small (Red / Yellow-Green)', dimensions: '300g', weight: '0.30 kg', price: 12.99 },
+      { label: 'Large (Yellow / Orange-Green / Green)', dimensions: '440g', weight: '0.45 kg', price: 16.99 }],
     features: [
       'Flower-Shaped Design — Layered fleece petals create multiple treat-hiding zones',
       'Built-In Squeaker — Adds auditory stimulation and extends playtime',
