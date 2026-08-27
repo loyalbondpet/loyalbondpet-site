@@ -60,19 +60,14 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
     L: { weight: 0.38, length: 30, width: 22, height: 4 },
     XL: { weight: 0.43, length: 34, width: 26, height: 4 },
   },
-  // id 11 — Orthopedic Bolster Dog Bed (vacuum compressed in carton)
-  // ⚠️ Compressed carton dimensions are ESTIMATES — confirm with supplier
-    // id 11 — Gel Memory Foam Dog Sofa Bed (CF3609, Dongyang Kuangchou)
+  // id 11 — Gel Memory Foam Dog Sofa Bed (CF3609, Dongyang Kuangchou)
   '11': {
     S: { weight: 1.0, length: 31, width: 21, height: 12 },
     M: { weight: 2.1, length: 35, width: 25, height: 7 },
     L: { weight: 2.9, length: 35, width: 25, height: 10 },
     XL: { weight: 4.75, length: 35, width: 25, height: 18 },
   },
-    M: { weight: 9.0, length: 65, width: 50, height: 15 },
-    L: { weight: 8.0, length: 75, width: 58, height: 15 },
-  },
-  // id 22 — Elevated Slow Feeder Bowl (folded flat in carton)
+// id 22 — Elevated Slow Feeder Bowl (folded flat in carton)
   '22': {
     Default: { weight: 1.35, length: 46, width: 26, height: 8 },
   },
