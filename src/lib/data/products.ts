@@ -227,7 +227,6 @@ Available in four neutral colors — Light Gray, Dark Gray, Khaki and Beige — 
       'XL Dimensions': '105 x 75 x 20 cm (4.75 kg)',
       'Cover': 'Fully removable, zippered, machine washable',
       'Base': 'Anti-slip dotted fabric bottom',
-      'Item No.': 'CF3609',
       'MOQ': '1 piece',
       'Shipping': 'FOB Ningbo',
     },
@@ -236,7 +235,7 @@ Available in four neutral colors — Light Gray, Dark Gray, Khaki and Beige — 
       leadTime: '3-7 days for stock items',
       payment: 'T/T, PayPal',
       shipping: 'FOB Ningbo',
-      note: 'Supplier: Dongyang Baiyun Kuangchou Pet Products Factory (东阳市白云狂丑宠物用品厂), Zhejiang. Item CF3609. 11-year factory, 99.8% rating. S: 16 pcs/carton (53x40x44cm, 16.9kg); M: 10 pcs/carton (53x40x37cm, 21.9kg); L: 8 pcs/carton (53x40x37cm, 24.1kg); XL: 6 pcs/carton (53x40x37cm, 29.4kg). Contact sales@loyalbondpet.com for volume pricing.',
+      note: 'Supplier: Dongyang Baiyun Kuangchou Pet Products Factory (东阳市白云狂丑宠物用品厂), Zhejiang. 11-year factory, 99.8% rating. S: 16 pcs/carton (53x40x44cm, 16.9kg); M: 10 pcs/carton (53x40x37cm, 21.9kg); L: 8 pcs/carton (53x40x37cm, 24.1kg); XL: 6 pcs/carton (53x40x37cm, 29.4kg). Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
   {
