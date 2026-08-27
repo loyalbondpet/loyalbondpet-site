@@ -167,75 +167,76 @@ Perfect for puppies, adult dogs, and seniors alike — low-impact sniffing requi
   {
     id: '11',
     slug: 'orthopedic-bolster-dog-bed',
-    name: 'Orthopedic Bolster Dog Bed',
+    name: 'Gel Memory Foam Dog Sofa Bed',
     bestSeller: true,
-    price: 49.99,
-    description: `Give your senior dog a comfortable, supportive resting space with the LoyalBond Orthopedic Bolster Dog Bed.
+    price: 39.99,
+    compareAtPrice: 54.99,
+    priceRange: '$39.99 - $89.99',
+    description: `The LoyalBond Gel Memory Foam Dog Sofa Bed delivers premium orthopedic comfort for dogs of all sizes and ages.
 
-Built with high-density supportive foam that distributes weight evenly to support comfortable rest.
+The cooling gel-infused memory foam core conforms to your dog's body, relieving pressure points on joints and muscles while regulating temperature for restful sleep.
 
-The low-profile entry allows dogs with weak hind legs, reduced flexibility or limited mobility to climb in effortlessly without jumping or straining.
+A three-sided raised bolster rim provides head, neck and spine support, giving your dog a secure, nest-like feeling. The low-front entry design makes it easy for senior dogs, puppies and pets with mobility issues to step in without jumping.
 
-Raised surrounding bolster creates a cozy resting border for head and neck support. It also shields pets from direct cold airflow from air conditioners, ideal for year-round use.
+The soft plush sleeping surface is gentle on paws and noses, while the durable, scratch-resistant exterior stands up to daily use. A non-slip dotted bottom keeps the bed firmly in place on tile, hardwood and vinyl floors.
 
-Reversible inner mat: Soft plush fleece side for warmth; breathable oxford fabric side for hotter summer days.
-Fully removable outer cover with zipper, machine washable for easy cleanup of fur and stains.
-Durable scratch-resistant exterior fabric for long-term daily use.
-Anti-slip bottom keeps the bed stable on slippery tile, vinyl and wooden floors, preventing slips when your dog stands up.
+The zippered outer cover is fully removable and machine washable, making cleanup of fur, dirt and accidents quick and hassle-free.
 
-Designed for senior dogs, older pets and dogs experiencing mobility challenges.
-
-Available in multiple sizes and colors to match your home decor.`,
-    shortDescription: 'Orthopedic bolster dog bed for aging dogs. Low-entry design, supportive rim for neck comfort, removable washable cover, anti-slip bottom. 3 sizes.lip base perfect for tile and hardwood floors.',
+Available in four neutral colors — Light Gray, Dark Gray, Khaki and Beige — to complement any home decor. Four sizes from S to XL fit small breeds through extra-large dogs.`,
+    shortDescription: 'Gel memory foam dog sofa bed with cooling gel layer, 3-sided bolster support, removable washable cover and anti-slip bottom. 4 sizes, 4 colors.',
     collection: 'Home Safety',
     collectionSlug: 'home-safety',
     images: [
-      '/images/products/orthopedic-bed/01-main.jpg',
-      '/images/products/orthopedic-bed/02-lifestyle.jpg',
-      '/images/products/orthopedic-bed/03-bolster-detail.jpg',
-      '/images/products/orthopedic-bed/04-removable-cover.jpg',
-      '/images/products/orthopedic-bed/05-dog-on-bed.jpg',
-      '/images/products/orthopedic-bed/06-color-peacock-blue.jpg',
-      '/images/products/orthopedic-bed/07-size-chart.jpg'],
+      '/products/dog-bed-01.jpg',
+      '/products/dog-bed-02.jpg',
+      '/products/dog-bed-03.jpg',
+      '/products/dog-bed-04.jpg',
+      '/products/dog-bed-05.jpg',
+      '/products/dog-bed-06.jpg',
+      '/products/dog-bed-07.jpg',
+      '/products/dog-bed-08.jpg'],
     rating: 4.8,
     reviewCount: 0,
     badge: 'New Arrival',
+    sizes: ['S', 'M', 'L', 'XL'],
     sizeVariants: [
-      { label: 'S', dimensions: '60 x 47 x 17 cm', weight: '4.00 kg', price: 39.99 },
-      { label: 'M', dimensions: '73 x 57 x 18 cm', weight: '9.00 kg', price: 49.99 },
-      { label: 'L', dimensions: '92 x 72 x 19 cm', weight: '8.00 kg', price: 59.99 }],
+      { label: 'S', dimensions: '50 x 40 x 12 cm', weight: '1.00 kg', price: 39.99 },
+      { label: 'M', dimensions: '75 x 50 x 16 cm', weight: '2.10 kg', price: 54.99 },
+      { label: 'L', dimensions: '90 x 65 x 16 cm', weight: '2.90 kg', price: 69.99 },
+      { label: 'XL', dimensions: '105 x 75 x 20 cm', weight: '4.75 kg', price: 89.99 }],
     colorOptions: [
-      { name: 'Dark Gray', hex: '#4A4A4A', image: '/images/products/orthopedic-bed/01-main.jpg' },
-      { name: 'Denim Blue', hex: '#5B7FA5', image: '/images/products/orthopedic-bed/01-main.jpg' },
-      { name: 'Navy Blue', hex: '#1B2A4A', image: '/images/products/orthopedic-bed/01-main.jpg' },
-      { name: 'Olive Green', hex: '#6B7F3A', image: '/images/products/orthopedic-bed/01-main.jpg' },
-      { name: 'Peacock Blue', hex: '#006D77', image: '/images/products/orthopedic-bed/06-color-peacock-blue.jpg' },
-      { name: 'Yellow', hex: '#E8B931', image: '/images/products/orthopedic-bed/01-main.jpg' }],
+      { name: 'Light Gray', hex: '#B8B8B8', image: '/products/dog-bed-01.jpg' },
+      { name: 'Dark Gray', hex: '#5A5A5A', image: '/products/dog-bed-01.jpg' },
+      { name: 'Khaki', hex: '#C3B091', image: '/products/dog-bed-01.jpg' },
+      { name: 'Beige', hex: '#E8DCC8', image: '/products/dog-bed-01.jpg' }],
     features: [
-      'High-density orthopedic foam for balanced weight distribution & everyday support',
-      'Low entry access for senior dogs with limited mobility',
-      'Surround bolster rim for neck support & wind protection',
-      'Dual-sided reversible mattress for all seasons',
-      'Zippered removable washable cover',
-      'Non-slip base prevents sliding on smooth flooring'],
+      'Gel-Infused Memory Foam — Cooling comfort that relieves joint pressure',
+      '3-Sided Bolster Rim — Head, neck and spine support with a secure nest feel',
+      'Low-Front Entry — Easy access for seniors, puppies and mobility-impaired dogs',
+      'Removable Washable Cover — Zippered design for quick machine washing',
+      'Non-Slip Dotted Bottom — Stays put on tile, hardwood and vinyl floors',
+      'Durable Scratch-Resistant Exterior — Built for long-term daily use',
+      '4 Sizes & 4 Colors — S to XL in Light Gray, Dark Gray, Khaki and Beige'],
     specifications: {
-      'Material': 'High-density supportive foam + Oxford fabric exterior',
-      'Inner Mat': 'Dual-sided (plush fleece + breathable oxford)',
+      'Material': 'Gel memory foam core + plush fleece top + oxford fabric sides',
+      'Colors': 'Light Gray, Dark Gray, Khaki, Beige',
+      'Sizes': 'S, M, L, XL',
+      'S Dimensions': '50 x 40 x 12 cm (1.0 kg)',
+      'M Dimensions': '75 x 50 x 16 cm (2.1 kg)',
+      'L Dimensions': '90 x 65 x 16 cm (2.9 kg)',
+      'XL Dimensions': '105 x 75 x 20 cm (4.75 kg)',
       'Cover': 'Fully removable, zippered, machine washable',
-      'Base': 'Anti-slip fabric bottom',
-      'Design': 'Low entry with raised bolster rim',
-      'Target': 'Senior dogs, older pets, dogs with limited mobility',
-      'MOQ': '50 pieces (mixed sizes/colors accepted)',
-      'Lead Time': '25-35 days after order confirmation',
-      'Payment': 'T/T 50% deposit, 50% before shipment',
+      'Base': 'Anti-slip dotted fabric bottom',
+      'Item No.': 'CF3609',
+      'MOQ': '1 piece',
       'Shipping': 'FOB Ningbo',
     },
     wholesaleInfo: {
-      moq: '50 pieces (mixed sizes/colors accepted)',
-      leadTime: '25-35 days after order confirmation',
-      payment: 'T/T 50% deposit, 50% before shipment',
+      moq: '1 piece',
+      leadTime: '3-7 days for stock items',
+      payment: 'T/T, PayPal',
       shipping: 'FOB Ningbo',
-      note: 'Supplier: Nantong Shule Sponge Products Co., Ltd. (南通舒乐海绵制品, Jiangsu). Specialized in sponge/foam products. Purchase price: TBD (requires inquiry). 10-piece MOQ. Part of our consolidated 3-factory sourcing plan (Foam Factory group). Contact sales@loyalbondpet.com for volume pricing.',
+      note: 'Supplier: Dongyang Baiyun Kuangchou Pet Products Factory (东阳市白云狂丑宠物用品厂), Zhejiang. Item CF3609. 11-year factory, 99.8% rating. S: 16 pcs/carton (53x40x44cm, 16.9kg); M: 10 pcs/carton (53x40x37cm, 21.9kg); L: 8 pcs/carton (53x40x37cm, 24.1kg); XL: 6 pcs/carton (53x40x37cm, 29.4kg). Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
   {

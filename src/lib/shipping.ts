@@ -46,7 +46,7 @@ export interface ShippingQuote {
 const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
   // id 2 — Hind Leg Support Harness (poly mailer)
   '2': {
-    Default: { weight: 0.08, length: 20, width: 15, height: 3 },
+    Default: { weight: 0.10, length: 20, width: 15, height: 3 },
   },
   // id 3 — Flower Snuffle Mat (folded/rolled in poly mailer)
   '3': {
@@ -62,9 +62,13 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
   },
   // id 11 — Orthopedic Bolster Dog Bed (vacuum compressed in carton)
   // ⚠️ Compressed carton dimensions are ESTIMATES — confirm with supplier
-  // ⚠️ M weight 9.0kg from products.ts seems anomalous (S=4, M=9, L=8)
+    // id 11 — Gel Memory Foam Dog Sofa Bed (CF3609, Dongyang Kuangchou)
   '11': {
-    S: { weight: 4.0, length: 55, width: 42, height: 15 },
+    S: { weight: 1.0, length: 31, width: 21, height: 12 },
+    M: { weight: 2.1, length: 35, width: 25, height: 7 },
+    L: { weight: 2.9, length: 35, width: 25, height: 10 },
+    XL: { weight: 4.75, length: 35, width: 25, height: 18 },
+  },
     M: { weight: 9.0, length: 65, width: 50, height: 15 },
     L: { weight: 8.0, length: 75, width: 58, height: 15 },
   },
