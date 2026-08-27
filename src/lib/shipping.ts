@@ -48,9 +48,10 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
   '2': {
     Default: { weight: 0.08, length: 20, width: 15, height: 3 },
   },
-  // id 3 — Snuffle Mat (rolled/folded in poly mailer)
+  // id 3 — Flower Snuffle Mat (folded/rolled in poly mailer)
   '3': {
-    Default: { weight: 0.40, length: 30, width: 20, height: 8 },
+    Small: { weight: 0.30, length: 25, width: 18, height: 6 },
+    Large: { weight: 0.45, length: 30, width: 22, height: 8 },
   },
   // id 6 — Mesh Shoulder Sling (folds into storage bag, poly mailer)
   '6': {

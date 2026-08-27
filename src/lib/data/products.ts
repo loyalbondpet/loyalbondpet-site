@@ -102,77 +102,81 @@ At just 48g, this sling adds virtually no burden to dogs with low stamina. The o
   {
     id: '3',
     slug: 'snuffle-mat-set',
-    name: 'Interactive Dog Snuffle Mat Set',
+    name: 'Flower Snuffle Mat for Dogs',
     bestSeller: true,
-    price: 14.99,
-    description: `The LoyalBond Snuffle Mat Series transforms mealtime into an engaging, mentally stimulating experience for dogs of all ages — with features specifically optimized for senior and mobility-limited pets.
+    price: 12.99,
+    compareAtPrice: 19.99,
+    priceRange: '$12.99 - $16.99',
+    description: `The LoyalBond Flower Snuffle Mat turns mealtime into a rewarding foraging adventure. Designed in a playful flower shape with layered petals, this interactive mat encourages your dog's natural sniffing instincts while slowing down fast eaters.
 
-Each mat features multiple independent foraging zones where you can hide kibble and treats, tapping into your dog's natural sniffing and foraging instincts. This engaging activity slows down eating pace, promotes healthier digestion, and provides meaningful mental exercise without requiring running, jumping, or strenuous physical activity.
+Hide kibble or treats among the soft fleece petals and watch your dog sniff, nudge, and explore — providing valuable mental stimulation that reduces boredom, anxiety, and destructive behavior. Just 10 minutes of sniffing can equal the mental exercise of a 30-minute walk.
 
-The mats are crafted from soft, thick fleece fabric that's gentle on paw pads and comfortable for extended sniffing sessions. High-density reinforced construction resists biting and tearing, while the anti-slip bottom layer with raised plastic dots keeps the mat firmly in place on wooden and tile floors.
+Available in two sizes and five vibrant colors, each mat features a built-in squeaker for extra engagement, a non-slip bottom to stay securely in place, and durable stitching that withstands daily use. The soft fleece fabric is gentle on noses and paws, and the entire mat is machine washable for easy cleaning.
 
-The entire mat is machine washable and maintains its shape after repeated cleaning. Odor-conscious dyeing ensures a pleasant experience for sensitive noses.
-
-Available in 3 Styles:
-
-Style 1: Bone-Shaped Cloud Mat — 5 functional zones including cylindrical treat pockets, honeycomb flower sniffing area, crescent fold zone, block tug zone, and paw-print feeding zone. Deep cylindrical pockets extend foraging time for patient senior dogs.
-
-Style 2: Plum Blossom Mat (60cm × 60cm) — Symmetrical round design with no sharp corners, safe for dogs with slower reactions. Six variable-size round holes plus a central flower sniffing area deliver balanced, moderate difficulty. Compact 60cm size fits beside dog beds for easy access.
-
-Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm) — Large format for big senior dogs and multi-pet households. Decorative carrot and butterfly design doubles as home décor. Gradient-difficulty fold zones allow adjustable training intensity.`,
-    shortDescription: 'Interactive snuffle mat series with treat-hiding zones for slow feeding. Soft fleece, anti-slip bottom, machine washable. For senior dogs and cats.r dogs, all breeds, and multi-pet homes.',
+Perfect for puppies, adult dogs, and seniors alike — low-impact sniffing requires no running or jumping, making it ideal for older or mobility-limited pets.`,
+    shortDescription: 'Flower-shaped interactive snuffle mat with treat-hiding petals. Built-in squeaker, non-slip bottom, machine washable. 2 sizes, 5 colors. Mental enrichment for all dogs.',
     collection: 'Feeding Aids',
     collectionSlug: 'feeding-aids',
     images: [
-      '/images/products/snuffle-mat-new/01-main-product.jpg',
-      '/images/products/snuffle-mat-new/02-size-bone-62x42.jpg',
-      '/images/products/snuffle-mat-new/03-size-plum-60x60.jpg',
-      '/images/products/snuffle-mat-new/04-size-rect-80x48.jpg',
-      '/images/products/snuffle-mat-new/05-easy-clean.jpg',
-      '/images/products/snuffle-mat-new/06-soft-fleece.jpg',
-      '/images/products/snuffle-mat-new/07-anti-slip.jpg',
-      '/images/products/snuffle-mat-new/08-craftsmanship.jpg',
-      '/images/products/snuffle-mat-new/09-10min-sniffing.jpg',
-      '/images/products/snuffle-mat-new/10-10min-exercise.jpg',
-      '/images/products/snuffle-mat-new/11-how-to-use.jpg',
-      '/images/products/snuffle-mat-new/12-never-lonely.jpg',
-      '/images/products/snuffle-mat-new/13-burn-energy.jpg',
-      '/images/products/snuffle-mat-new/14-are-you-worried.jpg',
-      '/images/products/snuffle-mat-new/15-slows-down-eating.jpg',
-      '/images/products/snuffle-mat-new/16-walk-at-home.jpg'],
+      '/products/snuffle-mat-01.jpg',
+      '/products/snuffle-mat-02.jpg',
+      '/products/snuffle-mat-03.jpg',
+      '/products/snuffle-mat-04.jpg',
+      '/products/snuffle-mat-05.jpg',
+      '/products/snuffle-mat-06.jpg',
+      '/products/snuffle-mat-07.jpg',
+      '/products/snuffle-mat-08.jpg',
+      '/products/snuffle-mat-09.jpg'],
     rating: 0,
     reviewCount: 0,
     badge: 'New Arrival',
-    sizes: [
-      'Style 1: Bone-Shaped Cloud Mat',
-      'Style 2: Plum Blossom Mat (60cm × 60cm)',
-      'Style 3: Rectangular Carrot & Butterfly Mat (80cm × 48cm)'],
+    colors: ['Red', 'Yellow-Green', 'Yellow', 'Orange-Green', 'Green'],
+    sizes: ['Small', 'Large'],
+    sizeVariants: [
+      {
+        size: 'Small',
+        dimensions: '300g',
+        weight: '300g',
+        price: 12.99,
+        compareAtPrice: 19.99,
+        colors: ['Red', 'Yellow-Green'],
+      },
+      {
+        size: 'Large',
+        dimensions: '440g',
+        weight: '440g',
+        price: 16.99,
+        compareAtPrice: 24.99,
+        colors: ['Yellow', 'Orange-Green', 'Green'],
+      },
+    ],
     features: [
-      'Multi-Zone Foraging Design — Multiple independent treat-hiding areas in one mat',
-      'Slow-Feeding Function — Extends mealtime naturally',
-      'Low-Intensity Mental Exercise — No running or jumping required',
-      'Soft Thick Fleece Fabric — Gentle on paws and comfortable',
-      'Anti-Slip Bottom — Raised plastic dot base',
-      'Machine Washable — Easy to clean and maintain',
-      '3 Style Options — Bone-shaped, Plum Blossom, Rectangular'],
+      'Flower-Shaped Design — Layered fleece petals create multiple treat-hiding zones',
+      'Built-In Squeaker — Adds auditory stimulation and extends playtime',
+      'Slow Feeding — Encourages natural foraging and reduces gulping',
+      'Mental Enrichment — 10 min sniffing ≈ 30 min walk in mental exercise',
+      'Non-Slip Bottom — Raised plastic dots keep the mat securely in place',
+      'Machine Washable — Easy to clean, maintains shape after repeated washes',
+      '2 Sizes & 5 Colors — Small (Red, Yellow-Green) and Large (Yellow, Orange-Green, Green)',
+      'All Breeds — Low-impact activity suitable for puppies, adults, and seniors'],
     specifications: {
-      'Material': 'Soft thick fleece fabric with raised plastic dot anti-slip base',
-      'Style 1': 'Bone-Shaped Cloud Mat — 5 functional zones',
-      'Style 2': 'Plum Blossom Mat — 60cm × 60cm, symmetrical round design',
-      'Style 3': 'Rectangular Carrot & Butterfly Mat — 80cm × 48cm',
+      'Material': 'Soft polar fleece with non-slip plastic dot base',
+      'Small Weight': '300g (Red, Yellow-Green)',
+      'Large Weight': '440g (Yellow, Orange-Green, Green)',
+      'Feature': 'Built-in squeaker',
       'Washable': 'Yes, machine washable',
-      'Anti-Slip': 'Raised plastic dot bottom layer',
-      'MOQ': '50 pieces (mixed styles/colors accepted)',
-      'Lead Time': '25-35 days after order confirmation',
-      'Payment': 'T/T 50% deposit, 50% before shipment',
+      'Anti-Slip': 'Yes, raised plastic dot bottom',
+      'Colors': 'Red, Yellow-Green, Yellow, Orange-Green, Green',
+      'MOQ': '1 piece',
+      'Carton': '40 pieces/carton',
       'Shipping': 'FOB Ningbo',
     },
     wholesaleInfo: {
-      moq: '50 pieces (mixed styles/colors accepted)',
-      leadTime: '25-35 days after order confirmation',
-      payment: 'T/T 50% deposit, 50% before shipment',
+      moq: '1 piece',
+      leadTime: '3-7 days for stock items',
+      payment: 'T/T, PayPal',
       shipping: 'FOB Ningbo',
-      note: 'Supplier: Hebei Xingtai Felt Products Factory (河北邢台毛毡厂). Purchase price: ¥12.50/piece. 1-piece MOQ for sample. Part of our consolidated 3-factory sourcing plan (Textile Factory group). Contact sales@loyalbondpet.com for volume pricing.',
+      note: 'Supplier: Yiwu Senye Pet Products Co., Ltd. (义乌森烨宠物用品有限公司). 1688: https://detail.1688.com/offer/869532348826.html. Cross-border export qualified. 40 pcs/carton. Contact sales@loyalbondpet.com for volume pricing.',
     },
   },
   {
