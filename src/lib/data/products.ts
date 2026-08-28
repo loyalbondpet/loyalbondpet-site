@@ -747,7 +747,7 @@ The zippered plush cover is removable and washable, so it stays fresh through ex
       shipping: 'FOB Ningbo/Shanghai',
       note: 'Supplier: Pingyang Changbao Crafts Factory (平阳县常宝工艺品厂, Wenzhou, Zhejiang — same factory as id 2, 6 & 27). 1688 price ¥12.50/pc (all sizes) + ¥5 domestic shipping. 2 colors: Gray/Blue (Pink excluded). Sea freight carton: 96 pcs/carton XS/S/M+ (43x51x59cm), 84 pcs/carton M (43x51x59cm), 54 pcs/carton L/XL (47x63x44cm). Stock: Gray 8227 pcs, Blue 7704 pcs. Cross-border export ready. Contact sales@loyalbondpet.com for volume pricing.',
     },
-  }
+  },
 
   {
     id: '29',
