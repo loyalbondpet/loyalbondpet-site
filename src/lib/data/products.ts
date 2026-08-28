@@ -672,7 +672,83 @@ Two sizes are available to fit your pet — Small for toy and small breeds, Medi
       shipping: 'FOB Ningbo/Shanghai',
       note: 'Supplier: Pingyang Changbao Crafts Factory (平阳县常宝工艺品厂, Wenzhou, Zhejiang — same factory as id 2 & 6). 1688: detail.1688.com/offer/1048466218870.html. MOQ 1 pc. Purchase price S ¥5.50 / M ¥7.50 + ¥5 domestic shipping. 2 colors: Blue/Green. 60 pcs/carton. Labeling +¥0.2/pc (MOQ 10). Cross-border export ready. Contact sales@loyalbondpet.com for volume pricing.',
     },
+  },
+  {
+    id: '28',
+    slug: 'inflatable-dog-recovery-collar',
+    name: 'Inflatable Dog Recovery Collar',
+    price: 14.99,
+    compareAtPrice: 24.99,
+    priceRange: '$14.99 - $19.99',
+    description: `The LoyalBond Inflatable Dog Recovery Collar gives your dog a comfortable, stress-free alternative to the traditional hard plastic cone after surgery, injury, or skin treatment.
+
+Unlike rigid Elizabethan collars that block vision, bump into furniture, and cause anxiety, our inflatable collar uses a soft PVC inner tube wrapped in a plush short-pile cover. It gently prevents your dog from reaching wounds, stitches, hot spots, and rashes on the body, legs, and paws — while still allowing them to eat, drink, sleep, and move around naturally.
+
+The adjustable hook-and-loop strap makes it easy to put on and take off, and lets you fine-tune the fit to your dog's neck size. When deflated, the collar folds completely flat for compact storage and ultra-low shipping costs — perfect for travel, vet visits, or keeping a spare on hand.
+
+The zippered plush cover is removable and washable, so it stays fresh through extended recovery periods. Available in six sizes from XS to XL to fit toy breeds through giant breeds, and in two colors: Gray and Blue.`,
+    shortDescription: 'Soft inflatable recovery collar — comfortable alternative to the cone. Prevents licking & biting wounds while allowing eating, drinking & sleeping. 6 sizes, 2 colors.',
+    collection: 'Home Safety',
+    collectionSlug: 'home-safety',
+    images: [
+      '/products/inflatable-collar-main.jpg',
+      '/products/inflatable-collar-gallery-1.jpg',
+      '/products/inflatable-collar-gallery-2.jpg',
+      '/products/inflatable-collar-gallery-3.jpg',
+      '/products/inflatable-collar-gallery-4.jpg',
+      '/products/inflatable-collar-detail-1-soft.jpg',
+      '/products/inflatable-collar-detail-2-features.jpg',
+      '/products/inflatable-collar-detail-3-adjustable.jpg'],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['XS', 'S', 'M', 'M+', 'L', 'XL'],
+    colors: ['Gray', 'Blue'],
+    sizeVariants: [
+      { label: 'XS', dimensions: 'Neck 12-20 cm (4.7-7.9 in)', weight: '64 g', price: 14.99 },
+      { label: 'S', dimensions: 'Neck 18-30 cm (7.1-11.8 in)', weight: '95 g', price: 14.99 },
+      { label: 'M', dimensions: 'Neck 25-33 cm (9.8-13.0 in)', weight: '118 g', price: 15.99 },
+      { label: 'M+', dimensions: 'Neck 33-42 cm (13.0-16.5 in)', weight: '120 g', price: 15.99 },
+      { label: 'L', dimensions: 'Neck 38-50 cm (15.0-19.7 in)', weight: '220 g', price: 17.99 },
+      { label: 'XL', dimensions: 'Neck 50-65 cm (19.7-25.6 in)', weight: '262 g', price: 19.99 }],
+    features: [
+      'Comfortable Alternative to the Cone — Soft inflatable design does not block vision or bump into furniture',
+      'Prevents Licking & Biting — Gently stops access to wounds, stitches, hot spots, and rashes',
+      'Eat, Drink & Sleep Freely — Your dog can perform all daily activities without obstruction',
+      'Adjustable Hook-and-Loop Strap — Custom fit for any neck size; easy on and off in seconds',
+      'PVC Inflatable Inner Tube — Lightweight and durable; inflate to desired firmness',
+      'Removable Plush Cover — Zippered short-pile cover is washable and gentle on skin',
+      'Folds Flat When Deflated — Compact for storage, travel, and low-cost shipping',
+      '6 Sizes Available — XS through XL to fit toy breeds to giant breeds',
+      '2 Colors — Gray and Blue',
+      'Cross-Border Export Ready — Suitable for independent sites, Amazon, eBay, and other channels'],
+    specifications: {
+      'Material': 'PVC inflatable inner tube + plush short-pile removable cover',
+      'Sizes': 'XS / S / M / M+ / L / XL',
+      'XS': 'Neck 12-20 cm | 64 g',
+      'S': 'Neck 18-30 cm | 95 g',
+      'M': 'Neck 25-33 cm | 118 g',
+      'M+': 'Neck 33-42 cm | 120 g',
+      'L': 'Neck 38-50 cm | 220 g',
+      'XL': 'Neck 50-65 cm | 262 g',
+      'Colors': 'Gray / Blue',
+      'Closure': 'Adjustable hook-and-loop (velcro) strap',
+      'Cover': 'Zippered, removable, washable plush cover',
+      'Inflation': 'Air valve; inflate/deflate as needed',
+      'Packaging (XS/S/M+)': '16 x 20 x 3.5 cm per unit (flat/deflated)',
+      'Packaging (M)': '16 x 20 x 4.0 cm per unit (flat/deflated)',
+      'Packaging (L/XL)': '22 x 20 x 4.5 cm per unit (flat/deflated)',
+      'Suitable For': 'Dogs recovering from surgery, injury, or skin treatment',
+    },
+    wholesaleInfo: {
+      moq: '1 piece (mixed sizes and colors accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Shanghai',
+      note: 'Supplier: Pingyang Changbao Crafts Factory (平阳县常宝工艺品厂, Wenzhou, Zhejiang — same factory as id 2, 6 & 27). 1688 price ¥12.50/pc (all sizes) + ¥5 domestic shipping. 2 colors: Gray/Blue (Pink excluded). Sea freight carton: 96 pcs/carton XS/S/M+ (43x51x59cm), 84 pcs/carton M (43x51x59cm), 54 pcs/carton L/XL (47x63x44cm). Stock: Gray 8227 pcs, Blue 7704 pcs. Cross-border export ready. Contact sales@loyalbondpet.com for volume pricing.',
+    },
   }
+
 ];
 
 export const collections = [
@@ -762,84 +838,7 @@ export const crossSellMap: Record<string, string[]> = {
   'waterproof-silicone-dog-rain-boots': ['pet-paw-cleaner-cup', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
   // Grooming / paw care group
   'pet-paw-cleaner-cup': ['waterproof-silicone-dog-rain-boots', 'orthopedic-bolster-dog-bed'],
-},
-
-  {
-    id: '28',
-    slug: 'inflatable-dog-recovery-collar',
-    name: 'Inflatable Dog Recovery Collar',
-    price: 14.99,
-    compareAtPrice: 24.99,
-    priceRange: '$14.99 - $19.99',
-    description: `The LoyalBond Inflatable Dog Recovery Collar gives your dog a comfortable, stress-free alternative to the traditional hard plastic cone after surgery, injury, or skin treatment.
-
-Unlike rigid Elizabethan collars that block vision, bump into furniture, and cause anxiety, our inflatable collar uses a soft PVC inner tube wrapped in a plush short-pile cover. It gently prevents your dog from reaching wounds, stitches, hot spots, and rashes on the body, legs, and paws — while still allowing them to eat, drink, sleep, and move around naturally.
-
-The adjustable hook-and-loop strap makes it easy to put on and take off, and lets you fine-tune the fit to your dog's neck size. When deflated, the collar folds completely flat for compact storage and ultra-low shipping costs — perfect for travel, vet visits, or keeping a spare on hand.
-
-The zippered plush cover is removable and washable, so it stays fresh through extended recovery periods. Available in six sizes from XS to XL to fit toy breeds through giant breeds, and in two colors: Gray and Blue.`,
-    shortDescription: 'Soft inflatable recovery collar — comfortable alternative to the cone. Prevents licking & biting wounds while allowing eating, drinking & sleeping. 6 sizes, 2 colors.',
-    collection: 'Home Safety',
-    collectionSlug: 'home-safety',
-    images: [
-      '/products/inflatable-collar-main.jpg',
-      '/products/inflatable-collar-gallery-1.jpg',
-      '/products/inflatable-collar-gallery-2.jpg',
-      '/products/inflatable-collar-gallery-3.jpg',
-      '/products/inflatable-collar-gallery-4.jpg',
-      '/products/inflatable-collar-detail-1-soft.jpg',
-      '/products/inflatable-collar-detail-2-features.jpg',
-      '/products/inflatable-collar-detail-3-adjustable.jpg'],
-    rating: 0,
-    reviewCount: 0,
-    badge: 'New Arrival',
-    sizes: ['XS', 'S', 'M', 'M+', 'L', 'XL'],
-    colors: ['Gray', 'Blue'],
-    sizeVariants: [
-      { label: 'XS', dimensions: 'Neck 12-20 cm (4.7-7.9 in)', weight: '64 g', price: 14.99 },
-      { label: 'S', dimensions: 'Neck 18-30 cm (7.1-11.8 in)', weight: '95 g', price: 14.99 },
-      { label: 'M', dimensions: 'Neck 25-33 cm (9.8-13.0 in)', weight: '118 g', price: 15.99 },
-      { label: 'M+', dimensions: 'Neck 33-42 cm (13.0-16.5 in)', weight: '120 g', price: 15.99 },
-      { label: 'L', dimensions: 'Neck 38-50 cm (15.0-19.7 in)', weight: '220 g', price: 17.99 },
-      { label: 'XL', dimensions: 'Neck 50-65 cm (19.7-25.6 in)', weight: '262 g', price: 19.99 }],
-    features: [
-      'Comfortable Alternative to the Cone — Soft inflatable design does not block vision or bump into furniture',
-      'Prevents Licking & Biting — Gently stops access to wounds, stitches, hot spots, and rashes',
-      'Eat, Drink & Sleep Freely — Your dog can perform all daily activities without obstruction',
-      'Adjustable Hook-and-Loop Strap — Custom fit for any neck size; easy on and off in seconds',
-      'PVC Inflatable Inner Tube — Lightweight and durable; inflate to desired firmness',
-      'Removable Plush Cover — Zippered short-pile cover is washable and gentle on skin',
-      'Folds Flat When Deflated — Compact for storage, travel, and low-cost shipping',
-      '6 Sizes Available — XS through XL to fit toy breeds to giant breeds',
-      '2 Colors — Gray and Blue',
-      'Cross-Border Export Ready — Suitable for independent sites, Amazon, eBay, and other channels'],
-    specifications: {
-      'Material': 'PVC inflatable inner tube + plush short-pile removable cover',
-      'Sizes': 'XS / S / M / M+ / L / XL',
-      'XS': 'Neck 12-20 cm | 64 g',
-      'S': 'Neck 18-30 cm | 95 g',
-      'M': 'Neck 25-33 cm | 118 g',
-      'M+': 'Neck 33-42 cm | 120 g',
-      'L': 'Neck 38-50 cm | 220 g',
-      'XL': 'Neck 50-65 cm | 262 g',
-      'Colors': 'Gray / Blue',
-      'Closure': 'Adjustable hook-and-loop (velcro) strap',
-      'Cover': 'Zippered, removable, washable plush cover',
-      'Inflation': 'Air valve; inflate/deflate as needed',
-      'Packaging (XS/S/M+)': '16 × 20 × 3.5 cm per unit (flat/deflated)',
-      'Packaging (M)': '16 × 20 × 4.0 cm per unit (flat/deflated)',
-      'Packaging (L/XL)': '22 × 20 × 4.5 cm per unit (flat/deflated)',
-      'Suitable For': 'Dogs recovering from surgery, injury, or skin treatment',
-    },
-    wholesaleInfo: {
-      moq: '1 piece (mixed sizes and colors accepted)',
-      leadTime: '3-7 days for sample; 15-25 days for bulk order',
-      payment: 'T/T 50% deposit, 50% before shipment',
-      shipping: 'FOB Ningbo/Shanghai',
-      note: 'Supplier: Pingyang Changbao Crafts Factory (平阳县常宝工艺品厂, Wenzhou, Zhejiang — same factory as id 2, 6 & 27). 1688: detail.1688.com. Purchase price ¥12.50/pc (all sizes) + ¥5 domestic shipping. 2 colors: Gray/Blue (Pink excluded). 240 pcs/carton factory standard; 96 pcs/carton (XS/S/M+), 84 pcs/carton (M), 54 pcs/carton (L/XL) for sea freight optimization. Stock: Gray 8227 pcs, Blue 7704 pcs. Cross-border export ready. Contact sales@loyalbondpet.com for volume pricing.',
-    },
-  }
-;
+};
 
 export function getRelatedProducts(slug: string): Product[] {
   const crossSlugs = crossSellMap[slug] || [];
