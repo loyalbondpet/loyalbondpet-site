@@ -612,7 +612,7 @@ Ideal for rainy walks, snowy days, beach trips, sensitive paw protection, and ke
     name: 'Pet Paw Cleaner Cup',
     price: 9.99,
     compareAtPrice: 14.99,
-    priceRange: '$9.99 - $12.99',
+    priceRange: '$8.99 - $12.99',
     description: `Keep your floors clean and your dog's paws healthy with the LoyalBond Pet Paw Cleaner Cup — the fast, mess-free way to wash muddy, dirty paws after every walk.
 
 Simply add a little water, insert your dog's paw, and gently twist the cup. Soft silicone bristles line the inside, spinning 360 degrees to loosen and lift dirt, mud, sand, and debris from between paw pads and around nails — no bathtub, no towels, no struggle.
@@ -998,7 +998,7 @@ export const collections = [
     name: 'Feeding Aids',
     title: 'Feeding Aids',
     description: 'Comfortable mealtime solutions — slow feeders, snuffle mats, and feeding accessories for senior dogs with limited mobility.',
-    priceRange: '$3.50 – $5.50',
+    priceRange: '$3.50 – $22.99',
     image: '/collections/feeding-aids.jpg',
     icon: 'feeding',
     emoji: '🍽️'
@@ -1008,7 +1008,7 @@ export const collections = [
     name: 'Travel & Car',
     title: 'Travel & Car',
     description: 'Make every journey comfortable for your senior dog. Supportive harnesses and non-slip paw covers for safe, comfortable travel with aging pets.',
-    priceRange: '$3.50 – $8.50',
+    priceRange: '$3.50 – $18.99',
     image: '/collections/travel-car.jpg',
     icon: 'travel',
     emoji: '🚗'
@@ -1018,7 +1018,7 @@ export const collections = [
     name: 'Grooming & Bath',
     title: 'Grooming & Bath',
     description: 'Paw cleaners and grooming essentials for quick, stress-free cleanups. Keep your pet fresh and your home spotless after every walk.',
-    priceRange: '$9.99 - $12.99',
+    priceRange: '$8.99 - $12.99',
     image: '/collections/grooming-bath.jpg',
     icon: 'grooming',
     emoji: '🛁'
