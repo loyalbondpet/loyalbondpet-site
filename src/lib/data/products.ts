@@ -813,6 +813,66 @@ Available in five sizes to fit toy breeds through large breeds. Blue color only.
     },
   },
 
+  {
+    id: '30',
+    slug: 'side-grip-pet-pill-dispenser',
+    name: 'Side-Grip Pet Pill Dispenser',
+    price: 7.99,
+    compareAtPrice: 11.99,
+    description: `The LoyalBond Side-Grip Pet Pill Dispenser makes administering medication quick, safe, and stress-free — for both you and your dog. Designed with an ergonomic side-grip handle, it fits naturally in your palm and gives you precise control when placing tablets, capsules, or pills deep into your dog's throat.
+
+The built-in spring mechanism automatically retracts the plunger after dispensing, preventing re-chewing or spitting out. The soft silicone tip is gentle on gums and teeth, and the dry-wet separation chamber lets you administer liquid medicine or crushed tablets mixed with food using the same tool.
+
+Two grip styles — hold it like a syringe or use the side-grip for improved stability — accommodate different hand sizes and dog temperaments. At just 20 grams, it is lightweight and easy to maneuver with one hand while holding your dog steady with the other.
+
+Available in White or Blue. One size fits all.`,
+    shortDescription: 'Ergonomic side-grip pill dispenser with spring-loaded plunger. Gentle silicone tip, dry-wet separation, 20g lightweight. White or Blue.',
+    collection: 'Home Safety',
+    collectionSlug: 'home-safety',
+    images: [
+      '/products/pill-main.jpg',
+      '/products/pill-detail-7-hero.jpg',
+      '/products/pill-detail-1-ways.jpg',
+      '/products/pill-detail-4-ergonomic.jpg',
+      '/products/pill-detail-2-spring.jpg',
+      '/products/pill-detail-5-separation.jpg',
+      '/products/pill-detail-6-showcase.jpg',
+      '/products/pill-detail-3-specs.jpg'
+    ],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['One Size'],
+    colors: ['White', 'Blue'],
+    sizeVariants: [
+      { label: 'One Size', dimensions: '18 x 4.5 cm (Tip: 3 cm)', weight: '50 g (with packaging)', price: 7.99 }
+    ],
+    features: [
+      'Ergonomic side-grip handle — natural palm fit for precise control',
+      'Built-in spring plunger — auto-retracts after dispensing, prevents re-chewing',
+      'Soft silicone tip — gentle on gums and teeth',
+      'Dry-wet separation — works with tablets, capsules, and liquid medication',
+      'Two grip styles — syringe hold or side-grip for stability',
+      'Ultra-lightweight at just 20g — easy one-hand operation',
+      'Fits pills, tablets, and capsules up to standard size'
+    ],
+    specifications: {
+      'Material': 'ABS plastic body, silicone tip',
+      'Color': 'White, Blue',
+      'Size': 'One Size (S)',
+      'Dimensions': '18 cm (L) x 4.5 cm (W), Tip length 3 cm',
+      'Weight': '20 g (product), 50 g (with retail packaging)',
+      'Packaging': '24 x 10 cm blister card',
+      'Suitable For': 'Dogs and cats of all sizes',
+    },
+    wholesaleInfo: {
+      moq: '2 pieces (mixed colors accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Shanghai',
+      note: 'Supplier: Pingyang Changbao Crafts Factory (Wenzhou, Zhejiang — same factory as id 2, 6, 27, 28 & 29). 1688 price: CNY 3.90/pc (2-199 pcs), CNY 3.50/pc (200-1999 pcs), CNY 3.20/pc (>=2000 pcs). Carton: 160 pcs/carton, 52x42x52cm, GW ~9.6kg, volume weight 18.9kg (sea freight /6000). Stock: 9000+ pcs. Cross-border export ready. Contact sales@loyalbondpet.com for volume pricing.',
+    },
+  },
 
 ];
 
@@ -822,7 +882,7 @@ export const collections = [
     name: 'Home Safety',
     title: 'Home Safety',
     description: 'Senior pet home safety essentials — orthopedic beds, pet stairs, and lift aids to prevent accidents and support comfortable aging-in-place.',
-    priceRange: '$12.99 – $59.99',
+    priceRange: '$7.99 – $59.99',
     image: '/collections/home-safety.jpg',
     icon: 'home',
     emoji: '🏠'
@@ -883,7 +943,7 @@ export const collections = [
 export const crossSellMap: Record<string, string[]> = {
 
   // Joint care / mobility / post-surgery group
-  'inflatable-dog-recovery-collar': ['hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
+  'inflatable-dog-recovery-collar': ['hind-leg-support-harness', 'mesh-support-sling', 'side-grip-pet-pill-dispenser', 'orthopedic-bolster-dog-bed'],
   'hind-leg-support-harness': ['mesh-support-sling', 'inflatable-dog-recovery-collar', 'orthopedic-bolster-dog-bed'],
   'mesh-support-sling': ['hind-leg-support-harness', 'inflatable-dog-recovery-collar', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
@@ -899,7 +959,8 @@ export const crossSellMap: Record<string, string[]> = {
   'waterproof-silicone-dog-rain-boots': ['pet-paw-cleaner-cup', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
   // Grooming / paw care group
   'pet-paw-cleaner-cup': ['waterproof-silicone-dog-rain-boots', 'orthopedic-bolster-dog-bed'],
-  '29': ['28', '2', '6', '27'],
+  'non-woven-dog-recovery-collar': ['inflatable-dog-recovery-collar', 'hind-leg-support-harness', 'mesh-support-sling', 'pet-paw-cleaner-cup'],
+  'side-grip-pet-pill-dispenser': ['inflatable-dog-recovery-collar', 'non-woven-dog-recovery-collar', 'hind-leg-support-harness', 'mesh-support-sling'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
