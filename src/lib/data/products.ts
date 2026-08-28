@@ -795,11 +795,22 @@ Available in five sizes to fit toy breeds through large breeds. Blue color only.
       'Built-in collar slot — attach a regular collar and leash for walks',
       '5 sizes available to fit toy breeds through large breeds'
     ],
-    metaTitle: 'Non-Woven Dog Recovery Collar | Lightweight Splash-Proof Cone | LoyalBond',
-    metaDescription: 'Ultra-lightweight non-woven recovery collar for dogs. Splash-proof, soft, adjustable — as light as 60g. Does not block vision. 5 sizes. Shop LoyalBond.',
-    tags: ['recovery collar', 'dog cone', 'post-surgery', 'non-woven', 'lightweight', 'splash-proof', 'senior dog', 'wound protection'],
-    isActive: true,
-    internalNotes: 'Supplier: Pingyang Changbao (same factory as id 2/6/27/28). MOQ: 2 pcs. Cost: S1 ¥7, S2 ¥8, S3 ¥10, S4 ¥13.5, S5 ¥16. Sea freight cartons: S1 162pcs, S2 78pcs, S3 56pcs, S4 56pcs, S5 22pcs. Blue only. Price placeholder pending freight quote.'
+    specifications: {
+      'Material': 'Coated non-woven fabric',
+      'Color': 'Blue',
+      'Sizes': '5 sizes (Neck 14-42 cm)',
+      'Weight': '60-150 g (varies by size)',
+      'Closure': 'Adjustable hook-and-loop',
+      'Care': 'Wipe clean with damp cloth',
+      'Suitable For': 'Dogs recovering from surgery, injury, or skin treatment',
+    },
+    wholesaleInfo: {
+      moq: '2 pieces (mixed sizes accepted)',
+      leadTime: '3-7 days for sample; 15-25 days for bulk order',
+      payment: 'T/T 50% deposit, 50% before shipment',
+      shipping: 'FOB Ningbo/Shanghai',
+      note: 'Supplier: Pingyang Changbao Crafts Factory (平阳县常宝工艺品厂, Wenzhou, Zhejiang — same factory as id 2, 6, 27 & 28). 1688 price: S1 ¥7, S2 ¥8, S3 ¥10, S4 ¥13.50, S5 ¥16. Blue only. Sea freight cartons: 162 pcs/carton S1 (53x47x38cm), 78 pcs/carton S2 (53x44x41cm), 56 pcs/carton S3 (52x51x36cm), 56 pcs/carton S4 (58x46x36cm), 22 pcs/carton S5 (50x46x41cm). Stock: 4700-4898 pcs. Cross-border export ready. Contact sales@loyalbondpet.com for volume pricing.',
+    },
   },
 
 
