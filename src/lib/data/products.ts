@@ -817,14 +817,10 @@ export const collections = [
 // Cross-sell product recommendations (curated groups)
 export const crossSellMap: Record<string, string[]> = {
 
-  // Post-surgery recovery group
+  // Joint care / mobility / post-surgery group
   'inflatable-dog-recovery-collar': ['hind-leg-support-harness', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
-  'hind-leg-support-harness': ['inflatable-dog-recovery-collar', 'mesh-support-sling', 'orthopedic-bolster-dog-bed'],
-  'mesh-support-sling': ['inflatable-dog-recovery-collar', 'hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
-
-  // Joint care / mobility group
-  'hind-leg-support-harness': ['mesh-support-sling', 'orthopedic-bolster-dog-bed'],
-  'mesh-support-sling': ['hind-leg-support-harness', 'orthopedic-bolster-dog-bed'],
+  'hind-leg-support-harness': ['mesh-support-sling', 'inflatable-dog-recovery-collar', 'orthopedic-bolster-dog-bed'],
+  'mesh-support-sling': ['hind-leg-support-harness', 'inflatable-dog-recovery-collar', 'orthopedic-bolster-dog-bed'],
   // Comfort living group
   'snuffle-mat-set': ['orthopedic-bolster-dog-bed'],
   'orthopedic-bolster-dog-bed': ['snuffle-mat-set', 'folding-pet-stairs'],
