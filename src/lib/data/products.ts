@@ -922,7 +922,7 @@ Available in White or Blue. One size fits all.`,
       shipping: 'FOB Ningbo/Shanghai',
       note: 'Supplier: Pingyang Changbao Crafts Factory (Wenzhou, Zhejiang — same factory as id 2, 6, 27, 28, 29 & 30). 1688 price: CNY 10.50/pc. Carton: ~126 pcs/carton (52x42x42cm est.), GW ~8.9kg, volume weight 15.3kg (sea freight /6000). Cross-border export ready. Dimensions/weight are estimates pending physical sample confirmation. Contact sales@loyalbondpet.com for volume pricing.',
     },
-  },,
+  },
   {
     id: '32',
     slug: 'hind-leg-support-belt',
@@ -978,7 +978,7 @@ Available in White or Blue. One size fits all.`,
       shipping: 'FOB Ningbo/Shanghai',
       note: 'Supplier: Pingyang Changbao Crafts Factory (Wenzhou, Zhejiang — same factory as id 2, 6, 27, 28, 29 & 30). 1688 price: S CNY 13, M CNY 15, L CNY 17, XL CNY 19 (2 pcs min). Carton: 100 pcs/carton factory standard. Item Y-26. Cross-border export. Contact sales@loyalbondpet.com for volume pricing.',
     },
-  },,
+  },
 
 ];
 
