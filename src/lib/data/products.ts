@@ -749,6 +749,60 @@ The zippered plush cover is removable and washable, so it stays fresh through ex
     },
   }
 
+  {
+    id: '29',
+    slug: 'non-woven-dog-recovery-collar',
+    name: 'Non-Woven Dog Recovery Collar',
+    price: 11.99,
+    compareAtPrice: 19.99,
+    priceRange: '$11.99 - $16.99',
+    description: `The LoyalBond Non-Woven Dog Recovery Collar is an ultra-lightweight, splash-proof cone designed for dogs recovering from surgery, injury, or skin treatment. Weighing as little as 60 grams, it is significantly lighter than traditional hard plastic cones, reducing stress on your dog's neck during the healing process.
+
+Made from coated non-woven fabric, this collar is soft yet rigid enough to prevent your dog from licking, biting, or scratching wounds, stitches, hot spots, and rashes. The splash-proof coating repels water and food spills, making it easy to wipe clean after meals or outdoor walks.
+
+The adjustable hook-and-loop closure ensures a secure, comfortable fit around the neck, and the wide brim design does not block your dog's peripheral vision — they can eat, drink, sleep, and navigate around furniture without bumping into things. The collar is also collar-compatible: it features a built-in slot so you can attach a regular collar and leash for walks.
+
+Available in five sizes to fit toy breeds through large breeds. Blue color only. Minimum order: 2 pieces.`,
+    shortDescription: 'Ultra-lightweight non-woven recovery cone — featherlight at just 60g, splash-proof, adjustable fit. Does not block vision. 5 sizes, blue.',
+    collection: 'Home Safety',
+    collectionSlug: 'home-safety',
+    images: [
+      '/products/nw-collar-main.jpg',
+      '/products/nw-collar-gallery-lifestyle.jpg',
+      '/products/nw-collar-detail-1-hero.jpg',
+      '/products/nw-collar-detail-2-featherlight.jpg',
+      '/products/nw-collar-detail-3-fabric.jpg',
+      '/products/nw-collar-detail-4-collar-compatible.jpg',
+      '/products/nw-collar-detail-5-specs.jpg'],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['Size 1', 'Size 2', 'Size 3', 'Size 4', 'Size 5'],
+    colors: ['Blue'],
+    sizeVariants: [
+      { label: 'Size 1', dimensions: 'Neck 14-19 cm, Depth 12 cm', weight: '60 g', price: 11.99 },
+      { label: 'Size 2', dimensions: 'Neck 20-27 cm, Depth 16 cm', weight: '80 g', price: 12.99 },
+      { label: 'Size 3', dimensions: 'Neck 22-30 cm, Depth 20 cm', weight: '90 g', price: 13.99 },
+      { label: 'Size 4', dimensions: 'Neck 23-35 cm, Depth 27 cm', weight: '110 g', price: 15.99 },
+      { label: 'Size 5', dimensions: 'Neck 30-42 cm, Depth 32 cm', weight: '150 g', price: 16.99 }
+    ],
+    features: [
+      'Featherlight design — as light as 60g for minimal neck strain',
+      'Splash-proof coated non-woven fabric — easy to wipe clean',
+      'Soft yet rigid — prevents licking and biting without discomfort',
+      'Does not block peripheral vision — eat, drink, and move freely',
+      'Adjustable hook-and-loop closure for a secure, custom fit',
+      'Built-in collar slot — attach a regular collar and leash for walks',
+      '5 sizes available to fit toy breeds through large breeds'
+    ],
+    metaTitle: 'Non-Woven Dog Recovery Collar | Lightweight Splash-Proof Cone | LoyalBond',
+    metaDescription: 'Ultra-lightweight non-woven recovery collar for dogs. Splash-proof, soft, adjustable — as light as 60g. Does not block vision. 5 sizes. Shop LoyalBond.',
+    tags: ['recovery collar', 'dog cone', 'post-surgery', 'non-woven', 'lightweight', 'splash-proof', 'senior dog', 'wound protection'],
+    isActive: true,
+    internalNotes: 'Supplier: Pingyang Changbao (same factory as id 2/6/27/28). MOQ: 2 pcs. Cost: S1 ¥7, S2 ¥8, S3 ¥10, S4 ¥13.5, S5 ¥16. Sea freight cartons: S1 162pcs, S2 78pcs, S3 56pcs, S4 56pcs, S5 22pcs. Blue only. Price placeholder pending freight quote.'
+  },
+
+
 ];
 
 export const collections = [
@@ -834,6 +888,7 @@ export const crossSellMap: Record<string, string[]> = {
   'waterproof-silicone-dog-rain-boots': ['pet-paw-cleaner-cup', 'orthopedic-bolster-dog-bed', 'snuffle-mat-set'],
   // Grooming / paw care group
   'pet-paw-cleaner-cup': ['waterproof-silicone-dog-rain-boots', 'orthopedic-bolster-dog-bed'],
+  '29': ['28', '2', '6', '27'],
 };
 
 export function getRelatedProducts(slug: string): Product[] {
