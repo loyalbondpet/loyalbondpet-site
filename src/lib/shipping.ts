@@ -98,6 +98,38 @@ const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
     S: { weight: 0.20, length: 12, width: 12, height: 16 },
     M: { weight: 0.30, length: 14, width: 14, height: 19 },
   },
+  // id 28 — Inflatable Dog Recovery Collar (deflated, poly mailer)
+  '28': {
+    XS: { weight: 0.09, length: 14, width: 11, height: 3 },
+    S: { weight: 0.12, length: 16, width: 13, height: 3 },
+    M: { weight: 0.14, length: 18, width: 15, height: 3 },
+    'M+': { weight: 0.15, length: 19, width: 16, height: 3 },
+    L: { weight: 0.25, length: 22, width: 18, height: 4 },
+    XL: { weight: 0.29, length: 25, width: 20, height: 4 },
+  },
+  // id 29 — Non-Woven Dog Recovery Collar (flattened, poly bag)
+  '29': {
+    'Size 1': { weight: 0.08, length: 15, width: 15, height: 2 },
+    'Size 2': { weight: 0.10, length: 19, width: 19, height: 2 },
+    'Size 3': { weight: 0.11, length: 23, width: 23, height: 2 },
+    'Size 4': { weight: 0.13, length: 29, width: 29, height: 3 },
+    'Size 5': { weight: 0.17, length: 34, width: 34, height: 3 },
+  },
+  // id 30 — Side-Grip Pet Pill Dispenser (poly bag)
+  '30': {
+    Default: { weight: 0.06, length: 24, width: 10, height: 3 },
+  },
+  // id 31 — Silicone Lick Mat (OPP bag; size/weight estimates pending sample confirmation)
+  '31': {
+    Default: { weight: 0.08, length: 16, width: 16, height: 2 },
+  },
+  // id 32 — Portable Hind Leg Support Belt (poly bag)
+  '32': {
+    S: { weight: 0.085, length: 18, width: 12, height: 3 },
+    M: { weight: 0.105, length: 20, width: 14, height: 3 },
+    L: { weight: 0.125, length: 22, width: 15, height: 4 },
+    XL: { weight: 0.15, length: 24, width: 17, height: 4 },
+  },
 };
 
 // ─── Country Shipping Methods ────────────────────────────────────────────────
