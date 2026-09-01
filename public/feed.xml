@@ -175,5 +175,124 @@
         <g:price>7.99 USD</g:price>
       </g:shipping>
     </item>
+    <item>
+      <g:id>27</g:id>
+      <g:title>Pet Paw Cleaner Cup</g:title>
+      <g:description>Silicone paw cleaner cup with 360-degree soft bristles. Add water, insert paw, twist and rinse for clean paws in seconds. Removable inner brush, two sizes for small to medium dogs. Blue and Green.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/pet-paw-cleaner-cup</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/paw-cleaner-01-hero.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.20 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>7.99 USD</g:price>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>28</g:id>
+      <g:title>Inflatable Dog Recovery Collar</g:title>
+      <g:description>Soft inflatable recovery collar, a comfortable alternative to the hard cone. Prevents licking and biting of wounds while allowing eating, drinking and peripheral vision. Removable washable plush cover, adjustable strap, sizes XS to XL.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/inflatable-dog-recovery-collar</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/inflatable-collar-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.14 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>5.99 USD</g:price>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>29</g:id>
+      <g:title>Non-Woven Dog Recovery Collar</g:title>
+      <g:description>Ultra-lightweight non-woven recovery cone weighing just 60 grams. Splash-proof, adjustable hook-and-loop fit, wide brim that does not block peripheral vision. For post-surgery, injury and hot-spot care. Five sizes, blue color.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/non-woven-dog-recovery-collar</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/nw-collar-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.11 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>8.99 USD</g:price>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>30</g:id>
+      <g:title>Side-Grip Pet Pill Dispenser</g:title>
+      <g:description>Ergonomic side-grip pill dispenser with spring-loaded plunger that retracts automatically after dosing. Soft silicone tip, dry-wet separation design for tablets or liquid. One-hand operation, 50 grams lightweight. White and Blue.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/side-grip-pet-pill-dispenser</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/pill-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>7.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.06 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>31</g:id>
+      <g:title>Paw-Shaped Silicone Lick Mat with Suction Cups</g:title>
+      <g:description>Food-grade BPA-free silicone lick mat in a paw-print shape with five textured zones. Strong integrated suction cups grip smooth surfaces. Calms anxious dogs during baths, grooming and nail trims while slowing down fast eaters. Purple and Coral Orange.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/silicone-lick-mat</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/silicone-lick-mat/main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>8.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.08 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>32</g:id>
+      <g:title>Portable Hind Leg Support Belt for Senior Dogs</g:title>
+      <g:description>Lightweight portable hind leg lift belt that helps senior and recovering dogs stand, climb stairs and get in and out of vehicles. Breathable mesh body panel, padded top handle, adjustable straps with quick-release buckles. Folds flat to fit in a bag. Sizes S to XL.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/hind-leg-support-belt</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/hind-leg-support-belt/main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.11 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+    </item>
   </channel>
 </rss>
