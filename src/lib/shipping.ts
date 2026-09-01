@@ -1,1 +1,398 @@
-LyoqCiAqIExveWFsQm9uZCBTaGlwcGluZyBDYWxjdWxhdG9yCiAqCiAqIENhbGN1bGF0ZXMgcmVhbC10aW1lIHNoaXBwaW5nIGNvc3RzIGJhc2VkIG9uIGNoYXJnZWFibGUgd2VpZ2h0IGFuZCBkZXN0aW5hdGlvbgogKiBjb3VudHJ5LCB1c2luZyDkupHpgJQgKFl1blR1KSBsb2dpc3RpY3MgcmF0ZXMuCiAqCiAqIENoYXJnZWFibGUgd2VpZ2h0ID0gbWF4KGFjdHVhbCB3ZWlnaHQsIHZvbHVtZXRyaWMgd2VpZ2h0KQogKiBWb2x1bWV0cmljIHdlaWdodCA9IEwgw5cgVyDDlyBIIMO3IDgwMDAgIChjbSDihpIga2cpCiAqIENhbmFkYSBzcGVjaWFsOiBpZiB2b2x1bWUgd2VpZ2h0IDwgMsOXIGFjdHVhbCB3ZWlnaHQsIHVzZSBhY3R1YWwgd2VpZ2h0LgogKiBKYXBhbiBtaW5pbXVtIGNoYXJnZWFibGUgd2VpZ2h0OiAwLjUga2cuCiAqCiAqIFJhdGVzIGluY2x1ZGUgYSA1JSBidWZmZXIgZm9yIHBhY2thZ2luZywgZnVlbCBzdXJjaGFyZ2UgdmFyaWFuY2UsIGFuZCBGWC4KICogRmluYWwgcHJpY2Ugcm91bmRlZCB1cCB0byB0aGUgbmVhcmVzdCAkMC45OS4KICovCgovLyDilIDilIDilIAgVHlwZXMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIFBhY2thZ2VTcGVjIHsKICAvKiogQWN0dWFsIHByb2R1Y3QgKyBwYWNrYWdpbmcgd2VpZ2h0IGluIGtnICovCiAgd2VpZ2h0OiBudW1iZXI7CiAgLyoqIFNoaXBwaW5nIGNhcnRvbiBkaW1lbnNpb25zIGluIGNtICovCiAgbGVuZ3RoOiBudW1iZXI7CiAgd2lkdGg6IG51bWJlcjsKICBoZWlnaHQ6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBTaGlwcGluZ1F1b3RlIHsKICBjb3N0OiBudW1iZXI7CiAgY3VycmVuY3k6IHN0cmluZzsKICBtZXRob2Q6IHN0cmluZzsKICBtaW5EYXlzOiBudW1iZXI7CiAgbWF4RGF5czogbnVtYmVyOwogIGNoYXJnZWFibGVXZWlnaHQ6IG51bWJlcjsKICBicmVha2Rvd24/OiBzdHJpbmc7Cn0KCi8vIOKUgOKUgOKUgCBQcm9kdWN0IFBhY2thZ2UgRGF0YSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8KLy8gUGFja2FnZSBkaW1lbnNpb25zIGFyZSBmb3IgdGhlIG91dGVybW9zdCBzaGlwcGluZyBjYXJ0b24gLyBtYWlsZXIuCi8vIEZvciBwcm9kdWN0cyBzb2xkIGluIG11bHRpcGxlIHNpemVzLCBrZXkgYnkgdmFyaWFudCBsYWJlbC4KLy8gUHJvZHVjdHMgd2l0aCBubyBzaXplIHZhcmlhbnQgdXNlICdEZWZhdWx0JyBrZXkuCi8vCi8vIE5PVEU6IERvZyBiZWQgY29tcHJlc3NlZCBkaW1lbnNpb25zIGFyZSBlc3RpbWF0ZXMuCi8vIFRPRE86IENvbmZpcm0gZXhhY3QgY29tcHJlc3NlZCBjYXJ0b24gc2l6ZXMgYW5kIGRvZyBiZWQgTSB3ZWlnaHQgKDlrZyBzZWVtcyBhbm9tYWxvdXMpLgoKY29uc3QgUFJPRFVDVF9QQUNLQUdFUzogUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgUGFja2FnZVNwZWM+PiA9IHsKICAvLyBpZCAyIOKAlCBIaW5kIExlZyBTdXBwb3J0IEhhcm5lc3MgKHBvbHkgbWFpbGVyKQogICcyJzogewogICAgRGVmYXVsdDogeyB3ZWlnaHQ6IDAuMTAsIGxlbmd0aDogMjAsIHdpZHRoOiAxNSwgaGVpZ2h0OiAzIH0sCiAgfSwKICAvLyBpZCAzIOKAlCBGbG93ZXIgU251ZmZsZSBNYXQgKGZvbGRlZC9yb2xsZWQgaW4gcG9seSBtYWlsZXIpCiAgJzMnOiB7CiAgICBTbWFsbDogeyB3ZWlnaHQ6IDAuMzAsIGxlbmd0aDogMjUsIHdpZHRoOiAxOCwgaGVpZ2h0OiA2IH0sCiAgICBMYXJnZTogeyB3ZWlnaHQ6IDAuNDUsIGxlbmd0aDogMzAsIHdpZHRoOiAyMiwgaGVpZ2h0OiA4IH0sCiAgfSwKICAvLyBpZCA2IOKAlCBGbGVlY2UtTGluZWQgRG9nIFN1cHBvcnQgSGFybmVzcyAocG9seSBtYWlsZXIpCiAgJzYnOiB7CiAgICBTOiB7IHdlaWdodDogMC4yOCwgbGVuZ3RoOiAyNCwgd2lkdGg6IDE2LCBoZWlnaHQ6IDQgfSwKICAgIE06IHsgd2VpZ2h0OiAwLjMzLCBsZW5ndGg6IDI4LCB3aWR0aDogMTksIGhlaWdodDogNCB9LAogICAgTDogeyB3ZWlnaHQ6IDAuMzgsIGxlbmd0aDogMzAsIHdpZHRoOiAyMiwgaGVpZ2h0OiA0IH0sCiAgICBYTDogeyB3ZWlnaHQ6IDAuNDMsIGxlbmd0aDogMzQsIHdpZHRoOiAyNiwgaGVpZ2h0OiA0IH0sCiAgfSwKICAvLyBpZCAxMSDigJQgR2VsIE1lbW9yeSBGb2FtIERvZyBTb2ZhIEJlZCAoQ0YzNjA5LCBEb25neWFuZyBLdWFuZ2Nob3UpCiAgJzExJzogewogICAgUzogeyB3ZWlnaHQ6IDEuMCwgbGVuZ3RoOiAzMSwgd2lkdGg6IDIxLCBoZWlnaHQ6IDEyIH0sCiAgICBNOiB7IHdlaWdodDogMi4xLCBsZW5ndGg6IDM1LCB3aWR0aDogMjUsIGhlaWdodDogNyB9LAogICAgTDogeyB3ZWlnaHQ6IDIuOSwgbGVuZ3RoOiAzNSwgd2lkdGg6IDI1LCBoZWlnaHQ6IDEwIH0sCiAgICBYTDogeyB3ZWlnaHQ6IDQuNzUsIGxlbmd0aDogMzUsIHdpZHRoOiAyNSwgaGVpZ2h0OiAxOCB9LAogIH0sCi8vIGlkIDIyIOKAlCBFbGV2YXRlZCBTbG93IEZlZWRlciBCb3dsIChmb2xkZWQgZmxhdCBpbiBjYXJ0b24pCiAgJzIyJzogewogICAgRGVmYXVsdDogeyB3ZWlnaHQ6IDEuMjAsIGxlbmd0aDogNDQsIHdpZHRoOiAyNCwgaGVpZ2h0OiA4IH0sCiAgfSwKICAvLyBpZCAyMyDigJQgRm9sZGluZyBQZXQgU3RhaXJzIChmb2xkZWQgaW4gY2FydG9uKQogICcyMyc6IHsKICAgIERlZmF1bHQ6IHsgd2VpZ2h0OiAzLjYwLCBsZW5ndGg6IDQyLjUsIHdpZHRoOiAzMywgaGVpZ2h0OiAxMSB9LAogIH0sCiAgLy8gaWQgMjQg4oCUIFNub3dmbGFrZSBDb29saW5nIE1hdCAoZmxhdCBpbiBwb2x5IG1haWxlci9jYXJ0b24pCiAgJzI0JzogewogICAgUzogeyB3ZWlnaHQ6IDAuODUsIGxlbmd0aDogNDIsIHdpZHRoOiAzMiwgaGVpZ2h0OiAzIH0sCiAgICBNOiB7IHdlaWdodDogMS40MCwgbGVuZ3RoOiA1Miwgd2lkdGg6IDQyLCBoZWlnaHQ6IDMgfSwKICAgIEw6IHsgd2VpZ2h0OiAyLjIwLCBsZW5ndGg6IDYyLCB3aWR0aDogNTIsIGhlaWdodDogMyB9LAogIH0sCiAgLy8gaWQgMjUg4oCUIEFudGktQ2hva2UgU2xvdyBGZWVkZXIgQm93bCAoaW4gY2FydG9uKQogICcyNSc6IHsKICAgIERlZmF1bHQ6IHsgd2VpZ2h0OiAwLjE0NSwgbGVuZ3RoOiAyMi41LCB3aWR0aDogMTgsIGhlaWdodDogNSB9LAogIH0sCiAgLy8gaWQgMjYg4oCUIFNpbGljb25lIERvZyBSYWluIEJvb3RzIChpbiBwb2x5IGJhZy9jYXJ0b24pCiAgJzI2JzogewogICAgWFM6IHsgd2VpZ2h0OiAwLjIwLCBsZW5ndGg6IDE1LCB3aWR0aDogMTIsIGhlaWdodDogNCB9LAogICAgUzogeyB3ZWlnaHQ6IDAuMjUsIGxlbmd0aDogMTUsIHdpZHRoOiAxMiwgaGVpZ2h0OiA0IH0sCiAgICBNOiB7IHdlaWdodDogMC4yOCwgbGVuZ3RoOiAxNywgd2lkdGg6IDE0LCBoZWlnaHQ6IDQgfSwKICAgIEw6IHsgd2VpZ2h0OiAwLjMwLCBsZW5ndGg6IDE5LCB3aWR0aDogMTYsIGhlaWdodDogNCB9LAogICAgWEw6IHsgd2VpZ2h0OiAwLjMyLCBsZW5ndGg6IDIxLCB3aWR0aDogMTgsIGhlaWdodDogNCB9LAogIH0sCiAgLy8gaWQgMjcg4oCUIFBldCBQYXcgQ2xlYW5lciBDdXAgKGluZGl2aWR1YWwgcG9seSBiYWcgKyBjYXJ0b24pCiAgJzI3JzogewogICAgUzogeyB3ZWlnaHQ6IDAuMjAsIGxlbmd0aDogMTIsIHdpZHRoOiAxMiwgaGVpZ2h0OiAxNiB9LAogICAgTTogeyB3ZWlnaHQ6IDAuMzAsIGxlbmd0aDogMTQsIHdpZHRoOiAxNCwgaGVpZ2h0OiAxOSB9LAogIH0sCiAgLy8gaWQgMjgg4oCUIEluZmxhdGFibGUgRG9nIFJlY292ZXJ5IENvbGxhciAoZGVmbGF0ZWQsIHBvbHkgbWFpbGVyKQogICcyOCc6IHsKICAgIFhTOiB7IHdlaWdodDogMC4wOSwgbGVuZ3RoOiAxNCwgd2lkdGg6IDExLCBoZWlnaHQ6IDMgfSwKICAgIFM6IHsgd2VpZ2h0OiAwLjEyLCBsZW5ndGg6IDE2LCB3aWR0aDogMTMsIGhlaWdodDogMyB9LAogICAgTTogeyB3ZWlnaHQ6IDAuMTQsIGxlbmd0aDogMTgsIHdpZHRoOiAxNSwgaGVpZ2h0OiAzIH0sCiAgICAnTSsnOiB7IHdlaWdodDogMC4xNSwgbGVuZ3RoOiAxOSwgd2lkdGg6IDE2LCBoZWlnaHQ6IDMgfSwKICAgIEw6IHsgd2VpZ2h0OiAwLjI1LCBsZW5ndGg6IDIyLCB3aWR0aDogMTgsIGhlaWdodDogNCB9LAogICAgWEw6IHsgd2VpZ2h0OiAwLjI5LCBsZW5ndGg6IDI1LCB3aWR0aDogMjAsIGhlaWdodDogNCB9LAogIH0sCiAgLy8gaWQgMjkg4oCUIE5vbi1Xb3ZlbiBEb2cgUmVjb3ZlcnkgQ29sbGFyIChmbGF0dGVuZWQsIHBvbHkgYmFnKQogICcyOSc6IHsKICAgICdTaXplIDEnOiB7IHdlaWdodDogMC4wOCwgbGVuZ3RoOiAxNSwgd2lkdGg6IDE1LCBoZWlnaHQ6IDIgfSwKICAgICdTaXplIDInOiB7IHdlaWdodDogMC4xMCwgbGVuZ3RoOiAxOSwgd2lkdGg6IDE5LCBoZWlnaHQ6IDIgfSwKICAgICdTaXplIDMnOiB7IHdlaWdodDogMC4xMSwgbGVuZ3RoOiAyMywgd2lkdGg6IDIzLCBoZWlnaHQ6IDIgfSwKICAgICdTaXplIDQnOiB7IHdlaWdodDogMC4xMywgbGVuZ3RoOiAyOSwgd2lkdGg6IDI5LCBoZWlnaHQ6IDMgfSwKICAgICdTaXplIDUnOiB7IHdlaWdodDogMC4xNywgbGVuZ3RoOiAzNCwgd2lkdGg6IDM0LCBoZWlnaHQ6IDMgfSwKICB9LAogIC8vIGlkIDMwIOKAlCBTaWRlLUdyaXAgUGV0IFBpbGwgRGlzcGVuc2VyIChwb2x5IGJhZykKICAnMzAnOiB7CiAgICBEZWZhdWx0OiB7IHdlaWdodDogMC4wNiwgbGVuZ3RoOiAyNCwgd2lkdGg6IDEwLCBoZWlnaHQ6IDMgfSwKICB9LAogIC8vIGlkIDMxIOKAlCBTaWxpY29uZSBMaWNrIE1hdCAoT1BQIGJhZzsgc2l6ZS93ZWlnaHQgZXN0aW1hdGVzIHBlbmRpbmcgc2FtcGxlIGNvbmZpcm1hdGlvbikKICAnMzEnOiB7CiAgICBEZWZhdWx0OiB7IHdlaWdodDogMC4wOCwgbGVuZ3RoOiAxNiwgd2lkdGg6IDE2LCBoZWlnaHQ6IDIgfSwKICB9LAogIC8vIGlkIDMyIOKAlCBQb3J0YWJsZSBIaW5kIExlZyBTdXBwb3J0IEJlbHQgKHBvbHkgYmFnKQogICczMic6IHsKICAgIFM6IHsgd2VpZ2h0OiAwLjA4NSwgbGVuZ3RoOiAxOCwgd2lkdGg6IDEyLCBoZWlnaHQ6IDMgfSwKICAgIE06IHsgd2VpZ2h0OiAwLjEwNSwgbGVuZ3RoOiAyMCwgd2lkdGg6IDE0LCBoZWlnaHQ6IDMgfSwKICAgIEw6IHsgd2VpZ2h0OiAwLjEyNSwgbGVuZ3RoOiAyMiwgd2lkdGg6IDE1LCBoZWlnaHQ6IDQgfSwKICAgIFhMOiB7IHdlaWdodDogMC4xNSwgbGVuZ3RoOiAyNCwgd2lkdGg6IDE3LCBoZWlnaHQ6IDQgfSwKICB9LAp9OwoKLy8g4pSA4pSA4pSAIENvdW50cnkgU2hpcHBpbmcgTWV0aG9kcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmludGVyZmFjZSBDb3VudHJ5UmF0ZSB7CiAgbWV0aG9kOiBzdHJpbmc7CiAgbWluRGF5czogbnVtYmVyOwogIG1heERheXM6IG51bWJlcjsKICBtYXhXZWlnaHQ6IG51bWJlcjsgLy8ga2cKICAvKiogV2VpZ2h0IGJyYWNrZXRzOiBbdXBwZXIgYm91bmQga2csIHJhdGUgcGVyIGtnIGluIFJNQiwgcmVnaXN0cmF0aW9uIGZlZSBpbiBSTUJdICovCiAgYnJhY2tldHM6IFtudW1iZXIsIG51bWJlciwgbnVtYmVyXVtdOwogIC8qKiBJZiB0cnVlLCB1c2VzIENhbmFkYSAyw5cgYWN0dWFsIHdlaWdodCBydWxlIGZvciBjaGFyZ2VhYmxlIHdlaWdodCAqLwogIGNhbmFkYVJ1bGU/OiBib29sZWFuOwogIC8qKiBNaW5pbXVtIGNoYXJnZWFibGUgd2VpZ2h0IGluIGtnICovCiAgbWluQ2hhcmdlV2VpZ2h0PzogbnVtYmVyOwp9Cgpjb25zdCBDT1VOVFJZX1JBVEVTOiBSZWNvcmQ8c3RyaW5nLCBDb3VudHJ5UmF0ZT4gPSB7CiAgVVM6IHsKICAgIG1ldGhvZDogJ1l1blR1IFVTIEV4cHJlc3MgKFRLWk1LUyknLAogICAgbWluRGF5czogOCwgbWF4RGF5czogMTAsIG1heFdlaWdodDogMTAsCiAgICBicmFja2V0czogWwogICAgICBbMC4xLCA5OSwgMjNdLAogICAgICBbMC4yLCA5OSwgMjNdLAogICAgICBbMC4zLCA5OCwgMjNdLAogICAgICBbMC40NSwgOTcsIDI2XSwKICAgICAgWzAuNywgOTYsIDI2XSwKICAgICAgWzIsIDk1LCAyOV0sCiAgICAgIFsxMCwgODksIDI5XSwKICAgIF0sCiAgfSwKICBDQTogewogICAgbWV0aG9kOiAnWXVuVHUgQ2FuYWRhIEV4cHJlc3MgKEVUVEhQSFIpJywKICAgIG1pbkRheXM6IDEwLCBtYXhEYXlzOiAxNCwgbWF4V2VpZ2h0OiAzMCwKICAgIGNhbmFkYVJ1bGU6IHRydWUsCiAgICBicmFja2V0czogWwogICAgICBbMC4xNSwgODksIDIxXSwKICAgICAgWzAuMywgOTAsIDIxXSwKICAgICAgWzAuNDUsIDkwLCAyMV0sCiAgICAgIFswLjc1LCA5MSwgMjJdLAogICAgICBbMSwgOTIsIDIyXSwKICAgICAgWzEuNSwgOTIsIDIzXSwKICAgICAgWzIsIDkyLCAyM10sCiAgICAgIFszMCwgOTYsIDIzXSwKICAgIF0sCiAgfSwKICBERTogewogICAgbWV0aG9kOiAnWXVuVHUgRVUgRXhwcmVzcyAoVEtUSFBIUiknLAogICAgbWluRGF5czogOSwgbWF4RGF5czogMTUsIG1heFdlaWdodDogMzAsCiAgICBicmFja2V0czogWwogICAgICBbMC4xLCA1OSwgMjJdLAogICAgICBbMC4zLCA1OSwgMjFdLAogICAgICBbMiwgNTYsIDIyXSwKICAgICAgWzMwLCA1NiwgMjJdLAogICAgXSwKICB9LAogIEZSOiB7CiAgICBtZXRob2Q6ICdZdW5UdSBFVSBFeHByZXNzIChUS1RIUEhSKScsCiAgICBtaW5EYXlzOiA5LCBtYXhEYXlzOiAxNSwgbWF4V2VpZ2h0OiAzMCwKICAgIGJyYWNrZXRzOiBbCiAgICAgIFswLjIsIDU3LCAyMF0sCiAgICAgIFswLjUsIDU4LCAyMF0sCiAgICAgIFsyLCA1NywgMjNdLAogICAgICBbMzAsIDU2LCAyM10sCiAgICBdLAogIH0sCiAgR0I6IHsKICAgIG1ldGhvZDogJ1l1blR1IFVLIFRyYWNrZWQgKFlPREVMIC8gVVNQUyknLAogICAgbWluRGF5czogOSwgbWF4RGF5czogMTUsIG1heFdlaWdodDogNSwKICAgIGJyYWNrZXRzOiBbCiAgICAgIFswLjMsIDU4LCAxNl0sCiAgICAgIFswLjUsIDYwLCAxNl0sCiAgICAgIFsxLCA2MCwgMTZdLAogICAgICBbMywgNjUsIDE2XSwKICAgICAgWzUsIDg5LCAxNl0sIC8vIFVTUFNCS1BIUiBmb3IgPjNrZwogICAgXSwKICB9LAogIEFVOiB7CiAgICBtZXRob2Q6ICdZdW5UdSBBdXN0cmFsaWEgU3RhbmRhcmQgKFFZVEhQSCknLAogICAgbWluRGF5czogOCwgbWF4RGF5czogMTUsIG1heFdlaWdodDogMjAsCiAgICBicmFja2V0czogWwogICAgICBbMC4zLCA0MCwgMjFdLAogICAgICBbMC41LCA0MCwgMjRdLAogICAgICBbMSwgNDAsIDI1XSwKICAgICAgWzMsIDQwLCAyN10sCiAgICAgIFsyMCwgNDAsIDQyXSwKICAgIF0sCiAgfSwKICBKUDogewogICAgbWV0aG9kOiAnWXVuVHUgSmFwYW4gRXhwcmVzcyAoWVJHUlMpJywKICAgIG1pbkRheXM6IDksIG1heERheXM6IDEyLCBtYXhXZWlnaHQ6IDEwLAogICAgbWluQ2hhcmdlV2VpZ2h0OiAwLjUsCiAgICBicmFja2V0czogWwogICAgICBbMiwgMzQsIDRdLAogICAgICBbMTAsIDM0LCA1XSwKICAgIF0sCiAgfSwKfTsKCi8vIOKUgOKUgOKUgCBDb25zdGFudHMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBWT0xVTUVUUklDX0RJVklTT1IgPSA4MDAwOwpjb25zdCBSTUJfVE9fVVNEID0gNy4yOwpjb25zdCBCVUZGRVJfTVVMVElQTElFUiA9IDEuMDU7IC8vIDUlIGJ1ZmZlciBmb3IgcGFja2FnaW5nICsgRlggdmFyaWFuY2UKCi8vIEZyZWUgc2hpcHBpbmcgcHJvbW90aW9uOiBVUyBvcmRlcnMgd2l0aCBnb29kcyBzdWJ0b3RhbCA+PSB0aGlzIHRocmVzaG9sZCBzaGlwIGZyZWUuCmNvbnN0IEZSRUVfU0hJUFBJTkc6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7CiAgVVM6IDI5LAp9OwoKLyoqIFdoZXRoZXIgYSBjYXJ0IHF1YWxpZmllcyBmb3IgZnJlZSBzaGlwcGluZyB0byB0aGUgZ2l2ZW4gY291bnRyeSAqLwpleHBvcnQgZnVuY3Rpb24gaXNGcmVlU2hpcHBpbmdFbGlnaWJsZShjb3VudHJ5Q29kZTogc3RyaW5nLCBnb29kc1N1YnRvdGFsVVNEOiBudW1iZXIpOiBib29sZWFuIHsKICBjb25zdCB0aHJlc2hvbGQgPSBGUkVFX1NISVBQSU5HW2NvdW50cnlDb2RlXTsKICByZXR1cm4gdGhyZXNob2xkICE9PSB1bmRlZmluZWQgJiYgZ29vZHNTdWJ0b3RhbFVTRCA+PSB0aHJlc2hvbGQ7Cn0KCi8qKiBGcmVlIHNoaXBwaW5nIHRocmVzaG9sZCBmb3IgYSBjb3VudHJ5LCBvciBudWxsIGlmIG5vIHByb21vdGlvbiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0RnJlZVNoaXBwaW5nVGhyZXNob2xkKGNvdW50cnlDb2RlOiBzdHJpbmcpOiBudW1iZXIgfCBudWxsIHsKICByZXR1cm4gRlJFRV9TSElQUElOR1tjb3VudHJ5Q29kZV0gPz8gbnVsbDsKfQoKLy8g4pSA4pSA4pSAIENhbGN1bGF0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gZ2V0UGFja2FnZVNwZWMocHJvZHVjdElkOiBzdHJpbmcsIHNpemU/OiBzdHJpbmcpOiBQYWNrYWdlU3BlYyB8IG51bGwgewogIGNvbnN0IHByb2R1Y3RQa2dzID0gUFJPRFVDVF9QQUNLQUdFU1twcm9kdWN0SWRdOwogIGlmICghcHJvZHVjdFBrZ3MpIHJldHVybiBudWxsOwoKICAvLyBUcnkgZXhhY3Qgc2l6ZSBtYXRjaCBmaXJzdAogIGlmIChzaXplICYmIHByb2R1Y3RQa2dzW3NpemVdKSByZXR1cm4gcHJvZHVjdFBrZ3Nbc2l6ZV07CgogIC8vIEZhbGxiYWNrIGtleXMgZm9yIHByb2R1Y3RzIHdpdGhvdXQgdmFyaWFudHMKICByZXR1cm4gcHJvZHVjdFBrZ3NbJ0RlZmF1bHQnXSB8fCBwcm9kdWN0UGtnc1snT25lIFNpemUnXSB8fCBPYmplY3QudmFsdWVzKHByb2R1Y3RQa2dzKVswXSB8fCBudWxsOwp9CgpmdW5jdGlvbiB2b2x1bWV0cmljV2VpZ2h0KHBrZzogUGFja2FnZVNwZWMpOiBudW1iZXIgewogIHJldHVybiAocGtnLmxlbmd0aCAqIHBrZy53aWR0aCAqIHBrZy5oZWlnaHQpIC8gVk9MVU1FVFJJQ19ESVZJU09SOwp9CgpmdW5jdGlvbiBjaGFyZ2VhYmxlV2VpZ2h0Rm9ySXRlbShwa2c6IFBhY2thZ2VTcGVjLCBjYW5hZGFSdWxlOiBib29sZWFuKTogbnVtYmVyIHsKICBjb25zdCB2b2xXdCA9IHZvbHVtZXRyaWNXZWlnaHQocGtnKTsKICBpZiAoY2FuYWRhUnVsZSkgewogICAgLy8gQ2FuYWRhOiBpZiB2b2x1bWUgd2VpZ2h0IDwgMsOXIGFjdHVhbCB3ZWlnaHQg4oaSIHVzZSBhY3R1YWwgd2VpZ2h0CiAgICByZXR1cm4gdm9sV3QgPj0gMiAqIHBrZy53ZWlnaHQgPyB2b2xXdCA6IHBrZy53ZWlnaHQ7CiAgfQogIHJldHVybiBNYXRoLm1heChwa2cud2VpZ2h0LCB2b2xXdCk7Cn0KCmZ1bmN0aW9uIGZpbmRCcmFja2V0KHdlaWdodDogbnVtYmVyLCBicmFja2V0czogW251bWJlciwgbnVtYmVyLCBudW1iZXJdW10pOiBbbnVtYmVyLCBudW1iZXIsIG51bWJlcl0gewogIGZvciAoY29uc3QgYnJhY2tldCBvZiBicmFja2V0cykgewogICAgaWYgKHdlaWdodCA8PSBicmFja2V0WzBdKSByZXR1cm4gYnJhY2tldDsKICB9CiAgLy8gRmFsbCB0aHJvdWdoIHRvIGxhc3QgYnJhY2tldCBpZiB3ZWlnaHQgc29tZWhvdyBleGNlZWRzIG1heAogIHJldHVybiBicmFja2V0c1ticmFja2V0cy5sZW5ndGggLSAxXTsKfQoKZnVuY3Rpb24gcm91bmRUbzk5KGFtb3VudDogbnVtYmVyKTogbnVtYmVyIHsKICBjb25zdCBjZW50cyA9IE1hdGguY2VpbChhbW91bnQgKiAxMDApOwogIGNvbnN0IHJlbWFpbmRlciA9IGNlbnRzICUgMTAwOwogIGlmIChyZW1haW5kZXIgPT09IDApIHJldHVybiBhbW91bnQ7IC8vIGFscmVhZHkgd2hvbGUgZG9sbGFyCiAgaWYgKHJlbWFpbmRlciA8PSA5OSkgewogICAgcmV0dXJuIE1hdGguZmxvb3IoY2VudHMgLyAxMDApICsgMC45OTsKICB9CiAgcmV0dXJuIGFtb3VudDsKfQoKZXhwb3J0IGludGVyZmFjZSBDYXJ0SXRlbUxpa2UgewogIHByb2R1Y3RJZDogc3RyaW5nOwogIHF1YW50aXR5OiBudW1iZXI7CiAgc2l6ZT86IHN0cmluZzsKfQoKLyoqCiAqIENhbGN1bGF0ZSBzaGlwcGluZyBjb3N0IGZvciBhIGNhcnQuCiAqCiAqIEBwYXJhbSBpdGVtcyAtIENhcnQgaXRlbXMgd2l0aCBwcm9kdWN0SWQsIHF1YW50aXR5LCBhbmQgb3B0aW9uYWwgc2l6ZQogKiBAcGFyYW0gY291bnRyeUNvZGUgLSBJU08gMzE2Ni0xIGFscGhhLTIgY291bnRyeSBjb2RlCiAqIEByZXR1cm5zIFNoaXBwaW5nUXVvdGUgd2l0aCBjb3N0IGluIFVTRCwgb3IgbnVsbCBpZiBzaGlwcGluZyB1bmF2YWlsYWJsZQogKi8KZXhwb3J0IGZ1bmN0aW9uIGNhbGN1bGF0ZVNoaXBwaW5nKAogIGl0ZW1zOiBDYXJ0SXRlbUxpa2VbXSwKICBjb3VudHJ5Q29kZTogc3RyaW5nLAogIGdvb2RzU3VidG90YWxVU0Q/OiBudW1iZXIsCik6IFNoaXBwaW5nUXVvdGUgfCBudWxsIHsKICBjb25zdCByYXRlID0gQ09VTlRSWV9SQVRFU1tjb3VudHJ5Q29kZV07CiAgaWYgKCFyYXRlKSByZXR1cm4gbnVsbDsKCiAgLy8gRnJlZSBzaGlwcGluZyBwcm9tb3Rpb24gKFVTIG9ubHksIGJhc2VkIG9uIGdvb2RzIHN1YnRvdGFsKQogIGNvbnN0IGZyZWVUaHJlc2hvbGQgPSBnb29kc1N1YnRvdGFsVVNEICE9PSB1bmRlZmluZWQgPyBGUkVFX1NISVBQSU5HW2NvdW50cnlDb2RlXSA6IHVuZGVmaW5lZDsKICBpZiAoZnJlZVRocmVzaG9sZCAhPT0gdW5kZWZpbmVkICYmIGdvb2RzU3VidG90YWxVU0QhID49IGZyZWVUaHJlc2hvbGQpIHsKICAgIHJldHVybiB7CiAgICAgIGNvc3Q6IDAsCiAgICAgIGN1cnJlbmN5OiAnVVNEJywKICAgICAgbWV0aG9kOiByYXRlLm1ldGhvZCArICcg4oCUIEZSRUUgU0hJUFBJTkcnLAogICAgICBtaW5EYXlzOiByYXRlLm1pbkRheXMsCiAgICAgIG1heERheXM6IHJhdGUubWF4RGF5cywKICAgICAgY2hhcmdlYWJsZVdlaWdodDogMCwKICAgICAgYnJlYWtkb3duOiBgRlJFRSBzaGlwcGluZyBvbiBvcmRlcnMgb3ZlciAkJHtmcmVlVGhyZXNob2xkfSDCtyAke3JhdGUubWV0aG9kfSDCtyAke3JhdGUubWluRGF5c33igJMke3JhdGUubWF4RGF5c30gYnVzaW5lc3MgZGF5c2AsCiAgICB9OwogIH0KCiAgLy8gU3VtIGNoYXJnZWFibGUgd2VpZ2h0cyBhY3Jvc3MgYWxsIGl0ZW1zCiAgbGV0IHRvdGFsQ2hhcmdlV2VpZ2h0ID0gMDsKICBsZXQgdG90YWxBY3R1YWxXZWlnaHQgPSAwOwoKICBmb3IgKGNvbnN0IGl0ZW0gb2YgaXRlbXMpIHsKICAgIGNvbnN0IHBrZyA9IGdldFBhY2thZ2VTcGVjKGl0ZW0ucHJvZHVjdElkLCBpdGVtLnNpemUpOwogICAgaWYgKCFwa2cpIHsKICAgICAgY29uc29sZS53YXJuKGBbc2hpcHBpbmddIE5vIHBhY2thZ2Ugc3BlYyBmb3IgcHJvZHVjdCAke2l0ZW0ucHJvZHVjdElkfSAoc2l6ZTogJHtpdGVtLnNpemV9KWApOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGNvbnN0IGN3ID0gY2hhcmdlYWJsZVdlaWdodEZvckl0ZW0ocGtnLCAhIXJhdGUuY2FuYWRhUnVsZSk7CiAgICB0b3RhbENoYXJnZVdlaWdodCArPSBjdyAqIGl0ZW0ucXVhbnRpdHk7CiAgICB0b3RhbEFjdHVhbFdlaWdodCArPSBwa2cud2VpZ2h0ICogaXRlbS5xdWFudGl0eTsKICB9CgogIC8vIEFwcGx5IG1pbmltdW0gY2hhcmdlYWJsZSB3ZWlnaHQgKGUuZy4gSmFwYW4gMC41a2cpCiAgaWYgKHJhdGUubWluQ2hhcmdlV2VpZ2h0ICYmIHRvdGFsQ2hhcmdlV2VpZ2h0IDwgcmF0ZS5taW5DaGFyZ2VXZWlnaHQpIHsKICAgIHRvdGFsQ2hhcmdlV2VpZ2h0ID0gcmF0ZS5taW5DaGFyZ2VXZWlnaHQ7CiAgfQoKICAvLyBDaGVjayBtYXggd2VpZ2h0CiAgaWYgKHRvdGFsQ2hhcmdlV2VpZ2h0ID4gcmF0ZS5tYXhXZWlnaHQpIHsKICAgIHJldHVybiB7CiAgICAgIGNvc3Q6IC0xLAogICAgICBjdXJyZW5jeTogJ1VTRCcsCiAgICAgIG1ldGhvZDogcmF0ZS5tZXRob2QsCiAgICAgIG1pbkRheXM6IDAsCiAgICAgIG1heERheXM6IDAsCiAgICAgIGNoYXJnZWFibGVXZWlnaHQ6IHRvdGFsQ2hhcmdlV2VpZ2h0LAogICAgICBicmVha2Rvd246IGBDb21iaW5lZCBwYWNrYWdlIHdlaWdodCAoJHt0b3RhbENoYXJnZVdlaWdodC50b0ZpeGVkKDIpfWtnKSBleGNlZWRzIHRoZSAke3JhdGUubWF4V2VpZ2h0fWtnIGxpbWl0IGZvciB0aGlzIGRlc3RpbmF0aW9uLiBQbGVhc2Ugc3BsaXQgeW91ciBvcmRlciBvciBjb250YWN0IHVzIGZvciBhIGN1c3RvbSBzaGlwcGluZyBxdW90ZS5gLAogICAgfTsKICB9CgogIC8vIEZpbmQgYXBwbGljYWJsZSBicmFja2V0CiAgY29uc3QgW3VwcGVyQm91bmQsIHJhdGVQZXJLZywgcmVnRmVlXSA9IGZpbmRCcmFja2V0KHRvdGFsQ2hhcmdlV2VpZ2h0LCByYXRlLmJyYWNrZXRzKTsKCiAgLy8gQ2FsY3VsYXRlIGNvc3QgaW4gUk1CCiAgY29uc3QgY29zdFJtYiA9IHJhdGVQZXJLZyAqIHRvdGFsQ2hhcmdlV2VpZ2h0ICsgcmVnRmVlOwogIGNvbnN0IGNvc3RSbWJXaXRoQnVmZmVyID0gY29zdFJtYiAqIEJVRkZFUl9NVUxUSVBMSUVSOwoKICAvLyBDb252ZXJ0IHRvIFVTRAogIGNvbnN0IGNvc3RVc2QgPSBjb3N0Um1iV2l0aEJ1ZmZlciAvIFJNQl9UT19VU0Q7CiAgY29uc3Qgcm91bmRlZENvc3QgPSByb3VuZFRvOTkoY29zdFVzZCk7CgogIHJldHVybiB7CiAgICBjb3N0OiByb3VuZGVkQ29zdCwKICAgIGN1cnJlbmN5OiAnVVNEJywKICAgIG1ldGhvZDogcmF0ZS5tZXRob2QsCiAgICBtaW5EYXlzOiByYXRlLm1pbkRheXMsCiAgICBtYXhEYXlzOiByYXRlLm1heERheXMsCiAgICBjaGFyZ2VhYmxlV2VpZ2h0OiB0b3RhbENoYXJnZVdlaWdodCwKICAgIGJyZWFrZG93bjogYCR7cmF0ZS5tZXRob2R9IMK3ICR7dG90YWxDaGFyZ2VXZWlnaHQudG9GaXhlZCgyKX1rZyBjaGFyZ2VhYmxlIMK3ICR7cmF0ZS5taW5EYXlzfeKAkyR7cmF0ZS5tYXhEYXlzfSBidXNpbmVzcyBkYXlzYCwKICB9Owp9CgovKiogR2V0IGxpc3Qgb2YgY291bnRyaWVzIHdlIHNoaXAgdG8gKi8KZXhwb3J0IGZ1bmN0aW9uIGdldFNoaXBwYWJsZUNvdW50cmllcygpOiBzdHJpbmdbXSB7CiAgcmV0dXJuIE9iamVjdC5rZXlzKENPVU5UUllfUkFURVMpOwp9CgovKiogR2V0IGVzdGltYXRlZCBkZWxpdmVyeSB3aW5kb3cgZm9yIGEgY291bnRyeSAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0RGVsaXZlcnlXaW5kb3coY291bnRyeUNvZGU6IHN0cmluZyk6IHsgbWluRGF5czogbnVtYmVyOyBtYXhEYXlzOiBudW1iZXIgfSB8IG51bGwgewogIGNvbnN0IHJhdGUgPSBDT1VOVFJZX1JBVEVTW2NvdW50cnlDb2RlXTsKICBpZiAoIXJhdGUpIHJldHVybiBudWxsOwogIHJldHVybiB7IG1pbkRheXM6IHJhdGUubWluRGF5cywgbWF4RGF5czogcmF0ZS5tYXhEYXlzIH07Cn0K
+/**
+ * LoyalBond Shipping Calculator
+ *
+ * Calculates real-time shipping costs based on chargeable weight and destination
+ * country, using 云途 (YunTu) logistics rates.
+ *
+ * Chargeable weight = max(actual weight, volumetric weight)
+ * Volumetric weight = L × W × H ÷ 8000  (cm → kg)
+ * Canada special: if volume weight < 2× actual weight, use actual weight.
+ * Japan minimum chargeable weight: 0.5 kg.
+ *
+ * Rates include a 5% buffer for packaging, fuel surcharge variance, and FX.
+ * Final price rounded up to the nearest $0.99.
+ */
+
+// ─── Types ───────────────────────────────────────────────────────────────────
+
+export interface PackageSpec {
+  /** Actual product + packaging weight in kg */
+  weight: number;
+  /** Shipping carton dimensions in cm */
+  length: number;
+  width: number;
+  height: number;
+}
+
+export interface ShippingQuote {
+  cost: number;
+  currency: string;
+  method: string;
+  minDays: number;
+  maxDays: number;
+  chargeableWeight: number;
+  breakdown?: string;
+}
+
+// ─── Product Package Data ────────────────────────────────────────────────────
+//
+// Package dimensions are for the outermost shipping carton / mailer.
+// For products sold in multiple sizes, key by variant label.
+// Products with no size variant use 'Default' key.
+//
+// NOTE: Dog bed compressed dimensions are estimates.
+// TODO: Confirm exact compressed carton sizes and dog bed M weight (9kg seems anomalous).
+
+const PRODUCT_PACKAGES: Record<string, Record<string, PackageSpec>> = {
+  // id 2 — Hind Leg Support Harness (poly mailer)
+  '2': {
+    Default: { weight: 0.10, length: 20, width: 15, height: 3 },
+  },
+  // id 3 — Flower Snuffle Mat (folded/rolled in poly mailer)
+  '3': {
+    Small: { weight: 0.30, length: 25, width: 18, height: 6 },
+    Large: { weight: 0.45, length: 30, width: 22, height: 8 },
+  },
+  // id 6 — Fleece-Lined Dog Support Harness (poly mailer)
+  '6': {
+    S: { weight: 0.28, length: 24, width: 16, height: 4 },
+    M: { weight: 0.33, length: 28, width: 19, height: 4 },
+    L: { weight: 0.38, length: 30, width: 22, height: 4 },
+    XL: { weight: 0.43, length: 34, width: 26, height: 4 },
+  },
+  // id 11 — Gel Memory Foam Dog Sofa Bed (CF3609, Dongyang Kuangchou)
+  '11': {
+    S: { weight: 1.0, length: 31, width: 21, height: 12 },
+    M: { weight: 2.1, length: 35, width: 25, height: 7 },
+    L: { weight: 2.9, length: 35, width: 25, height: 10 },
+    XL: { weight: 4.75, length: 35, width: 25, height: 18 },
+  },
+// id 22 — Elevated Slow Feeder Bowl (folded flat in carton)
+  '22': {
+    Default: { weight: 1.20, length: 44, width: 24, height: 8 },
+  },
+  // id 23 — Folding Pet Stairs (folded in carton)
+  '23': {
+    Default: { weight: 3.60, length: 42.5, width: 33, height: 11 },
+  },
+  // id 24 — Snowflake Cooling Mat (flat in poly mailer/carton)
+  '24': {
+    S: { weight: 0.85, length: 42, width: 32, height: 3 },
+    M: { weight: 1.40, length: 52, width: 42, height: 3 },
+    L: { weight: 2.20, length: 62, width: 52, height: 3 },
+  },
+  // id 25 — Anti-Choke Slow Feeder Bowl (in carton)
+  '25': {
+    Default: { weight: 0.145, length: 22.5, width: 18, height: 5 },
+  },
+  // id 26 — Silicone Dog Rain Boots (in poly bag/carton)
+  '26': {
+    XS: { weight: 0.20, length: 15, width: 12, height: 4 },
+    S: { weight: 0.25, length: 15, width: 12, height: 4 },
+    M: { weight: 0.28, length: 17, width: 14, height: 4 },
+    L: { weight: 0.30, length: 19, width: 16, height: 4 },
+    XL: { weight: 0.32, length: 21, width: 18, height: 4 },
+  },
+  // id 27 — Pet Paw Cleaner Cup (individual poly bag + carton)
+  '27': {
+    S: { weight: 0.20, length: 12, width: 12, height: 16 },
+    M: { weight: 0.30, length: 14, width: 14, height: 19 },
+  },
+  // id 28 — Inflatable Dog Recovery Collar (deflated, poly mailer)
+  '28': {
+    XS: { weight: 0.09, length: 14, width: 11, height: 3 },
+    S: { weight: 0.12, length: 16, width: 13, height: 3 },
+    M: { weight: 0.14, length: 18, width: 15, height: 3 },
+    'M+': { weight: 0.15, length: 19, width: 16, height: 3 },
+    L: { weight: 0.25, length: 22, width: 18, height: 4 },
+    XL: { weight: 0.29, length: 25, width: 20, height: 4 },
+  },
+  // id 29 — Non-Woven Dog Recovery Collar (flattened, poly bag)
+  '29': {
+    'Size 1': { weight: 0.08, length: 15, width: 15, height: 2 },
+    'Size 2': { weight: 0.10, length: 19, width: 19, height: 2 },
+    'Size 3': { weight: 0.11, length: 23, width: 23, height: 2 },
+    'Size 4': { weight: 0.13, length: 29, width: 29, height: 3 },
+    'Size 5': { weight: 0.17, length: 34, width: 34, height: 3 },
+  },
+  // id 30 — Side-Grip Pet Pill Dispenser (poly bag)
+  '30': {
+    Default: { weight: 0.06, length: 24, width: 10, height: 3 },
+  },
+  // id 31 — Silicone Lick Mat (OPP bag; size/weight estimates pending sample confirmation)
+  '31': {
+    Default: { weight: 0.08, length: 16, width: 16, height: 2 },
+  },
+  // id 32 — Portable Hind Leg Support Belt (poly bag)
+  '32': {
+    S: { weight: 0.085, length: 18, width: 12, height: 3 },
+    M: { weight: 0.105, length: 20, width: 14, height: 3 },
+    L: { weight: 0.125, length: 22, width: 15, height: 4 },
+    XL: { weight: 0.15, length: 24, width: 17, height: 4 },
+  },
+};
+
+// ─── Country Shipping Methods ────────────────────────────────────────────────
+
+interface CountryRate {
+  method: string;
+  minDays: number;
+  maxDays: number;
+  maxWeight: number; // kg
+  /** Weight brackets: [upper bound kg, rate per kg in RMB, registration fee in RMB] */
+  brackets: [number, number, number][];
+  /** If true, uses Canada 2× actual weight rule for chargeable weight */
+  canadaRule?: boolean;
+  /** Minimum chargeable weight in kg */
+  minChargeWeight?: number;
+}
+
+const COUNTRY_RATES: Record<string, CountryRate> = {
+  US: {
+    method: 'YunTu US Express (TKZMKS)',
+    minDays: 8, maxDays: 10, maxWeight: 10,
+    brackets: [
+      [0.1, 99, 23],
+      [0.2, 99, 23],
+      [0.3, 98, 23],
+      [0.45, 97, 26],
+      [0.7, 96, 26],
+      [2, 95, 29],
+      [10, 89, 29],
+    ],
+  },
+  CA: {
+    method: 'YunTu Canada Express (ETTHPHR)',
+    minDays: 10, maxDays: 14, maxWeight: 30,
+    canadaRule: true,
+    brackets: [
+      [0.15, 89, 21],
+      [0.3, 90, 21],
+      [0.45, 90, 21],
+      [0.75, 91, 22],
+      [1, 92, 22],
+      [1.5, 92, 23],
+      [2, 92, 23],
+      [30, 96, 23],
+    ],
+  },
+  DE: {
+    method: 'YunTu EU Express (TKTHPHR)',
+    minDays: 9, maxDays: 15, maxWeight: 30,
+    brackets: [
+      [0.1, 59, 22],
+      [0.3, 59, 21],
+      [2, 56, 22],
+      [30, 56, 22],
+    ],
+  },
+  FR: {
+    method: 'YunTu EU Express (TKTHPHR)',
+    minDays: 9, maxDays: 15, maxWeight: 30,
+    brackets: [
+      [0.2, 57, 20],
+      [0.5, 58, 20],
+      [2, 57, 23],
+      [30, 56, 23],
+    ],
+  },
+  GB: {
+    method: 'YunTu UK Tracked (YODEL / USPS)',
+    minDays: 9, maxDays: 15, maxWeight: 5,
+    brackets: [
+      [0.3, 58, 16],
+      [0.5, 60, 16],
+      [1, 60, 16],
+      [3, 65, 16],
+      [5, 89, 16], // USPSBKPHR for >3kg
+    ],
+  },
+  AU: {
+    method: 'YunTu Australia Standard (QYTHPH)',
+    minDays: 8, maxDays: 15, maxWeight: 20,
+    brackets: [
+      [0.3, 40, 21],
+      [0.5, 40, 24],
+      [1, 40, 25],
+      [3, 40, 27],
+      [20, 40, 42],
+    ],
+  },
+  JP: {
+    method: 'YunTu Japan Express (YRGRS)',
+    minDays: 9, maxDays: 12, maxWeight: 10,
+    minChargeWeight: 0.5,
+    brackets: [
+      [2, 34, 4],
+      [10, 34, 5],
+    ],
+  },
+};
+
+// ─── Constants ───────────────────────────────────────────────────────────────
+
+const VOLUMETRIC_DIVISOR = 8000;
+const RMB_TO_USD = 7.2;
+const BUFFER_MULTIPLIER = 1.05; // 5% buffer for packaging + FX variance
+
+// Free shipping promotion: US orders with goods subtotal >= this threshold ship free.
+const FREE_SHIPPING: Record<string, number> = {
+  US: 29,
+};
+
+/** Whether a cart qualifies for free shipping to the given country */
+export function isFreeShippingEligible(countryCode: string, goodsSubtotalUSD: number): boolean {
+  const threshold = FREE_SHIPPING[countryCode];
+  return threshold !== undefined && goodsSubtotalUSD >= threshold;
+}
+
+/** Free shipping threshold for a country, or null if no promotion */
+export function getFreeShippingThreshold(countryCode: string): number | null {
+  return FREE_SHIPPING[countryCode] ?? null;
+}
+
+// ─── Calculation ─────────────────────────────────────────────────────────────
+
+function getPackageSpec(productId: string, size?: string): PackageSpec | null {
+  const productPkgs = PRODUCT_PACKAGES[productId];
+  if (!productPkgs) return null;
+
+  // Try exact size match first
+  if (size && productPkgs[size]) return productPkgs[size];
+
+  // Fallback keys for products without variants
+  return productPkgs['Default'] || productPkgs['One Size'] || Object.values(productPkgs)[0] || null;
+}
+
+function volumetricWeight(pkg: PackageSpec): number {
+  return (pkg.length * pkg.width * pkg.height) / VOLUMETRIC_DIVISOR;
+}
+
+function chargeableWeightForItem(pkg: PackageSpec, canadaRule: boolean): number {
+  const volWt = volumetricWeight(pkg);
+  if (canadaRule) {
+    // Canada: if volume weight < 2× actual weight → use actual weight
+    return volWt >= 2 * pkg.weight ? volWt : pkg.weight;
+  }
+  return Math.max(pkg.weight, volWt);
+}
+
+function findBracket(weight: number, brackets: [number, number, number][]): [number, number, number] {
+  for (const bracket of brackets) {
+    if (weight <= bracket[0]) return bracket;
+  }
+  // Fall through to last bracket if weight somehow exceeds max
+  return brackets[brackets.length - 1];
+}
+
+function roundTo99(amount: number): number {
+  const cents = Math.ceil(amount * 100);
+  const remainder = cents % 100;
+  if (remainder === 0) return amount; // already whole dollar
+  if (remainder <= 99) {
+    return Math.floor(cents / 100) + 0.99;
+  }
+  return amount;
+}
+
+export interface CartItemLike {
+  productId: string;
+  quantity: number;
+  size?: string;
+}
+
+/**
+ * Calculate shipping cost for a cart.
+ *
+ * @param items - Cart items with productId, quantity, and optional size
+ * @param countryCode - ISO 3166-1 alpha-2 country code
+ * @returns ShippingQuote with cost in USD, or null if shipping unavailable
+ */
+export function calculateShipping(
+  items: CartItemLike[],
+  countryCode: string,
+  goodsSubtotalUSD?: number,
+): ShippingQuote | null {
+  const rate = COUNTRY_RATES[countryCode];
+  if (!rate) return null;
+
+  // Free shipping promotion (US only, based on goods subtotal)
+  const freeThreshold = goodsSubtotalUSD !== undefined ? FREE_SHIPPING[countryCode] : undefined;
+  if (freeThreshold !== undefined && goodsSubtotalUSD! >= freeThreshold) {
+    return {
+      cost: 0,
+      currency: 'USD',
+      method: rate.method + ' — FREE SHIPPING',
+      minDays: rate.minDays,
+      maxDays: rate.maxDays,
+      chargeableWeight: 0,
+      breakdown: `FREE shipping on orders over $${freeThreshold} · ${rate.method} · ${rate.minDays}–${rate.maxDays} business days`,
+    };
+  }
+
+  // Sum chargeable weights across all items
+  let totalChargeWeight = 0;
+  let totalActualWeight = 0;
+
+  for (const item of items) {
+    const pkg = getPackageSpec(item.productId, item.size);
+    if (!pkg) {
+      console.warn(`[shipping] No package spec for product ${item.productId} (size: ${item.size})`);
+      continue;
+    }
+    const cw = chargeableWeightForItem(pkg, !!rate.canadaRule);
+    totalChargeWeight += cw * item.quantity;
+    totalActualWeight += pkg.weight * item.quantity;
+  }
+
+  // Apply minimum chargeable weight (e.g. Japan 0.5kg)
+  if (rate.minChargeWeight && totalChargeWeight < rate.minChargeWeight) {
+    totalChargeWeight = rate.minChargeWeight;
+  }
+
+  // Check max weight
+  if (totalChargeWeight > rate.maxWeight) {
+    return {
+      cost: -1,
+      currency: 'USD',
+      method: rate.method,
+      minDays: 0,
+      maxDays: 0,
+      chargeableWeight: totalChargeWeight,
+      breakdown: `Combined package weight (${totalChargeWeight.toFixed(2)}kg) exceeds the ${rate.maxWeight}kg limit for this destination. Please split your order or contact us for a custom shipping quote.`,
+    };
+  }
+
+  // Find applicable bracket
+  const [upperBound, ratePerKg, regFee] = findBracket(totalChargeWeight, rate.brackets);
+
+  // Calculate cost in RMB
+  const costRmb = ratePerKg * totalChargeWeight + regFee;
+  const costRmbWithBuffer = costRmb * BUFFER_MULTIPLIER;
+
+  // Convert to USD
+  const costUsd = costRmbWithBuffer / RMB_TO_USD;
+  const roundedCost = roundTo99(costUsd);
+
+  return {
+    cost: roundedCost,
+    currency: 'USD',
+    method: rate.method,
+    minDays: rate.minDays,
+    maxDays: rate.maxDays,
+    chargeableWeight: totalChargeWeight,
+    breakdown: `${rate.method} · ${totalChargeWeight.toFixed(2)}kg chargeable · ${rate.minDays}–${rate.maxDays} business days`,
+  };
+}
+
+/** Get list of countries we ship to */
+export function getShippableCountries(): string[] {
+  return Object.keys(COUNTRY_RATES);
+}
+
+/** Get estimated delivery window for a country */
+export function getDeliveryWindow(countryCode: string): { minDays: number; maxDays: number } | null {
+  const rate = COUNTRY_RATES[countryCode];
+  if (!rate) return null;
+  return { minDays: rate.minDays, maxDays: rate.maxDays };
+}

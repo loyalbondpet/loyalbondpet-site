@@ -1,1 +1,388 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJzcyB2ZXJzaW9uPSIyLjAiIHhtbG5zOmc9Imh0dHA6Ly9iYXNlLmdvb2dsZS5jb20vbnMvMS4wIj4KICA8Y2hhbm5lbD4KICAgIDx0aXRsZT5Mb3lhbEJvbmQgUGV0IFByb2R1Y3RzPC90aXRsZT4KICAgIDxsaW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb208L2xpbms+CiAgICA8ZGVzY3JpcHRpb24+TG95YWxCb25kIGZ1bmN0aW9uYWwgcGV0IHN1cHBsaWVzIOKAlCBtb2JpbGl0eSBhaWRzLCBzbG93IGZlZWRlcnMsIGNvb2xpbmcgbWF0cyBhbmQgbW9yZSBmb3Igc2VuaW9yIGFuZCBzcGVjaWFsLW5lZWRzIHBldHMuPC9kZXNjcmlwdGlvbj4KICAgIDxpdGVtPgogICAgICA8ZzppZD4yPC9nOmlkPgogICAgICA8Zzp0aXRsZT5TZW5pb3IgRG9nIEhpbmQgTGVnIFN1cHBvcnQgSGFybmVzczwvZzp0aXRsZT4KICAgICAgPGc6ZGVzY3JpcHRpb24+TGlnaHR3ZWlnaHQgYWRqdXN0YWJsZSBoaW5kIGxlZyBzdXBwb3J0IGhhcm5lc3MgZm9yIHNlbmlvciBhbmQgbW9iaWxpdHktaW1wYWlyZWQgZG9ncy4gQnJlYXRoYWJsZSBtZXNoLCBxdWljay1yZWxlYXNlIGJ1Y2tsZSwgc2l6ZXMgUy1YTC4gSGVscHMgZG9ncyB3aXRoIHdlYWsgaGluZCBsZWdzIHN0YW5kLCB3YWxrIGFuZCBjbGltYiBzdGFpcnMuPC9nOmRlc2NyaXB0aW9uPgogICAgICA8ZzpsaW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vcHJvZHVjdHMvaGluZC1sZWctc3VwcG9ydC1oYXJuZXNzPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9pbWFnZXMvcHJvZHVjdHMvaGluZC1sZWctc3VwcG9ydC1oYXJuZXNzLzAxLW1haW4uanBnPC9nOmltYWdlX2xpbms+CiAgICAgIDxnOmF2YWlsYWJpbGl0eT5pbl9zdG9jazwvZzphdmFpbGFiaWxpdHk+CiAgICAgIDxnOnByaWNlPjE3Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmd0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjExIGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT40Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjAuMDAgVVNEPC9nOnByaWNlPgogICAgICAgIDxnOm1pbl9vcmRlcl92YWx1ZT4yOS4wMCBVU0Q8L2c6bWluX29yZGVyX3ZhbHVlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICA8L2l0ZW0+CiAgICA8aXRlbT4KICAgICAgPGc6aWQ+MzwvZzppZD4KICAgICAgPGc6dGl0bGU+SW50ZXJhY3RpdmUgRG9nIFNudWZmbGUgTWF0IFNldDwvZzp0aXRsZT4KICAgICAgPGc6ZGVzY3JpcHRpb24+SW50ZXJhY3RpdmUgc251ZmZsZSBtYXQgc2V0IGZvciBkb2dzLiBFbmNvdXJhZ2VzIG5hdHVyYWwgZm9yYWdpbmcgaW5zdGluY3RzLCBzbG93cyBkb3duIGVhdGluZywgcHJvdmlkZXMgbWVudGFsIHN0aW11bGF0aW9uLiBTb2Z0IGZsZWVjZSwgbm9uLXNsaXAgYmFzZSwgbWFjaGluZSB3YXNoYWJsZS4gSW5jbHVkZXMgbXVsdGlwbGUgcGllY2VzLjwvZzpkZXNjcmlwdGlvbj4KICAgICAgPGc6bGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3Byb2R1Y3RzL3NudWZmbGUtbWF0LXNldDwvZzpsaW5rPgogICAgICA8ZzppbWFnZV9saW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vaW1hZ2VzL3Byb2R1Y3RzL3NudWZmbGUtbWF0LXNldC8wMS1tYWluLXByb2R1Y3QuanBnPC9nOmltYWdlX2xpbms+CiAgICAgIDxnOmF2YWlsYWJpbGl0eT5pbl9zdG9jazwvZzphdmFpbGFiaWxpdHk+CiAgICAgIDxnOnByaWNlPjE0Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmd0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjYwIGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4xMi45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4wLjAwIFVTRDwvZzpwcmljZT4KICAgICAgICA8ZzptaW5fb3JkZXJfdmFsdWU+MjkuMDAgVVNEPC9nOm1pbl9vcmRlcl92YWx1ZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgPC9pdGVtPgogICAgPGl0ZW0+CiAgICAgIDxnOmlkPjY8L2c6aWQ+CiAgICAgIDxnOnRpdGxlPk1lc2ggU2hvdWxkZXIgU2xpbmcgU3VwcG9ydCBIYXJuZXNzPC9nOnRpdGxlPgogICAgICA8ZzpkZXNjcmlwdGlvbj5CcmVhdGhhYmxlIG1lc2ggc2hvdWxkZXIgc2xpbmcgc3VwcG9ydCBoYXJuZXNzIGZvciBkb2dzLiBIZWxwcyBzdXBwb3J0IGhpbmQgbGVncyBkdXJpbmcgd2Fsa2luZywgc3RhaXIgY2xpbWJpbmcgYW5kIHJlY292ZXJ5LiBBZGp1c3RhYmxlLCBsaWdodHdlaWdodCwgcGFkZGVkIHNob3VsZGVyIHN0cmFwLiBTdWl0YWJsZSBmb3Igc2VuaW9yIGFuZCBwb3N0LXN1cmdlcnkgZG9ncy48L2c6ZGVzY3JpcHRpb24+CiAgICAgIDxnOmxpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9tZXNoLXN1cHBvcnQtc2xpbmc8L2c6bGluaz4KICAgICAgPGc6aW1hZ2VfbGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL2ltYWdlcy9wcm9kdWN0cy9tZXNoLXN1cHBvcnQtc2xpbmcvMDEtbWFpbi5qcGc8L2c6aW1hZ2VfbGluaz4KICAgICAgPGc6YXZhaWxhYmlsaXR5PmluX3N0b2NrPC9nOmF2YWlsYWJpbGl0eT4KICAgICAgPGc6cHJpY2U+MTUuOTkgVVNEPC9nOnByaWNlPgogICAgICA8ZzpicmFuZD5Mb3lhbEJvbmQ8L2c6YnJhbmQ+CiAgICAgIDxnOmlkZW50aWZpZXJfZXhpc3RzPmZhbHNlPC9nOmlkZW50aWZpZXJfZXhpc3RzPgogICAgICA8Zzpjb25kaXRpb24+bmV3PC9nOmNvbmRpdGlvbj4KICAgICAgPGc6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+QW5pbWFscyAmZ3Q7IFBldCBTdXBwbGllczwvZzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT4KICAgICAgPGc6c2hpcHBpbmdfd2VpZ2h0PjAuMjIga2c8L2c6c2hpcHBpbmdfd2VpZ2h0PgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjYuOTkgVVNEPC9nOnByaWNlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+MC4wMCBVU0Q8L2c6cHJpY2U+CiAgICAgICAgPGc6bWluX29yZGVyX3ZhbHVlPjI5LjAwIFVTRDwvZzptaW5fb3JkZXJfdmFsdWU+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgIDwvaXRlbT4KICAgIDxpdGVtPgogICAgICA8ZzppZD4xMTwvZzppZD4KICAgICAgPGc6dGl0bGU+T3J0aG9wZWRpYyBCb2xzdGVyIERvZyBCZWQ8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPk9ydGhvcGVkaWMgYm9sc3RlciBkb2cgYmVkIHdpdGggbWVtb3J5IGZvYW0gc3VwcG9ydCwgcmFpc2VkIHJpbSBmb3IgaGVhZCBhbmQgbmVjayBjb21mb3J0LiBSZW1vdmFibGUgd2FzaGFibGUgY292ZXIsIG5vbi1zbGlwIGJhc2UuIEF2YWlsYWJsZSBpbiBTLCBNLCBMIHNpemVzLiBJZGVhbCBmb3Igc2VuaW9yIGRvZ3Mgd2l0aCBqb2ludCBwYWluLjwvZzpkZXNjcmlwdGlvbj4KICAgICAgPGc6bGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3Byb2R1Y3RzL29ydGhvcGVkaWMtYm9sc3Rlci1kb2ctYmVkPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9pbWFnZXMvcHJvZHVjdHMvZG9nLWJlZC8wMS1tYWluLmpwZzwvZzppbWFnZV9saW5rPgogICAgICA8ZzphdmFpbGFiaWxpdHk+aW5fc3RvY2s8L2c6YXZhaWxhYmlsaXR5PgogICAgICA8ZzpwcmljZT4zOS45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDxnOmJyYW5kPkxveWFsQm9uZDwvZzpicmFuZD4KICAgICAgPGc6aWRlbnRpZmllcl9leGlzdHM+ZmFsc2U8L2c6aWRlbnRpZmllcl9leGlzdHM+CiAgICAgIDxnOmNvbmRpdGlvbj5uZXc8L2c6Y29uZGl0aW9uPgogICAgICA8Zzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT5BbmltYWxzICZndDsgUGV0IFN1cHBsaWVzPC9nOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PgogICAgICA8ZzpzaGlwcGluZ193ZWlnaHQ+NC4zMyBrZzwvZzpzaGlwcGluZ193ZWlnaHQ+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+NjAuOTkgVVNEPC9nOnByaWNlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+MC4wMCBVU0Q8L2c6cHJpY2U+CiAgICAgICAgPGc6bWluX29yZGVyX3ZhbHVlPjI5LjAwIFVTRDwvZzptaW5fb3JkZXJfdmFsdWU+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgIDwvaXRlbT4KICAgIDxpdGVtPgogICAgICA8ZzppZD4yMjwvZzppZD4KICAgICAgPGc6dGl0bGU+RWxldmF0ZWQgU2xvdyBGZWVkZXIgRG9nIEJvd2w8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPkFkanVzdGFibGUgZWxldmF0ZWQgc2xvdyBmZWVkZXIgYm93bCB3aXRoIGZvbGRhYmxlIHN0YW5kLiBSYWlzZWQgZGVzaWduIHJlZHVjZXMgbmVjayBzdHJhaW4sIG1hemUgcGF0dGVybiBzbG93cyBlYXRpbmcuIFN1aXRhYmxlIGZvciBzbWFsbCB0byBtZWRpdW0gZG9ncy4gQ29sbGFwc2libGUgZm9yIHRyYXZlbCBhbmQgc3RvcmFnZS48L2c6ZGVzY3JpcHRpb24+CiAgICAgIDxnOmxpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9lbGV2YXRlZC1zbG93LWZlZWRlci1ib3dsPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9pbWFnZXMvcHJvZHVjdHMvZWxldmF0ZWQtc2xvdy1mZWVkZXIvMDEtbWFpbi5qcGc8L2c6aW1hZ2VfbGluaz4KICAgICAgPGc6YXZhaWxhYmlsaXR5PmluX3N0b2NrPC9nOmF2YWlsYWJpbGl0eT4KICAgICAgPGc6cHJpY2U+MjIuOTkgVVNEPC9nOnByaWNlPgogICAgICA8ZzpicmFuZD5Mb3lhbEJvbmQ8L2c6YnJhbmQ+CiAgICAgIDxnOmlkZW50aWZpZXJfZXhpc3RzPmZhbHNlPC9nOmlkZW50aWZpZXJfZXhpc3RzPgogICAgICA8Zzpjb25kaXRpb24+bmV3PC9nOmNvbmRpdGlvbj4KICAgICAgPGc6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+QW5pbWFscyAmZ3Q7IFBldCBTdXBwbGllczwvZzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT4KICAgICAgPGc6c2hpcHBpbmdfd2VpZ2h0PjEuMzUga2c8L2c6c2hpcHBpbmdfd2VpZ2h0PgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjIyLjk5IFVTRDwvZzpwcmljZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjAuMDAgVVNEPC9nOnByaWNlPgogICAgICAgIDxnOm1pbl9vcmRlcl92YWx1ZT4yOS4wMCBVU0Q8L2c6bWluX29yZGVyX3ZhbHVlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICA8L2l0ZW0+CiAgICA8aXRlbT4KICAgICAgPGc6aWQ+MjM8L2c6aWQ+CiAgICAgIDxnOnRpdGxlPjMtVGllciBGb2xkaW5nIFBldCBTdGFpcnMgd2l0aCBTdG9yYWdlPC9nOnRpdGxlPgogICAgICA8ZzpkZXNjcmlwdGlvbj5Gb2xkaW5nIDMtdGllciBwZXQgc3RhaXJzIHdpdGggYnVpbHQtaW4gc3RvcmFnZSBjb21wYXJ0bWVudC4gU3R1cmR5IGJvYXJkIGFuZCBmYWJyaWMgY29uc3RydWN0aW9uLCBub24tc2xpcCBzdGVwcy4gSWRlYWwgZm9yIHNtYWxsIGRvZ3MgYW5kIGNhdHMgdG8gcmVhY2ggc29mYXMgYW5kIGJlZHMuIEZvbGRzIGZsYXQgZm9yIHN0b3JhZ2UuPC9nOmRlc2NyaXB0aW9uPgogICAgICA8ZzpsaW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vcHJvZHVjdHMvZm9sZGluZy1wZXQtc3RhaXJzPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9pbWFnZXMvcHJvZHVjdHMvZm9sZGluZy1wZXQtc3RhaXJzLzAxLW1haW4uanBnPC9nOmltYWdlX2xpbms+CiAgICAgIDxnOmF2YWlsYWJpbGl0eT5pbl9zdG9jazwvZzphdmFpbGFiaWxpdHk+CiAgICAgIDxnOnByaWNlPjM0Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmd0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4zLjgwIGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT41My45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4wLjAwIFVTRDwvZzpwcmljZT4KICAgICAgICA8ZzptaW5fb3JkZXJfdmFsdWU+MjkuMDAgVVNEPC9nOm1pbl9vcmRlcl92YWx1ZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgPC9pdGVtPgogICAgPGl0ZW0+CiAgICAgIDxnOmlkPjI0PC9nOmlkPgogICAgICA8Zzp0aXRsZT5Tbm93Zmxha2UgQ29vbGluZyBNYXQgZm9yIERvZ3M8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPlNlbGYtY29vbGluZyBnZWwgbWF0IGZvciBkb2dzLiBObyBlbGVjdHJpY2l0eSBvciByZWZyaWdlcmF0aW9uIG5lZWRlZC4gTm9uLXRveGljLCBwcmVzc3VyZS1hY3RpdmF0ZWQgY29vbGluZyBnZWwuIEZvbGRzIGZvciB0cmF2ZWwuIEF2YWlsYWJsZSBpbiBTLCBNLCBMIHNpemVzLiBIZWxwcyBrZWVwIHBldHMgY29tZm9ydGFibGUgaW4gc3VtbWVyLjwvZzpkZXNjcmlwdGlvbj4KICAgICAgPGc6bGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3Byb2R1Y3RzL3Nub3dmbGFrZS1jb29saW5nLW1hdDwvZzpsaW5rPgogICAgICA8ZzppbWFnZV9saW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vaW1hZ2VzL3Byb2R1Y3RzL2Nvb2xpbmctbWF0LzAxLW1haW4uanBnPC9nOmltYWdlX2xpbms+CiAgICAgIDxnOmF2YWlsYWJpbGl0eT5pbl9zdG9jazwvZzphdmFpbGFiaWxpdHk+CiAgICAgIDxnOnByaWNlPjEyLjk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmd0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjk1IGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4xNy45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4wLjAwIFVTRDwvZzpwcmljZT4KICAgICAgICA8ZzptaW5fb3JkZXJfdmFsdWU+MjkuMDAgVVNEPC9nOm1pbl9vcmRlcl92YWx1ZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgPC9pdGVtPgogICAgPGl0ZW0+CiAgICAgIDxnOmlkPjI1PC9nOmlkPgogICAgICA8Zzp0aXRsZT5BbnRpLUNob2tlIFNsb3cgRmVlZGVyIEJvd2w8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPkFudGktY2hva2Ugc2xvdyBmZWVkZXIgYm93bCB3aXRoIG1hemUgcGF0dGVybiB0aGF0IGV4dGVuZHMgbWVhbHRpbWUgZnJvbSA1IHRvIDIwIG1pbnV0ZXMuIEJQQS1mcmVlIGZvb2Qtc2FmZSBwbGFzdGljLCBub24tc2xpcCBzdGFyIGJhc2UuIERpc2h3YXNoZXIgc2FmZS4gU3VpdGFibGUgZm9yIHNtYWxsIHRvIG1lZGl1bSBkb2dzIGFuZCBjYXRzLjwvZzpkZXNjcmlwdGlvbj4KICAgICAgPGc6bGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3Byb2R1Y3RzL2FudGktY2hva2Utc2xvdy1mZWVkZXItYm93bDwvZzpsaW5rPgogICAgICA8ZzppbWFnZV9saW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vaW1hZ2VzL3Byb2R1Y3RzL2FudGktY2hva2UtYm93bC8wMS1tYWluLmpwZzwvZzppbWFnZV9saW5rPgogICAgICA8ZzphdmFpbGFiaWxpdHk+aW5fc3RvY2s8L2c6YXZhaWxhYmlsaXR5PgogICAgICA8ZzpwcmljZT45Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmd0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjUwIGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4xMC45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4wLjAwIFVTRDwvZzpwcmljZT4KICAgICAgICA8ZzptaW5fb3JkZXJfdmFsdWU+MjkuMDAgVVNEPC9nOm1pbl9vcmRlcl92YWx1ZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgPC9pdGVtPgogICAgPGl0ZW0+CiAgICAgIDxnOmlkPjI2PC9nOmlkPgogICAgICA8Zzp0aXRsZT5XYXRlcnByb29mIFNpbGljb25lIERvZyBSYWluIEJvb3RzPC9nOnRpdGxlPgogICAgICA8ZzpkZXNjcmlwdGlvbj5XYXRlcnByb29mIHNpbGljb25lIGRvZyByYWluIGJvb3RzIHdpdGggYW50aS1zbGlwIHNvbGUuIFByb3RlY3RzIHBhd3MgZnJvbSByYWluLCBtdWQsIHNub3cgYW5kIGhvdCBwYXZlbWVudC4gQWRqdXN0YWJsZSBkcmF3c3RyaW5nLCBzb2Z0IGNvdHRvbiBsaW5pbmcuIEF2YWlsYWJsZSBpbiBYUy1YTC4gU2V0IG9mIDQgYm9vdHMuPC9nOmRlc2NyaXB0aW9uPgogICAgICA8ZzpsaW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vcHJvZHVjdHMvd2F0ZXJwcm9vZi1zaWxpY29uZS1kb2ctcmFpbi1ib290czwvZzpsaW5rPgogICAgICA8ZzppbWFnZV9saW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vaW1hZ2VzL3Byb2R1Y3RzL2RvZy1yYWluLWJvb3RzLzAxLW1haW4uanBnPC9nOmltYWdlX2xpbms+CiAgICAgIDxnOmF2YWlsYWJpbGl0eT5pbl9zdG9jazwvZzphdmFpbGFiaWxpdHk+CiAgICAgIDxnOnByaWNlPjEyLjk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmd0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjI1IGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT42Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjAuMDAgVVNEPC9nOnByaWNlPgogICAgICAgIDxnOm1pbl9vcmRlcl92YWx1ZT4yOS4wMCBVU0Q8L2c6bWluX29yZGVyX3ZhbHVlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICA8L2l0ZW0+CiAgICA8aXRlbT4KICAgICAgPGc6aWQ+Mjc8L2c6aWQ+CiAgICAgIDxnOnRpdGxlPlBldCBQYXcgQ2xlYW5lciBDdXA8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPlNpbGljb25lIHBhdyBjbGVhbmVyIGN1cCB3aXRoIDM2MC1kZWdyZWUgc29mdCBicmlzdGxlcy4gQWRkIHdhdGVyLCBpbnNlcnQgcGF3LCB0d2lzdCBhbmQgcmluc2UgZm9yIGNsZWFuIHBhd3MgaW4gc2Vjb25kcy4gUmVtb3ZhYmxlIGlubmVyIGJydXNoLCB0d28gc2l6ZXMgZm9yIHNtYWxsIHRvIG1lZGl1bSBkb2dzLiBCbHVlIGFuZCBHcmVlbi48L2c6ZGVzY3JpcHRpb24+CiAgICAgIDxnOmxpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9wZXQtcGF3LWNsZWFuZXItY3VwPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9wYXctY2xlYW5lci0wMS1oZXJvLmpwZzwvZzppbWFnZV9saW5rPgogICAgICA8ZzphdmFpbGFiaWxpdHk+aW5fc3RvY2s8L2c6YXZhaWxhYmlsaXR5PgogICAgICA8ZzpwcmljZT45Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPGc6YnJhbmQ+TG95YWxCb25kPC9nOmJyYW5kPgogICAgICA8ZzppZGVudGlmaWVyX2V4aXN0cz5mYWxzZTwvZzppZGVudGlmaWVyX2V4aXN0cz4KICAgICAgPGc6Y29uZGl0aW9uPm5ldzwvZzpjb25kaXRpb24+CiAgICAgIDxnOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PkFuaW1hbHMgJmFtcDtndDsgUGV0IFN1cHBsaWVzPC9nOmdvb2dsZV9wcm9kdWN0X2NhdGVnb3J5PgogICAgICA8ZzpzaGlwcGluZ193ZWlnaHQ+MC4yMCBrZzwvZzpzaGlwcGluZ193ZWlnaHQ+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+Ni45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT4wLjAwIFVTRDwvZzpwcmljZT4KICAgICAgICA8ZzptaW5fb3JkZXJfdmFsdWU+MjkuMDAgVVNEPC9nOm1pbl9vcmRlcl92YWx1ZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgPC9pdGVtPgoKICAgIDxpdGVtPgogICAgICA8ZzppZD4yODwvZzppZD4KICAgICAgPGc6dGl0bGU+SW5mbGF0YWJsZSBEb2cgUmVjb3ZlcnkgQ29sbGFyPC9nOnRpdGxlPgogICAgICA8ZzpkZXNjcmlwdGlvbj5Tb2Z0IGluZmxhdGFibGUgcmVjb3ZlcnkgY29sbGFyLCBhIGNvbWZvcnRhYmxlIGFsdGVybmF0aXZlIHRvIHRoZSBoYXJkIGNvbmUuIFByZXZlbnRzIGxpY2tpbmcgYW5kIGJpdGluZyBvZiB3b3VuZHMgd2hpbGUgYWxsb3dpbmcgZWF0aW5nLCBkcmlua2luZyBhbmQgcGVyaXBoZXJhbCB2aXNpb24uIFJlbW92YWJsZSB3YXNoYWJsZSBwbHVzaCBjb3ZlciwgYWRqdXN0YWJsZSBzdHJhcCwgc2l6ZXMgWFMgdG8gWEwuPC9nOmRlc2NyaXB0aW9uPgogICAgICA8ZzpsaW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vcHJvZHVjdHMvaW5mbGF0YWJsZS1kb2ctcmVjb3ZlcnktY29sbGFyPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9pbmZsYXRhYmxlLWNvbGxhci1tYWluLmpwZzwvZzppbWFnZV9saW5rPgogICAgICA8ZzphdmFpbGFiaWxpdHk+aW5fc3RvY2s8L2c6YXZhaWxhYmlsaXR5PgogICAgICA8ZzpwcmljZT4xNC45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDxnOmJyYW5kPkxveWFsQm9uZDwvZzpicmFuZD4KICAgICAgPGc6aWRlbnRpZmllcl9leGlzdHM+ZmFsc2U8L2c6aWRlbnRpZmllcl9leGlzdHM+CiAgICAgIDxnOmNvbmRpdGlvbj5uZXc8L2c6Y29uZGl0aW9uPgogICAgICA8Zzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT5BbmltYWxzICZhbXA7Z3Q7IFBldCBTdXBwbGllczwvZzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT4KICAgICAgPGc6c2hpcHBpbmdfd2VpZ2h0PjAuMTQga2c8L2c6c2hpcHBpbmdfd2VpZ2h0PgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjUuOTkgVVNEPC9nOnByaWNlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+MC4wMCBVU0Q8L2c6cHJpY2U+CiAgICAgICAgPGc6bWluX29yZGVyX3ZhbHVlPjI5LjAwIFVTRDwvZzptaW5fb3JkZXJfdmFsdWU+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgIDwvaXRlbT4KCiAgICA8aXRlbT4KICAgICAgPGc6aWQ+Mjk8L2c6aWQ+CiAgICAgIDxnOnRpdGxlPk5vbi1Xb3ZlbiBEb2cgUmVjb3ZlcnkgQ29sbGFyPC9nOnRpdGxlPgogICAgICA8ZzpkZXNjcmlwdGlvbj5VbHRyYS1saWdodHdlaWdodCBub24td292ZW4gcmVjb3ZlcnkgY29uZSB3ZWlnaGluZyBqdXN0IDYwIGdyYW1zLiBTcGxhc2gtcHJvb2YsIGFkanVzdGFibGUgaG9vay1hbmQtbG9vcCBmaXQsIHdpZGUgYnJpbSB0aGF0IGRvZXMgbm90IGJsb2NrIHBlcmlwaGVyYWwgdmlzaW9uLiBGb3IgcG9zdC1zdXJnZXJ5LCBpbmp1cnkgYW5kIGhvdC1zcG90IGNhcmUuIEZpdmUgc2l6ZXMsIGJsdWUgY29sb3IuPC9nOmRlc2NyaXB0aW9uPgogICAgICA8ZzpsaW5rPmh0dHBzOi8vd3d3LmxveWFsYm9uZHBldC5jb20vcHJvZHVjdHMvbm9uLXdvdmVuLWRvZy1yZWNvdmVyeS1jb2xsYXI8L2c6bGluaz4KICAgICAgPGc6aW1hZ2VfbGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3Byb2R1Y3RzL253LWNvbGxhci1tYWluLmpwZzwvZzppbWFnZV9saW5rPgogICAgICA8ZzphdmFpbGFiaWxpdHk+aW5fc3RvY2s8L2c6YXZhaWxhYmlsaXR5PgogICAgICA8ZzpwcmljZT4xMS45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDxnOmJyYW5kPkxveWFsQm9uZDwvZzpicmFuZD4KICAgICAgPGc6aWRlbnRpZmllcl9leGlzdHM+ZmFsc2U8L2c6aWRlbnRpZmllcl9leGlzdHM+CiAgICAgIDxnOmNvbmRpdGlvbj5uZXc8L2c6Y29uZGl0aW9uPgogICAgICA8Zzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT5BbmltYWxzICZhbXA7Z3Q7IFBldCBTdXBwbGllczwvZzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT4KICAgICAgPGc6c2hpcHBpbmdfd2VpZ2h0PjAuMTEga2c8L2c6c2hpcHBpbmdfd2VpZ2h0PgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjguOTkgVVNEPC9nOnByaWNlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+MC4wMCBVU0Q8L2c6cHJpY2U+CiAgICAgICAgPGc6bWluX29yZGVyX3ZhbHVlPjI5LjAwIFVTRDwvZzptaW5fb3JkZXJfdmFsdWU+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgIDwvaXRlbT4KCiAgICA8aXRlbT4KICAgICAgPGc6aWQ+MzA8L2c6aWQ+CiAgICAgIDxnOnRpdGxlPlNpZGUtR3JpcCBQZXQgUGlsbCBEaXNwZW5zZXI8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPkVyZ29ub21pYyBzaWRlLWdyaXAgcGlsbCBkaXNwZW5zZXIgd2l0aCBzcHJpbmctbG9hZGVkIHBsdW5nZXIgdGhhdCByZXRyYWN0cyBhdXRvbWF0aWNhbGx5IGFmdGVyIGRvc2luZy4gU29mdCBzaWxpY29uZSB0aXAsIGRyeS13ZXQgc2VwYXJhdGlvbiBkZXNpZ24gZm9yIHRhYmxldHMgb3IgbGlxdWlkLiBPbmUtaGFuZCBvcGVyYXRpb24sIDUwIGdyYW1zIGxpZ2h0d2VpZ2h0LiBXaGl0ZSBhbmQgQmx1ZS48L2c6ZGVzY3JpcHRpb24+CiAgICAgIDxnOmxpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9zaWRlLWdyaXAtcGV0LXBpbGwtZGlzcGVuc2VyPC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9waWxsLW1haW4uanBnPC9nOmltYWdlX2xpbms+CiAgICAgIDxnOmF2YWlsYWJpbGl0eT5pbl9zdG9jazwvZzphdmFpbGFiaWxpdHk+CiAgICAgIDxnOnByaWNlPjYuOTkgVVNEPC9nOnByaWNlPgogICAgICA8ZzpicmFuZD5Mb3lhbEJvbmQ8L2c6YnJhbmQ+CiAgICAgIDxnOmlkZW50aWZpZXJfZXhpc3RzPmZhbHNlPC9nOmlkZW50aWZpZXJfZXhpc3RzPgogICAgICA8Zzpjb25kaXRpb24+bmV3PC9nOmNvbmRpdGlvbj4KICAgICAgPGc6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+QW5pbWFscyAmYW1wO2d0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjA2IGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT40Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjAuMDAgVVNEPC9nOnByaWNlPgogICAgICAgIDxnOm1pbl9vcmRlcl92YWx1ZT4yOS4wMCBVU0Q8L2c6bWluX29yZGVyX3ZhbHVlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICA8L2l0ZW0+CgogICAgPGl0ZW0+CiAgICAgIDxnOmlkPjMxPC9nOmlkPgogICAgICA8Zzp0aXRsZT5QYXctU2hhcGVkIFNpbGljb25lIExpY2sgTWF0IHdpdGggU3VjdGlvbiBDdXBzPC9nOnRpdGxlPgogICAgICA8ZzpkZXNjcmlwdGlvbj5Gb29kLWdyYWRlIEJQQS1mcmVlIHNpbGljb25lIGxpY2sgbWF0IGluIGEgcGF3LXByaW50IHNoYXBlIHdpdGggZml2ZSB0ZXh0dXJlZCB6b25lcy4gU3Ryb25nIGludGVncmF0ZWQgc3VjdGlvbiBjdXBzIGdyaXAgc21vb3RoIHN1cmZhY2VzLiBDYWxtcyBhbnhpb3VzIGRvZ3MgZHVyaW5nIGJhdGhzLCBncm9vbWluZyBhbmQgbmFpbCB0cmltcyB3aGlsZSBzbG93aW5nIGRvd24gZmFzdCBlYXRlcnMuIFB1cnBsZSBhbmQgQ29yYWwgT3JhbmdlLjwvZzpkZXNjcmlwdGlvbj4KICAgICAgPGc6bGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL3Byb2R1Y3RzL3NpbGljb25lLWxpY2stbWF0PC9nOmxpbms+CiAgICAgIDxnOmltYWdlX2xpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9pbWFnZXMvcHJvZHVjdHMvc2lsaWNvbmUtbGljay1tYXQvbWFpbi5qcGc8L2c6aW1hZ2VfbGluaz4KICAgICAgPGc6YXZhaWxhYmlsaXR5PmluX3N0b2NrPC9nOmF2YWlsYWJpbGl0eT4KICAgICAgPGc6cHJpY2U+OC45OSBVU0Q8L2c6cHJpY2U+CiAgICAgIDxnOmJyYW5kPkxveWFsQm9uZDwvZzpicmFuZD4KICAgICAgPGc6aWRlbnRpZmllcl9leGlzdHM+ZmFsc2U8L2c6aWRlbnRpZmllcl9leGlzdHM+CiAgICAgIDxnOmNvbmRpdGlvbj5uZXc8L2c6Y29uZGl0aW9uPgogICAgICA8Zzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT5BbmltYWxzICZhbXA7Z3Q7IFBldCBTdXBwbGllczwvZzpnb29nbGVfcHJvZHVjdF9jYXRlZ29yeT4KICAgICAgPGc6c2hpcHBpbmdfd2VpZ2h0PjAuMDgga2c8L2c6c2hpcHBpbmdfd2VpZ2h0PgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjQuOTkgVVNEPC9nOnByaWNlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICAgIDxnOnNoaXBwaW5nPgogICAgICAgIDxnOmNvdW50cnk+VVM8L2c6Y291bnRyeT4KICAgICAgICA8ZzpzZXJ2aWNlPlN0YW5kYXJkPC9nOnNlcnZpY2U+CiAgICAgICAgPGc6cHJpY2U+MC4wMCBVU0Q8L2c6cHJpY2U+CiAgICAgICAgPGc6bWluX29yZGVyX3ZhbHVlPjI5LjAwIFVTRDwvZzptaW5fb3JkZXJfdmFsdWU+CiAgICAgIDwvZzpzaGlwcGluZz4KICAgIDwvaXRlbT4KCiAgICA8aXRlbT4KICAgICAgPGc6aWQ+MzI8L2c6aWQ+CiAgICAgIDxnOnRpdGxlPlBvcnRhYmxlIEhpbmQgTGVnIFN1cHBvcnQgQmVsdCBmb3IgU2VuaW9yIERvZ3M8L2c6dGl0bGU+CiAgICAgIDxnOmRlc2NyaXB0aW9uPkxpZ2h0d2VpZ2h0IHBvcnRhYmxlIGhpbmQgbGVnIGxpZnQgYmVsdCB0aGF0IGhlbHBzIHNlbmlvciBhbmQgcmVjb3ZlcmluZyBkb2dzIHN0YW5kLCBjbGltYiBzdGFpcnMgYW5kIGdldCBpbiBhbmQgb3V0IG9mIHZlaGljbGVzLiBCcmVhdGhhYmxlIG1lc2ggYm9keSBwYW5lbCwgcGFkZGVkIHRvcCBoYW5kbGUsIGFkanVzdGFibGUgc3RyYXBzIHdpdGggcXVpY2stcmVsZWFzZSBidWNrbGVzLiBGb2xkcyBmbGF0IHRvIGZpdCBpbiBhIGJhZy4gU2l6ZXMgUyB0byBYTC48L2c6ZGVzY3JpcHRpb24+CiAgICAgIDxnOmxpbms+aHR0cHM6Ly93d3cubG95YWxib25kcGV0LmNvbS9wcm9kdWN0cy9oaW5kLWxlZy1zdXBwb3J0LWJlbHQ8L2c6bGluaz4KICAgICAgPGc6aW1hZ2VfbGluaz5odHRwczovL3d3dy5sb3lhbGJvbmRwZXQuY29tL2ltYWdlcy9wcm9kdWN0cy9oaW5kLWxlZy1zdXBwb3J0LWJlbHQvbWFpbi5qcGc8L2c6aW1hZ2VfbGluaz4KICAgICAgPGc6YXZhaWxhYmlsaXR5PmluX3N0b2NrPC9nOmF2YWlsYWJpbGl0eT4KICAgICAgPGc6cHJpY2U+MTQuOTkgVVNEPC9nOnByaWNlPgogICAgICA8ZzpicmFuZD5Mb3lhbEJvbmQ8L2c6YnJhbmQ+CiAgICAgIDxnOmlkZW50aWZpZXJfZXhpc3RzPmZhbHNlPC9nOmlkZW50aWZpZXJfZXhpc3RzPgogICAgICA8Zzpjb25kaXRpb24+bmV3PC9nOmNvbmRpdGlvbj4KICAgICAgPGc6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+QW5pbWFscyAmYW1wO2d0OyBQZXQgU3VwcGxpZXM8L2c6Z29vZ2xlX3Byb2R1Y3RfY2F0ZWdvcnk+CiAgICAgIDxnOnNoaXBwaW5nX3dlaWdodD4wLjExIGtnPC9nOnNoaXBwaW5nX3dlaWdodD4KICAgICAgPGc6c2hpcHBpbmc+CiAgICAgICAgPGc6Y291bnRyeT5VUzwvZzpjb3VudHJ5PgogICAgICAgIDxnOnNlcnZpY2U+U3RhbmRhcmQ8L2c6c2VydmljZT4KICAgICAgICA8ZzpwcmljZT40Ljk5IFVTRDwvZzpwcmljZT4KICAgICAgPC9nOnNoaXBwaW5nPgogICAgICA8ZzpzaGlwcGluZz4KICAgICAgICA8Zzpjb3VudHJ5PlVTPC9nOmNvdW50cnk+CiAgICAgICAgPGc6c2VydmljZT5TdGFuZGFyZDwvZzpzZXJ2aWNlPgogICAgICAgIDxnOnByaWNlPjAuMDAgVVNEPC9nOnByaWNlPgogICAgICAgIDxnOm1pbl9vcmRlcl92YWx1ZT4yOS4wMCBVU0Q8L2c6bWluX29yZGVyX3ZhbHVlPgogICAgICA8L2c6c2hpcHBpbmc+CiAgICA8L2l0ZW0+CiAgPC9jaGFubmVsPgo8L3Jzcz4K
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>LoyalBond Pet Products</title>
+    <link>https://www.loyalbondpet.com</link>
+    <description>LoyalBond functional pet supplies — mobility aids, slow feeders, cooling mats and more for senior and special-needs pets.</description>
+    <item>
+      <g:id>2</g:id>
+      <g:title>Senior Dog Hind Leg Support Harness</g:title>
+      <g:description>Lightweight adjustable hind leg support harness for senior and mobility-impaired dogs. Breathable mesh, quick-release buckle, sizes S-XL. Helps dogs with weak hind legs stand, walk and climb stairs.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/hind-leg-support-harness</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/hind-leg-support-harness/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>17.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.11 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>3</g:id>
+      <g:title>Interactive Dog Snuffle Mat Set</g:title>
+      <g:description>Interactive snuffle mat set for dogs. Encourages natural foraging instincts, slows down eating, provides mental stimulation. Soft fleece, non-slip base, machine washable. Includes multiple pieces.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/snuffle-mat-set</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/snuffle-mat-set/01-main-product.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.60 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>12.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>6</g:id>
+      <g:title>Mesh Shoulder Sling Support Harness</g:title>
+      <g:description>Breathable mesh shoulder sling support harness for dogs. Helps support hind legs during walking, stair climbing and recovery. Adjustable, lightweight, padded shoulder strap. Suitable for senior and post-surgery dogs.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/mesh-support-sling</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/mesh-support-sling/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>15.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.22 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>6.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>11</g:id>
+      <g:title>Orthopedic Bolster Dog Bed</g:title>
+      <g:description>Orthopedic bolster dog bed with memory foam support, raised rim for head and neck comfort. Removable washable cover, non-slip base. Available in S, M, L sizes. Ideal for senior dogs with joint pain.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/orthopedic-bolster-dog-bed</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/dog-bed/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>4.33 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>60.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>22</g:id>
+      <g:title>Elevated Slow Feeder Dog Bowl</g:title>
+      <g:description>Adjustable elevated slow feeder bowl with foldable stand. Raised design reduces neck strain, maze pattern slows eating. Suitable for small to medium dogs. Collapsible for travel and storage.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/elevated-slow-feeder-bowl</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/elevated-slow-feeder/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>22.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>1.35 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>22.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>23</g:id>
+      <g:title>3-Tier Folding Pet Stairs with Storage</g:title>
+      <g:description>Folding 3-tier pet stairs with built-in storage compartment. Sturdy board and fabric construction, non-slip steps. Ideal for small dogs and cats to reach sofas and beds. Folds flat for storage.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/folding-pet-stairs</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/folding-pet-stairs/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>3.80 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>53.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>24</g:id>
+      <g:title>Snowflake Cooling Mat for Dogs</g:title>
+      <g:description>Self-cooling gel mat for dogs. No electricity or refrigeration needed. Non-toxic, pressure-activated cooling gel. Folds for travel. Available in S, M, L sizes. Helps keep pets comfortable in summer.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/snowflake-cooling-mat</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/cooling-mat/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.95 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>17.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>25</g:id>
+      <g:title>Anti-Choke Slow Feeder Bowl</g:title>
+      <g:description>Anti-choke slow feeder bowl with maze pattern that extends mealtime from 5 to 20 minutes. BPA-free food-safe plastic, non-slip star base. Dishwasher safe. Suitable for small to medium dogs and cats.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/anti-choke-slow-feeder-bowl</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/anti-choke-bowl/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.50 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>10.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>26</g:id>
+      <g:title>Waterproof Silicone Dog Rain Boots</g:title>
+      <g:description>Waterproof silicone dog rain boots with anti-slip sole. Protects paws from rain, mud, snow and hot pavement. Adjustable drawstring, soft cotton lining. Available in XS-XL. Set of 4 boots.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/waterproof-silicone-dog-rain-boots</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/dog-rain-boots/01-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.25 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>6.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+    <item>
+      <g:id>27</g:id>
+      <g:title>Pet Paw Cleaner Cup</g:title>
+      <g:description>Silicone paw cleaner cup with 360-degree soft bristles. Add water, insert paw, twist and rinse for clean paws in seconds. Removable inner brush, two sizes for small to medium dogs. Blue and Green.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/pet-paw-cleaner-cup</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/paw-cleaner-01-hero.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.20 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>6.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>28</g:id>
+      <g:title>Inflatable Dog Recovery Collar</g:title>
+      <g:description>Soft inflatable recovery collar, a comfortable alternative to the hard cone. Prevents licking and biting of wounds while allowing eating, drinking and peripheral vision. Removable washable plush cover, adjustable strap, sizes XS to XL.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/inflatable-dog-recovery-collar</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/inflatable-collar-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.14 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>5.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>29</g:id>
+      <g:title>Non-Woven Dog Recovery Collar</g:title>
+      <g:description>Ultra-lightweight non-woven recovery cone weighing just 60 grams. Splash-proof, adjustable hook-and-loop fit, wide brim that does not block peripheral vision. For post-surgery, injury and hot-spot care. Five sizes, blue color.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/non-woven-dog-recovery-collar</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/nw-collar-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.11 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>8.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>30</g:id>
+      <g:title>Side-Grip Pet Pill Dispenser</g:title>
+      <g:description>Ergonomic side-grip pill dispenser with spring-loaded plunger that retracts automatically after dosing. Soft silicone tip, dry-wet separation design for tablets or liquid. One-hand operation, 50 grams lightweight. White and Blue.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/side-grip-pet-pill-dispenser</g:link>
+      <g:image_link>https://www.loyalbondpet.com/products/pill-main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>6.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.06 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>31</g:id>
+      <g:title>Paw-Shaped Silicone Lick Mat with Suction Cups</g:title>
+      <g:description>Food-grade BPA-free silicone lick mat in a paw-print shape with five textured zones. Strong integrated suction cups grip smooth surfaces. Calms anxious dogs during baths, grooming and nail trims while slowing down fast eaters. Purple and Coral Orange.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/silicone-lick-mat</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/silicone-lick-mat/main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>8.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.08 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+
+    <item>
+      <g:id>32</g:id>
+      <g:title>Portable Hind Leg Support Belt for Senior Dogs</g:title>
+      <g:description>Lightweight portable hind leg lift belt that helps senior and recovering dogs stand, climb stairs and get in and out of vehicles. Breathable mesh body panel, padded top handle, adjustable straps with quick-release buckles. Folds flat to fit in a bag. Sizes S to XL.</g:description>
+      <g:link>https://www.loyalbondpet.com/products/hind-leg-support-belt</g:link>
+      <g:image_link>https://www.loyalbondpet.com/images/products/hind-leg-support-belt/main.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:brand>LoyalBond</g:brand>
+      <g:identifier_exists>false</g:identifier_exists>
+      <g:condition>new</g:condition>
+      <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
+      <g:shipping_weight>0.11 kg</g:shipping_weight>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>4.99 USD</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>0.00 USD</g:price>
+        <g:min_order_value>29.00 USD</g:min_order_value>
+      </g:shipping>
+    </item>
+  </channel>
+</rss>

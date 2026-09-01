@@ -1,1 +1,187 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgeyBUcnVjayB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CgpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiAnU2hpcHBpbmcgUG9saWN5IC0gRGVsaXZlcnkgSW5mbyAmIFJhdGVzJywKICBkZXNjcmlwdGlvbjogJ0xveWFsQm9uZCBzaGlwcyB0byA3IGNvdW50cmllcyB3aXRoIHRyYWNrZWQgaW50ZXJuYXRpb25hbCBkZWxpdmVyeS4gU2hpcHBpbmcgY2FsY3VsYXRlZCBieSB3ZWlnaHQgYW5kIGRlc3RpbmF0aW9uLiBGUkVFIFUuUy4gc2hpcHBpbmcgb3ZlciAkMjkuIERlbGl2ZXJ5IGluIDgtMTAgYnVzaW5lc3MgZGF5cy4nLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2hpcHBpbmdQb2xpY3lQYWdlKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNHhsIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggcHktMTIgc206cHktMTYiPgogICAgICA8bmF2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LWJyYW5kLWdyYXkgbWItOCI+CiAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWJyYW5kLWdyZWVuIHRyYW5zaXRpb24tY29sb3JzIj5Ib21lPC9MaW5rPgogICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD17Mn0+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTkgNWw3IDctNyA3IiAvPjwvc3ZnPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1icmFuZC1kYXJrIGZvbnQtbWVkaXVtIj5TaGlwcGluZyBQb2xpY3k8L3NwYW4+CiAgICAgIDwvbmF2PgoKICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC00eGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi04Ij5TaGlwcGluZyBQb2xpY3k8L2gxPgoKICAgICAgPGRpdiBjbGFzc05hbWU9InByb3NlIHByb3NlLWxnIG1heC13LW5vbmUgdGV4dC1icmFuZC1ncmF5IHNwYWNlLXktNiI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIj5MYXN0IHVwZGF0ZWQ6IEF1Z3VzdCAyMDI2PC9wPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5Ib3cgU2hpcHBpbmcgSXMgQ2FsY3VsYXRlZDwvaDI+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgU2hpcHBpbmcgY29zdHMgYXJlIGNhbGN1bGF0ZWQgPHN0cm9uZz5hdXRvbWF0aWNhbGx5IGF0IGNoZWNrb3V0PC9zdHJvbmc+IGJhc2VkIG9uIHlvdXIKICAgICAgICAgICAgZGVsaXZlcnkgY291bnRyeSBhbmQgdGhlIHRvdGFsIGNoYXJnZWFibGUgd2VpZ2h0IG9mIHlvdXIgb3JkZXIuIFdlIGRvIG5vdCBjaGFyZ2UgZmxhdAogICAgICAgICAgICBzaGlwcGluZyBmZWVzIOKAlCB5b3Ugb25seSBwYXkgdGhlIGFjdHVhbCBsb2dpc3RpY3MgY29zdCBmb3IgeW91ciBzcGVjaWZpYyBwYWNrYWdlLgogICAgICAgICAgPC9wPgogICAgICAgICAgPHA+CiAgICAgICAgICAgIENoYXJnZWFibGUgd2VpZ2h0IGlzIHRoZSBncmVhdGVyIG9mIGFjdHVhbCBwYWNrYWdlIHdlaWdodCBhbmQgdm9sdW1ldHJpYyB3ZWlnaHQKICAgICAgICAgICAgKGxlbmd0aCDDlyB3aWR0aCDDlyBoZWlnaHQgw7cgODAwMCkuIFRoaXMgaXMgc3RhbmRhcmQgcHJhY3RpY2UgaW4gaW50ZXJuYXRpb25hbCBzaGlwcGluZwogICAgICAgICAgICBhbmQgZW5zdXJlcyBmYWlyIHByaWNpbmcgZm9yIGJvdGggbGlnaHR3ZWlnaHQgYW5kIGJ1bGt5IGl0ZW1zLgogICAgICAgICAgPC9wPgogICAgICAgICAgPHA+CiAgICAgICAgICAgIEVudGVyIHlvdXIgc2hpcHBpbmcgYWRkcmVzcyBkdXJpbmcgY2hlY2tvdXQgdG8gc2VlIHRoZSBleGFjdCBzaGlwcGluZyBjb3N0IGJlZm9yZQogICAgICAgICAgICBwYXltZW50LiBUaGVyZSBhcmUgbm8gaGlkZGVuIGZlZXMuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5Db3VudHJpZXMgV2UgU2hpcCBUbzwvaDI+CiAgICAgICAgICA8cD5XZSBjdXJyZW50bHkgc2hpcCB0byB0aGUgZm9sbG93aW5nIGRlc3RpbmF0aW9uczo8L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3cteC1hdXRvIG5vdC1wcm9zZSI+CiAgICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCBib3JkZXItY29sbGFwc2UgYm9yZGVyIGJvcmRlci1ncmF5LTIwMCByb3VuZGVkLWxnIHRleHQtc20iPgogICAgICAgICAgICAgIDx0aGVhZD4KICAgICAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9ImJnLWJyYW5kLWJlaWdlIj4KICAgICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMgdGV4dC1sZWZ0IHRleHQtYnJhbmQtZGFyayI+Q291bnRyeTwvdGg+CiAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIHRleHQtbGVmdCB0ZXh0LWJyYW5kLWRhcmsiPkRlbGl2ZXJ5IFRpbWU8L3RoPgogICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyB0ZXh0LWxlZnQgdGV4dC1icmFuZC1kYXJrIj5TdGFydGluZyBGcm9tPC90aD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj7wn4e68J+HuCBVbml0ZWQgU3RhdGVzPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPjjigJMxMCBidXNpbmVzcyBkYXlzPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPkZSRUUgb3ZlciAkMjkgPC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJiZy1icmFuZC1jcmVhbS80MCI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj7wn4eo8J+HpiBDYW5hZGE8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+MTDigJMxNCBidXNpbmVzcyBkYXlzPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPiQ0Ljk5PC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj7wn4es8J+HpyBVbml0ZWQgS2luZ2RvbTwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj454oCTMTUgYnVzaW5lc3MgZGF5czwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj4kMy45OTwvdGQ+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgPHRyIGNsYXNzTmFtZT0iYmctYnJhbmQtY3JlYW0vNDAiPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+8J+HqfCfh6ogR2VybWFueTwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj454oCTMTUgYnVzaW5lc3MgZGF5czwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj4kMy45OTwvdGQ+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+8J+Hq/Cfh7cgRnJhbmNlPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPjnigJMxNSBidXNpbmVzcyBkYXlzPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPiQzLjk5PC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJiZy1icmFuZC1jcmVhbS80MCI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItZ3JheS0yMDAgcHgtNCBweS0zIj7wn4em8J+HuiBBdXN0cmFsaWE8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+OOKAkzE1IGJ1c2luZXNzIGRheXM8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJib3JkZXIgYm9yZGVyLWdyYXktMjAwIHB4LTQgcHktMyI+JDMuOTk8L3RkPgogICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPvCfh6/wn4e1IEphcGFuPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPjnigJMxMiBidXNpbmVzcyBkYXlzPC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0iYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBweC00IHB5LTMiPiQzLjk5PC90ZD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgbm90LXByb3NlIGZsZXggaXRlbXMtc3RhcnQgZ2FwLTMgcC00IGJnLWdyZWVuLTUwIGJvcmRlciBib3JkZXItZ3JlZW4tMjAwIHJvdW5kZWQtbGciPgogICAgICAgICAgICA8VHJ1Y2sgY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtYnJhbmQtZ3JlZW4gc2hyaW5rLTAgbXQtMC41IiAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWJyYW5kLWRhcmsiPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtYnJhbmQtZ3JlZW4iPkZSRUUgc2hpcHBpbmcgb24gVS5TLiBvcmRlcnMgb3ZlciAkMjk8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtYnJhbmQtZ3JheSI+CiAgICAgICAgICAgICAgICBPcmRlcnMgc2hpcHBpbmcgdG8gdGhlIFVuaXRlZCBTdGF0ZXMgd2l0aCBhIHByb2R1Y3Qgc3VidG90YWwgb2YgJDI5IG9yIG1vcmUgcXVhbGlmeSBmb3IKICAgICAgICAgICAgICAgIGZyZWUgdHJhY2tlZCBkZWxpdmVyeSAoOOKAkzEwIGJ1c2luZXNzIGRheXMpLiBCZWxvdyB0aGUgdGhyZXNob2xkLCBzaGlwcGluZyBpcyBjYWxjdWxhdGVkCiAgICAgICAgICAgICAgICBhdCBjaGVja291dCBiYXNlZCBvbiBwYWNrYWdlIHdlaWdodCBhbmQgZGVzdGluYXRpb24uIFAuTy4gQm94IGFkZHJlc3NlcyBhcmUgbm90IHN1cHBvcnRlZAogICAgICAgICAgICAgICAgZm9yIFUuUy4gZGVsaXZlcmllcyDigJQgcGxlYXNlIHByb3ZpZGUgYSBzdHJlZXQgYWRkcmVzcy4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1icmFuZC1ncmF5IG10LTIiPgogICAgICAgICAgICAiU3RhcnRpbmcgZnJvbSIgcmVmbGVjdHMgdGhlIG1pbmltdW0gc2hpcHBpbmcgY29zdCBmb3Igb3VyIGxpZ2h0ZXN0IGl0ZW1zLiBBY3R1YWwgY29zdAogICAgICAgICAgICBkZXBlbmRzIG9uIHRoZSB3ZWlnaHQgYW5kIGRpbWVuc2lvbnMgb2YgeW91ciBzZWxlY3RlZCBwcm9kdWN0cy4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCI+CiAgICAgICAgICAgIFlvdXIgY291bnRyeSBub3QgbGlzdGVkPyBDb250YWN0IHVzIGF0IDxzdHJvbmc+c2FsZXNAbG95YWxib25kcGV0LmNvbTwvc3Ryb25nPiBhbmQgd2UKICAgICAgICAgICAgd2lsbCBkbyBvdXIgYmVzdCB0byBhcnJhbmdlIHNoaXBwaW5nIGZvciB5b3UuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5PcmRlciBQcm9jZXNzaW5nPC9oMj4KICAgICAgICAgIDxwPgogICAgICAgICAgICBPcmRlcnMgYXJlIHByb2Nlc3NlZCB3aXRoaW4gPHN0cm9uZz4x4oCTMyBidXNpbmVzcyBkYXlzPC9zdHJvbmc+IChleGNsdWRpbmcgd2Vla2VuZHMgYW5kCiAgICAgICAgICAgIENoaW5lc2UgcHVibGljIGhvbGlkYXlzKS4gT25jZSB5b3VyIG9yZGVyIHNoaXBzLCB5b3Ugd2lsbCByZWNlaXZlIGEgY29uZmlybWF0aW9uIGVtYWlsCiAgICAgICAgICAgIHdpdGggYSB0cmFja2luZyBudW1iZXIuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5UcmFja2luZyBZb3VyIE9yZGVyPC9oMj4KICAgICAgICAgIDxwPgogICAgICAgICAgICBBZnRlciB5b3VyIG9yZGVyIGlzIGRpc3BhdGNoZWQsIHlvdSB3aWxsIHJlY2VpdmUgYW4gZW1haWwgd2l0aCBhIHRyYWNraW5nIG51bWJlci4KICAgICAgICAgICAgVHJhY2tpbmcgaW5mb3JtYXRpb24gbWF5IHRha2UgMjTigJM0OCBob3VycyB0byBhcHBlYXIgaW4gdGhlIGNhcnJpZXIncyBzeXN0ZW0gYWZ0ZXIKICAgICAgICAgICAgc2hpcG1lbnQuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5DdXN0b21zLCBEdXRpZXMgJiBUYXhlczwvaDI+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgSW50ZXJuYXRpb25hbCBvcmRlcnMgbWF5IGJlIHN1YmplY3QgdG8gY3VzdG9tcyBkdXRpZXMsIGltcG9ydCB0YXhlcywgb3IgYnJva2VyYWdlIGZlZXMKICAgICAgICAgICAgaW1wb3NlZCBieSB0aGUgZGVzdGluYXRpb24gY291bnRyeS4gVGhlc2UgY2hhcmdlcyBhcmUgdGhlIDxzdHJvbmc+cmVzcG9uc2liaWxpdHkgb2YKICAgICAgICAgICAgdGhlIHJlY2lwaWVudDwvc3Ryb25nPiBhbmQgYXJlIG5vdCBpbmNsdWRlZCBpbiB0aGUgcHJvZHVjdCBwcmljZSBvciBzaGlwcGluZyBjb3N0LgogICAgICAgICAgPC9wPgogICAgICAgICAgPHA+CiAgICAgICAgICAgIFdlIGRlY2xhcmUgb3JkZXJzIGF0IHRoZWlyIGFjdHVhbCB2YWx1ZS4gRm9yIG1vc3Qgc21hbGwgY29uc3VtZXIgc2hpcG1lbnRzIHVuZGVyIHRoZQogICAgICAgICAgICBkZXN0aW5hdGlvbiBjb3VudHJ5J3MgZGUgbWluaW1pcyB0aHJlc2hvbGQgKGUuZy4sICQ4MDAgaW4gdGhlIFVTKSwgbm8gYWRkaXRpb25hbAogICAgICAgICAgICBpbXBvcnQgZHV0aWVzIGFwcGx5LiBIb3dldmVyLCBjdXN0b21zIHBvbGljaWVzIHZhcnkgd2lkZWx5IGJ5IGNvdW50cnkgYW5kIHdlIGNhbm5vdAogICAgICAgICAgICBndWFyYW50ZWUgdGhhdCBubyBjaGFyZ2VzIHdpbGwgYXBwbHkuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbXQtOCBtYi00Ij5TaGlwcGluZyBUZXJtczwvaDI+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgQWxsIG9yZGVycyBzaGlwIEZPQiBOaW5nYm8sIENoaW5hLiBSaXNrIG9mIGxvc3MgdHJhbnNmZXJzIHRvIHRoZSBidXllciB1cG9uIGRlbGl2ZXJ5CiAgICAgICAgICAgIHRvIHRoZSBjYXJyaWVyLiBGb3IgYnVsayBvciB3aG9sZXNhbGUgb3JkZXJzLCBzaGlwcGluZyBpcyBxdW90ZWQgc2VwYXJhdGVseSBiYXNlZCBvbgogICAgICAgICAgICB2b2x1bWUgYW5kIGRlc3RpbmF0aW9uIOKAlCBjb250YWN0IHVzIGF0IHNhbGVzQGxveWFsYm9uZHBldC5jb20gZm9yIGEgZnJlaWdodCBxdW90ZS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtdC04IG1iLTQiPkRlbGF5czwvaDI+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgQWN0dWFsIHRyYW5zaXQgdGltZXMgbWF5IHZhcnkgZHVlIHRvIGN1c3RvbXMgaW5zcGVjdGlvbnMsIHdlYXRoZXIgY29uZGl0aW9ucywgY2FycmllcgogICAgICAgICAgICBkZWxheXMsIG9yIHBlYWsgc2Vhc29ucyAoZS5nLiwgQmxhY2sgRnJpZGF5LCBDaHJpc3RtYXMpLiBXZSBhcHByZWNpYXRlIHlvdXIgcGF0aWVuY2UKICAgICAgICAgICAgYW5kIGVuY291cmFnZSB5b3UgdG8gb3JkZXIgZWFybHkgZHVyaW5nIGhvbGlkYXkgcGVyaW9kcy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtdC04IG1iLTQiPkRhbWFnZWQgb3IgTG9zdCBQYWNrYWdlczwvaDI+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgSWYgeW91ciBwYWNrYWdlIGFycml2ZXMgZGFtYWdlZCBvciBkb2VzIG5vdCBhcnJpdmUgd2l0aGluIHRoZSBlc3RpbWF0ZWQgZGVsaXZlcnkKICAgICAgICAgICAgd2luZG93LCBwbGVhc2UgY29udGFjdCB1cyBhdCA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1icmFuZC1kYXJrIj5zYWxlc0Bsb3lhbGJvbmRwZXQuY29tPC9zdHJvbmc+IHdpdGhpbgogICAgICAgICAgICA3IGRheXMgb2YgdGhlIGV4cGVjdGVkIGRlbGl2ZXJ5IGRhdGUuIFdlIHdpbGwgd29yayB3aXRoIHRoZSBjYXJyaWVyIHRvIHJlc29sdmUgdGhlCiAgICAgICAgICAgIGlzc3VlIGFuZCBhcnJhbmdlIGEgcmVwbGFjZW1lbnQgaWYgbmVjZXNzYXJ5LgogICAgICAgICAgPC9wPgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG10LTggbWItNCI+Q29udGFjdCBVczwvaDI+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgRm9yIHNoaXBwaW5nIHF1ZXN0aW9ucywgcGxlYXNlIGNvbnRhY3QgdXMgYXR7JyAnfQogICAgICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1icmFuZC1kYXJrIj5zYWxlc0Bsb3lhbGJvbmRwZXQuY29tPC9zdHJvbmc+IG9yIHZpc2l0IG91cnsnICd9CiAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii9jb250YWN0IiBjbGFzc05hbWU9InRleHQtYnJhbmQtZ3JlZW4gaG92ZXI6dW5kZXJsaW5lIj5Db250YWN0IHBhZ2U8L0xpbms+LgogICAgICAgICAgPC9wPgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { Truck } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'Shipping Policy - Delivery Info & Rates',
+  description: 'LoyalBond ships to 7 countries with tracked international delivery. Shipping calculated by weight and destination. FREE U.S. shipping over $29. Delivery in 8-10 business days.',
+};
+
+export default function ShippingPolicyPage() {
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <nav className="flex items-center gap-2 text-sm text-brand-gray mb-8">
+        <Link href="/" className="hover:text-brand-green transition-colors">Home</Link>
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+        <span className="text-brand-dark font-medium">Shipping Policy</span>
+      </nav>
+
+      <h1 className="text-4xl font-bold text-brand-dark mb-8">Shipping Policy</h1>
+
+      <div className="prose prose-lg max-w-none text-brand-gray space-y-6">
+        <p className="text-lg">Last updated: August 2026</p>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">How Shipping Is Calculated</h2>
+          <p>
+            Shipping costs are calculated <strong>automatically at checkout</strong> based on your
+            delivery country and the total chargeable weight of your order. We do not charge flat
+            shipping fees — you only pay the actual logistics cost for your specific package.
+          </p>
+          <p>
+            Chargeable weight is the greater of actual package weight and volumetric weight
+            (length × width × height ÷ 8000). This is standard practice in international shipping
+            and ensures fair pricing for both lightweight and bulky items.
+          </p>
+          <p>
+            Enter your shipping address during checkout to see the exact shipping cost before
+            payment. There are no hidden fees.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Countries We Ship To</h2>
+          <p>We currently ship to the following destinations:</p>
+          <div className="overflow-x-auto not-prose">
+            <table className="w-full border-collapse border border-gray-200 rounded-lg text-sm">
+              <thead>
+                <tr className="bg-brand-beige">
+                  <th className="border border-gray-200 px-4 py-3 text-left text-brand-dark">Country</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left text-brand-dark">Delivery Time</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left text-brand-dark">Starting From</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">🇺🇸 United States</td>
+                  <td className="border border-gray-200 px-4 py-3">8–10 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">FREE over $29 </td>
+                </tr>
+                <tr className="bg-brand-cream/40">
+                  <td className="border border-gray-200 px-4 py-3">🇨🇦 Canada</td>
+                  <td className="border border-gray-200 px-4 py-3">10–14 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$4.99</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">🇬🇧 United Kingdom</td>
+                  <td className="border border-gray-200 px-4 py-3">9–15 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$3.99</td>
+                </tr>
+                <tr className="bg-brand-cream/40">
+                  <td className="border border-gray-200 px-4 py-3">🇩🇪 Germany</td>
+                  <td className="border border-gray-200 px-4 py-3">9–15 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$3.99</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">🇫🇷 France</td>
+                  <td className="border border-gray-200 px-4 py-3">9–15 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$3.99</td>
+                </tr>
+                <tr className="bg-brand-cream/40">
+                  <td className="border border-gray-200 px-4 py-3">🇦🇺 Australia</td>
+                  <td className="border border-gray-200 px-4 py-3">8–15 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$3.99</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">🇯🇵 Japan</td>
+                  <td className="border border-gray-200 px-4 py-3">9–12 business days</td>
+                  <td className="border border-gray-200 px-4 py-3">$3.99</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="mt-4 not-prose flex items-start gap-3 p-4 bg-green-50 border border-green-200 rounded-lg">
+            <Truck className="w-5 h-5 text-brand-green shrink-0 mt-0.5" />
+            <div className="text-sm text-brand-dark">
+              <p className="font-bold text-brand-green">FREE shipping on U.S. orders over $29</p>
+              <p className="mt-1 text-brand-gray">
+                Orders shipping to the United States with a product subtotal of $29 or more qualify for
+                free tracked delivery (8–10 business days). Below the threshold, shipping is calculated
+                at checkout based on package weight and destination. P.O. Box addresses are not supported
+                for U.S. deliveries — please provide a street address.
+              </p>
+            </div>
+          </div>
+          <p className="text-sm text-brand-gray mt-2">
+            "Starting from" reflects the minimum shipping cost for our lightest items. Actual cost
+            depends on the weight and dimensions of your selected products.
+          </p>
+          <p className="mt-4">
+            Your country not listed? Contact us at <strong>sales@loyalbondpet.com</strong> and we
+            will do our best to arrange shipping for you.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Order Processing</h2>
+          <p>
+            Orders are processed within <strong>1–3 business days</strong> (excluding weekends and
+            Chinese public holidays). Once your order ships, you will receive a confirmation email
+            with a tracking number.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Tracking Your Order</h2>
+          <p>
+            After your order is dispatched, you will receive an email with a tracking number.
+            Tracking information may take 24–48 hours to appear in the carrier's system after
+            shipment.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Customs, Duties & Taxes</h2>
+          <p>
+            International orders may be subject to customs duties, import taxes, or brokerage fees
+            imposed by the destination country. These charges are the <strong>responsibility of
+            the recipient</strong> and are not included in the product price or shipping cost.
+          </p>
+          <p>
+            We declare orders at their actual value. For most small consumer shipments under the
+            destination country's de minimis threshold (e.g., $800 in the US), no additional
+            import duties apply. However, customs policies vary widely by country and we cannot
+            guarantee that no charges will apply.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Shipping Terms</h2>
+          <p>
+            All orders ship FOB Ningbo, China. Risk of loss transfers to the buyer upon delivery
+            to the carrier. For bulk or wholesale orders, shipping is quoted separately based on
+            volume and destination — contact us at sales@loyalbondpet.com for a freight quote.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Delays</h2>
+          <p>
+            Actual transit times may vary due to customs inspections, weather conditions, carrier
+            delays, or peak seasons (e.g., Black Friday, Christmas). We appreciate your patience
+            and encourage you to order early during holiday periods.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Damaged or Lost Packages</h2>
+          <p>
+            If your package arrives damaged or does not arrive within the estimated delivery
+            window, please contact us at <strong className="text-brand-dark">sales@loyalbondpet.com</strong> within
+            7 days of the expected delivery date. We will work with the carrier to resolve the
+            issue and arrange a replacement if necessary.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Contact Us</h2>
+          <p>
+            For shipping questions, please contact us at{' '}
+            <strong className="text-brand-dark">sales@loyalbondpet.com</strong> or visit our{' '}
+            <Link href="/contact" className="text-brand-green hover:underline">Contact page</Link>.
+          </p>
+        </section>
+      </div>
+    </div>
+  );
+}

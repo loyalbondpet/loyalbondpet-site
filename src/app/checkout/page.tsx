@@ -1,1 +1,340 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlLCB1c2VNZW1vIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgU2NyaXB0IGZyb20gJ25leHQvc2NyaXB0JzsKaW1wb3J0IHsgdXNlQ2FydCB9IGZyb20gJ0AvY29udGV4dHMvQ2FydENvbnRleHQnOwppbXBvcnQgeyBjYWxjdWxhdGVTaGlwcGluZywgZ2V0RnJlZVNoaXBwaW5nVGhyZXNob2xkIH0gZnJvbSAnQC9saWIvc2hpcHBpbmcnOwppbXBvcnQgeyBTaG9wcGluZ0JhZywgTG9hZGVyMiwgTG9jaywgU2hpZWxkQ2hlY2ssIFRydWNrLCBBbGVydFRyaWFuZ2xlIH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKCmRlY2xhcmUgZ2xvYmFsIHsKICBpbnRlcmZhY2UgV2luZG93IHsKICAgIHBheXBhbD86IGFueTsKICB9Cn0KCmNvbnN0IFNVUFBPUlRFRF9DT1VOVFJJRVM6IHsgY29kZTogc3RyaW5nOyBuYW1lOiBzdHJpbmcgfVtdID0gWwogIHsgY29kZTogJ1VTJywgbmFtZTogJ1VuaXRlZCBTdGF0ZXMnIH0sCiAgeyBjb2RlOiAnQ0EnLCBuYW1lOiAnQ2FuYWRhJyB9LAogIHsgY29kZTogJ0dCJywgbmFtZTogJ1VuaXRlZCBLaW5nZG9tJyB9LAogIHsgY29kZTogJ0FVJywgbmFtZTogJ0F1c3RyYWxpYScgfSwKICB7IGNvZGU6ICdERScsIG5hbWU6ICdHZXJtYW55JyB9LAogIHsgY29kZTogJ0ZSJywgbmFtZTogJ0ZyYW5jZScgfSwKICB7IGNvZGU6ICdKUCcsIG5hbWU6ICdKYXBhbicgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENoZWNrb3V0UGFnZSgpIHsKICBjb25zdCB7IGl0ZW1zLCBzdWJ0b3RhbCwgaXNMb2FkZWQsIGNsZWFyQ2FydCB9ID0gdXNlQ2FydCgpOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtzZGtSZWFkeSwgc2V0U2RrUmVhZHldID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtzaGlwcGluZ0Zvcm0sIHNldFNoaXBwaW5nRm9ybV0gPSB1c2VTdGF0ZSh7CiAgICBuYW1lOiAnJywKICAgIGFkZHJlc3NMaW5lMTogJycsCiAgICBhZGRyZXNzTGluZTI6ICcnLAogICAgY2l0eTogJycsCiAgICBzdGF0ZTogJycsCiAgICBwb3N0YWxDb2RlOiAnJywKICAgIGNvdW50cnlDb2RlOiAnVVMnLAogICAgZW1haWw6ICcnLAogICAgcGhvbmU6ICcnLAogIH0pOwogIGNvbnN0IFtmb3JtVmFsaWQsIHNldEZvcm1WYWxpZF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgYnV0dG9uc1JlZiA9IHVzZVJlZjxhbnk+KG51bGwpOwogIGNvbnN0IGNvbnRhaW5lclJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CgogIC8vIENhbGN1bGF0ZSBzaGlwcGluZyBiYXNlZCBvbiBjYXJ0IGl0ZW1zIGFuZCBkZXN0aW5hdGlvbiBjb3VudHJ5CiAgY29uc3Qgc2hpcHBpbmdRdW90ZSA9IHVzZU1lbW8oKCkgPT4gewogICAgaWYgKGl0ZW1zLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gY2FsY3VsYXRlU2hpcHBpbmcoCiAgICAgIGl0ZW1zLm1hcChpdCA9PiAoeyBwcm9kdWN0SWQ6IGl0LnByb2R1Y3RJZCwgcXVhbnRpdHk6IGl0LnF1YW50aXR5LCBzaXplOiBpdC5zaXplIH0pKSwKICAgICAgc2hpcHBpbmdGb3JtLmNvdW50cnlDb2RlLAogICAgICBzdWJ0b3RhbCwKICAgICk7CiAgfSwgW2l0ZW1zLCBzaGlwcGluZ0Zvcm0uY291bnRyeUNvZGUsIHN1YnRvdGFsXSk7CgogIGNvbnN0IHNoaXBwaW5nID0gc2hpcHBpbmdRdW90ZT8uY29zdCA/PyAwOwogIGNvbnN0IHNoaXBwaW5nQmxvY2tlZCA9IHNoaXBwaW5nUXVvdGU/LmNvc3QgPT09IC0xOwogIGNvbnN0IGlzRnJlZVNoaXAgPSBzaGlwcGluZyA9PT0gMCAmJiAhc2hpcHBpbmdCbG9ja2VkICYmICEhc2hpcHBpbmdRdW90ZTsKICBjb25zdCBmcmVlVGhyZXNob2xkID0gZ2V0RnJlZVNoaXBwaW5nVGhyZXNob2xkKHNoaXBwaW5nRm9ybS5jb3VudHJ5Q29kZSk7CiAgY29uc3QgdG90YWwgPSBzdWJ0b3RhbCArIChzaGlwcGluZ0Jsb2NrZWQgPyAwIDogc2hpcHBpbmcpOwogIGNvbnN0IGNsaWVudElkID0gcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfUEFZUEFMX0NMSUVOVF9JRDsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IHsgbmFtZSwgYWRkcmVzc0xpbmUxLCBjaXR5LCBzdGF0ZSwgcG9zdGFsQ29kZSwgY291bnRyeUNvZGUsIGVtYWlsIH0gPSBzaGlwcGluZ0Zvcm07CiAgICBzZXRGb3JtVmFsaWQoCiAgICAgICEhbmFtZSAmJiAhIWFkZHJlc3NMaW5lMSAmJiAhIWNpdHkgJiYgISFzdGF0ZSAmJiAhIXBvc3RhbENvZGUgJiYKICAgICAgISFjb3VudHJ5Q29kZSAmJiAhIWVtYWlsICYmIGl0ZW1zLmxlbmd0aCA+IDAgJiYgIXNoaXBwaW5nQmxvY2tlZCwKICAgICk7CiAgfSwgW3NoaXBwaW5nRm9ybSwgaXRlbXMubGVuZ3RoLCBzaGlwcGluZ0Jsb2NrZWRdKTsKCiAgLy8gUmVuZGVyIC8gcmUtcmVuZGVyIFBheVBhbCBidXR0b25zIHdoZW5ldmVyIHNoaXBwaW5nIG9yIGl0ZW1zIGNoYW5nZQogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIXNka1JlYWR5IHx8ICF3aW5kb3cucGF5cGFsIHx8ICFmb3JtVmFsaWQgfHwgIWNvbnRhaW5lclJlZi5jdXJyZW50KSByZXR1cm47CgogICAgLy8gQ2xvc2UgcHJldmlvdXMgYnV0dG9ucyBpbnN0YW5jZSB0byBhdm9pZCBkdXBsaWNhdGVzCiAgICBpZiAoYnV0dG9uc1JlZi5jdXJyZW50KSB7CiAgICAgIGJ1dHRvbnNSZWYuY3VycmVudC5jbG9zZSgpLmNhdGNoKCgpID0+IHt9KTsKICAgICAgYnV0dG9uc1JlZi5jdXJyZW50ID0gbnVsbDsKICAgIH0KCiAgICAvLyBDbGVhciBjb250YWluZXIKICAgIGNvbnRhaW5lclJlZi5jdXJyZW50LmlubmVySFRNTCA9ICcnOwoKICAgIGNvbnN0IHBheXBhbCA9IHdpbmRvdy5wYXlwYWw7CiAgICBjb25zdCBidXR0b25zID0gcGF5cGFsLkJ1dHRvbnMoewogICAgICBzdHlsZTogeyBsYXlvdXQ6ICd2ZXJ0aWNhbCcsIGNvbG9yOiAnZ29sZCcsIHNoYXBlOiAncmVjdCcsIGxhYmVsOiAncGF5cGFsJyB9LAogICAgICBjcmVhdGVPcmRlcjogYXN5bmMgKCkgPT4gewogICAgICAgIHNldEVycm9yKG51bGwpOwogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCcvYXBpL3BheXBhbC9jcmVhdGUtb3JkZXInLCB7CiAgICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgICBpdGVtczogaXRlbXMubWFwKGl0ID0+ICh7CiAgICAgICAgICAgICAgcHJvZHVjdElkOiBpdC5wcm9kdWN0SWQsCiAgICAgICAgICAgICAgbmFtZTogaXQubmFtZS5zbGljZSgwLCAxMjApLAogICAgICAgICAgICAgIHF1YW50aXR5OiBpdC5xdWFudGl0eSwKICAgICAgICAgICAgICB1bml0QW1vdW50OiBpdC5wcmljZS50b0ZpeGVkKDIpLAogICAgICAgICAgICB9KSksCiAgICAgICAgICAgIHNoaXBwaW5nOiBzaGlwcGluZy50b0ZpeGVkKDIpLAogICAgICAgICAgICBzaGlwcGluZ0FkZHJlc3M6IHsKICAgICAgICAgICAgICBuYW1lOiBzaGlwcGluZ0Zvcm0ubmFtZSwKICAgICAgICAgICAgICBhZGRyZXNzTGluZTE6IHNoaXBwaW5nRm9ybS5hZGRyZXNzTGluZTEsCiAgICAgICAgICAgICAgYWRkcmVzc0xpbmUyOiBzaGlwcGluZ0Zvcm0uYWRkcmVzc0xpbmUyLAogICAgICAgICAgICAgIGFkbWluQXJlYTI6IHNoaXBwaW5nRm9ybS5jaXR5LAogICAgICAgICAgICAgIGFkbWluQXJlYTE6IHNoaXBwaW5nRm9ybS5zdGF0ZSwKICAgICAgICAgICAgICBwb3N0YWxDb2RlOiBzaGlwcGluZ0Zvcm0ucG9zdGFsQ29kZSwKICAgICAgICAgICAgICBjb3VudHJ5Q29kZTogc2hpcHBpbmdGb3JtLmNvdW50cnlDb2RlLAogICAgICAgICAgICB9LAogICAgICAgICAgfSksCiAgICAgICAgfSk7CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKCk7CiAgICAgICAgaWYgKCFyZXMub2spIHRocm93IG5ldyBFcnJvcihkYXRhLmVycm9yIHx8ICdGYWlsZWQgdG8gY3JlYXRlIG9yZGVyJyk7CiAgICAgICAgcmV0dXJuIGRhdGEuaWQ7CiAgICAgIH0sCiAgICAgIG9uQXBwcm92ZTogYXN5bmMgKGRhdGE6IHsgb3JkZXJJRDogc3RyaW5nIH0pID0+IHsKICAgICAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCgnL2FwaS9wYXlwYWwvY2FwdHVyZS1vcmRlcicsIHsKICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IG9yZGVySWQ6IGRhdGEub3JkZXJJRCB9KSwKICAgICAgICAgIH0pOwogICAgICAgICAgY29uc3QgY2FwdHVyZSA9IGF3YWl0IHJlcy5qc29uKCk7CiAgICAgICAgICBpZiAoIXJlcy5vaykgdGhyb3cgbmV3IEVycm9yKGNhcHR1cmUuZXJyb3IgfHwgJ0NhcHR1cmUgZmFpbGVkJyk7CiAgICAgICAgICBjbGVhckNhcnQoKTsKICAgICAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gYC9jaGVja291dC9zdWNjZXNzP3Rva2VuPSR7ZGF0YS5vcmRlcklEfWA7CiAgICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgICAgc2V0RXJyb3IoZSBpbnN0YW5jZW9mIEVycm9yID8gZS5tZXNzYWdlIDogJ1BheW1lbnQgY2FwdHVyZSBmYWlsZWQnKTsKICAgICAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgICAgIH0KICAgICAgfSwKICAgICAgb25FcnJvcjogKGVycjogdW5rbm93bikgPT4gewogICAgICAgIGNvbnNvbGUuZXJyb3IoJ1BheVBhbCBidXR0b24gZXJyb3InLCBlcnIpOwogICAgICAgIHNldEVycm9yKCdQYXlQYWwgZW5jb3VudGVyZWQgYW4gZXJyb3IuIFBsZWFzZSB0cnkgYWdhaW4uJyk7CiAgICAgIH0sCiAgICAgIG9uQ2FuY2VsOiAoKSA9PiB7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAnL2NoZWNrb3V0L2NhbmNlbCc7CiAgICAgIH0sCiAgICB9KTsKCiAgICBidXR0b25zUmVmLmN1cnJlbnQgPSBidXR0b25zOwogICAgYnV0dG9ucy5yZW5kZXIoY29udGFpbmVyUmVmLmN1cnJlbnQpLmNhdGNoKChlcnI6IHVua25vd24pID0+IHsKICAgICAgY29uc29sZS5lcnJvcignUGF5UGFsIHJlbmRlciBlcnJvcicsIGVycik7CiAgICAgIHNldEVycm9yKCdVbmFibGUgdG8gbG9hZCBQYXlQYWwgYnV0dG9ucy4gUGxlYXNlIHJlZnJlc2guJyk7CiAgICB9KTsKCiAgICByZXR1cm4gKCkgPT4gewogICAgICBpZiAoYnV0dG9uc1JlZi5jdXJyZW50KSB7CiAgICAgICAgYnV0dG9uc1JlZi5jdXJyZW50LmNsb3NlKCkuY2F0Y2goKCkgPT4ge30pOwogICAgICAgIGJ1dHRvbnNSZWYuY3VycmVudCA9IG51bGw7CiAgICAgIH0KICAgIH07CiAgfSwgW3Nka1JlYWR5LCBmb3JtVmFsaWQsIGl0ZW1zLCBzaGlwcGluZywgY2xlYXJDYXJ0LCBzaGlwcGluZ0Zvcm0ubmFtZSwgc2hpcHBpbmdGb3JtLmFkZHJlc3NMaW5lMSwgc2hpcHBpbmdGb3JtLmFkZHJlc3NMaW5lMiwgc2hpcHBpbmdGb3JtLmNpdHksIHNoaXBwaW5nRm9ybS5zdGF0ZSwgc2hpcHBpbmdGb3JtLnBvc3RhbENvZGUsIHNoaXBwaW5nRm9ybS5jb3VudHJ5Q29kZSwgc2hpcHBpbmdGb3JtLmVtYWlsXSk7CgogIGlmICghaXNMb2FkZWQpIHsKICAgIHJldHVybiA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNnhsIG14LWF1dG8gcHgtNCBweS0yMCB0ZXh0LWNlbnRlciB0ZXh0LWJyYW5kLWdyYXkiPkxvYWRpbmfigKY8L2Rpdj47CiAgfQoKICBpZiAoaXRlbXMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctMnhsIG14LWF1dG8gcHgtNCBweS0yMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgPFNob3BwaW5nQmFnIGNsYXNzTmFtZT0idy0xNiBoLTE2IG14LWF1dG8gdGV4dC1icmFuZC1iZWlnZSBtYi00IiAvPgogICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbWItMiI+WW91ciBjYXJ0IGlzIGVtcHR5PC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtYnJhbmQtZ3JheSBtYi02Ij5BZGQgc29tZSBwcm9kdWN0cyBiZWZvcmUgY2hlY2tpbmcgb3V0LjwvcD4KICAgICAgICA8TGluayBocmVmPSIvcHJvZHVjdHMiIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIHB4LTYgcHktMyBiZy1icmFuZC1ncmVlbiB0ZXh0LXdoaXRlIGZvbnQtc2VtaWJvbGQgcm91bmRlZC1sZyBob3ZlcjpiZy1icmFuZC1ncmVlbi85MCI+CiAgICAgICAgICBTaG9wIFByb2R1Y3RzCiAgICAgICAgPC9MaW5rPgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTZ4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04IHB5LTEwIj4KICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi04Ij5DaGVja291dDwvaDE+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBsZzpncmlkLWNvbHMtMyBnYXAtOCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxnOmNvbC1zcGFuLTIgc3BhY2UteS02Ij4KICAgICAgICAgIHsvKiBTaGlwcGluZyBBZGRyZXNzICovfQogICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJiZy13aGl0ZSBib3JkZXIgYm9yZGVyLWdyYXktMTAwIHJvdW5kZWQteGwgcC02IHNoYWRvdy1zbSI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi00Ij5TaGlwcGluZyBBZGRyZXNzPC9oMj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgZ2FwLTQiPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iRnVsbCBOYW1lICoiIHZhbHVlPXtzaGlwcGluZ0Zvcm0ubmFtZX0gb25DaGFuZ2U9e3YgPT4gc2V0U2hpcHBpbmdGb3JtKHsgLi4uc2hpcHBpbmdGb3JtLCBuYW1lOiB2IH0pfSByZXF1aXJlZCBjbGFzc05hbWU9InNtOmNvbC1zcGFuLTIiIC8+CiAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJFbWFpbCAqIiB0eXBlPSJlbWFpbCIgdmFsdWU9e3NoaXBwaW5nRm9ybS5lbWFpbH0gb25DaGFuZ2U9e3YgPT4gc2V0U2hpcHBpbmdGb3JtKHsgLi4uc2hpcHBpbmdGb3JtLCBlbWFpbDogdiB9KX0gcmVxdWlyZWQgY2xhc3NOYW1lPSJzbTpjb2wtc3Bhbi0yIiAvPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iUGhvbmUiIHZhbHVlPXtzaGlwcGluZ0Zvcm0ucGhvbmV9IG9uQ2hhbmdlPXt2ID0+IHNldFNoaXBwaW5nRm9ybSh7IC4uLnNoaXBwaW5nRm9ybSwgcGhvbmU6IHYgfSl9IGNsYXNzTmFtZT0ic206Y29sLXNwYW4tMiIgLz4KICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IkFkZHJlc3MgTGluZSAxICoiIHZhbHVlPXtzaGlwcGluZ0Zvcm0uYWRkcmVzc0xpbmUxfSBvbkNoYW5nZT17diA9PiBzZXRTaGlwcGluZ0Zvcm0oeyAuLi5zaGlwcGluZ0Zvcm0sIGFkZHJlc3NMaW5lMTogdiB9KX0gcmVxdWlyZWQgY2xhc3NOYW1lPSJzbTpjb2wtc3Bhbi0yIiAvPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iQWRkcmVzcyBMaW5lIDIiIHZhbHVlPXtzaGlwcGluZ0Zvcm0uYWRkcmVzc0xpbmUyfSBvbkNoYW5nZT17diA9PiBzZXRTaGlwcGluZ0Zvcm0oeyAuLi5zaGlwcGluZ0Zvcm0sIGFkZHJlc3NMaW5lMjogdiB9KX0gY2xhc3NOYW1lPSJzbTpjb2wtc3Bhbi0yIiAvPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iQ2l0eSAqIiB2YWx1ZT17c2hpcHBpbmdGb3JtLmNpdHl9IG9uQ2hhbmdlPXt2ID0+IHNldFNoaXBwaW5nRm9ybSh7IC4uLnNoaXBwaW5nRm9ybSwgY2l0eTogdiB9KX0gcmVxdWlyZWQgLz4KICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IlN0YXRlIC8gUHJvdmluY2UgKiIgdmFsdWU9e3NoaXBwaW5nRm9ybS5zdGF0ZX0gb25DaGFuZ2U9e3YgPT4gc2V0U2hpcHBpbmdGb3JtKHsgLi4uc2hpcHBpbmdGb3JtLCBzdGF0ZTogdiB9KX0gcmVxdWlyZWQgLz4KICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IlBvc3RhbCBDb2RlICoiIHZhbHVlPXtzaGlwcGluZ0Zvcm0ucG9zdGFsQ29kZX0gb25DaGFuZ2U9e3YgPT4gc2V0U2hpcHBpbmdGb3JtKHsgLi4uc2hpcHBpbmdGb3JtLCBwb3N0YWxDb2RlOiB2IH0pfSByZXF1aXJlZCAvPgogICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtYnJhbmQtZGFyayBtYi0xIj5Db3VudHJ5ICo8L2xhYmVsPgogICAgICAgICAgICAgICAgPHNlbGVjdAogICAgICAgICAgICAgICAgICB2YWx1ZT17c2hpcHBpbmdGb3JtLmNvdW50cnlDb2RlfQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBzZXRTaGlwcGluZ0Zvcm0oeyAuLi5zaGlwcGluZ0Zvcm0sIGNvdW50cnlDb2RlOiBlLnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcHgtMyBweS0yIGJvcmRlciBib3JkZXItZ3JheS0yMDAgcm91bmRlZC1sZyB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1icmFuZC1ncmVlbi80MCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge1NVUFBPUlRFRF9DT1VOVFJJRVMubWFwKGMgPT4gKAogICAgICAgICAgICAgICAgICAgIDxvcHRpb24ga2V5PXtjLmNvZGV9IHZhbHVlPXtjLmNvZGV9PntjLm5hbWV9PC9vcHRpb24+CiAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICB7c2hpcHBpbmdGb3JtLmNvdW50cnlDb2RlID09PSAnVVMnICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yIHRleHQteHMgdGV4dC1hbWJlci03MDAgYmctYW1iZXItNTAgYm9yZGVyIGJvcmRlci1hbWJlci0yMDAgcm91bmRlZC1sZyBwLTMiPgogICAgICAgICAgICAgICAgPEFsZXJ0VHJpYW5nbGUgY2xhc3NOYW1lPSJ3LTQgaC00IHNocmluay0wIG10LTAuNSIgLz4KICAgICAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgICAgICA8c3Ryb25nPlUuUy4gZGVsaXZlcmllcyBkbyBub3Qgc3VwcG9ydCBQLk8uIEJveCBhZGRyZXNzZXMuPC9zdHJvbmc+IFBsZWFzZSBlbnRlciBhCiAgICAgICAgICAgICAgICAgIHN0cmVldCBhZGRyZXNzIHdpdGggaG91c2UvYnVpbGRpbmcgbnVtYmVyIHRvIGF2b2lkIGRlbGl2ZXJ5IGZhaWx1cmUuCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICAgIHtmcmVlVGhyZXNob2xkICE9PSBudWxsICYmICFpc0ZyZWVTaGlwICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhzIHRleHQtYnJhbmQtZ3JlZW4gYmctZ3JlZW4tNTAgYm9yZGVyIGJvcmRlci1ncmVlbi0yMDAgcm91bmRlZC1sZyBwLTMiPgogICAgICAgICAgICAgICAgPFRydWNrIGNsYXNzTmFtZT0idy00IGgtNCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgICAgICBBZGQgPHN0cm9uZz4keyckJ317KGZyZWVUaHJlc2hvbGQgLSBzdWJ0b3RhbCkudG9GaXhlZCgyKX08L3N0cm9uZz4gbW9yZSB0byB1bmxvY2sKICAgICAgICAgICAgICAgICAgPHN0cm9uZz4gRlJFRSBzaGlwcGluZzwvc3Ryb25nPiAob3JkZXJzIG92ZXIgeyckJ317ZnJlZVRocmVzaG9sZH0gc2hpcCBmcmVlIHRvIHRoZSBVbml0ZWQgU3RhdGVzKS4KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge2lzRnJlZVNoaXAgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMgdGV4dC1icmFuZC1ncmVlbiBiZy1ncmVlbi01MCBib3JkZXIgYm9yZGVyLWdyZWVuLTIwMCByb3VuZGVkLWxnIHAtMyBmb250LXNlbWlib2xkIj4KICAgICAgICAgICAgICAgIDxUcnVjayBjbGFzc05hbWU9InctNCBoLTQgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICA8c3Bhbj7wn46JIFlvdSZhcG9zO3ZlIHVubG9ja2VkIEZSRUUgc2hpcHBpbmchPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgIHsvKiBQYXltZW50ICovfQogICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJiZy13aGl0ZSBib3JkZXIgYm9yZGVyLWdyYXktMTAwIHJvdW5kZWQteGwgcC02IHNoYWRvdy1zbSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBtYi00Ij4KICAgICAgICAgICAgICA8TG9jayBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1icmFuZC1ncmVlbiIgLz4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsiPlBheW1lbnQ8L2gyPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge3NoaXBwaW5nQmxvY2tlZCA/ICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMyBwLTQgYmctYW1iZXItNTAgYm9yZGVyIGJvcmRlci1hbWJlci0yMDAgcm91bmRlZC1sZyI+CiAgICAgICAgICAgICAgICA8QWxlcnRUcmlhbmdsZSBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1hbWJlci02MDAgc2hyaW5rLTAgbXQtMC41IiAvPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1hbWJlci04MDAiPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgbWItMSI+U2hpcHBpbmcgdW5hdmFpbGFibGU8L3A+CiAgICAgICAgICAgICAgICAgIDxwPntzaGlwcGluZ1F1b3RlPy5icmVha2Rvd259PC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkgOiAhZm9ybVZhbGlkID8gKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWJyYW5kLWdyYXkiPlBsZWFzZSBmaWxsIGluIGFsbCByZXF1aXJlZCBzaGlwcGluZyBmaWVsZHMgdG8gZW5hYmxlIHBheW1lbnQuPC9wPgogICAgICAgICAgICApIDogIWNsaWVudElkID8gKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXJlZC01MDAiPlBheVBhbCBpcyBub3QgY29uZmlndXJlZC4gUGxlYXNlIGNvbnRhY3Qgc3VwcG9ydC48L3A+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgIDxTY3JpcHQKICAgICAgICAgICAgICAgICAgc3JjPXtgaHR0cHM6Ly93d3cucGF5cGFsLmNvbS9zZGsvanM/Y2xpZW50LWlkPSR7ZW5jb2RlVVJJQ29tcG9uZW50KGNsaWVudElkKX0mY3VycmVuY3k9VVNEJmludGVudD1jYXB0dXJlYH0KICAgICAgICAgICAgICAgICAgc3RyYXRlZ3k9ImFmdGVySW50ZXJhY3RpdmUiCiAgICAgICAgICAgICAgICAgIG9uTG9hZD17KCkgPT4gc2V0U2RrUmVhZHkodHJ1ZSl9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPGRpdiByZWY9e2NvbnRhaW5lclJlZn0gY2xhc3NOYW1lPSJtaW4taC1bMTUwcHhdIiAvPgogICAgICAgICAgICAgICAge2xvYWRpbmcgJiYgKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgbXQtMyB0ZXh0LXNtIHRleHQtYnJhbmQtZ3JheSI+CiAgICAgICAgICAgICAgICAgICAgPExvYWRlcjIgY2xhc3NOYW1lPSJ3LTQgaC00IGFuaW1hdGUtc3BpbiIgLz4gUHJvY2Vzc2luZyBwYXltZW504oCmCiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIHtlcnJvciAmJiA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1zbSB0ZXh0LXJlZC02MDAiPntlcnJvcn08L3A+fQogICAgICAgICAgICAgIDwvPgogICAgICAgICAgICApfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbXQtNCB0ZXh0LXhzIHRleHQtYnJhbmQtZ3JheSI+CiAgICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgICA8c3Bhbj5QYXltZW50cyBhcmUgc2VjdXJlbHkgcHJvY2Vzc2VkIGJ5IFBheVBhbC4gV2UgbmV2ZXIgc2VlIHlvdXIgY2FyZCBkZXRhaWxzLjwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBPcmRlciBTdW1tYXJ5ICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsZzpjb2wtc3Bhbi0xIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1icmFuZC1iZWlnZS80MCBib3JkZXIgYm9yZGVyLWJyYW5kLWJlaWdlIHJvdW5kZWQteGwgcC02IHN0aWNreSB0b3AtMjQiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWJyYW5kLWRhcmsgbWItNCI+T3JkZXIgU3VtbWFyeTwvaDI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMgbWItNCBtYXgtaC02NCBvdmVyZmxvdy15LWF1dG8iPgogICAgICAgICAgICAgIHtpdGVtcy5tYXAoaXRlbSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2IGtleT17aXRlbS5pZH0gY2xhc3NOYW1lPSJmbGV4IGdhcC0zIHRleHQtc20iPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xNCBoLTE0IGJnLXdoaXRlIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIHNocmluay0wIGJvcmRlciBib3JkZXItZ3JheS0xMDAiPgogICAgICAgICAgICAgICAgICAgIHtpdGVtLmltYWdlICYmICgKICAgICAgICAgICAgICAgICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBAbmV4dC9uZXh0L25vLWltZy1lbGVtZW50CiAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17aXRlbS5pbWFnZX0gYWx0PXtpdGVtLm5hbWV9IGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY292ZXIiIC8+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtYnJhbmQtZGFyayBsaW5lLWNsYW1wLTIiPntpdGVtLm5hbWV9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1icmFuZC1ncmF5Ij4KICAgICAgICAgICAgICAgICAgICAgIHtbaXRlbS5jb2xvciwgaXRlbS5zaXplXS5maWx0ZXIoQm9vbGVhbikuam9pbignIMK3ICcpfSDDlyB7aXRlbS5xdWFudGl0eX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtYnJhbmQtZGFyayI+JHsoaXRlbS5wcmljZSAqIGl0ZW0ucXVhbnRpdHkpLnRvRml4ZWQoMil9PC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItYnJhbmQtYmVpZ2UgcHQtNCBzcGFjZS15LTIgdGV4dC1zbSI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtYnJhbmQtZ3JheSI+CiAgICAgICAgICAgICAgICA8c3Bhbj5TdWJ0b3RhbDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuPiR7c3VidG90YWwudG9GaXhlZCgyKX08L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtYnJhbmQtZ3JheSI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgPFRydWNrIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+CiAgICAgICAgICAgICAgICAgIFNoaXBwaW5nCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3Bhbj57c2hpcHBpbmdCbG9ja2VkID8gJ1VuYXZhaWxhYmxlJyA6ICFzaGlwcGluZ1F1b3RlID8gJ+KAlCcgOiBpc0ZyZWVTaGlwID8gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyZWVuIGZvbnQtYm9sZCI+RlJFRTwvc3Bhbj4gOiBgJCR7c2hpcHBpbmcudG9GaXhlZCgyKX1gfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICB7c2hpcHBpbmdRdW90ZSAmJiAhc2hpcHBpbmdCbG9ja2VkICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtYnJhbmQtZ3JheSBwbC01IC1tdC0xIj4KICAgICAgICAgICAgICAgICAge3NoaXBwaW5nUXVvdGUuYnJlYWtkb3dufQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayB0ZXh0LWJhc2UgcHQtMiBib3JkZXItdCBib3JkZXItYnJhbmQtYmVpZ2UiPgogICAgICAgICAgICAgICAgPHNwYW4+VG90YWw8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3Bhbj4ke3RvdGFsLnRvRml4ZWQoMil9PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCmZ1bmN0aW9uIEZpZWxkKHsKICBsYWJlbCwgdmFsdWUsIG9uQ2hhbmdlLCB0eXBlID0gJ3RleHQnLCByZXF1aXJlZCA9IGZhbHNlLCBjbGFzc05hbWUgPSAnJywKfTogewogIGxhYmVsOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmc7IG9uQ2hhbmdlOiAodjogc3RyaW5nKSA9PiB2b2lkOwogIHR5cGU/OiBzdHJpbmc7IHJlcXVpcmVkPzogYm9vbGVhbjsgY2xhc3NOYW1lPzogc3RyaW5nOwp9KSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPXtjbGFzc05hbWV9PgogICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtYnJhbmQtZGFyayBtYi0xIj57bGFiZWx9PC9sYWJlbD4KICAgICAgPGlucHV0CiAgICAgICAgdHlwZT17dHlwZX0KICAgICAgICB2YWx1ZT17dmFsdWV9CiAgICAgICAgcmVxdWlyZWQ9e3JlcXVpcmVkfQogICAgICAgIG9uQ2hhbmdlPXtlID0+IG9uQ2hhbmdlKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweC0zIHB5LTIgYm9yZGVyIGJvcmRlci1ncmF5LTIwMCByb3VuZGVkLWxnIHRleHQtc20gZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLWJyYW5kLWdyZWVuLzQwIgogICAgICAvPgogICAgPC9kaXY+CiAgKTsKfQo=
+'use client';
+
+import { useEffect, useRef, useState, useMemo } from 'react';
+import Link from 'next/link';
+import Script from 'next/script';
+import { useCart } from '@/contexts/CartContext';
+import { calculateShipping, getFreeShippingThreshold } from '@/lib/shipping';
+import { ShoppingBag, Loader2, Lock, ShieldCheck, Truck, AlertTriangle } from 'lucide-react';
+
+declare global {
+  interface Window {
+    paypal?: any;
+  }
+}
+
+const SUPPORTED_COUNTRIES: { code: string; name: string }[] = [
+  { code: 'US', name: 'United States' },
+  { code: 'CA', name: 'Canada' },
+  { code: 'GB', name: 'United Kingdom' },
+  { code: 'AU', name: 'Australia' },
+  { code: 'DE', name: 'Germany' },
+  { code: 'FR', name: 'France' },
+  { code: 'JP', name: 'Japan' },
+];
+
+export default function CheckoutPage() {
+  const { items, subtotal, isLoaded, clearCart } = useCart();
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [sdkReady, setSdkReady] = useState(false);
+  const [shippingForm, setShippingForm] = useState({
+    name: '',
+    addressLine1: '',
+    addressLine2: '',
+    city: '',
+    state: '',
+    postalCode: '',
+    countryCode: 'US',
+    email: '',
+    phone: '',
+  });
+  const [formValid, setFormValid] = useState(false);
+  const buttonsRef = useRef<any>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Calculate shipping based on cart items and destination country
+  const shippingQuote = useMemo(() => {
+    if (items.length === 0) return null;
+    return calculateShipping(
+      items.map(it => ({ productId: it.productId, quantity: it.quantity, size: it.size })),
+      shippingForm.countryCode,
+      subtotal,
+    );
+  }, [items, shippingForm.countryCode, subtotal]);
+
+  const shipping = shippingQuote?.cost ?? 0;
+  const shippingBlocked = shippingQuote?.cost === -1;
+  const isFreeShip = shipping === 0 && !shippingBlocked && !!shippingQuote;
+  const freeThreshold = getFreeShippingThreshold(shippingForm.countryCode);
+  const total = subtotal + (shippingBlocked ? 0 : shipping);
+  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
+
+  useEffect(() => {
+    const { name, addressLine1, city, state, postalCode, countryCode, email } = shippingForm;
+    setFormValid(
+      !!name && !!addressLine1 && !!city && !!state && !!postalCode &&
+      !!countryCode && !!email && items.length > 0 && !shippingBlocked,
+    );
+  }, [shippingForm, items.length, shippingBlocked]);
+
+  // Render / re-render PayPal buttons whenever shipping or items change
+  useEffect(() => {
+    if (!sdkReady || !window.paypal || !formValid || !containerRef.current) return;
+
+    // Close previous buttons instance to avoid duplicates
+    if (buttonsRef.current) {
+      buttonsRef.current.close().catch(() => {});
+      buttonsRef.current = null;
+    }
+
+    // Clear container
+    containerRef.current.innerHTML = '';
+
+    const paypal = window.paypal;
+    const buttons = paypal.Buttons({
+      style: { layout: 'vertical', color: 'gold', shape: 'rect', label: 'paypal' },
+      createOrder: async () => {
+        setError(null);
+        const res = await fetch('/api/paypal/create-order', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            items: items.map(it => ({
+              productId: it.productId,
+              name: it.name.slice(0, 120),
+              quantity: it.quantity,
+              unitAmount: it.price.toFixed(2),
+            })),
+            shipping: shipping.toFixed(2),
+            shippingAddress: {
+              name: shippingForm.name,
+              addressLine1: shippingForm.addressLine1,
+              addressLine2: shippingForm.addressLine2,
+              adminArea2: shippingForm.city,
+              adminArea1: shippingForm.state,
+              postalCode: shippingForm.postalCode,
+              countryCode: shippingForm.countryCode,
+            },
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Failed to create order');
+        return data.id;
+      },
+      onApprove: async (data: { orderID: string }) => {
+        setLoading(true);
+        try {
+          const res = await fetch('/api/paypal/capture-order', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ orderId: data.orderID }),
+          });
+          const capture = await res.json();
+          if (!res.ok) throw new Error(capture.error || 'Capture failed');
+          clearCart();
+          window.location.href = `/checkout/success?token=${data.orderID}`;
+        } catch (e) {
+          setError(e instanceof Error ? e.message : 'Payment capture failed');
+          setLoading(false);
+        }
+      },
+      onError: (err: unknown) => {
+        console.error('PayPal button error', err);
+        setError('PayPal encountered an error. Please try again.');
+      },
+      onCancel: () => {
+        window.location.href = '/checkout/cancel';
+      },
+    });
+
+    buttonsRef.current = buttons;
+    buttons.render(containerRef.current).catch((err: unknown) => {
+      console.error('PayPal render error', err);
+      setError('Unable to load PayPal buttons. Please refresh.');
+    });
+
+    return () => {
+      if (buttonsRef.current) {
+        buttonsRef.current.close().catch(() => {});
+        buttonsRef.current = null;
+      }
+    };
+  }, [sdkReady, formValid, items, shipping, clearCart, shippingForm.name, shippingForm.addressLine1, shippingForm.addressLine2, shippingForm.city, shippingForm.state, shippingForm.postalCode, shippingForm.countryCode, shippingForm.email]);
+
+  if (!isLoaded) {
+    return <div className="max-w-6xl mx-auto px-4 py-20 text-center text-brand-gray">Loading…</div>;
+  }
+
+  if (items.length === 0) {
+    return (
+      <div className="max-w-2xl mx-auto px-4 py-20 text-center">
+        <ShoppingBag className="w-16 h-16 mx-auto text-brand-beige mb-4" />
+        <h1 className="text-2xl font-bold text-brand-dark mb-2">Your cart is empty</h1>
+        <p className="text-brand-gray mb-6">Add some products before checking out.</p>
+        <Link href="/products" className="inline-block px-6 py-3 bg-brand-green text-white font-semibold rounded-lg hover:bg-brand-green/90">
+          Shop Products
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <h1 className="text-3xl font-bold text-brand-dark mb-8">Checkout</h1>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="lg:col-span-2 space-y-6">
+          {/* Shipping Address */}
+          <section className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+            <h2 className="text-lg font-bold text-brand-dark mb-4">Shipping Address</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Field label="Full Name *" value={shippingForm.name} onChange={v => setShippingForm({ ...shippingForm, name: v })} required className="sm:col-span-2" />
+              <Field label="Email *" type="email" value={shippingForm.email} onChange={v => setShippingForm({ ...shippingForm, email: v })} required className="sm:col-span-2" />
+              <Field label="Phone" value={shippingForm.phone} onChange={v => setShippingForm({ ...shippingForm, phone: v })} className="sm:col-span-2" />
+              <Field label="Address Line 1 *" value={shippingForm.addressLine1} onChange={v => setShippingForm({ ...shippingForm, addressLine1: v })} required className="sm:col-span-2" />
+              <Field label="Address Line 2" value={shippingForm.addressLine2} onChange={v => setShippingForm({ ...shippingForm, addressLine2: v })} className="sm:col-span-2" />
+              <Field label="City *" value={shippingForm.city} onChange={v => setShippingForm({ ...shippingForm, city: v })} required />
+              <Field label="State / Province *" value={shippingForm.state} onChange={v => setShippingForm({ ...shippingForm, state: v })} required />
+              <Field label="Postal Code *" value={shippingForm.postalCode} onChange={v => setShippingForm({ ...shippingForm, postalCode: v })} required />
+              <div>
+                <label className="block text-sm font-medium text-brand-dark mb-1">Country *</label>
+                <select
+                  value={shippingForm.countryCode}
+                  onChange={e => setShippingForm({ ...shippingForm, countryCode: e.target.value })}
+                  className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-brand-green/40"
+                >
+                  {SUPPORTED_COUNTRIES.map(c => (
+                    <option key={c.code} value={c.code}>{c.name}</option>
+                  ))}
+                </select>
+              </div>
+            </div>
+            {shippingForm.countryCode === 'US' && (
+              <div className="mt-4 flex items-start gap-2 text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg p-3">
+                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>
+                  <strong>U.S. deliveries do not support P.O. Box addresses.</strong> Please enter a
+                  street address with house/building number to avoid delivery failure.
+                </span>
+              </div>
+            )}
+            {freeThreshold !== null && !isFreeShip && (
+              <div className="mt-3 flex items-center gap-2 text-xs text-brand-green bg-green-50 border border-green-200 rounded-lg p-3">
+                <Truck className="w-4 h-4 shrink-0" />
+                <span>
+                  Add <strong>${'$'}{(freeThreshold - subtotal).toFixed(2)}</strong> more to unlock
+                  <strong> FREE shipping</strong> (orders over {'$'}{freeThreshold} ship free to the United States).
+                </span>
+              </div>
+            )}
+            {isFreeShip && (
+              <div className="mt-3 flex items-center gap-2 text-xs text-brand-green bg-green-50 border border-green-200 rounded-lg p-3 font-semibold">
+                <Truck className="w-4 h-4 shrink-0" />
+                <span>🎉 You&apos;ve unlocked FREE shipping!</span>
+              </div>
+            )}
+          </section>
+
+          {/* Payment */}
+          <section className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+            <div className="flex items-center gap-2 mb-4">
+              <Lock className="w-4 h-4 text-brand-green" />
+              <h2 className="text-lg font-bold text-brand-dark">Payment</h2>
+            </div>
+            {shippingBlocked ? (
+              <div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+                <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+                <div className="text-sm text-amber-800">
+                  <p className="font-semibold mb-1">Shipping unavailable</p>
+                  <p>{shippingQuote?.breakdown}</p>
+                </div>
+              </div>
+            ) : !formValid ? (
+              <p className="text-sm text-brand-gray">Please fill in all required shipping fields to enable payment.</p>
+            ) : !clientId ? (
+              <p className="text-sm text-red-500">PayPal is not configured. Please contact support.</p>
+            ) : (
+              <>
+                <Script
+                  src={`https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(clientId)}&currency=USD&intent=capture`}
+                  strategy="afterInteractive"
+                  onLoad={() => setSdkReady(true)}
+                />
+                <div ref={containerRef} className="min-h-[150px]" />
+                {loading && (
+                  <div className="flex items-center justify-center gap-2 mt-3 text-sm text-brand-gray">
+                    <Loader2 className="w-4 h-4 animate-spin" /> Processing payment…
+                  </div>
+                )}
+                {error && <p className="mt-3 text-sm text-red-600">{error}</p>}
+              </>
+            )}
+            <div className="flex items-center gap-2 mt-4 text-xs text-brand-gray">
+              <ShieldCheck className="w-4 h-4" />
+              <span>Payments are securely processed by PayPal. We never see your card details.</span>
+            </div>
+          </section>
+        </div>
+
+        {/* Order Summary */}
+        <div className="lg:col-span-1">
+          <div className="bg-brand-beige/40 border border-brand-beige rounded-xl p-6 sticky top-24">
+            <h2 className="text-lg font-bold text-brand-dark mb-4">Order Summary</h2>
+            <div className="space-y-3 mb-4 max-h-64 overflow-y-auto">
+              {items.map(item => (
+                <div key={item.id} className="flex gap-3 text-sm">
+                  <div className="w-14 h-14 bg-white rounded-lg overflow-hidden shrink-0 border border-gray-100">
+                    {item.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                    )}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="font-medium text-brand-dark line-clamp-2">{item.name}</div>
+                    <div className="text-xs text-brand-gray">
+                      {[item.color, item.size].filter(Boolean).join(' · ')} × {item.quantity}
+                    </div>
+                  </div>
+                  <div className="font-semibold text-brand-dark">${(item.price * item.quantity).toFixed(2)}</div>
+                </div>
+              ))}
+            </div>
+            <div className="border-t border-brand-beige pt-4 space-y-2 text-sm">
+              <div className="flex justify-between text-brand-gray">
+                <span>Subtotal</span>
+                <span>${subtotal.toFixed(2)}</span>
+              </div>
+              <div className="flex justify-between text-brand-gray">
+                <span className="flex items-center gap-1">
+                  <Truck className="w-3.5 h-3.5" />
+                  Shipping
+                </span>
+                <span>{shippingBlocked ? 'Unavailable' : !shippingQuote ? '—' : isFreeShip ? <span className="text-brand-green font-bold">FREE</span> : `$${shipping.toFixed(2)}`}</span>
+              </div>
+              {shippingQuote && !shippingBlocked && (
+                <div className="text-xs text-brand-gray pl-5 -mt-1">
+                  {shippingQuote.breakdown}
+                </div>
+              )}
+              <div className="flex justify-between font-bold text-brand-dark text-base pt-2 border-t border-brand-beige">
+                <span>Total</span>
+                <span>${total.toFixed(2)}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Field({
+  label, value, onChange, type = 'text', required = false, className = '',
+}: {
+  label: string; value: string; onChange: (v: string) => void;
+  type?: string; required?: boolean; className?: string;
+}) {
+  return (
+    <div className={className}>
+      <label className="block text-sm font-medium text-brand-dark mb-1">{label}</label>
+      <input
+        type={type}
+        value={value}
+        required={required}
+        onChange={e => onChange(e.target.value)}
+        className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-brand-green/40"
+      />
+    </div>
+  );
+}

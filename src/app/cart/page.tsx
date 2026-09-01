@@ -1,1 +1,216 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJzsKaW1wb3J0IHsgdXNlQ2FydCB9IGZyb20gJ0AvY29udGV4dHMvQ2FydENvbnRleHQnOwppbXBvcnQgeyBwcm9kdWN0cyB9IGZyb20gJ0AvbGliL2RhdGEvcHJvZHVjdHMnOwppbXBvcnQgeyBnZXRGcmVlU2hpcHBpbmdUaHJlc2hvbGQgfSBmcm9tICdAL2xpYi9zaGlwcGluZyc7CmltcG9ydCB7IFRyYXNoMiwgUGx1cywgTWludXMsIFNob3BwaW5nQmFnLCBBcnJvd1JpZ2h0LCBUcnVjaywgQ2hlY2sgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwoKY29uc3QgQURET05fU0xVR1MgPSBbJ3NpZGUtZ3JpcC1wZXQtcGlsbC1kaXNwZW5zZXInLCAnc2lsaWNvbmUtbGljay1tYXQnLCAncGV0LXBhdy1jbGVhbmVyLWN1cCddOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ2FydFBhZ2UoKSB7CiAgY29uc3QgeyBpdGVtcywgc3VidG90YWwsIHVwZGF0ZVF1YW50aXR5LCByZW1vdmVGcm9tQ2FydCwgYWRkVG9DYXJ0LCBpc0xvYWRlZCB9ID0gdXNlQ2FydCgpOwoKICBpZiAoIWlzTG9hZGVkKSB7CiAgICByZXR1cm4gPGRpdiBjbGFzc05hbWU9Im1heC13LTR4bCBteC1hdXRvIHB4LTQgcHktMjAgdGV4dC1jZW50ZXIgdGV4dC1icmFuZC1ncmF5Ij5Mb2FkaW5nIGNhcnTigKY8L2Rpdj47CiAgfQoKICBjb25zdCBmcmVlVGhyZXNob2xkID0gZ2V0RnJlZVNoaXBwaW5nVGhyZXNob2xkKCdVUycpOwogIGNvbnN0IGZyZWVSZW1haW5pbmcgPSBmcmVlVGhyZXNob2xkICE9PSBudWxsID8gTWF0aC5tYXgoMCwgZnJlZVRocmVzaG9sZCAtIHN1YnRvdGFsKSA6IDA7CiAgY29uc3QgZnJlZVBjdCA9IGZyZWVUaHJlc2hvbGQgIT09IG51bGwgPyBNYXRoLm1pbigxMDAsIChzdWJ0b3RhbCAvIGZyZWVUaHJlc2hvbGQpICogMTAwKSA6IDA7CiAgY29uc3QgdW5sb2NrZWRGcmVlU2hpcCA9IGZyZWVUaHJlc2hvbGQgIT09IG51bGwgJiYgc3VidG90YWwgPj0gZnJlZVRocmVzaG9sZDsKCiAgY29uc3QgY2FydFNsdWdzID0gbmV3IFNldChpdGVtcy5tYXAoaSA9PiBpLnNsdWcpKTsKICBjb25zdCBhZGRvbnMgPSBwcm9kdWN0cwogICAgLmZpbHRlcihwciA9PiBBRERPTl9TTFVHUy5pbmNsdWRlcyhwci5zbHVnKSAmJiAhY2FydFNsdWdzLmhhcyhwci5zbHVnKSkKICAgIC5zbGljZSgwLCAzKTsKCiAgY29uc3QgcXVpY2tBZGQgPSAocHI6IHR5cGVvZiBwcm9kdWN0c1tudW1iZXJdKSA9PiB7CiAgICBjb25zdCBtdWx0aSA9IChwci5zaXplVmFyaWFudHM/Lmxlbmd0aCA/PyAwKSA+IDE7CiAgICBjb25zdCB2ID0gcHIuc2l6ZVZhcmlhbnRzPy5bMF07CiAgICBhZGRUb0NhcnQoewogICAgICBwcm9kdWN0SWQ6IHByLmlkLAogICAgICBzbHVnOiBwci5zbHVnLAogICAgICBuYW1lOiBwci5uYW1lLAogICAgICBwcmljZTogdj8ucHJpY2UgPz8gcHIucHJpY2UsCiAgICAgIHF1YW50aXR5OiAxLAogICAgICBpbWFnZTogcHIuaW1hZ2VzWzBdLAogICAgICBzaXplOiBtdWx0aSA/IHY/LmxhYmVsIDogdW5kZWZpbmVkLAogICAgfSk7CiAgfTsKCiAgaWYgKGl0ZW1zLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTJ4bCBteC1hdXRvIHB4LTQgcHktMjAgdGV4dC1jZW50ZXIiPgogICAgICAgIDxTaG9wcGluZ0JhZyBjbGFzc05hbWU9InctMTYgaC0xNiBteC1hdXRvIHRleHQtYnJhbmQtYmVpZ2UgbWItNCIgLz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTIiPllvdXIgY2FydCBpcyBlbXB0eTwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyYXkgbWItNiI+QnJvd3NlIG91ciBzZW5pb3IgZG9nIGVzc2VudGlhbHMgYW5kIGFkZCBpdGVtcyB0byBnZXQgc3RhcnRlZC48L3A+CiAgICAgICAgPExpbmsKICAgICAgICAgIGhyZWY9Ii9wcm9kdWN0cyIKICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIHB4LTYgcHktMyBiZy1icmFuZC1ncmVlbiB0ZXh0LXdoaXRlIGZvbnQtc2VtaWJvbGQgcm91bmRlZC1sZyBob3ZlcjpiZy1icmFuZC1ncmVlbi85MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICA+CiAgICAgICAgICBTaG9wIFByb2R1Y3RzCiAgICAgICAgPC9MaW5rPgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTZ4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04IHB5LTEwIj4KICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi04Ij5TaG9wcGluZyBDYXJ0PC9oMT4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGxnOmdyaWQtY29scy0zIGdhcC04Ij4KICAgICAgICB7LyogSXRlbXMgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxnOmNvbC1zcGFuLTIgc3BhY2UteS00Ij4KICAgICAgICAgIHtpdGVtcy5tYXAoaXRlbSA9PiAoCiAgICAgICAgICAgIDxkaXYga2V5PXtpdGVtLmlkfSBjbGFzc05hbWU9ImZsZXggZ2FwLTQgcC00IGJnLXdoaXRlIGJvcmRlciBib3JkZXItZ3JheS0xMDAgcm91bmRlZC14bCBzaGFkb3ctc20iPgogICAgICAgICAgICAgIDxMaW5rIGhyZWY9e2AvcHJvZHVjdHMvJHtpdGVtLnNsdWd9YH0gY2xhc3NOYW1lPSJzaHJpbmstMCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0yNCBoLTI0IGJnLWJyYW5kLWJlaWdlIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAge2l0ZW0uaW1hZ2UgJiYgKAogICAgICAgICAgICAgICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBAbmV4dC9uZXh0L25vLWltZy1lbGVtZW50CiAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e2l0ZW0uaW1hZ2V9IGFsdD17aXRlbS5uYW1lfSBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIiAvPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIG1pbi13LTAiPgogICAgICAgICAgICAgICAgPExpbmsgaHJlZj17YC9wcm9kdWN0cy8ke2l0ZW0uc2x1Z31gfSBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1icmFuZC1kYXJrIGhvdmVyOnRleHQtYnJhbmQtZ3JlZW4gbGluZS1jbGFtcC0yIj4KICAgICAgICAgICAgICAgICAge2l0ZW0ubmFtZX0KICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtYnJhbmQtZ3JheSBtdC0xIGZsZXggZmxleC13cmFwIGdhcC14LTMiPgogICAgICAgICAgICAgICAgICB7aXRlbS5jb2xvciAmJiA8c3Bhbj5Db2xvcjoge2l0ZW0uY29sb3J9PC9zcGFuPn0KICAgICAgICAgICAgICAgICAge2l0ZW0uc2l6ZSAmJiA8c3Bhbj5TaXplOiB7aXRlbS5zaXplfTwvc3Bhbj59CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyZWVuIGZvbnQtYm9sZCBtdC0xIj4ke2l0ZW0ucHJpY2UudG9GaXhlZCgyKX08L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIG10LTMiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgYm9yZGVyIGJvcmRlci1ncmF5LTIwMCByb3VuZGVkLWxnIj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB1cGRhdGVRdWFudGl0eShpdGVtLmlkLCBpdGVtLnF1YW50aXR5IC0gMSl9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InAtMS41IGhvdmVyOmJnLWdyYXktNTAgcm91bmRlZC1sLWxnIgogICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iRGVjcmVhc2UgcXVhbnRpdHkiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPE1pbnVzIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InB4LTMgdGV4dC1zbSBmb250LW1lZGl1bSBtaW4tdy1bMnJlbV0gdGV4dC1jZW50ZXIiPntpdGVtLnF1YW50aXR5fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB1cGRhdGVRdWFudGl0eShpdGVtLmlkLCBpdGVtLnF1YW50aXR5ICsgMSl9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InAtMS41IGhvdmVyOmJnLWdyYXktNTAgcm91bmRlZC1yLWxnIgogICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iSW5jcmVhc2UgcXVhbnRpdHkiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByZW1vdmVGcm9tQ2FydChpdGVtLmlkKX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtc20gdGV4dC1yZWQtNTAwIGhvdmVyOnRleHQtcmVkLTYwMCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPiBSZW1vdmUKICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtcmlnaHQgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayI+CiAgICAgICAgICAgICAgICAkeyhpdGVtLnByaWNlICogaXRlbS5xdWFudGl0eSkudG9GaXhlZCgyKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFN1bW1hcnkgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxnOmNvbC1zcGFuLTEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLWJyYW5kLWJlaWdlLzQwIGJvcmRlciBib3JkZXItYnJhbmQtYmVpZ2Ugcm91bmRlZC14bCBwLTYgc3RpY2t5IHRvcC0yNCI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi00Ij5PcmRlciBTdW1tYXJ5PC9oMj4KCiAgICAgICAgICAgIHtmcmVlVGhyZXNob2xkICE9PSBudWxsICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNSI+CiAgICAgICAgICAgICAgICB7dW5sb2NrZWRGcmVlU2hpcCA/ICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWJyYW5kLWdyZWVuIGJnLWdyZWVuLTUwIGJvcmRlciBib3JkZXItZ3JlZW4tMjAwIHJvdW5kZWQtbGcgcC0zIj4KICAgICAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgICAgIFlvdSZhcG9zO3ZlIHVubG9ja2VkIEZSRUUgVS5TLiBzaGlwcGluZyEKICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtYnJhbmQtZGFyayBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIDxUcnVjayBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1icmFuZC1ncmVlbiBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgICAgICAgICAgICBBZGQgPHN0cm9uZyBjbGFzc05hbWU9InRleHQtYnJhbmQtY29yYWwiPiR7JyQnfXtmcmVlUmVtYWluaW5nLnRvRml4ZWQoMil9PC9zdHJvbmc+IG1vcmUgZm9yCiAgICAgICAgICAgICAgICAgICAgICAgIDxzdHJvbmc+IEZSRUUgVS5TLiBzaGlwcGluZzwvc3Ryb25nPgogICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLTIuNSB3LWZ1bGwgYmctd2hpdGUgcm91bmRlZC1mdWxsIG92ZXJmbG93LWhpZGRlbiBib3JkZXIgYm9yZGVyLWJyYW5kLWJlaWdlIj4KICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgYmctYnJhbmQtZ3JlZW4gcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tYWxsIiBzdHlsZT17eyB3aWR0aDogYCR7ZnJlZVBjdH0lYCB9fSAvPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWJyYW5kLWdyYXkgbXQtMS41Ij5GcmVlIHNoaXBwaW5nIG9uIFUuUy4gb3JkZXJzIG92ZXIgeyckJ317ZnJlZVRocmVzaG9sZH08L3A+CiAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiB0ZXh0LXNtIHRleHQtYnJhbmQtZ3JheSBtYi0yIj4KICAgICAgICAgICAgICA8c3Bhbj5TdWJ0b3RhbDwvc3Bhbj4KICAgICAgICAgICAgICA8c3Bhbj4ke3N1YnRvdGFsLnRvRml4ZWQoMil9PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtc20gdGV4dC1icmFuZC1ncmF5IG1iLTQiPgogICAgICAgICAgICAgIDxzcGFuPlNoaXBwaW5nPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuPnt1bmxvY2tlZEZyZWVTaGlwID8gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWdyZWVuIGZvbnQtc2VtaWJvbGQiPkZSRUU8L3NwYW4+IDogJ0NhbGN1bGF0ZWQgYXQgY2hlY2tvdXQnfTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItYnJhbmQtYmVpZ2UgcHQtNCBmbGV4IGp1c3RpZnktYmV0d2VlbiBmb250LWJvbGQgdGV4dC1icmFuZC1kYXJrIG1iLTYiPgogICAgICAgICAgICAgIDxzcGFuPlRvdGFsPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuPiR7c3VidG90YWwudG9GaXhlZCgyKX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGhyZWY9Ii9jaGVja291dCIKICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBweS0zIGJnLWJyYW5kLWNvcmFsIGhvdmVyOmJnLWJyYW5kLWNvcmFsLzkwIHRleHQtd2hpdGUgZm9udC1zZW1pYm9sZCByb3VuZGVkLWxnIHRyYW5zaXRpb24tYWxsIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgUHJvY2VlZCB0byBDaGVja291dCA8QXJyb3dSaWdodCBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPExpbmsgaHJlZj0iL3Byb2R1Y3RzIiBjbGFzc05hbWU9ImJsb2NrIHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1icmFuZC1ncmF5IGhvdmVyOnRleHQtYnJhbmQtZ3JlZW4gbXQtMyI+CiAgICAgICAgICAgICAgQ29udGludWUgc2hvcHBpbmcKICAgICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgICAge2FkZG9ucy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiBwdC01IGJvcmRlci10IGJvcmRlci1icmFuZC1iZWlnZSI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtYnJhbmQtZGFyayBtYi0zIj4KICAgICAgICAgICAgICAgICAge3VubG9ja2VkRnJlZVNoaXAgPyAnUG9wdWxhciBhZGQtb25zJyA6ICdCdW5kbGUgJiBzYXZlIOKAlCBhZGQgYW4gaXRlbSBiZWxvdyBmb3IgZnJlZSBzaGlwcGluZyd9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgICAgICAgICAge2FkZG9ucy5tYXAocHIgPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHYgPSBwci5zaXplVmFyaWFudHM/LlswXTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBwcmljZSA9IHY/LnByaWNlID8/IHByLnByaWNlOwogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17cHIuaWR9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL3Byb2R1Y3RzLyR7cHIuc2x1Z31gfSBjbGFzc05hbWU9InNocmluay0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMiBoLTEyIGJnLXdoaXRlIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIGJvcmRlciBib3JkZXItZ3JheS0xMDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3ByLmltYWdlc1swXSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBAbmV4dC9uZXh0L25vLWltZy1lbGVtZW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtwci5pbWFnZXNbMF19IGFsdD17cHIubmFtZX0gY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL3Byb2R1Y3RzLyR7cHIuc2x1Z31gfSBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1icmFuZC1kYXJrIGxpbmUtY2xhbXAtMiBob3Zlcjp0ZXh0LWJyYW5kLWdyZWVuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwci5uYW1lfQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1icmFuZC1ncmVlbiBtdC0wLjUiPiR7JyQnfXtwcmljZS50b0ZpeGVkKDIpfTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHF1aWNrQWRkKHByKX0KICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InNocmluay0wIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHB4LTMgcHktMS41IGJnLWJyYW5kLWdyZWVuIHRleHQtd2hpdGUgdGV4dC14cyBmb250LXNlbWlib2xkIHJvdW5kZWQtbGcgaG92ZXI6YmctYnJhbmQtZ3JlZW4vOTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD17YEFkZCAke3ByLm5hbWV9YH0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxQbHVzIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+IEFkZAogICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+'use client';
+
+import Link from 'next/link';
+import { useCart } from '@/contexts/CartContext';
+import { products } from '@/lib/data/products';
+import { getFreeShippingThreshold } from '@/lib/shipping';
+import { Trash2, Plus, Minus, ShoppingBag, ArrowRight, Truck, Check } from 'lucide-react';
+
+const ADDON_SLUGS = ['side-grip-pet-pill-dispenser', 'silicone-lick-mat', 'pet-paw-cleaner-cup'];
+
+export default function CartPage() {
+  const { items, subtotal, updateQuantity, removeFromCart, addToCart, isLoaded } = useCart();
+
+  if (!isLoaded) {
+    return <div className="max-w-4xl mx-auto px-4 py-20 text-center text-brand-gray">Loading cart…</div>;
+  }
+
+  const freeThreshold = getFreeShippingThreshold('US');
+  const freeRemaining = freeThreshold !== null ? Math.max(0, freeThreshold - subtotal) : 0;
+  const freePct = freeThreshold !== null ? Math.min(100, (subtotal / freeThreshold) * 100) : 0;
+  const unlockedFreeShip = freeThreshold !== null && subtotal >= freeThreshold;
+
+  const cartSlugs = new Set(items.map(i => i.slug));
+  const addons = products
+    .filter(pr => ADDON_SLUGS.includes(pr.slug) && !cartSlugs.has(pr.slug))
+    .slice(0, 3);
+
+  const quickAdd = (pr: typeof products[number]) => {
+    const multi = (pr.sizeVariants?.length ?? 0) > 1;
+    const v = pr.sizeVariants?.[0];
+    addToCart({
+      productId: pr.id,
+      slug: pr.slug,
+      name: pr.name,
+      price: v?.price ?? pr.price,
+      quantity: 1,
+      image: pr.images[0],
+      size: multi ? v?.label : undefined,
+    });
+  };
+
+  if (items.length === 0) {
+    return (
+      <div className="max-w-2xl mx-auto px-4 py-20 text-center">
+        <ShoppingBag className="w-16 h-16 mx-auto text-brand-beige mb-4" />
+        <h1 className="text-2xl font-bold text-brand-dark mb-2">Your cart is empty</h1>
+        <p className="text-brand-gray mb-6">Browse our senior dog essentials and add items to get started.</p>
+        <Link
+          href="/products"
+          className="inline-block px-6 py-3 bg-brand-green text-white font-semibold rounded-lg hover:bg-brand-green/90 transition-colors"
+        >
+          Shop Products
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <h1 className="text-3xl font-bold text-brand-dark mb-8">Shopping Cart</h1>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {/* Items */}
+        <div className="lg:col-span-2 space-y-4">
+          {items.map(item => (
+            <div key={item.id} className="flex gap-4 p-4 bg-white border border-gray-100 rounded-xl shadow-sm">
+              <Link href={`/products/${item.slug}`} className="shrink-0">
+                <div className="w-24 h-24 bg-brand-beige rounded-lg overflow-hidden">
+                  {item.image && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                  )}
+                </div>
+              </Link>
+
+              <div className="flex-1 min-w-0">
+                <Link href={`/products/${item.slug}`} className="font-semibold text-brand-dark hover:text-brand-green line-clamp-2">
+                  {item.name}
+                </Link>
+                <div className="text-xs text-brand-gray mt-1 flex flex-wrap gap-x-3">
+                  {item.color && <span>Color: {item.color}</span>}
+                  {item.size && <span>Size: {item.size}</span>}
+                </div>
+                <div className="text-brand-green font-bold mt-1">${item.price.toFixed(2)}</div>
+
+                <div className="flex items-center justify-between mt-3">
+                  <div className="flex items-center border border-gray-200 rounded-lg">
+                    <button
+                      onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                      className="p-1.5 hover:bg-gray-50 rounded-l-lg"
+                      aria-label="Decrease quantity"
+                    >
+                      <Minus className="w-4 h-4" />
+                    </button>
+                    <span className="px-3 text-sm font-medium min-w-[2rem] text-center">{item.quantity}</span>
+                    <button
+                      onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                      className="p-1.5 hover:bg-gray-50 rounded-r-lg"
+                      aria-label="Increase quantity"
+                    >
+                      <Plus className="w-4 h-4" />
+                    </button>
+                  </div>
+
+                  <button
+                    onClick={() => removeFromCart(item.id)}
+                    className="text-sm text-red-500 hover:text-red-600 flex items-center gap-1"
+                  >
+                    <Trash2 className="w-4 h-4" /> Remove
+                  </button>
+                </div>
+              </div>
+
+              <div className="text-right font-bold text-brand-dark">
+                ${(item.price * item.quantity).toFixed(2)}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Summary */}
+        <div className="lg:col-span-1">
+          <div className="bg-brand-beige/40 border border-brand-beige rounded-xl p-6 sticky top-24">
+            <h2 className="text-lg font-bold text-brand-dark mb-4">Order Summary</h2>
+
+            {freeThreshold !== null && (
+              <div className="mb-5">
+                {unlockedFreeShip ? (
+                  <div className="flex items-center gap-2 text-sm font-semibold text-brand-green bg-green-50 border border-green-200 rounded-lg p-3">
+                    <Check className="w-4 h-4 shrink-0" />
+                    You&apos;ve unlocked FREE U.S. shipping!
+                  </div>
+                ) : (
+                  <>
+                    <div className="flex items-center gap-2 text-sm text-brand-dark mb-2">
+                      <Truck className="w-4 h-4 text-brand-green shrink-0" />
+                      <span>
+                        Add <strong className="text-brand-coral">${'$'}{freeRemaining.toFixed(2)}</strong> more for
+                        <strong> FREE U.S. shipping</strong>
+                      </span>
+                    </div>
+                    <div className="h-2.5 w-full bg-white rounded-full overflow-hidden border border-brand-beige">
+                      <div className="h-full bg-brand-green rounded-full transition-all" style={{ width: `${freePct}%` }} />
+                    </div>
+                    <p className="text-xs text-brand-gray mt-1.5">Free shipping on U.S. orders over {'$'}{freeThreshold}</p>
+                  </>
+                )}
+              </div>
+            )}
+
+            <div className="flex justify-between text-sm text-brand-gray mb-2">
+              <span>Subtotal</span>
+              <span>${subtotal.toFixed(2)}</span>
+            </div>
+            <div className="flex justify-between text-sm text-brand-gray mb-4">
+              <span>Shipping</span>
+              <span>{unlockedFreeShip ? <span className="text-brand-green font-semibold">FREE</span> : 'Calculated at checkout'}</span>
+            </div>
+            <div className="border-t border-brand-beige pt-4 flex justify-between font-bold text-brand-dark mb-6">
+              <span>Total</span>
+              <span>${subtotal.toFixed(2)}</span>
+            </div>
+            <Link
+              href="/checkout"
+              className="w-full flex items-center justify-center gap-2 py-3 bg-brand-coral hover:bg-brand-coral/90 text-white font-semibold rounded-lg transition-all"
+            >
+              Proceed to Checkout <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link href="/products" className="block text-center text-sm text-brand-gray hover:text-brand-green mt-3">
+              Continue shopping
+            </Link>
+
+            {addons.length > 0 && (
+              <div className="mt-6 pt-5 border-t border-brand-beige">
+                <p className="text-sm font-bold text-brand-dark mb-3">
+                  {unlockedFreeShip ? 'Popular add-ons' : 'Bundle & save — add an item below for free shipping'}
+                </p>
+                <div className="space-y-3">
+                  {addons.map(pr => {
+                    const v = pr.sizeVariants?.[0];
+                    const price = v?.price ?? pr.price;
+                    return (
+                      <div key={pr.id} className="flex items-center gap-3">
+                        <Link href={`/products/${pr.slug}`} className="shrink-0">
+                          <div className="w-12 h-12 bg-white rounded-lg overflow-hidden border border-gray-100">
+                            {pr.images[0] && (
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img src={pr.images[0]} alt={pr.name} className="w-full h-full object-cover" />
+                            )}
+                          </div>
+                        </Link>
+                        <div className="flex-1 min-w-0">
+                          <Link href={`/products/${pr.slug}`} className="text-xs font-medium text-brand-dark line-clamp-2 hover:text-brand-green">
+                            {pr.name}
+                          </Link>
+                          <div className="text-sm font-bold text-brand-green mt-0.5">${'$'}{price.toFixed(2)}</div>
+                        </div>
+                        <button
+                          onClick={() => quickAdd(pr)}
+                          className="shrink-0 flex items-center gap-1 px-3 py-1.5 bg-brand-green text-white text-xs font-semibold rounded-lg hover:bg-brand-green/90 transition-colors"
+                          aria-label={`Add ${pr.name}`}
+                        >
+                          <Plus className="w-3.5 h-3.5" /> Add
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
