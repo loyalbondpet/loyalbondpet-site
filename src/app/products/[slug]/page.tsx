@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { products, getProductBySlug, getRelatedProducts } from '@/lib/data/products';
+import { blogPosts } from '@/lib/data/blog';
 import Link from 'next/link';
 import ProductCard from '@/components/ProductCard';
 import ProductDetailClient from './ProductDetailClient';
@@ -45,6 +46,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
   if (!product) notFound();
 
   const relatedProducts = getRelatedProducts(slug);
+  const relatedGuides = blogPosts
+    .filter(p => p.relatedProducts.includes(slug))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -376,6 +381,30 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </div>
           )}
         </section>
+
+        {/* Related Guides & Articles */}
+        {relatedGuides.length > 0 && (
+          <section className="mt-16 border-t border-gray-200 pt-12">
+            <h2 className="text-2xl font-bold text-brand-dark mb-8">Guides &amp; Articles</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {relatedGuides.map((g) => (
+                <Link key={g.slug} href={`/blog/${g.slug}`} className="group">
+                  <div className="aspect-[16/10] rounded-xl overflow-hidden mb-3 bg-brand-beige">
+                    <img
+                      src={g.image}
+                      alt={g.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                  <h3 className="font-semibold text-brand-dark group-hover:text-brand-green transition-colors line-clamp-2">{g.title}</h3>
+                  <p className="text-sm text-brand-gray mt-1">{g.readTime}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Related Products */}
         {relatedProducts.length > 0 && (
