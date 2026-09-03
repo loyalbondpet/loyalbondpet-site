@@ -9,14 +9,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // lastmod dates based on actual content update history
   const staticPages = [
-    { url: baseUrl, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 1 },
+    { url: baseUrl, lastModified: new Date('2026-09-03'), changeFrequency: 'weekly' as const, priority: 1 },
     { url: `${baseUrl}/about`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/blog`, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/products`, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: new Date('2026-09-03'), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/products`, lastModified: new Date('2026-09-01'), changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/contact`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/wholesale`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/faq`, lastModified: new Date('2026-08-18'), changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/collections`, lastModified: new Date('2026-08-18'), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/shipping-policy`, lastModified: new Date('2026-09-01'), changeFrequency: 'monthly' as const, priority: 0.6 },
   ];
 
   // Collections (6 scenarios) - product pages went live 2026-08-07
@@ -50,10 +51,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Product pages - 5 new products added + supplier info updated 2026-08-13
+  // Product pages - pill dispenser price update + free shipping launch 2026-09-01
   const productPages = products.map((product) => ({
     url: `${baseUrl}/products/${product.slug}`,
-    lastModified: new Date('2026-08-17'),
+    lastModified: new Date('2026-09-01'),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
