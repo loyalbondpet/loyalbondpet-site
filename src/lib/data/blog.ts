@@ -3450,7 +3450,6 @@ The vets and rehabilitation specialists we work with put it simply: the collar y
 - [The Ultimate Guide to Senior Dog Mobility Aids](/blog/ultimate-guide-to-senior-dog-mobility-aids)
 - [How to Choose a Lifting Harness for Your Senior Dog](/blog/how-to-choose-lifting-harness-senior-dog)`,
   },
-,
   {
     slug: 'how-to-give-a-dog-a-pill-without-stress',
     title: 'How to Give a Dog a Pill Without the Stress: A Step-by-Step Guide',
