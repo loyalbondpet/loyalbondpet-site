@@ -980,6 +980,64 @@ Available in White or Blue. One size fits all.`,
     },
   },
 
+  {
+    id: '33',
+    slug: 'three-sided-dog-toothbrush',
+    name: 'Three-Sided Dog Toothbrush',
+    price: 9.99,
+    compareAtPrice: 13.99,
+    priceRange: '$9.99',
+    description: `Make daily brushing faster and easier with the LoyalBond Three-Sided Dog Toothbrush. Its unique brush head wraps the top and both sides of each tooth, so a single gentle stroke cleans three surfaces at once — the chewing surface and both outer faces.
+
+The fine, rounded nylon bristles are soft on gums while effectively lifting plaque and food residue. Because the brush does the angling for you, you can reach the back teeth and inside surfaces without awkward wrist twisting — a big help when brushing fussy dogs, puppies, and seniors.
+
+The long, lightweight handle gives a comfortable, secure grip and keeps your hand a safe distance from the mouth. It is sold brush-only with no toothpaste and no chemicals, so you stay in control of what goes into your dog's mouth — just add a dog-safe toothpaste (never human toothpaste).
+
+Rinses clean under running water in seconds and dries quickly. One size fits most dogs and cats. Available in five bright colors: Pink, Lime Green, Yellow, Orange, and Teal.`,
+    shortDescription: 'Three-sided dog toothbrush cleans the top and both sides of each tooth in one stroke. Soft rounded nylon bristles, long easy-grip handle. Brush-only, one size, 5 colors.',
+    collection: 'Oral Care',
+    collectionSlug: 'oral-care',
+    images: [
+      '/products/tri-sided-toothbrush-01-hero.jpg',
+      '/products/tri-sided-toothbrush-02-main.jpg',
+      '/products/tri-sided-toothbrush-03-gentle.jpg',
+      '/products/tri-sided-toothbrush-04-specs.jpg'],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['One Size'],
+    colors: ['Pink', 'Lime Green', 'Yellow', 'Orange', 'Teal'],
+    sizeVariants: [
+      { label: 'One Size', dimensions: '174 mm long | Brush head 22 x 15 mm', weight: '14 g (25 g with packaging)', price: 9.99 }],
+    features: [
+      'Cleans Three Sides At Once — Brush head wraps the top and both sides of each tooth in a single stroke',
+      'Soft Rounded Nylon Bristles — Gentle on gums while lifting plaque and food residue',
+      'Reaches Back Teeth Easily — The angled head removes the need for awkward wrist twisting',
+      'Long Easy-Grip Handle — Lightweight and comfortable, keeps your hand clear of the mouth',
+      'Brush-Only SKU — No toothpaste or chemicals; you choose a dog-safe paste',
+      'Quick To Clean — Rinses under running water and dries fast',
+      'For Dogs & Cats — One size fits most pets; ideal for puppies, adults, and seniors',
+      '5 Bright Colors — Pink, Lime Green, Yellow, Orange, and Teal'],
+    specifications: {
+      'Material': 'Plastic handle / nylon bristles',
+      'Size': 'One size, 174 mm long',
+      'Brush Head': '22 x 15 mm',
+      'Weight': '14 g (25 g with packaging)',
+      'Colors': 'Pink / Lime Green / Yellow / Orange / Teal',
+      'Bristle Type': 'Soft, rounded nylon',
+      'Toothpaste': 'Not included; use a dog-safe toothpaste only',
+      'Suitable For': 'Dogs and cats',
+      'Packaging': 'Sealed OPP bag',
+    },
+    wholesaleInfo: {
+      moq: '1 piece (mixed colors accepted)',
+      leadTime: '3-7 days for stock items; 15-25 days for bulk order',
+      payment: 'T/T, PayPal',
+      shipping: 'FOB Ningbo/Shanghai',
+      note: 'Three-sided pet toothbrush, plastic + soft nylon, 174 mm / 14 g, 5 colors, sealed OPP bag. Cross-border export ready. Dropship option available. Contact sales@loyalbondpet.com for volume pricing.',
+    },
+  },
+
 ];
 
 export const collections = [
