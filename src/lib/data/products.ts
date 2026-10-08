@@ -1038,6 +1038,67 @@ Rinses clean under running water in seconds and dries quickly. One size fits mos
     },
   },
 
+  {
+    id: '34',
+    slug: 'multi-function-pet-bath-brush',
+    name: 'Multi-function Pet Bath Brush',
+    price: 11.99,
+    compareAtPrice: 15.99,
+    priceRange: '$11.99',
+    description: `Turn bath time into a relaxing ritual with the LoyalBond Multi-function Pet Bath Brush. It combines a shampoo-dispensing body with two interchangeable heads, so you can wash, massage, and gently groom your pet with one easy-to-hold tool.
+
+The clear chamber holds diluted shampoo. Add shampoo and water, twist the top cap back on, and press the top while brushing to release a steady, controlled lather right where you need it — no more fumbling with a separate bottle while your dog shakes or slips.
+
+Two heads are included for different coats. The standard head has soft, rounded massage nubs that lift dirt and loosen loose fur while feeling gentle on the skin. The dense head has closely packed bristles that work up a rich foam and brush through the coat more thoroughly. Simply swap heads to match your pet's coat amount and length.
+
+Made from soft silicone and TPR over a lightweight PS body, the brush is comfortable to grip and kind to sensitive skin, making it a good choice for puppies, adults, and seniors. One size works for both dogs and cats. Available in Green and Pink.`,
+    shortDescription: 'Shampoo-dispensing pet bath brush with two interchangeable heads (massage nubs + dense bristles). Wash, massage and groom in one. Soft silicone/TPR, for dogs and cats, 2 colors.',
+    collection: 'Grooming & Bath',
+    collectionSlug: 'grooming-bath',
+    images: [
+      '/products/bath-brush-01-hero.jpg',
+      '/products/bath-brush-02-soft.jpg',
+      '/products/bath-brush-03-multi.jpg',
+      '/products/bath-brush-04-steps.jpg',
+      '/products/bath-brush-05-heads.jpg',
+      '/products/bath-brush-06-specs.jpg'],
+    rating: 0,
+    reviewCount: 0,
+    badge: 'New Arrival',
+    sizes: ['One Size'],
+    colors: ['Green', 'Pink'],
+    sizeVariants: [
+      { label: 'One Size', dimensions: '5.8 cm dia x 9 cm high | Packed 6 x 6 x 12 cm', weight: '90 g (with packaging)', price: 11.99 }],
+    features: [
+      'Built-In Shampoo Chamber — Add diluted shampoo and press the top to release lather as you brush',
+      'Two Interchangeable Heads — Standard massage nubs and dense bristles for different coats',
+      'Wash, Massage & Groom — One tool cleans the coat, works loose fur free, and relaxes your pet',
+      'Soft Silicone & TPR — Rounded, flexible tips feel gentle on sensitive skin',
+      'Rich, Even Foam — Dense bristles quickly work shampoo through wet fur',
+      'Easy One-Hand Use — Lightweight, comfortable grip with no separate bottle to manage',
+      'For Dogs & Cats — One size suits most pets; great for puppies, adults, and seniors',
+      '2 Colors — Available in Green and Pink'],
+    specifications: {
+      'Material': 'Silicone + PS + TPR',
+      'Size': '5.8 cm dia x 9 cm high (one size)',
+      'Standard Head': 'Soft rounded massage nubs, 3.5 cm high',
+      'Dense Head': 'Closely packed bristles, 4 cm head',
+      'Weight': '90 g',
+      'Colors': 'Green / Pink',
+      'Model': 'XZS-01',
+      'Suitable For': 'Dogs and cats',
+      'Packaging Size': '6 x 6 x 12 cm',
+      'Qty / Carton': '75 pcs (36.5 x 30.5 x 30.5 cm)',
+    },
+    wholesaleInfo: {
+      moq: '1 piece (mixed colors accepted)',
+      leadTime: '3-7 days for stock items; 15-25 days for bulk order',
+      payment: 'T/T, PayPal',
+      shipping: 'FOB Ningbo/Shanghai',
+      note: 'Multi-function pet bath brush, silicone + PS + TPR, shampoo-dispensing with two interchangeable heads, 90 g, green/pink, model XZS-01. Cross-border export ready. Dropship option available. Contact sales@loyalbondpet.com for volume pricing.',
+    },
+  },
+
 ];
 
 export const collections = [
