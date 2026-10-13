@@ -1176,7 +1176,7 @@ At LoyalBond, every product is designed with real senior dog needs in mind, usin
     categorySlug: 'product-guides',
     image: '/images/products/lift-assist-harness/01-main.jpg',
     tags: ['dog lifting harness', 'senior dog harness comparison', 'hind leg support harness', 'lift assist harness', 'dog mobility harness'],
-    relatedProducts: ['hind-leg-support-harness', 'mesh-support-sling'],
+    relatedProducts: ['hind-leg-support-harness', 'mesh-support-sling', 'hind-leg-support-belt'],
     content: `
 When your senior dog starts struggling with mobility, a lifting harness often becomes the most important tool in your caregiving arsenal. But with different types available, choosing the right one can feel overwhelming. Do you need a full-body lift-assist harness, or is a targeted hind leg support harness the better choice? This guide breaks down the key differences, ideal use cases, and everything you need to know to make an informed decision.
 
@@ -1207,6 +1207,12 @@ The LoyalBond [Senior Dog Hind Leg Support Harness](/products/hind-leg-support-h
 The focused design uses an ergonomic mesh panel that wraps comfortably around the lower torso and upper hind legs. Two precisely sized leg openings ensure a secure, natural fit without restricting movement or interfering with natural bodily functions. The breathable mesh fabric promotes continuous air circulation, making it suitable for warm weather and extended daily wear.
 
 One standout advantage is the ultra-lightweight construction — just 68-76 grams depending on size. For dogs with low stamina, every gram matters. The quick-release buckle closure makes it easy to put on and take off in seconds. Available in four sizes: S (Waist 11"–14"), M (Waist 14"–18"), L (Waist 17"–21"), XL (Waist 19"–24"). Price range: $3.50–$5.00.
+
+### [Portable Hind Leg Support Belt](/products/hind-leg-support-belt): The Lightweight On-the-Go Option
+
+There is a third style worth considering if you mostly help your dog outside the home. The LoyalBond [Portable Hind Leg Support Belt](/products/hind-leg-support-belt) is a compact lift strap built for quick, targeted assistance rather than extended wear. A soft, breathable mesh panel rests under the belly, while a padded handle lets you take some weight off the back legs in an instant.
+
+Because it folds flat and tucks easily into a bag, it is ideal for car transfers, stairs, vet visits, and short outdoor breaks where a full harness would be cumbersome. Bright, adjustable webbing with heavy-duty quick-release buckles makes it fast to fit at both the waist and support straps. If you already own a full harness for use at home, this belt is an excellent lightweight companion to carry on the go.
 
 ## Key Differences Compared
 
@@ -1249,6 +1255,10 @@ If your dog needs the harness on for extended periods throughout the day, breath
 ### Consider Your Own Physical Capabilities
 
 If you have back problems or limited strength, the ergonomic handle design matters enormously. The lift-assist harness's extended handle may be more comfortable if you are lifting a heavy dog repeatedly.
+
+### Think About Where You'll Use It Most
+
+If the hardest moments happen away from home — getting into the car, climbing a few steps at a rental, or short breaks while traveling — a compact [Portable Hind Leg Support Belt](/products/hind-leg-support-belt) may be more practical than a bulkier harness. It folds flat, slips into a bag, and goes on in seconds, so many owners keep one in the car even when their dog wears a fuller harness at home.
 
 ### Plan for Changing Needs
 
