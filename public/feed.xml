@@ -17,17 +17,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.11 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>4.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>3</g:id>
@@ -42,17 +31,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.60 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>12.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>6</g:id>
@@ -67,17 +45,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.22 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>6.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>11</g:id>
@@ -92,17 +59,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>4.33 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>60.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>22</g:id>
@@ -117,17 +73,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>1.35 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>22.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>23</g:id>
@@ -142,17 +87,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>3.80 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>53.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>24</g:id>
@@ -167,17 +101,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.95 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>17.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>25</g:id>
@@ -192,17 +115,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.50 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>10.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>26</g:id>
@@ -217,17 +129,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.25 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>6.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>27</g:id>
@@ -242,17 +143,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.20 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>6.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
 
     <item>
@@ -268,17 +158,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.14 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>5.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
 
     <item>
@@ -294,17 +173,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.11 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>8.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
 
     <item>
@@ -320,17 +188,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.06 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>4.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
 
     <item>
@@ -346,17 +203,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.08 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>4.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
 
     <item>
@@ -372,17 +218,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.11 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>4.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
 
     <item>
@@ -398,17 +233,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.025 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>2.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
     <item>
       <g:id>34</g:id>
@@ -423,17 +247,6 @@
       <g:condition>new</g:condition>
       <g:google_product_category>Animals &amp;gt; Pet Supplies</g:google_product_category>
       <g:shipping_weight>0.09 kg</g:shipping_weight>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>2.99 USD</g:price>
-      </g:shipping>
-      <g:shipping>
-        <g:country>US</g:country>
-        <g:service>Standard</g:service>
-        <g:price>0.00 USD</g:price>
-        <g:min_order_value>29.00 USD</g:min_order_value>
-      </g:shipping>
     </item>
   </channel>
 </rss>
