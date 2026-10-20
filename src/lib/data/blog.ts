@@ -4207,6 +4207,93 @@ For a wider at-home routine that also covers paws and bathing, see our [senior d
   },
 
   {
+    slug: 'thanksgiving-dog-safety-calm-guide',
+    title: 'Thanksgiving with a Senior Dog: Food Safety, Calm & Comfort',
+    excerpt: 'Keep your older dog safe and calm this Thanksgiving. A practical guide to toxic foods, table scraps, a quiet retreat, and simple tools that ease holiday stress.',
+    author: 'LOYALBOND PET COCO WU',
+    date: '2026-10-20',
+    readTime: '9 min read',
+    category: 'Senior Dog Care',
+    categorySlug: 'senior-dog-care',
+    image: '/blog/senior-dog-winter-care-guide.jpg',
+    tags: ['thanksgiving dog safety', 'can dogs eat turkey', 'dog anxiety guests', 'senior dog holidays', 'thanksgiving foods toxic to dogs'],
+    relatedProducts: ['silicone-lick-mat','orthopedic-bolster-dog-bed','non-woven-dog-recovery-collar','snuffle-mat-set','multi-function-pet-bath-brush'],
+    content: `
+Thanksgiving should be enjoyable for every member of the family, including the older dog who would really prefer that fifteen loud relatives did not suddenly appear in the living room. The combination of rich food, open doors, noisy guests, and a disrupted routine is exactly when senior dogs are most likely to eat something harmful, slip out, or become overwhelmed.
+
+The good news is that a little planning removes almost all of the risk. This guide walks through the food hazards that actually matter on Thanksgiving, how to handle scraps safely, and how to give an older dog a calm, comfortable holiday without locking them away.
+
+## Why Senior Dogs Are More Vulnerable During Holidays
+
+Age changes more than mobility. Older dogs often have slower digestion, pre-existing kidney or pancreatic sensitivity, and a lower tolerance for fatty foods than they did years ago. A spoonful of gravy that once caused nothing worse than a hopeful stare can now trigger pancreatitis. Senior dogs are also more set in their routines, so the unusual noises and comings and goings of Thanksgiving can raise anxiety even in a normally steady dog.
+
+Keeping them safe is mostly about controlling three things: **what goes into their mouth, where they can wander, and how much stimulation they have to endure.**
+
+## Thanksgiving Foods Dogs Can and Cannot Eat
+
+The safest rule is simple: feed your dog their normal dinner and reserve the holiday plate for humans. Here is how the common items break down.
+
+### Keep These Completely Away
+
+- **Turkey bones.** Cooked poultry bones splinter easily and can lodge in the throat or puncture the digestive tract. A bone is not a treat, no matter how traditional it feels.
+- **Turkey skin, gravy, and fatty drippings.** High-fat scraps are a leading trigger of pancreatitis, a painful and sometimes serious inflammation, especially in older and overweight dogs.
+- **Onions, garlic, leeks, and shallots.** These appear in stuffing, mashed potatoes, and many side dishes and can damage a dog's red blood cells.
+- **Grapes and raisins.** Found in fruit salads, stuffing, and some desserts; they can cause kidney injury even in small amounts.
+- **Chocolate, xylitol, and alcohol.** Chocolate desserts, sugar-free sweets, and unbaked dough containing alcohol or yeast are all dangerous.
+- **Macadamia nuts and heavily spiced dishes.** When in doubt, skip it.
+
+### A Small, Safe Taste If You Want to Share
+
+If you would like your dog to feel included, offer a teaspoon or two of **plain, unseasoned white turkey meat with no skin or bones**, plain steamed green beans, or a little plain pumpkin purée (not pie filling). Treats of any kind should stay under roughly 10% of the day's calories, and a dog with a sensitive stomach is better off skipping extras altogether.
+
+Instead of feeding from the table, spread that plain pumpkin or a spoon of their usual wet food onto a [silicone lick mat](/products/silicone-lick-mat) in advance. Licking is naturally calming and keeps an older dog happily occupied in their bed while the humans eat, rather than begging underfoot.
+
+## Preventing Door Darting and Wandering
+
+Guests carrying dishes in and out mean a front door that opens repeatedly. A senior dog with hearing loss or mild confusion may not judge traffic the way they used to, and an open door is a genuine risk.
+
+- Keep your dog on a leash or in a secure room during arrivals and departures.
+- Make sure their collar and ID tag are current, and consider a tag with your mobile number if you are hosting away from home.
+- If mobility is limited, a lightweight [hind leg support belt](/products/hind-leg-support-belt) makes it easy to guide them calmly to their safe space without pulling on their collar.
+
+## Build a Quiet Retreat Before Guests Arrive
+
+An anxious dog does not need to "get used to" a crowded party. Set up a calm zone in a quiet bedroom or corner **before** the first guest arrives, so it already feels safe and familiar.
+
+- Place a supportive [orthopedic bolster dog bed](/products/orthopedic-bolster-dog-bed) away from speakers and high-traffic hallways; the raised rim gives an older dog a sense of enclosure and head support.
+- Add a familiar blanket, a chew or lick toy, and a bowl of fresh water.
+- Play soft background music or white noise to muffle sudden laughter and doorbells.
+- Let guests know the dog is resting and should not be disturbed, especially children.
+
+A [snuffle mat](/products/snuffle-mat-set) scattered with a few pieces of their normal kibble turns the retreat into a gentle, rewarding activity that occupies the nose and lowers stress far better than pacing.
+
+## Managing Guests, Noise, and Overstimulation
+
+Even a social dog can tire quickly. Watch for the early signs that an older dog has had enough: yawning, lip-licking, turning away, pinned ears, panting when not warm, or seeking a hiding spot. When you see them, guide the dog to their quiet room rather than waiting for growling.
+
+Keep greetings short and calm, ask guests not to feed the dog from plates, and maintain the usual feeding and bedtime schedule as closely as possible. Familiarity is reassuring. If you are traveling with your dog rather than hosting, bring their bed and a familiar blanket so the new environment smells like home.
+
+## After the Meal: Walks, Cleanup, and Recovery
+
+- **Do the post-meal trash sweep immediately.** Wrap carcasses, bones, string from the turkey, foil, and food-scented wrappers securely in an outdoor bin. A determined dog can chew through a bin bag overnight.
+- **Stick to gentle exercise.** A short, calm walk is fine, but avoid vigorous play right after a meal, particularly for large, deep-chested dogs.
+- **Keep candles and diffusers out of reach.** Open flames and strongly scented oils are easy to overlook in a decorated home.
+
+If your older dog has been groomed or bathed before company arrives, dry them thoroughly so they do not get chilly afterward. A soft [multi-function pet bath brush](/products/multi-function-pet-bath-brush) makes a warm pre-holiday wash quick and soothing, and you can read our [stress-free bathing routine](/blog/how-to-bathe-a-dog-that-hates-baths) if baths are usually a struggle.
+
+## When to Call the Vet
+
+Contact a veterinarian promptly if your dog eats bones, chocolate, raisins, xylitol, onion-heavy food, or alcohol, or if they develop vomiting, a hard or distended abdomen, severe lethargy, trembling, or difficulty breathing. Pancreatitis from fatty scraps can begin hours after the meal, so do not assume that because they seem fine now they are in the clear.
+
+## A Calm Holiday Is a Kind One
+
+You do not have to choose between celebrating and protecting your senior dog. Feed them their own food, keep the hazards out of reach, prepare a quiet retreat stocked with a bed and a calming lick or snuffle activity, and watch for the moment they have had enough. Do those few things well, and your older dog will spend Thanksgiving exactly how they prefer: warm, safe, and quietly close to the people they love.
+
+For more seasonal senior-dog advice, see our guides to a [calm Halloween](/blog/senior-dog-halloween-safety-calm-guide), a [safe and comfortable Christmas](/blog/senior-dog-christmas-safety-comfort-guide), and a [gentle home grooming routine](/blog/senior-dog-home-grooming-paws-teeth-bath-routine).
+`
+  },
+
+  {
     slug: 'how-to-bathe-a-dog-that-hates-baths',
     title: 'How to Bathe a Dog That Hates Baths: A Stress-Free Routine',
     excerpt: 'Turn bath time from a battle into a calm routine. A step-by-step guide to bathing a dog who hates water, with slow desensitising, the right tools, and a bath brush that makes it faster.',
